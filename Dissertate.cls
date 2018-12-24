@@ -47,7 +47,7 @@
 \RequirePackage{graphicx}
 \RequirePackage{amssymb}
 \RequirePackage{lettrine}
-\RequirePackage[super,comma,numbers]{natbib}
+\RequirePackage[sort]{natbib}
 \renewcommand{\bibnumfmt}[1]{[#1]}
 \RequirePackage[width=5.75in, letterpaper]{geometry}
 \RequirePackage{fancyhdr}
