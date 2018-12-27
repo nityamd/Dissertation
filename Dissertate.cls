@@ -46,6 +46,7 @@
 
 \RequirePackage{graphicx}
 \RequirePackage{amssymb}
+\RequirePackage{amsmath}
 \RequirePackage{lettrine}
 \RequirePackage[sort]{natbib}
 \renewcommand{\bibnumfmt}[1]{[#1]}
