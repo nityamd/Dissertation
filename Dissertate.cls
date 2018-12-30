@@ -46,6 +46,7 @@
 
 \RequirePackage{graphicx}
 \RequirePackage{amssymb}
+\RequirePackage{gensymb}
 \RequirePackage{amsmath}
 \RequirePackage{lettrine}
 \RequirePackage[sort]{natbib}

@@ -16,7 +16,7 @@ However, this methodology can be problematic when the mass-to-light ($M/L$) rati
 
 \subsection{The SDSS spectra}
 Describing the SDSS spectrograph and $3''$ fiber diameter. References: \citep{smee_multi-object_2013} (\bf York et al citation).\\
-The galaxy spectra in SDSS are obtained through $3''$ diameter fibers. The rest-frame wavelength range of the spectra at the median redshift is from $3500$ to $8500$ with a spectral resolution ($R = \frac{\Delta \lambda}{\lambda}$) of $2000$. The spectra are calibrated using observations of F stars in each 3-degree field.
+The galaxy spectra in SDSS are obtained through $3''$ diameter fibers. The rest-frame wavelength range of the spectra at the median redshift is from $3500$ to $8500$ with a spectral resolution $$R = \frac{\Delta \lambda}{\lambda} \approx 2000$$. The spectra are calibrated using observations of F stars in each $3 \degree$ field.
 
 \subsection{The MPA JHU Catalog}
 Introduction to and describing the importance of the largest catalogue of galaxy stellar masses \citep{kauffmann_stellar_2003}, star formation rates \citep{brinchmann_physical_2004} and gas metallicities \citep{tremonti_origin_2004} thus far. Including major results that rely on said SFR's.\\
@@ -29,17 +29,23 @@ universe; Kewley 2008 Metallicity Calibrations and the Mass-Metallicity Relation
 \begin{figure}
 \includegraphics[width=\textwidth]{figures/Kauffmann_grid}
 \caption[Short figure name.]{The \citet{kauffmann_stellar_2003} grid to infer M/L ratios from the $h\delta_{A}-D_{n}4000$ plane
-\label{fig:myInlineFigure}}
+\label{fig:kauff_grid}}
 \end{figure}
 
 \section{The $H\delta_{\rm A}-D_{n}4000$ plane}
 
-Two powerful spectral diagnostic tools that are valuable in constraining stellar masses and star formation histories in galaxies are the Balmer $\delta$ absorption line index and the $D_{n}4000$ break index in the optical spectrum of a galaxy (cite Kauffmann et. al.). One of the key issues in spectral indicators for starbursts is the existence of the age-metallicity degeneracy in stellar populations \citep{worthey_comprehensive_1994}. The heavier element lines are often prominent in both early type as well as metal rich galaxies and the two are hard to distinguish in terms of interpretation as older stellar populations exhibit metal richness as well and without accurate modeling of the chemical evolution of galaxies, it is difficult to ascertain the reason. The Balmer $H\alpha$ and $H\beta$ are sensitive to the effects of metallicity as well. However both the Balmer $H\delta$ absorption line as well as the $D_{n}4000$ break occurring in the continuum are both in a bluer region of the spectrum relatively unaffected by metallicity constraints and together they form a powerful diagnostic tool to constrain the mass-to-light ratios of galaxies. 
+Two powerful spectral diagnostic tools that are valuable in constraining stellar masses and star formation histories in galaxies are the Balmer $\delta$ absorption line index and the $D_{n}4000$ break index in the optical spectrum of a galaxy \citep{kauffmann_stellar_2003}. One of the key issues in spectral indicators for starbursts is the existence of the age-metallicity degeneracy in stellar populations \citep{worthey_comprehensive_1994}. The heavier element lines are often prominent in both early type as well as metal rich galaxies and the two are hard to distinguish in terms of interpretation as older stellar populations exhibit metal richness as well and without accurate modeling of the chemical evolution of galaxies, it is difficult to ascertain the reason. The Balmer $H\alpha$ and $H\beta$ are sensitive to the effects of metallicity as well. However both the Balmer $H\delta$ absorption line as well as the $D_{n}4000$ break occurring in the continuum are both in a bluer region of the spectrum relatively unaffected by metallicity constraints and together they form a powerful diagnostic tool to constrain the mass-to-light ratios of galaxies. 
 
-\subsection{Measuring the $D_{n}4000$ index}
+\subsection{Measuring the $D_{\rm n}4000$ index}
+\begin{figure}
+\includegraphics[width=\textwidth]{figures/spectra_placeholder.png}
+\caption[Short figure name.]{ PLACEHOLDER FIG; TBD: A figure showing D4000 and Hdelta breaks in spectra for early/late-type galaxies as well as the bimodality in D4000
+\label{fig:early_late_type}}
+\end{figure}
+The most obvious discontinuity in the spectrum of a galaxy is often the $D_{n}4000$ break \citep{1999ApJ...527...54B}, which is a consequence of the absorption into electronic excited states by neutral and partially ionized metals whose lines happen to overlap in the region just blueward of 4000 \AA.  Older stellar populations have spectra dominated by relatively cool giant stars, and under these conditions the partially ionized metal lines are strong. Younger stellar populations have spectra dominated by hot stars, for which these lines are weaker. In addition the break
+depends on stellar metallicity, exhibiting some of the same age-metallicity degeneracy that afflicts most spectroscopic indicators.\\ 
 
-(Cite earliest discovery of the $D_{n}4000$ break here. {\bf MRB says: that will be hard to find; you might cite the earliest quantitative definition, probably mentioned by Balogh})  The most obvious discontinuity in the spectrum of a galaxy is often the $D_{n}4000$ break, which is a consequence of the absorption into electronic excited states by neutral and partially ionized metals whose lines happen to overlap in the region just blueward of 4000 \AA.  Older stellar populations have spectra dominated by relatively cool giant stars, and under these conditions the partially ionized metal lines are strong. Younger stellar populations have spectra dominated by hot stars, for which these lines are weaker. In addition the break
-depends on stellar metallicity, exhibiting some of the same age-metallicity degeneracy that afflicts most spectroscopic indicators. This break was defined in a broad bandpass by Bruzual et al (1983). The bandpass used in Kauffmann et al is the same as the one introduced by Balogh et al (1999) and their motivation for doing so is that the narrow definition is more insensitive to reddening effects. I reproduce these measurements using the same narrow bandpass definition.
+This break was defined in by \citet{bruzual_a._spectral_1983-2} as the ratio of the average flux density $F_{\rm \nu}$ in two bands that span \textasciitilde200 \AA on either side of 4000 \AA. \citet{1999ApJ...527...54B} defined a narrow band definition for the same where the bands that are now 100 \AA wide with 3850 \AA - 3950 \AA as the ``blue continuum" and 4000 \AA - 4100 \AA as the ``red continuum". The bandpass used in \citet{kauffmann_stellar_2003} (\ref{fig:early_late_type}) is the same as the one introduced by \citet{1999ApJ...527...54B} and their motivation for doing so is that the narrow definition is more insensitive to reddening effects. I reproduce these measurements using the same narrow band definition.\\
 
 
 \section{Manga Overview}
@@ -56,7 +62,7 @@ What is a spaxel? \citep{drory_manga_2015}
 Primary and Secondary Samples. NSA redshifts/Luminosity cut.
 
 \subsection{Our Sample}
-The most recent MaNGA product launch, MPL-$8$, which was announced in November $2018$, containing products based on galaxy and stellar library observations from March $2014$ - July $2018$ serves as the source of our sample. It contains $950$ plates - $6779$ data cubes and $20649$ stellar library stars. Out of these, $6468$ are galaxies with measured NSA redshifts. These are representative of all the IFU sizes (list them: 19,37... 127) and span a redshift range upto $z ~ 0.15$.\\
+The most recent MaNGA product launch, MPL-$8$, which was announced in November $2018$, containing products based on galaxy and stellar library observations from March $2014$ - July $2018$ serves as the source of our sample. It contains $950$ plates - $6779$ data cubes and $20649$ stellar library stars. Out of these, $6468$ are galaxies with measured NSA redshifts. These are representative of all the IFU sizes (list them: 19,37... 127) and span a redshift range upto $z = 0.15$.\\
 For each galaxy observation, depending on the IFU bundle size (say $N_{X}$, $N_{Y}$ each describing a postion $0.5$" from the previous spaxel), we have ($N_{X}$, $N_{Y}$) spectra which span $4563$ wavelength points. 
 
 \section{Methods}
