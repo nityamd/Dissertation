@@ -16,14 +16,18 @@ However, this methodology can be problematic when the mass-to-light ($M/L$) rati
 
 \subsection{The SDSS spectra}
 Describing the SDSS spectrograph and $3''$ fiber diameter. References: \citep{smee_multi-object_2013} (\bf York et al citation).\\
-The galaxy spectra in SDSS are obtained through $3''$ diameter fibers. The rest-frame wavelength range of the spectra at the median redshift is from $3500$ to $8500$ with a spectral resolution $$R = \frac{\Delta \lambda}{\lambda} \approx 2000$$. The spectra are calibrated using observations of F stars in each $3 \degree$ field.
+The galaxy spectra in SDSS are obtained through $3''$ diameter fibers. The rest-frame wavelength range of the spectra at the median redshift is from 3500 \AA to 8500 \AA with a spectral resolution $$R = \frac{\Delta \lambda}{\lambda} \approx 2000$$. The spectra are calibrated using observations of F stars in each $3$ degree field.
 
 \subsection{The MPA JHU Catalog}
 Introduction to and describing the importance of the largest catalogue of galaxy stellar masses \citep{kauffmann_stellar_2003}, star formation rates \citep{brinchmann_physical_2004} and gas metallicities \citep{tremonti_origin_2004} thus far. Including major results that rely on said SFR's.\\
 {\bf MRB says: Then you need to mention some major results that depend
 on the MPA-JHU catalog measurements of this quantity, just a couple of 
 highlights from the later section. }{\bf TBD:  Kewley et al 2006 (host galaxies of AGN's); Clowe 2006 A Direct Empirical Proof of the Existence of Dark Matter; Elbaz et al 2007 The reversal of the star formation-density relation in the distant
-universe; Kewley 2008 Metallicity Calibrations and the Mass-Metallicity Relation for Star-forming Galaxies; Peng et al 2010(mass and environments as drivers etc); Kauffmann 2013 A re-examination of galactic conformity and a comparison with semi-analytic models of galaxy formation}.
+universe; Kewley 2008 Metallicity Calibrations and the Mass-Metallicity Relation for Star-forming Galaxies; Peng et al 2010(mass and environments as drivers etc); Kauffmann 2013 A re-examination of galactic conformity and a comparison with semi-analytic models of galaxy formation}.\\
+.....................
+
+The MPA-JHU catalog was developed as a result of a joint collaboration between MPA and JHU right after the SDSS Data Release 1(DR1) of spectroscopic observations. Using the previously mentioned spectral indicators ($D_{\rm n}4000$ and $H{\delta_{\rm A}$) and broadband photometry from SDSS, they developed a method to derive maximum likelihood estimates of the stellar mass of a galay, the attenuation of optical light by dust and the fraction of stars in a galaxy formed in recent bursts.  The dataset they used was 120,808 galaxies drawn from the SDSS DR1. 
+
 
 
 \begin{figure}
@@ -63,12 +67,12 @@ Primary and Secondary Samples. NSA redshifts/Luminosity cut.
 
 \subsection{Our Sample}
 The most recent MaNGA product launch, MPL-$8$, which was announced in November $2018$, containing products based on galaxy and stellar library observations from March $2014$ - July $2018$ serves as the source of our sample. It contains $950$ plates - $6779$ data cubes and $20649$ stellar library stars. Out of these, $6468$ are galaxies with measured NSA redshifts. These are representative of all the IFU sizes (list them: 19,37... 127) and span a redshift range upto $z = 0.15$.\\
-For each galaxy observation, depending on the IFU bundle size (say $N_{X}$, $N_{Y}$ each describing a postion $0.5$" from the previous spaxel), we have ($N_{X}$, $N_{Y}$) spectra which span $4563$ wavelength points. 
+For each galaxy observation, depending on the IFU bundle size (say $N_{X}$, $N_{Y}$ each describing a position $0.5$" from the previous spaxel), we have ($N_{X}$, $N_{Y}$) spectra which span $4563$ wavelength points. 
 
 \section{Methods}
 
 \subsection{Variable Aperture Measurements}
-For any given datacube, we can determine which spaxels fall within an aperture radius of $R$ arcseconds as follows. As each spaxel spans a width of $0.5$" in along the ``X" and ``Y" direction, at any point $(x,y)$ in the IFU image, the distance in arcseconds of the centre of a spaxel from the central spaxel $(x_{c},y_{c})$ in the IFU would be:
+For any given datacube, we can determine which spaxels fall within an aperture radius of $R$ arc-seconds as follows. As each spaxel spans a width of $0.5$" in along the ``X" and ``Y" direction, at any point $(x,y)$ in the IFU image, the distance in arc-seconds of the centre of a spaxel from the central spaxel $(x_{c},y_{c})$ in the IFU would be:
 $$ d = (r(x,y) - r(x_{c},y_{c})) = \sqrt{(0.5*x)^2 + (0.5*y)^2} $$
 Thus, for every spaxel in the IFU, where $d<=R$, that part of the galaxy would fall within the aperture and hence, we would include that spaxel in the measurement of whichever spectral index. Using this, for instance, we can simulate the SDSS fiber measurement, i.e.,  what the $1.5$" aperture radius used in SDSS would see versus the total galaxy or what we call a ``full aperture" measurement.
 
@@ -109,6 +113,24 @@ To get the $H\delta_{\rm A}$ and $D_{\rm n}4000$ index measurements for any aper
 
 \begin{figure}
 \includegraphics[width=\textwidth]{figures/hdelta_full_aperture_comparisons.pdf}
+\caption[Short figure name.]{ The mean offset and dispersion in the $h\delta_{A}$ index measured at $z = 0.02,0.06$ and $0.14$ with a $3''$ aperture from the full aperture measurement 
+\label{fig:myInlineFigure}}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=\textwidth]{figures/quiver_a.pdf}
+\caption[Short figure name.]{ The mean offset and dispersion in the $h\delta_{A}$ index measured at $z = 0.02,0.06$ and $0.14$ with a $3''$ aperture from the full aperture measurement 
+\label{fig:myInlineFigure}}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=\textwidth]{figures/quiver_b.pdf}
+\caption[Short figure name.]{ The mean offset and dispersion in the $h\delta_{A}$ index measured at $z = 0.02,0.06$ and $0.14$ with a $3''$ aperture from the full aperture measurement 
+\label{fig:myInlineFigure}}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=\textwidth]{figures/quiver_c.pdf}
 \caption[Short figure name.]{ The mean offset and dispersion in the $h\delta_{A}$ index measured at $z = 0.02,0.06$ and $0.14$ with a $3''$ aperture from the full aperture measurement 
 \label{fig:myInlineFigure}}
 \end{figure}

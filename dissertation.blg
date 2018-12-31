@@ -38,49 +38,57 @@ I was expecting a `,' or a `}'---line 1847 of file references.bib
  : @proceeding{doi: 
  :                  10.1117/12.856027,
 I'm skipping whatever remains of this entry
+Repeated entry---line 1909 of file references.bib
+ : @article{drory_manga_2015
+ :                          ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 1923 of file references.bib
  : @article{bundy_overview_2014
  :                             ,
 I'm skipping whatever remains of this entry
-You've used 27 entries,
+Repeated entry---line 1984 of file references.bib
+ : @article{bruzual_a._spectral_1983-2
+ :                                    ,
+I'm skipping whatever remains of this entry
+You've used 30 entries,
             2229 wiz_defined-function locations,
-            668 strings with 19439 characters,
-and the built_in function-call counts, 26712 in all, are:
-= -- 2038
-> -- 3059
-< -- 6
-+ -- 1205
-- -- 1192
-* -- 3057
-:= -- 5007
-add.period$ -- 81
-call.type$ -- 27
-change.case$ -- 731
-chr.to.int$ -- 26
-cite$ -- 27
-duplicate$ -- 378
-empty$ -- 743
-format.name$ -- 1227
-if$ -- 4636
+            687 strings with 20276 characters,
+and the built_in function-call counts, 28532 in all, are:
+= -- 2188
+> -- 3222
+< -- 7
++ -- 1267
+- -- 1254
+* -- 3246
+:= -- 5347
+add.period$ -- 90
+call.type$ -- 30
+change.case$ -- 777
+chr.to.int$ -- 29
+cite$ -- 30
+duplicate$ -- 420
+empty$ -- 820
+format.name$ -- 1292
+if$ -- 4963
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 27
-newline$ -- 138
-num.names$ -- 81
-pop$ -- 671
+missing$ -- 30
+newline$ -- 153
+num.names$ -- 90
+pop$ -- 710
 preamble$ -- 1
-purify$ -- 731
+purify$ -- 777
 quote$ -- 0
-skip$ -- 276
+skip$ -- 307
 stack$ -- 0
-substring$ -- 721
-swap$ -- 27
+substring$ -- 787
+swap$ -- 30
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 162
+type$ -- 180
 warning$ -- 0
-while$ -- 82
+while$ -- 91
 width$ -- 0
-write$ -- 353
-(There were 8 error messages)
+write$ -- 392
+(There were 10 error messages)

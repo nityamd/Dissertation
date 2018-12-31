@@ -12,6 +12,13 @@ Bacon, R., Brinchmann, J., Richard, J., Contini, T., Drake, A., Franx, M.,
 \newblock The {{MUSE 3D}} view of the {{{\emph{Hubble}}}} {{Deep Field South}}.
 \newblock {\em Astronomy \& Astrophysics}, 575, A75.
 
+\bibitem[{Balogh} et~al., 1999]{1999ApJ...527...54B}
+{Balogh}, M.~L., {Morris}, S.~L., {Yee}, H.~K.~C., {Carlberg}, R.~G., \&
+  {Ellingson}, E. (1999).
+\newblock {Differential Galaxy Evolution in Cluster and Field Galaxies at
+  z\~{}0.3}.
+\newblock {\em \apj}, 527, 54--79.
+
 \bibitem[Blanton \& Moustakas, 2009]{blanton_physical_2009-1}
 Blanton, M.~R. \& Moustakas, J. (2009).
 \newblock Physical {{Properties}} and {{Environments}} of {{Nearby Galaxies}}.
@@ -30,6 +37,11 @@ Bruzual, G. \& Charlot, S. (2003).
 \newblock Stellar population synthesis at the resolution of 2003.
 \newblock {\em Monthly Notices of the Royal Astronomical Society}, 344(4),
   1000--1028.
+
+\bibitem[Bruzual~A., 1983]{bruzual_a._spectral_1983-2}
+Bruzual~A., G. (1983).
+\newblock Spectral evolution of galaxies. {{I}} - {{Early}}-type systems.
+\newblock {\em The Astrophysical Journal}, 273, 105.
 
 \bibitem[Bryant et~al., 2015]{bryant_sami_2015}
 Bryant, J.~J., Owers, M.~S., Robotham, A. S.~G., Croom, S.~M., Driver, S.~P.,
@@ -97,6 +109,16 @@ Dressler, A. (1980).
 \newblock Galaxy morphology in rich clusters - {{Implications}} for the
   formation and evolution of galaxies.
 \newblock {\em The Astrophysical Journal}, 236, 351.
+
+\bibitem[Drory et~al., 2015]{drory_manga_2015}
+Drory, N., MacDonald, N., Bershady, M.~A., Bundy, K., Gunn, J., Law, D.~R.,
+  Smith, M., Stoll, R., Tremonti, C.~A., Wake, D.~A., Yan, R., Weijmans, A.~M.,
+  Byler, N., Cherinka, B., Cope, F., Eigenbrot, A., Harding, P., Holder, D.,
+  Huehnerhoff, J., Jaehnig, K., Jansen, T.~C., Klaene, M., Paat, A.~M.,
+  Percival, J., \& Sayres, C. (2015).
+\newblock {{THE MANGA INTEGRAL FIELD UNIT FIBER FEED SYSTEM FOR THE SLOAN}} 2.5
+  {{M TELESCOPE}}.
+\newblock {\em The Astronomical Journal}, 149(2), 77.
 
 \bibitem[Ilbert et~al., 2013]{ilbert_mass_2013}
 Ilbert, O., McCracken, H.~J., Le~F{\`e}vre, O., Capak, P., Dunlop, J., Karim,
