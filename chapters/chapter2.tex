@@ -36,7 +36,7 @@ The MPA-JHU catalog was developed as a result of a joint collaboration between M
 \label{fig:kauff_grid}}
 \end{figure}
 
-\section{The $H\delta_{\rm A}-D_{n}4000$ plane}
+\section{The $H\delta_{\rm A}-D_{\rm n}4000$ plane}
 
 Two powerful spectral diagnostic tools that are valuable in constraining stellar masses and star formation histories in galaxies are the Balmer $\delta$ absorption line index and the $D_{n}4000$ break index in the optical spectrum of a galaxy \citep{kauffmann_stellar_2003}. One of the key issues in spectral indicators for starbursts is the existence of the age-metallicity degeneracy in stellar populations \citep{worthey_comprehensive_1994}. The heavier element lines are often prominent in both early type as well as metal rich galaxies and the two are hard to distinguish in terms of interpretation as older stellar populations exhibit metal richness as well and without accurate modeling of the chemical evolution of galaxies, it is difficult to ascertain the reason. The Balmer $H\alpha$ and $H\beta$ are sensitive to the effects of metallicity as well. However both the Balmer $H\delta$ absorption line as well as the $D_{n}4000$ break occurring in the continuum are both in a bluer region of the spectrum relatively unaffected by metallicity constraints and together they form a powerful diagnostic tool to constrain the mass-to-light ratios of galaxies. 
 
@@ -51,6 +51,7 @@ depends on stellar metallicity, exhibiting some of the same age-metallicity dege
 
 This break was defined in by \citet{bruzual_a._spectral_1983-2} as the ratio of the average flux density $F_{\rm \nu}$ in two bands that span \textasciitilde200 \AA on either side of 4000 \AA. \citet{1999ApJ...527...54B} defined a narrow band definition for the same where the bands that are now 100 \AA wide with 3850 \AA - 3950 \AA as the ``blue continuum" and 4000 \AA - 4100 \AA as the ``red continuum". The bandpass used in \citet{kauffmann_stellar_2003} (\ref{fig:early_late_type}) is the same as the one introduced by \citet{1999ApJ...527...54B} and their motivation for doing so is that the narrow definition is more insensitive to reddening effects. I reproduce these measurements using the same narrow band definition.\\
 
+\subsection{Measuring the $H\delta_{\rm A}$ index}
 
 \section{Manga Overview}
 Citations: \citep{bundy_overview_2014}
@@ -70,9 +71,10 @@ The most recent MaNGA product launch, MPL-$8$, which was announced in November $
 For each galaxy observation, depending on the IFU bundle size (say $N_{X}$, $N_{Y}$ each describing a position $0.5$" from the previous spaxel), we have ($N_{X}$, $N_{Y}$) spectra which span $4563$ wavelength points. 
 
 \section{Methods}
+\label{sec:chap2methods}
 
 \subsection{Variable Aperture Measurements}
-For any given datacube, we can determine which spaxels fall within an aperture radius of $R$ arc-seconds as follows. As each spaxel spans a width of $0.5$" in along the ``X" and ``Y" direction, at any point $(x,y)$ in the IFU image, the distance in arc-seconds of the centre of a spaxel from the central spaxel $(x_{c},y_{c})$ in the IFU would be:
+For any given datacube, we can determine which spaxels fall within an aperture radius of $R$ arc-seconds as follows. As each spaxel spans a width of 0.5'' in along the ``X" and ``Y" direction, at any point $(x,y)$ in the IFU image, the distance in arc-seconds of the centre of a spaxel from the central spaxel $(x_{c},y_{c})$ in the IFU would be:
 $$ d = (r(x,y) - r(x_{c},y_{c})) = \sqrt{(0.5*x)^2 + (0.5*y)^2} $$
 Thus, for every spaxel in the IFU, where $d<=R$, that part of the galaxy would fall within the aperture and hence, we would include that spaxel in the measurement of whichever spectral index. Using this, for instance, we can simulate the SDSS fiber measurement, i.e.,  what the $1.5$" aperture radius used in SDSS would see versus the total galaxy or what we call a ``full aperture" measurement.
 
@@ -86,19 +88,25 @@ where $D_{\rm M}(z)$ is the co-moving distance at redshift z.
 So when a galaxy at $z_{\rm obs}$ is shifted to $z_{\rm cutoff}$ the new distance $d_{\rm new}$ of spaxel $(x,y)$ from the central spaxel $(x_{c},y_{c})$ relates to the old distance thus:
 $$ d_{\rm new} = \frac{(1+z_{\rm cutoff})\times D_{\rm M}(z_{\rm obs}) \times d}{(1+z_{\rm obs}) \times  D_{\rm M}(z_{\rm cutoff})} $$
 
-Using the above, we can now figure out the spaxels that would fall within a $3''$ diameter aperture (say) at not only the observed redshift but also any redshift where we would like to collectively observe the behavior of the offset with a full aperture measurement in the $H\delta_{\rm A}$ - $D_{\rm n}4000$ plane.
+Using the above, we can now figure out the spaxels that would fall within a 3'' diameter aperture (say) at not only the observed redshift but also any redshift where we would like to collectively observe the behavior of the offset with a full aperture measurement in the $H\delta_{\rm A}$ - $D_{\rm n}4000$ plane.
 
 
 \begin{figure}
 \includegraphics[width=\textwidth]{figures/full_aperture_comparisons.pdf}
 \caption[Short figure name.]{ The $D_{n}4000$, $h\delta_{A}$ indices measured at $z = 0.02,0.06,0.14$ with a $3''$ aperture compared to the full aperture measurement
-\label{fig:myInlineFigure}}
+\label{fig:redshift_comparison}}
 \end{figure}
 
 
 \subsection{$H\delta_{\rm A}$, $D_{\rm n}4000$ Measurements within Apertures}
 To get the $H\delta_{\rm A}$ and $D_{\rm n}4000$ index measurements for any aperture, we first redshift-correct the spectra obtained from all the spaxels within the aperture to rest-frame. As both the equivalent width of the Balmer $H\delta$ line as well as the $D_{n}4000$ break rely on the continuum as well as a ratio of fluxes in the case of the latter, we add up the spectra of the spaxels that fall within any aperture before estimating either. We then follow the procedure described in Section $2.2$ to calculate the indices. (In a footnote: the code for this is publicly available at --provide github link--.)
 
+\section{Comparison to Full Aperture Measurements}
+To investigate how the full aperture measurements compare to the 3'' measurements, we choose 3 different redshift bins $z = 0.02,0.06$ and $0.14$ and observe how offset the $H\delta_{\rm A}$ and $D_{\rm n}4000$ measures are. For each redshift, I pick the galaxies whose redshift are below that redshift and ``shift" them to the cutoff redshift as described in Section \ref{sec:chap2methods} and compare the full aperture measurements to the 3'' measurements made at that redshift. The results of this are shown in Fig. \ref{fig:redshift_comparison}, where the full aperture measurements are plotted against the 3'' measurements at the respective redshifts with the colorbars indicating the number of galaxies in each bin. We note that the total number of galaxies in each redshift bin is 561 for $z = 0.02$, 5016 for $z = 0.06$ and 6402 for $z = 0.14$.\\
+
+From Fig. \ref{fig:redshift_comparison}, we can infer the following. For most of the galaxies the offset is pretty minimal as it as they fall pretty close to the $x=y$ line. We find that the scatter is the most at $z = 0.06$ and tends towards higher $D_{\rm n}4000$ and lower $H\delta_{\rm A}$ values relative to the full aperture measurements. This can be interpreted as the effect of the apertures beginning to cover the galaxy disks which have lower star formation activity than the bulge for galaxies with strong bulges. The scatter lessens as we approach $z = 0.14$, close to the survey limit, where for most of the galaxies, all of the light gets accounted for by the 3''aperture at this point.\\
+
+MRB Says: At all redshifts, we can see that there is a systematic tendency for galaxies to appear older through the fiber aperture than through the full aperture, and therefore to appear to have a higher M/L than they actually do. This would particularly affect the intermediate age galaxies (i.e. those with $D_{\rm n}4000$ in the green valley).\\
 
 \begin{figure}
 \includegraphics[width=\textwidth]{figures/dn4000_full_aperture_comparisons.pdf}
@@ -106,9 +114,32 @@ To get the $H\delta_{\rm A}$ and $D_{\rm n}4000$ index measurements for any aper
 \label{fig:myInlineFigure}}
 \end{figure}
 
+\section{Offsets in the $H\delta_{\rm A}$-$D_{\rm n}4000$ plane}
 
 
-\section{Results}
+
+MRB Says: * This mean tendency is *relatively* small. You should
+calculate from your grids the median offset for cells with
+D4000 > 1.3 or something like that, and quote that number.
+You should then look carefully at the Kauffmann figure to
+translate this to a change in $M/L_z$ --- my guess is that it is
+around 0.1 dex for z=0.06. Do this for z=0.06 and z=0.14.
+
+ * The scatter about this mean is substantial relative to
+ the mean. Again, calculate the median standard deviation
+ over the cells with D4000 > 1.3 to quantify this. My guess
+ is that it is  comparable to the mean itself. This means
+ for individual galaxies the error can be a lot bigger.
+ Again quote for both those redshifts.
+
+ * The main conclusion is that stellar masses more accurate
+than 0.1 dex (or whatever you see in the mean offset) are
+not possible, and that the scatter in the offset means the
+precision is degraded as well. This source of error is important
+to keep in mind but is probably not fatal for samples at z=0.1
+from MPA/JHU --- most results done rely on stellar masses
+at that precision. Using this sample at lower redshift may be
+much more iffy.
 
 
 \begin{figure}
@@ -116,6 +147,10 @@ To get the $H\delta_{\rm A}$ and $D_{\rm n}4000$ index measurements for any aper
 \caption[Short figure name.]{ The mean offset and dispersion in the $h\delta_{A}$ index measured at $z = 0.02,0.06$ and $0.14$ with a $3''$ aperture from the full aperture measurement 
 \label{fig:myInlineFigure}}
 \end{figure}
+
+
+
+\section{Discussion}
 
 \begin{figure}
 \includegraphics[width=\textwidth]{figures/quiver_a.pdf}
