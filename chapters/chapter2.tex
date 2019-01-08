@@ -22,7 +22,7 @@ The galaxy spectra in SDSS are obtained through $3''$ diameter fibers. The rest-
 Introduction to and describing the importance of the largest catalogue of galaxy stellar masses \citep{kauffmann_stellar_2003}, star formation rates \citep{brinchmann_physical_2004} and gas metallicities \citep{tremonti_origin_2004} thus far. Including major results that rely on said SFR's.\\
 {\bf MRB says: Then you need to mention some major results that depend
 on the MPA-JHU catalog measurements of this quantity, just a couple of 
-highlights from the later section. }{\bf TBD:  Kewley et al 2006 (host galaxies of AGN's); Clowe 2006 A Direct Empirical Proof of the Existence of Dark Matter; Elbaz et al 2007 The reversal of the star formation-density relation in the distant
+highlights from the later section. }{\bf TBD:  Kewley et al 2006 (host galaxies of AGN's); Elbaz et al 2007 The reversal of the star formation-density relation in the distant
 universe; Kewley 2008 Metallicity Calibrations and the Mass-Metallicity Relation for Star-forming Galaxies; Peng et al 2010(mass and environments as drivers etc); Kauffmann 2013 A re-examination of galactic conformity and a comparison with semi-analytic models of galaxy formation}.\\
 .....................
 
@@ -78,6 +78,12 @@ For any given datacube, we can determine which spaxels fall within an aperture r
 $$ d = (r(x,y) - r(x_{c},y_{c})) = \sqrt{(0.5*x)^2 + (0.5*y)^2} $$
 Thus, for every spaxel in the IFU, where $d<=R$, that part of the galaxy would fall within the aperture and hence, we would include that spaxel in the measurement of whichever spectral index. Using this, for instance, we can simulate the SDSS fiber measurement, i.e.,  what the $1.5$" aperture radius used in SDSS would see versus the total galaxy or what we call a ``full aperture" measurement.
 
+\begin{figure}
+\includegraphics[width=\textwidth]{figures/gal_aperture.pdf}
+\caption[Short figure name.]{ Placeholder figure: TBD. Sample Manga galaxy and the Hdelta distributions with the 3'' fiber at the three redshift bins
+\label{fig:sample_manga}}
+\end{figure}
+
 \subsection{Variable Redshift Measurements}
 One can alternately pose this question in terms of redshift. For all galaxies whose redshift $z_{\rm obs}$ is less than the redshift we are interested in, $z_{\rm cutoff}$, we can ask the question: if we shift the said galaxy to the said cutoff point, where would its location on the $H\delta_{\rm A}$ - $D_{\rm n}4000$ plane be? How offset is this from the ``full aperture" measurements?\\
 
@@ -104,19 +110,45 @@ To get the $H\delta_{\rm A}$ and $D_{\rm n}4000$ index measurements for any aper
 \section{Comparison to Full Aperture Measurements}
 To investigate how the full aperture measurements compare to the 3'' measurements, we choose 3 different redshift bins $z = 0.02,0.06$ and $0.14$ and observe how offset the $H\delta_{\rm A}$ and $D_{\rm n}4000$ measures are. For each redshift, I pick the galaxies whose redshift are below that redshift and ``shift" them to the cutoff redshift as described in Section \ref{sec:chap2methods} and compare the full aperture measurements to the 3'' measurements made at that redshift. The results of this are shown in Fig. \ref{fig:redshift_comparison}, where the full aperture measurements are plotted against the 3'' measurements at the respective redshifts with the colorbars indicating the number of galaxies in each bin. We note that the total number of galaxies in each redshift bin is 561 for $z = 0.02$, 5016 for $z = 0.06$ and 6402 for $z = 0.14$.\\
 
-From Fig. \ref{fig:redshift_comparison}, we can infer the following. For most of the galaxies the offset is pretty minimal as it as they fall pretty close to the $x=y$ line. We find that the scatter is the most at $z = 0.06$ and tends towards higher $D_{\rm n}4000$ and lower $H\delta_{\rm A}$ values relative to the full aperture measurements. This can be interpreted as the effect of the apertures beginning to cover the galaxy disks which have lower star formation activity than the bulge for galaxies with strong bulges. The scatter lessens as we approach $z = 0.14$, close to the survey limit, where for most of the galaxies, all of the light gets accounted for by the 3''aperture at this point.\\
-
-MRB Says: At all redshifts, we can see that there is a systematic tendency for galaxies to appear older through the fiber aperture than through the full aperture, and therefore to appear to have a higher M/L than they actually do. This would particularly affect the intermediate age galaxies (i.e. those with $D_{\rm n}4000$ in the green valley).\\
-
 \begin{figure}
 \includegraphics[width=\textwidth]{figures/dn4000_full_aperture_comparisons.pdf}
 \caption[Short figure name.]{ The mean offset and dispersion in the $D_{n}4000$ index measured at $z = 0.02,0.06$ and $0.14$ with a $3''$ aperture from the full aperture measurement
 \label{fig:myInlineFigure}}
 \end{figure}
 
+From Fig. \ref{fig:redshift_comparison}, we can infer the following. For most of the galaxies the offset is pretty minimal as it as they fall pretty close to the $x=y$ line. We find that the scatter is the most at $z = 0.06$ and tends towards higher $D_{\rm n}4000$ and lower $H\delta_{\rm A}$ values relative to the full aperture measurements. This can be interpreted as the effect of the apertures beginning to cover the galaxy disks which have lower star formation activity than the bulge for galaxies with strong bulges. The scatter lessens as we approach $z = 0.14$, close to the survey limit, where for most of the galaxies, all of the light gets accounted for by the 3''aperture at this point.\\
+
+MRB Says: At all redshifts, we can see that there is a systematic tendency for galaxies to appear older through the fiber aperture than through the full aperture, and therefore to appear to have a higher M/L than they actually do. This would particularly affect the intermediate age galaxies (i.e. those with $D_{\rm n}4000$ in the green valley).\\
+
+
+
 \section{Offsets in the $H\delta_{\rm A}$-$D_{\rm n}4000$ plane}
 
+\begin{figure}
+\includegraphics[width=\textwidth]{figures/quiver_a.pdf}
+\caption[Short figure name.]{ The mean offset and dispersion in the $h\delta_{A}$ index measured at $z = 0.02,0.06$ and $0.14$ with a $3''$ aperture from the full aperture measurement 
+\label{fig:myInlineFigure}}
+\end{figure}
 
+\begin{figure}
+\includegraphics[width=\textwidth]{figures/hdelta_full_aperture_comparisons.pdf}
+\caption[Short figure name.]{ The mean offset and dispersion in the $h\delta_{A}$ index measured at $z = 0.02,0.06$ and $0.14$ with a $3''$ aperture from the full aperture measurement 
+\label{fig:myInlineFigure}}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=\textwidth]{figures/quiver_b.pdf}
+\caption[Short figure name.]{ The mean offset and dispersion in the $h\delta_{A}$ index measured at $z = 0.02,0.06$ and $0.14$ with a $3''$ aperture from the full aperture measurement 
+\label{fig:myInlineFigure}}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=\textwidth]{figures/quiver_c.pdf}
+\caption[Short figure name.]{ The mean offset and dispersion in the $h\delta_{A}$ index measured at $z = 0.02,0.06$ and $0.14$ with a $3''$ aperture from the full aperture measurement 
+\label{fig:myInlineFigure}}
+\end{figure}
+
+\section{Discussion}
 
 MRB Says: * This mean tendency is *relatively* small. You should
 calculate from your grids the median offset for cells with
@@ -142,33 +174,8 @@ at that precision. Using this sample at lower redshift may be
 much more iffy.
 
 
-\begin{figure}
-\includegraphics[width=\textwidth]{figures/hdelta_full_aperture_comparisons.pdf}
-\caption[Short figure name.]{ The mean offset and dispersion in the $h\delta_{A}$ index measured at $z = 0.02,0.06$ and $0.14$ with a $3''$ aperture from the full aperture measurement 
-\label{fig:myInlineFigure}}
-\end{figure}
 
 
-
-\section{Discussion}
-
-\begin{figure}
-\includegraphics[width=\textwidth]{figures/quiver_a.pdf}
-\caption[Short figure name.]{ The mean offset and dispersion in the $h\delta_{A}$ index measured at $z = 0.02,0.06$ and $0.14$ with a $3''$ aperture from the full aperture measurement 
-\label{fig:myInlineFigure}}
-\end{figure}
-
-\begin{figure}
-\includegraphics[width=\textwidth]{figures/quiver_b.pdf}
-\caption[Short figure name.]{ The mean offset and dispersion in the $h\delta_{A}$ index measured at $z = 0.02,0.06$ and $0.14$ with a $3''$ aperture from the full aperture measurement 
-\label{fig:myInlineFigure}}
-\end{figure}
-
-\begin{figure}
-\includegraphics[width=\textwidth]{figures/quiver_c.pdf}
-\caption[Short figure name.]{ The mean offset and dispersion in the $h\delta_{A}$ index measured at $z = 0.02,0.06$ and $0.14$ with a $3''$ aperture from the full aperture measurement 
-\label{fig:myInlineFigure}}
-\end{figure}
 
 
 
