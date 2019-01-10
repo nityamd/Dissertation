@@ -6,14 +6,15 @@
 \contentsline {subsection}{\numberline {0.1.1}The Discovery of Galaxies}{7}{subsection.0.1.1}
 \contentsline {subsection}{\numberline {0.1.2}Early Studies of Galaxies}{8}{subsection.0.1.2}
 \contentsline {subsection}{\numberline {0.1.3}Galaxy Evolution and Cosmology}{10}{subsection.0.1.3}
-\contentsline {section}{\numberline {0.2}Questions in Galaxy Evolution}{11}{section.0.2}
+\contentsline {section}{\numberline {0.2}Galaxy Formation and Evolution}{11}{section.0.2}
 \contentsline {subsection}{\numberline {0.2.1}Structure Formation in the Universe}{11}{subsection.0.2.1}
 \contentsline {subsection}{\numberline {0.2.2}Galaxies as Star Formation Factories}{14}{subsection.0.2.2}
-\contentsline {subsection}{\numberline {0.2.3}Fundamental Questions in Galaxy Evolution}{14}{subsection.0.2.3}
+\contentsline {subsection}{\numberline {0.2.3}Galaxies in the Observable Universe}{14}{subsection.0.2.3}
+\contentsline {subsection}{\numberline {0.2.4}Questions in Galaxy Evolution}{14}{subsection.0.2.4}
 \contentsline {section}{\numberline {0.3}Observational Indicators of Star Formation}{14}{section.0.3}
-\contentsline {subsection}{\numberline {0.3.1}What can we infer from Photometry?}{14}{subsection.0.3.1}
-\contentsline {subsection}{\numberline {0.3.2}What can we infer from a Galaxy Spectrum?}{14}{subsection.0.3.2}
-\contentsline {section}{\numberline {0.4}Star Formation in the Local Universe}{14}{section.0.4}
+\contentsline {subsection}{\numberline {0.3.1}What can we infer from Photometry?}{15}{subsection.0.3.1}
+\contentsline {subsection}{\numberline {0.3.2}What can we infer from a Galaxy Spectrum?}{15}{subsection.0.3.2}
+\contentsline {section}{\numberline {0.4}Star Formation in the Local Universe}{15}{section.0.4}
 \contentsline {subsection}{\numberline {0.4.1}The Age of Digital Survey Astronomy}{15}{subsection.0.4.1}
 \contentsline {subsection}{\numberline {0.4.2}SDSS Legacy Survey}{15}{subsection.0.4.2}
 \contentsline {chapter}{\numberline {1}UV to IR Star Formation Indicators and Environments}{16}{chapter.1}
