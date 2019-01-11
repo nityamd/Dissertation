@@ -146,6 +146,12 @@ Freeman, K.~C. (1970).
 \newblock On the {{Disks}} of {{Spiral}} and so {{Galaxies}}.
 \newblock {\em The Astrophysical Journal}, 160, 811.
 
+\bibitem[Guth, 1981]{PhysRevD.23.347}
+Guth, A.~H. (1981).
+\newblock Inflationary universe: A possible solution to the horizon and
+  flatness problems.
+\newblock {\em Phys. Rev. D}, 23, 347--356.
+
 \bibitem[{Hubble}, 1929]{1929PNAS...15..168H}
 {Hubble}, E. (1929).
 \newblock {A Relation between Distance and Radial Velocity among Extra-Galactic
@@ -246,6 +252,11 @@ Peng, Y.-j., Lilly, S.~J., Kova{\v c}, K., Bolzonella, M., Pozzetti, L.,
 \newblock {{MASS AND ENVIRONMENT AS DRIVERS OF GALAXY EVOLUTION IN SDSS AND
   zCOSMOS AND THE ORIGIN OF THE SCHECHTER FUNCTION}}.
 \newblock {\em The Astrophysical Journal}, 721(1), 193--221.
+
+\bibitem[{Penzias} \& {Wilson}, 1965]{1965ApJ...142..419P}
+{Penzias}, A.~A. \& {Wilson}, R.~W. (1965).
+\newblock {A Measurement of Excess Antenna Temperature at 4080 Mc/s.}
+\newblock {\em \apj}, 142, 419--421.
 
 \bibitem[Riess et~al., 1998a]{Riess:1998cb}
 Riess, A.~G. et~al. (1998a).

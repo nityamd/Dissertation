@@ -50,45 +50,45 @@ Repeated entry---line 1984 of file references.bib
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "york00a"
 Warning--I didn't find a database entry for "martin05a"
-You've used 45 entries,
+You've used 47 entries,
             2229 wiz_defined-function locations,
-            778 strings with 23727 characters,
-and the built_in function-call counts, 35983 in all, are:
-= -- 2854
-> -- 3708
-< -- 14
-+ -- 1451
-- -- 1432
-* -- 3967
-:= -- 6691
-add.period$ -- 135
-call.type$ -- 45
-change.case$ -- 940
-chr.to.int$ -- 42
-cite$ -- 45
-duplicate$ -- 630
-empty$ -- 1245
-format.name$ -- 1490
-if$ -- 6363
+            794 strings with 24047 characters,
+and the built_in function-call counts, 36730 in all, are:
+= -- 2931
+> -- 3728
+< -- 16
++ -- 1457
+- -- 1438
+* -- 4028
+:= -- 6820
+add.period$ -- 141
+call.type$ -- 47
+change.case$ -- 953
+chr.to.int$ -- 44
+cite$ -- 47
+duplicate$ -- 658
+empty$ -- 1303
+format.name$ -- 1500
+if$ -- 6511
 int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 45
-newline$ -- 228
-num.names$ -- 135
-pop$ -- 836
+missing$ -- 47
+newline$ -- 238
+num.names$ -- 141
+pop$ -- 843
 preamble$ -- 1
-purify$ -- 940
+purify$ -- 953
 quote$ -- 0
-skip$ -- 463
+skip$ -- 485
 stack$ -- 0
-substring$ -- 1241
-swap$ -- 45
+substring$ -- 1311
+swap$ -- 47
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 270
+type$ -- 282
 warning$ -- 0
-while$ -- 136
+while$ -- 143
 width$ -- 0
-write$ -- 587
+write$ -- 613
 (There were 10 error messages)
