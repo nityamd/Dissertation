@@ -66,6 +66,7 @@
 \usepackage[titles]{tocloft}
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
 \renewcommand{\cftchapfont}{\normalsize \scshape}
+\newcommand\apj{some journal name}
 % \usepackage{fixltx2e}
 \usepackage{ragged2e}
 
