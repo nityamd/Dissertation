@@ -4,9 +4,7 @@ The top-level auxiliary file: dissertation.aux
 A level-1 auxiliary file: chapters/introduction.aux
 A level-1 auxiliary file: chapters/chapter1.aux
 A level-1 auxiliary file: chapters/chapter2.aux
-A level-1 auxiliary file: chapters/chapter3.aux
 A level-1 auxiliary file: chapters/conclusion.aux
-A level-1 auxiliary file: chapters/appendixA.aux
 The style file: apalike2.bst
 A level-1 auxiliary file: endmatter/colophon.aux
 Database file #1: references.bib
@@ -52,45 +50,45 @@ Repeated entry---line 1984 of file references.bib
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "york00a"
 Warning--I didn't find a database entry for "martin05a"
-You've used 42 entries,
+You've used 45 entries,
             2229 wiz_defined-function locations,
-            762 strings with 23229 characters,
-and the built_in function-call counts, 34685 in all, are:
-= -- 2730
-> -- 3649
-< -- 13
-+ -- 1428
-- -- 1412
-* -- 3849
-:= -- 6464
-add.period$ -- 126
-call.type$ -- 42
-change.case$ -- 916
-chr.to.int$ -- 40
-cite$ -- 42
-duplicate$ -- 588
-empty$ -- 1155
-format.name$ -- 1466
-if$ -- 6110
-int.to.chr$ -- 3
+            778 strings with 23727 characters,
+and the built_in function-call counts, 35983 in all, are:
+= -- 2854
+> -- 3708
+< -- 14
++ -- 1451
+- -- 1432
+* -- 3967
+:= -- 6691
+add.period$ -- 135
+call.type$ -- 45
+change.case$ -- 940
+chr.to.int$ -- 42
+cite$ -- 45
+duplicate$ -- 630
+empty$ -- 1245
+format.name$ -- 1490
+if$ -- 6363
+int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 42
-newline$ -- 213
-num.names$ -- 126
-pop$ -- 819
+missing$ -- 45
+newline$ -- 228
+num.names$ -- 135
+pop$ -- 836
 preamble$ -- 1
-purify$ -- 916
+purify$ -- 940
 quote$ -- 0
-skip$ -- 432
+skip$ -- 463
 stack$ -- 0
-substring$ -- 1134
-swap$ -- 42
+substring$ -- 1241
+swap$ -- 45
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 252
+type$ -- 270
 warning$ -- 0
-while$ -- 127
+while$ -- 136
 width$ -- 0
-write$ -- 548
+write$ -- 587
 (There were 10 error messages)

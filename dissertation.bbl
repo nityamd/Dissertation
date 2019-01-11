@@ -219,6 +219,11 @@ Muzzin, A., Marchesini, D., Stefanon, M., Franx, M., McCracken, H.~J.,
   {THE} {COSMOS}/{UltraVISTA} {SURVEY}.
 \newblock {\em The Astrophysical Journal}, 777(1), 18.
 
+\bibitem[Navarro et~al., 1997]{0004-637X-490-2-493}
+Navarro, J.~F., Frenk, C.~S., \& White, S. D.~M. (1997).
+\newblock A universal density profile from hierarchical clustering.
+\newblock {\em The Astrophysical Journal}, 490(2), 493.
+
 \bibitem[Peebles, 1982]{peebles_large-scale_1982}
 Peebles, P. J.~E. (1982).
 \newblock Large-scale background temperature and mass fluctuations due to
@@ -242,12 +247,18 @@ Peng, Y.-j., Lilly, S.~J., Kova{\v c}, K., Bolzonella, M., Pozzetti, L.,
   zCOSMOS AND THE ORIGIN OF THE SCHECHTER FUNCTION}}.
 \newblock {\em The Astrophysical Journal}, 721(1), 193--221.
 
-\bibitem[Riess et~al., 1998]{riess_observational_1998}
+\bibitem[Riess et~al., 1998a]{Riess:1998cb}
+Riess, A.~G. et~al. (1998a).
+\newblock {Observational evidence from supernovae for an accelerating universe
+  and a cosmological constant}.
+\newblock {\em Astron. J.}, 116, 1009--1038.
+
+\bibitem[Riess et~al., 1998b]{riess_observational_1998}
 Riess, A.~G., Filippenko, A.~V., Challis, P., Clocchiatti, A., Diercks, A.,
   Garnavich, P.~M., Gilliland, R.~L., Hogan, C.~J., Jha, S., Kirshner, R.~P.,
   Leibundgut, B., Phillips, M.~M., Reiss, D., Schmidt, B.~P., Schommer, R.~A.,
   Smith, R.~C., Spyromilio, J., Stubbs, C., Suntzeff, N.~B., \& Tonry, J.
-  (1998).
+  (1998b).
 \newblock Observational {{Evidence}} from {{Supernovae}} for an {{Accelerating
   Universe}} and a {{Cosmological Constant}}.
 \newblock {\em The Astronomical Journal}, 116(3), 1009--1038.
@@ -337,6 +348,13 @@ Tremonti, C.~A., Heckman, T.~M., Kauffmann, G., Brinchmann, J., Charlot, S.,
   from 53,000 {{Star}}-forming {{Galaxies}} in the {{Sloan Digital Sky
   Survey}}.
 \newblock {\em The Astrophysical Journal}, 613(2), 898--913.
+
+\bibitem[{Weinberg} et~al., 2015]{2015PNAS..11212249W}
+{Weinberg}, D.~H., {Bullock}, J.~S., {Governato}, F., {Kuzio de Naray}, R., \&
+  {Peter}, A. H.~G. (2015).
+\newblock {Cold dark matter: Controversies on small scales}.
+\newblock {\em Proceedings of the National Academy of Science}, 112,
+  12249--12255.
 
 \bibitem[Worthey, 1994]{worthey_comprehensive_1994}
 Worthey, G. (1994).
