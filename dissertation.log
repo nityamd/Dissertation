@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  11 JAN 2019 06:47
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  11 JAN 2019 06:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1474,75 +1474,74 @@ Overfull \hbox (1.45946pt too wide) in paragraph at lines 51--52
 xhibiting some of the same age-metallicity 
  []
 
-[40] [41] [42] [43]
+[40] [41] [42]
 File: figures/gal_aperture.pdf Graphic file (type QTm)
- <use  "figures/gal_aperture.pdf" > [44] [45]
+ <use  "figures/gal_aperture.pdf" > [43] [44]
 File: figures/full_aperture_comparisons.pdf Graphic file (type QTm)
 
-<use  "figures/full_aperture_comparisons.pdf" > [46] [47]
+<use  "figures/full_aperture_comparisons.pdf" > [45] [46]
 File: figures/dn4000_full_aperture_comparisons.pdf Graphic file (type QTm)
 
-<use  "figures/dn4000_full_aperture_comparisons.pdf" >
+<use  "figures/dn4000_full_aperture_comparisons.pdf" > [47] [48]
 File: figures/hdelta_full_aperture_comparisons.pdf Graphic file (type QTm)
 
 <use  "figures/hdelta_full_aperture_comparisons.pdf" >
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 139.
+(hyperref)                removing `math shift' on input line 135.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 139.
+(hyperref)                removing `subscript' on input line 135.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 139.
+(hyperref)                removing `math shift' on input line 135.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 139.
+(hyperref)                removing `math shift' on input line 135.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 139.
+(hyperref)                removing `subscript' on input line 135.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 139.
+(hyperref)                removing `math shift' on input line 135.
 
 File: figures/quiver_a.pdf Graphic file (type QTm)
-<use  "figures/quiver_a.pdf" >
+<use  "figures/quiver_a.pdf" > [49]
 File: figures/quiver_b.pdf Graphic file (type QTm)
  <use  "figures/quiver_b.pdf" >
 File: figures/quiver_c.pdf Graphic file (type QTm)
 
-<use  "figures/quiver_c.pdf" > [48] [49] [50] [51] [52] [53]) [54]
+<use  "figures/quiver_c.pdf" >) [50] [51] [52] [53]
 \openout2 = `chapters/conclusion.aux'.
 
-
-(./chapters/conclusion.tex
+ (./chapters/conclusion.tex
 Chapter 3.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(3)/bx/n' will be
 (Font)              scaled to size 24.88pt on input line 1.
-) [55
+) [54
 
 
 
 ] (./dissertation.bbl
 LaTeX Font Info:    Font shape `EU1/EBGaramond(3)/bx/it' will be
 (Font)              scaled to size 12.0pt on input line 6.
- [56
+ [55
 
 
 
-] [57]
+] [56]
 Missing character: There is no ^^89 in font EB Garamond 12 Regular/OT:script=la
 tn;language=DFLT;mapping=tex-text;mapping=tex-text;+onum;+liga;mapping=tex-text
 ;!
 Missing character: There is no ^^83 in font EB Garamond 12 Regular/OT:script=la
 tn;language=DFLT;mapping=tex-text;mapping=tex-text;+onum;+liga;mapping=tex-text
 ;!
- [58] [59] [60] [61]) [62]
+ [57] [58] [59] [60]) [61]
 \openout2 = `endmatter/colophon.aux'.
 
 
@@ -1566,10 +1565,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 43.
 Here is how much of TeX's memory you used:
  25607 strings out of 493591
  454123 string characters out of 6143546
- 488423 words of memory out of 5000000
+ 487423 words of memory out of 5000000
  28625 multiletter control sequences out of 15000+600000
  12504 words of font info for 103 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  60i,9n,107p,10404b,523s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (68 pages).
+Output written on dissertation.pdf (67 pages).

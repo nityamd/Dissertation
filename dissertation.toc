@@ -42,15 +42,15 @@
 \contentsline {section}{\numberline {2.3}Manga Overview}{42}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Introduction to Integral Field Spectroscopy}{42}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}The MaNGA IFU Design}{42}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}Data}{43}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}MaNGA Target Selection and DRP}{43}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Our Sample}{43}{subsection.2.4.2}
-\contentsline {section}{\numberline {2.5}Methods}{44}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Variable Aperture Measurements}{44}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Variable Redshift Measurements}{44}{subsection.2.5.2}
-\contentsline {subsection}{\numberline {2.5.3}$H{"δ}_{\rm A}$, $D_{\rm n}4000$ Measurements within Apertures}{46}{subsection.2.5.3}
-\contentsline {section}{\numberline {2.6}Comparison to Full Aperture Measurements}{46}{section.2.6}
-\contentsline {section}{\numberline {2.7}Offsets in the $H{"δ}_{\rm A}$-$D_{\rm n}4000$ plane}{54}{section.2.7}
-\contentsline {section}{\numberline {2.8}Discussion}{54}{section.2.8}
-\contentsline {chapter}{\numberline {3}Conclusion}{55}{chapter.3}
-\contentsline {chapter}{References}{62}{chapter*.24}
+\contentsline {section}{\numberline {2.4}Data}{42}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}MaNGA Target Selection and DRP}{42}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Our Sample}{42}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}Methods}{43}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Variable Aperture Measurements}{43}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Variable Redshift Measurements}{45}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}$H{"δ}_{\rm A}$, $D_{\rm n}4000$ Measurements within Apertures}{45}{subsection.2.5.3}
+\contentsline {section}{\numberline {2.6}Comparison to Full Aperture Measurements}{47}{section.2.6}
+\contentsline {section}{\numberline {2.7}Offsets in the $H{"δ}_{\rm A}$-$D_{\rm n}4000$ plane}{50}{section.2.7}
+\contentsline {section}{\numberline {2.8}Discussion}{50}{section.2.8}
+\contentsline {chapter}{\numberline {3}Conclusion}{54}{chapter.3}
+\contentsline {chapter}{References}{61}{chapter*.24}
