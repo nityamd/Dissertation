@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  11 JAN 2019 06:09
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  11 JAN 2019 06:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1030,36 +1030,9 @@ Package caption Info: hyperref package is loaded.
 )
 \mybibindent=\skip120
 )
-(./dissertation.aux (./chapters/introduction.aux) (./chapters/chapter1.aux
-
-LaTeX Warning: Label `fig:myInlineFigure' multiply defined.
-
-
-LaTeX Warning: Label `fig:myInlineFigure' multiply defined.
-
-
-LaTeX Warning: Label `fig:myInlineFigure' multiply defined.
-
-
-LaTeX Warning: Label `fig:myInlineFigure' multiply defined.
-
-) (./chapters/chapter2.aux
-
-LaTeX Warning: Label `fig:myInlineFigure' multiply defined.
-
-
-LaTeX Warning: Label `fig:myInlineFigure' multiply defined.
-
-
-LaTeX Warning: Label `fig:myInlineFigure' multiply defined.
-
-
-LaTeX Warning: Label `fig:myInlineFigure' multiply defined.
-
-
-LaTeX Warning: Label `fig:myInlineFigure' multiply defined.
-
-) (./chapters/conclusion.aux) (./endmatter/colophon.aux))
+(./dissertation.aux (./chapters/introduction.aux) (./chapters/chapter1.aux)
+(./chapters/chapter2.aux) (./chapters/conclusion.aux) (./endmatter/colophon.aux
+))
 \openout1 = `dissertation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -1082,8 +1055,7 @@ LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 8.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 8.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/tipa/t3cmr.fd
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 8.
@@ -1214,14 +1186,112 @@ LaTeX Font Info:    Font shape `EU1/EBGaramond(3)/bx/n' will be
 \tf@toc=\write4
 \openout4 = `dissertation.toc'.
 
- [6] (./dissertation.lof [7
+ [6] (./dissertation.lof
+Overfull \hbox (16.72105pt too wide) in paragraph at lines 2--2
+ [][] [][][]\EU1/EBGaramond(3)/bx/n/12 A schematic illustrating the cosmic hist
+ory of structure formation from the Big 
+ []
 
-])
+
+Overfull \hbox (12.20508pt too wide) in paragraph at lines 6--6
+ [][] [][][]\EU1/EBGaramond(3)/bx/n/12 The SSFR measurements and environment sh
+own the color-color space. Each 
+ []
+
+
+Overfull \hbox (4.381pt too wide) in paragraph at lines 6--6
+ \EU1/EBGaramond(3)/bx/n/12 point in the plot is shown at the mean colors in ea
+ch of the bins we use. The 
+ []
+
+
+Overfull \hbox (14.621pt too wide) in paragraph at lines 6--6
+ \EU1/EBGaramond(3)/bx/n/12 grey value or color of the points in each panel sho
+w the mean value in each bin 
+ []
+
+
+Overfull \hbox (6.65305pt too wide) in paragraph at lines 7--7
+ [][] [][][]\EU1/EBGaramond(3)/bx/n/12 The Ultraviolet and MAGPHYS SSFR’s plott
+ed against each other as a func- 
+ []
+
+
+Overfull \hbox (21.34102pt too wide) in paragraph at lines 7--7
+ \EU1/EBGaramond(3)/bx/n/12 tion of the environment; We notice two distinct set
+ of outliers that seem to have 
+ []
+
+
+Overfull \hbox (2.64507pt too wide) in paragraph at lines 7--7
+ \EU1/EBGaramond(3)/bx/n/12 lower UV SSFR’s but similar environments to the gal
+axy bins with the same 
+ []
+
+
+Overfull \hbox (1.76904pt too wide) in paragraph at lines 8--8
+ [][] [][][]\EU1/EBGaramond(3)/bx/n/12 The outliers shown as a function of the 
+Star Formation Rates as well as Op- 
+ []
+
+[7
+
+]
+Overfull \hbox (7.96242pt too wide) in paragraph at lines 11--11
+ [][] [][][]\EU1/EBGaramond(3)/bx/n/12 The Kauffmann et al. (2003) grid to infe
+r M/L ratios from the $[][][] \OMS/cmsy/m/n/12 ^^@ [][][][][][]$ 
+ []
+
+
+Overfull \hbox (11.40508pt too wide) in paragraph at lines 12--12
+ [][] [][][]\EU1/EBGaramond(3)/bx/n/12 PLACEHOLDER FIG; TBD: A figure showing D
+4000 and Hdelta breaks in 
+ []
+
+
+Overfull \hbox (7.40504pt too wide) in paragraph at lines 13--13
+ [][] [][][]\EU1/EBGaramond(3)/bx/n/12 Placeholder figure: TBD. Sample Manga ga
+laxy and the Hdelta distributions 
+ []
+
+
+Overfull \hbox (25.75797pt too wide) in paragraph at lines 15--15
+ [][] [][][]\EU1/EBGaramond(3)/bx/n/12 The mean offset and dispersion in the $[
+][][][][][]$ index measured at $[] \OT1/cmr/m/n/12 = []\OML/cmm/m/it/12 :[][]; 
+[]:[][]$ 
+ []
+
+
+Overfull \hbox (4.87395pt too wide) in paragraph at lines 16--16
+ [][] [][][]\EU1/EBGaramond(3)/bx/n/12 The mean offset and dispersion in the $[
+][][]$ index measured at $[] \OT1/cmr/m/n/12 = []\OML/cmm/m/it/12 :[][]; []:[][
+]$ 
+ []
+
+
+Overfull \hbox (3.31702pt too wide) in paragraph at lines 17--17
+ \EU1/EBGaramond(3)/bx/n/12 ture measurements represented as a vector whose pro
+jections on the axes are 
+ []
+
+
+Overfull \hbox (3.31702pt too wide) in paragraph at lines 18--18
+ \EU1/EBGaramond(3)/bx/n/12 ture measurements represented as a vector whose pro
+jections on the axes are 
+ []
+
+
+Overfull \hbox (3.31702pt too wide) in paragraph at lines 19--19
+ \EU1/EBGaramond(3)/bx/n/12 ture measurements represented as a vector whose pro
+jections on the axes are 
+ []
+
+)
 \tf@lof=\write5
 \openout5 = `dissertation.lof'.
 
- [8] (./frontmatter/dedication.tex) [4]
-(./frontmatter/thanks.tex) [5
+ [8] [9] (./frontmatter/dedication.tex) [4] (./frontmatter/thanks.tex)
+[5
 
 ]
 \openout2 = `chapters/introduction.aux'.
@@ -1281,13 +1351,13 @@ LaTeX Font Info:    Font shape `EU1/EBGaramond(3)/m/it' will be
 File: figures/wmap_cosmic_history.jpg Graphic file (type QTm)
  <use  "figures/wmap_cosmic_history.jpg" >
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/bx/n' will be
-(Font)              scaled to size 9.5907pt on input line 47.
+(Font)              scaled to size 9.5907pt on input line 48.
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/bx/n' will be
-(Font)              scaled to size 7.99225pt on input line 47.
+(Font)              scaled to size 7.99225pt on input line 48.
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
-(Font)              scaled to size 9.71375pt on input line 47.
+(Font)              scaled to size 9.71375pt on input line 48.
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
-(Font)              scaled to size 8.09479pt on input line 47.
+(Font)              scaled to size 8.09479pt on input line 48.
  [11] [12]
 [13] [14]
 File: figures/hubble.jpg Graphic file (type QTm)
@@ -1327,13 +1397,13 @@ Overfull \hbox (27.27144pt too wide) in paragraph at lines 121--132
 File: figures/1_panel_plot.pdf Graphic file (type QTm)
  <use  "figures/1_panel_plot.pdf" >
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/it' will be
-(Font)              scaled to size 8.09479pt on input line 164.
+(Font)              scaled to size 8.09479pt on input line 170.
  [27] [28] [29]
 File: figures/2_env_plot.pdf Graphic file (type QTm)
 
 <use  "figures/2_env_plot.pdf" >
 
-LaTeX Warning: Command \textsubscript invalid in math mode on input line 230.
+LaTeX Warning: Command \textsubscript invalid in math mode on input line 236.
 
 [30] [31]
 File: figures/3_outliers.pdf Graphic file (type QTm)
@@ -1362,44 +1432,44 @@ LaTeX Font Info:    Font shape `EU1/EBGaramond(3)/bx/n' will be
 File: figures/Kauffmann_grid.png Graphic file (type QTm)
  <use  "figures/Kauffmann_grid.png" >
 LaTeX Font Info:    Font shape `EU1/NotoMono(0)/m/n' will be
-(Font)              scaled to size 7.67609pt on input line 36.
+(Font)              scaled to size 7.67609pt on input line 37.
 LaTeX Font Info:    Font shape `EU1/NotoMono(0)/m/it' will be
-(Font)              scaled to size 7.67609pt on input line 36.
+(Font)              scaled to size 7.67609pt on input line 37.
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
-(Font)              scaled to size 5.66635pt on input line 36.
+(Font)              scaled to size 5.66635pt on input line 37.
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
-(Font)              scaled to size 4.0474pt on input line 36.
+(Font)              scaled to size 4.0474pt on input line 37.
 
 
 LaTeX Font Warning: Font shape `EU1/NotoMono(0)/m/sc' undefined
-(Font)              using `EU1/NotoMono(0)/m/n' instead on input line 39.
+(Font)              using `EU1/NotoMono(0)/m/n' instead on input line 40.
 
 LaTeX Font Info:    Font shape `EU1/NotoMono(0)/m/sc' will be
-(Font)              scaled to size 9.2113pt on input line 39.
+(Font)              scaled to size 9.2113pt on input line 40.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(3)/m/sc' will be
-(Font)              scaled to size 8.0pt on input line 39.
+(Font)              scaled to size 8.0pt on input line 40.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(3)/m/sc' will be
-(Font)              scaled to size 6.0pt on input line 39.
+(Font)              scaled to size 6.0pt on input line 40.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 39.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 39.
+(hyperref)                removing `math shift' on input line 40.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 39.
+(hyperref)                removing `subscript' on input line 40.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 39.
+(hyperref)                removing `subscript' on input line 40.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 40.
 
 [39]
 File: figures/spectra_placeholder.png Graphic file (type QTm)
  <use  "figures/spectra_placeholder.png" >
-Overfull \hbox (1.45946pt too wide) in paragraph at lines 49--50
+Overfull \hbox (1.45946pt too wide) in paragraph at lines 51--52
 \EU1/EBGaramond(3)/bx/n/12 addition the break depends on stellar metallicity, e
 xhibiting some of the same age-metallicity 
  []
@@ -1413,44 +1483,44 @@ File: figures/full_aperture_comparisons.pdf Graphic file (type QTm)
 File: figures/dn4000_full_aperture_comparisons.pdf Graphic file (type QTm)
 
 <use  "figures/dn4000_full_aperture_comparisons.pdf" >
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 129.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 129.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 129.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 129.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 129.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 129.
-
-File: figures/quiver_a.pdf Graphic file (type QTm)
-<use  "figures/quiver_a.pdf" >
 File: figures/hdelta_full_aperture_comparisons.pdf Graphic file (type QTm)
 
 <use  "figures/hdelta_full_aperture_comparisons.pdf" >
-File: figures/quiver_b.pdf Graphic file (type QTm)
 
-<use  "figures/quiver_b.pdf" >
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 139.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 139.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 139.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 139.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 139.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 139.
+
+File: figures/quiver_a.pdf Graphic file (type QTm)
+<use  "figures/quiver_a.pdf" >
+File: figures/quiver_b.pdf Graphic file (type QTm)
+ <use  "figures/quiver_b.pdf" >
 File: figures/quiver_c.pdf Graphic file (type QTm)
- <use  "figures/quiver_c.pdf" > [48] [49]
-[50] [51] [52] [53]) [54]
+
+<use  "figures/quiver_c.pdf" > [48] [49] [50] [51] [52] [53]) [54]
 \openout2 = `chapters/conclusion.aux'.
 
- (./chapters/conclusion.tex
+
+(./chapters/conclusion.tex
 Chapter 3.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(3)/bx/n' will be
 (Font)              scaled to size 24.88pt on input line 1.
@@ -1491,18 +1561,15 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 43.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 43.
  ) 
 Here is how much of TeX's memory you used:
- 25598 strings out of 493591
- 453968 string characters out of 6143546
- 487910 words of memory out of 5000000
- 28616 multiletter control sequences out of 15000+600000
+ 25607 strings out of 493591
+ 454123 string characters out of 6143546
+ 488423 words of memory out of 5000000
+ 28625 multiletter control sequences out of 15000+600000
  12504 words of font info for 103 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  60i,9n,107p,10404b,523s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (67 pages).
+Output written on dissertation.pdf (68 pages).

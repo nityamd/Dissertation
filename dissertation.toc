@@ -1,5 +1,5 @@
 \contentsline {chapter}{Abstract}{3}{section*.1}
-\contentsline {chapter}{Dedication}{8}{section*.5}
+\contentsline {chapter}{Dedication}{9}{section*.5}
 \contentsline {chapter}{Acknowledgments}{5}{section*.6}
 \contentsline {chapter}{\numberline {0}Introduction}{6}{chapter.0}
 \contentsline {section}{\numberline {0.1}A Brief History of Galaxy Evolution}{6}{section.0.1}
