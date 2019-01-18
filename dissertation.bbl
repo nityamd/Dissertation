@@ -17,12 +17,34 @@ Bacon, R., Brinchmann, J., Richard, J., Contini, T., Drake, A., Franx, M.,
 \newblock The {{MUSE 3D}} view of the {{{\emph{Hubble}}}} {{Deep Field South}}.
 \newblock {\em Astronomy \& Astrophysics}, 575, A75.
 
+\bibitem[{Baldry} et~al., 2012]{2012MNRAS.421..621B}
+{Baldry}, I.~K., {Driver}, S.~P., {Loveday}, J., {Taylor}, E.~N., {Kelvin},
+  L.~S., {Liske}, J., {Norberg}, P., {Robotham}, A.~S.~G., {Brough}, S.,
+  {Hopkins}, A.~M., {Bamford}, S.~P., {Peacock}, J.~A., {Bland-Hawthorn}, J.,
+  {Conselice}, C.~J., {Croom}, S.~M., {Jones}, D.~H., {Parkinson}, H.~R.,
+  {Popescu}, C.~C., {Prescott}, M., {Sharp}, R.~G., \& {Tuffs}, R.~J. (2012).
+\newblock {Galaxy And Mass Assembly (GAMA): the galaxy stellar mass function at
+  z $\lt$ 0.06}.
+\newblock {\em \mnras}, 421, 621--634.
+
 \bibitem[{Balogh} et~al., 1999]{1999ApJ...527...54B}
 {Balogh}, M.~L., {Morris}, S.~L., {Yee}, H.~K.~C., {Carlberg}, R.~G., \&
   {Ellingson}, E. (1999).
 \newblock {Differential Galaxy Evolution in Cluster and Field Galaxies at
   z\~{}0.3}.
 \newblock {\em \apj}, 527, 54--79.
+
+\bibitem[Behroozi et~al., 2010]{behroozi_comprehensive_2010}
+Behroozi, P.~S., Conroy, C., \& Wechsler, R.~H. (2010).
+\newblock A {{COMPREHENSIVE ANALYSIS OF UNCERTAINTIES AFFECTING THE STELLAR
+  MASS}}-{{HALO MASS RELATION FOR}} 0 \&lt; {\emph{z}} \&lt; 4.
+\newblock {\em The Astrophysical Journal}, 717(1), 379--403.
+
+\bibitem[{Benson} et~al., 2003]{2003ApJ...599...38B}
+{Benson}, A.~J., {Bower}, R.~G., {Frenk}, C.~S., {Lacey}, C.~G., {Baugh},
+  C.~M., \& {Cole}, S. (2003).
+\newblock {What Shapes the Luminosity Function of Galaxies?}
+\newblock {\em \apj}, 599, 38--49.
 
 \bibitem[Blanton \& Moustakas, 2009a]{blanton_physical_2009-1}
 Blanton, M.~R. \& Moustakas, J. (2009a).
@@ -101,6 +123,23 @@ Burgarella, D., Buat, V., Gruppioni, C., Cucciati, O., Heinis, S., Berta, S.,
   ({{UV}}+{{IR}}) star formation rate density.
 \newblock {\em Astronomy \& Astrophysics}, 554, A70.
 
+\bibitem[{Cappellari} et~al., 2012]{2012Natur.484..485C}
+{Cappellari}, M., {McDermid}, R.~M., {Alatalo}, K., {Blitz}, L., {Bois}, M.,
+  {Bournaud}, F., {Bureau}, M., {Crocker}, A.~F., {Davies}, R.~L., {Davis},
+  T.~A., {de Zeeuw}, P.~T., {Duc}, P.-A., {Emsellem}, E., {Khochfar}, S.,
+  {Krajnovi{\'c}}, D., {Kuntschner}, H., {Lablanche}, P.-Y., {Morganti}, R.,
+  {Naab}, T., {Oosterloo}, T., {Sarzi}, M., {Scott}, N., {Serra}, P.,
+  {Weijmans}, A.-M., \& {Young}, L.~M. (2012).
+\newblock {Systematic variation of the stellar initial mass function in
+  early-type galaxies}.
+\newblock {\em \nat}, 484, 485--488.
+
+\bibitem[{Chabrier}, 2003]{2003PASP..115..763C}
+{Chabrier}, G. (2003).
+\newblock {Galactic Stellar and Substellar Initial Mass Function}.
+\newblock {\em Publications of the Astronomical Society of the Pacific}, 115,
+  763--795.
+
 \bibitem[Cooper et~al., 2005]{cooper_measuring_2005}
 Cooper, M.~C., Newman, J.~A., Madgwick, D.~S., Gerke, B.~F., Yan, R., \& Davis,
   M. (2005).
@@ -135,6 +174,12 @@ Drory, N., MacDonald, N., Bershady, M.~A., Bundy, K., Gunn, J., Law, D.~R.,
 \newblock {{THE MANGA INTEGRAL FIELD UNIT FIBER FEED SYSTEM FOR THE SLOAN}} 2.5
   {{M TELESCOPE}}.
 \newblock {\em The Astronomical Journal}, 149(2), 77.
+
+\bibitem[{Efstathiou} et~al., 1988]{1988MNRAS.232..431E}
+{Efstathiou}, G., {Ellis}, R.~S., \& {Peterson}, B.~A. (1988).
+\newblock {Analysis of a complete galaxy redshift survey. II - The field-galaxy
+  luminosity function}.
+\newblock {\em \mnras}, 232, 431--461.
 
 \bibitem[{Eggen} et~al., 1962]{1962ApJ...136..748E}
 {Eggen}, O.~J., {Lynden-Bell}, D., \& {Sandage}, A.~R. (1962).
@@ -194,6 +239,11 @@ Kennicutt, R.~C. \& Evans, N.~J. (2012).
 \newblock Star {{Formation}} in the {{Milky Way}} and {{Nearby Galaxies}}.
 \newblock {\em Annual Review of Astronomy and Astrophysics}, 50(1), 531--608.
 
+\bibitem[{Kroupa}, 2001]{2001MNRAS.322..231K}
+{Kroupa}, P. (2001).
+\newblock {On the variation of the initial mass function}.
+\newblock {\em \mnras}, 322, 231--246.
+
 \bibitem[Lee et~al., 2009]{lee_comparison_2009}
 Lee, J.~C., {Gil de Paz}, A., Tremonti, C., Kennicutt, R.~C., Salim, S.,
   Bothwell, M., Calzetti, D., Dalcanton, J., Dale, D., Engelbracht, C., Jos\'e
@@ -202,6 +252,25 @@ Lee, J.~C., {Gil de Paz}, A., Tremonti, C., Kennicutt, R.~C., Salim, S.,
 \newblock {{COMPARISON OF H$\alpha$ AND UV STAR FORMATION RATES IN THE LOCAL
   VOLUME}}: {{SYSTEMATIC DISCREPANCIES FOR DWARF GALAXIES}}.
 \newblock {\em The Astrophysical Journal}, 706(1), 599--613.
+
+\bibitem[Leroy et~al., 2008]{1538-3881-136-6-2782}
+Leroy, A.~K., Walter, F., Brinks, E., Bigiel, F., de~Blok, W. J.~G., Madore,
+  B., \& Thornley, M.~D. (2008).
+\newblock The star formation efficiency in nearby galaxies: Measuring where gas
+  forms stars effectively.
+\newblock {\em The Astronomical Journal}, 136(6), 2782.
+
+\bibitem[{Loveday} et~al., 2012]{2012MNRAS.420.1239L}
+{Loveday}, J., {Norberg}, P., {Baldry}, I.~K., {Driver}, S.~P., {Hopkins},
+  A.~M., {Peacock}, J.~A., {Bamford}, S.~P., {Liske}, J., {Bland-Hawthorn}, J.,
+  {Brough}, S., {Brown}, M.~J.~I., {Cameron}, E., {Conselice}, C.~J., {Croom},
+  S.~M., {Frenk}, C.~S., {Gunawardhana}, M., {Hill}, D.~T., {Jones}, D.~H.,
+  {Kelvin}, L.~S., {Kuijken}, K., {Nichol}, R.~C., {Parkinson}, H.~R.,
+  {Phillipps}, S., {Pimbblet}, K.~A., {Popescu}, C.~C., {Prescott}, M.,
+  {Robotham}, A.~S.~G., {Sharp}, R.~G., {Sutherland}, W.~J., {Taylor}, E.~N.,
+  {Thomas}, D., {Tuffs}, R.~J., {van Kampen}, E., \& {Wijesinghe}, D. (2012).
+\newblock {Galaxy and Mass Assembly (GAMA): ugriz galaxy luminosity functions}.
+\newblock {\em \mnras}, 420, 1239--1262.
 
 \bibitem[Madau \& Dickinson, 2014]{madau_cosmic_2014}
 Madau, P. \& Dickinson, M. (2014).
@@ -224,11 +293,6 @@ Muzzin, A., Marchesini, D., Stefanon, M., Franx, M., McCracken, H.~J.,
   {STAR}-{FORMING} {AND} {QUIESCENT} {GALAXIES} {TO} \textit{z} = 4 {FROM}
   {THE} {COSMOS}/{UltraVISTA} {SURVEY}.
 \newblock {\em The Astrophysical Journal}, 777(1), 18.
-
-\bibitem[Navarro et~al., 1997]{0004-637X-490-2-493}
-Navarro, J.~F., Frenk, C.~S., \& White, S. D.~M. (1997).
-\newblock A universal density profile from hierarchical clustering.
-\newblock {\em The Astrophysical Journal}, 490(2), 493.
 
 \bibitem[Peebles, 1982]{peebles_large-scale_1982}
 Peebles, P. J.~E. (1982).
@@ -258,21 +322,11 @@ Peng, Y.-j., Lilly, S.~J., Kova{\v c}, K., Bolzonella, M., Pozzetti, L.,
 \newblock {A Measurement of Excess Antenna Temperature at 4080 Mc/s.}
 \newblock {\em \apj}, 142, 419--421.
 
-\bibitem[Riess et~al., 1998a]{Riess:1998cb}
-Riess, A.~G. et~al. (1998a).
+\bibitem[Riess et~al., 1998]{Riess:1998cb}
+Riess, A.~G. et~al. (1998).
 \newblock {Observational evidence from supernovae for an accelerating universe
   and a cosmological constant}.
 \newblock {\em Astron. J.}, 116, 1009--1038.
-
-\bibitem[Riess et~al., 1998b]{riess_observational_1998}
-Riess, A.~G., Filippenko, A.~V., Challis, P., Clocchiatti, A., Diercks, A.,
-  Garnavich, P.~M., Gilliland, R.~L., Hogan, C.~J., Jha, S., Kirshner, R.~P.,
-  Leibundgut, B., Phillips, M.~M., Reiss, D., Schmidt, B.~P., Schommer, R.~A.,
-  Smith, R.~C., Spyromilio, J., Stubbs, C., Suntzeff, N.~B., \& Tonry, J.
-  (1998b).
-\newblock Observational {{Evidence}} from {{Supernovae}} for an {{Accelerating
-  Universe}} and a {{Cosmological Constant}}.
-\newblock {\em The Astronomical Journal}, 116(3), 1009--1038.
 
 \bibitem[Rubin et~al., 1980]{rubin_rotational_1980}
 Rubin, V.~C., Thonnard, N., \& Ford, Jr., W.~K. (1980).
@@ -294,6 +348,11 @@ Salim, S., Rich, R.~M., Charlot, S., Brinchmann, J., Johnson, B.~D.,
   {others} (2007b).
 \newblock {UV} {Star} {Formation} {Rates} in the {Local} {Universe}.
 \newblock {\em The Astrophysical Journal Supplement Series}, 173(2), 267.
+
+\bibitem[{Salpeter}, 1955]{1955ApJ...121..161S}
+{Salpeter}, E.~E. (1955).
+\newblock {The Luminosity Function and Stellar Evolution.}
+\newblock {\em \apj}, 121, 161.
 
 \bibitem[S\'anchez et~al., 2012]{sanchez_califa_2012}
 S\'anchez, S.~F., Kennicutt, R.~C., {Gil de Paz}, A., {van de Ven}, G.,
@@ -317,12 +376,6 @@ S\'anchez, S.~F., Kennicutt, R.~C., {Gil de Paz}, A., {van de Ven}, G.,
   {{I}}. {{Survey}} presentation$\star$.
 \newblock {\em Astronomy \& Astrophysics}, 538, A8.
 
-\bibitem[{Searle} \& {Zinn}, 1978]{1978ApJ...225..357S}
-{Searle}, L. \& {Zinn}, R. (1978).
-\newblock {Compositions of halo clusters and the formation of the galactic
-  halo}.
-\newblock {\em \apj}, 225, 357--379.
-
 \bibitem[Smee et~al., 2013]{smee_multi-object_2013}
 Smee, S.~A., Gunn, J.~E., Uomoto, A., Roe, N., Schlegel, D., Rockosi, C.~M.,
   Carr, M.~A., Leger, F., Dawson, K.~S., Olmstead, M.~D., Brinkmann, J., Owen,
@@ -339,6 +392,23 @@ Smee, S.~A., Gunn, J.~E., Uomoto, A., Roe, N., Schlegel, D., Rockosi, C.~M.,
 \newblock {{THE MULTI}}-{{OBJECT}}, {{FIBER}}-{{FED SPECTROGRAPHS FOR THE SLOAN
   DIGITAL SKY SURVEY AND THE BARYON OSCILLATION SPECTROSCOPIC SURVEY}}.
 \newblock {\em The Astronomical Journal}, 146(2), 32.
+
+\bibitem[{Smoot} et~al., 1992]{smoot92a}
+{Smoot}, G.~F., {Bennett}, C.~L., {Kogut}, A., {Wright}, E.~L., {Aymon}, J.,
+  {Boggess}, N.~W., {Cheng}, E.~S., {de Amici}, G., {Gulkis}, S., {Hauser},
+  M.~G., {Hinshaw}, G., {Jackson}, P.~D., {Janssen}, M., {Kaita}, E.,
+  {Kelsall}, T., {Keegstra}, P., {Lineweaver}, C., {Loewenstein}, K., {Lubin},
+  P., {Mather}, J., {Meyer}, S.~S., {Moseley}, S.~H., {Murdock}, T., {Rokke},
+  L., {Silverberg}, R.~F., {Tenorio}, L., {Weiss}, R., \& {Wilkinson}, D.~T.
+  (1992).
+\newblock {Structure in the COBE Differential Microwave Radiometer First-Year
+  Maps}.
+\newblock {\em \apj}, 396, L1.
+
+\bibitem[{Somerville} \& {Dav{\'e}}, 2015]{somerville15a}
+{Somerville}, R.~S. \& {Dav{\'e}}, R. (2015).
+\newblock {Physical Models of Galaxy Formation in a Cosmological Framework}.
+\newblock {\em Annual Review of Astronomy and Astrophysics}, 53, 51--113.
 
 \bibitem[Tomczak et~al., 2014]{tomczak_galaxy_2014}
 Tomczak, A.~R., Quadri, R.~F., Tran, K.-V.~H., Labb{\'e}, I., Straatman, C.
@@ -359,13 +429,6 @@ Tremonti, C.~A., Heckman, T.~M., Kauffmann, G., Brinchmann, J., Charlot, S.,
   from 53,000 {{Star}}-forming {{Galaxies}} in the {{Sloan Digital Sky
   Survey}}.
 \newblock {\em The Astrophysical Journal}, 613(2), 898--913.
-
-\bibitem[{Weinberg} et~al., 2015]{2015PNAS..11212249W}
-{Weinberg}, D.~H., {Bullock}, J.~S., {Governato}, F., {Kuzio de Naray}, R., \&
-  {Peter}, A. H.~G. (2015).
-\newblock {Cold dark matter: Controversies on small scales}.
-\newblock {\em Proceedings of the National Academy of Science}, 112,
-  12249--12255.
 
 \bibitem[Worthey, 1994]{worthey_comprehensive_1994}
 Worthey, G. (1994).

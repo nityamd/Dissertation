@@ -67,6 +67,9 @@
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
 \renewcommand{\cftchapfont}{\normalsize \scshape}
 \newcommand\apj{some journal name}
+\newcommand\mnras{some journal name}
+\newcommand\nat{some journal name}
+\newcommand{\lt}{\ensuremath <}
 % \usepackage{fixltx2e}
 \usepackage{ragged2e}
 
