@@ -46,6 +46,23 @@ Behroozi, P.~S., Conroy, C., \& Wechsler, R.~H. (2010).
 \newblock {What Shapes the Luminosity Function of Galaxies?}
 \newblock {\em \apj}, 599, 38--49.
 
+\bibitem[{Blanton} et~al., 2006]{2006ApJ...645..977B}
+{Blanton}, M.~R., {Eisenstein}, D., {Hogg}, D.~W., \& {Zehavi}, I. (2006).
+\newblock {The Scale Dependence of Relative Galaxy Bias: Encouragement for the
+  ``Halo Model'' Description}.
+\newblock {\em \apj}, 645, 977--985.
+
+\bibitem[{Blanton} et~al., 2003]{2003ApJ...594..186B}
+{Blanton}, M.~R., {Hogg}, D.~W., {Bahcall}, N.~A., {Baldry}, I.~K.,
+  {Brinkmann}, J., {Csabai}, I., {Eisenstein}, D., {Fukugita}, M., {Gunn},
+  J.~E., {Ivezi{\'c}}, {\v Z}., {Lamb}, D.~Q., {Lupton}, R.~H., {Loveday}, J.,
+  {Munn}, J.~A., {Nichol}, R.~C., {Okamura}, S., {Schlegel}, D.~J.,
+  {Shimasaku}, K., {Strauss}, M.~A., {Vogeley}, M.~S., \& {Weinberg}, D.~H.
+  (2003).
+\newblock {The Broadband Optical Properties of Galaxies with Redshifts
+  0.02$\lt$z$\lt$0.22}.
+\newblock {\em \apj}, 594, 186--207.
+
 \bibitem[Blanton \& Moustakas, 2009a]{blanton_physical_2009-1}
 Blanton, M.~R. \& Moustakas, J. (2009a).
 \newblock Physical {{Properties}} and {{Environments}} of {{Nearby Galaxies}}.
@@ -234,6 +251,15 @@ Kauffmann, G., Heckman, T.~M., Simon~White, D.~M., Charlot, S., Tremonti, C.,
 \newblock {\em Monthly Notices of the Royal Astronomical Society}, 341(1),
   33--53.
 
+\bibitem[Kauffmann et~al., 2004]{kauffmann_environmental_2004}
+Kauffmann, G., White, S. D.~M., Heckman, T.~M., M\'enard, B., Brinchmann, J.,
+  Charlot, S., Tremonti, C., \& Brinkmann, J. (2004).
+\newblock The environmental dependence of the relations between stellar mass,
+  structure, star formation and nuclear activity in galaxies: {{Galaxy}}
+  structure, star formation and nuclear activity.
+\newblock {\em Monthly Notices of the Royal Astronomical Society}, 353(3),
+  713--731.
+
 \bibitem[Kennicutt \& Evans, 2012]{kennicutt_star_2012}
 Kennicutt, R.~C. \& Evans, N.~J. (2012).
 \newblock Star {{Formation}} in the {{Milky Way}} and {{Nearby Galaxies}}.
@@ -259,6 +285,18 @@ Leroy, A.~K., Walter, F., Brinks, E., Bigiel, F., de~Blok, W. J.~G., Madore,
 \newblock The star formation efficiency in nearby galaxies: Measuring where gas
   forms stars effectively.
 \newblock {\em The Astronomical Journal}, 136(6), 2782.
+
+\bibitem[{Lewis} et~al., 2002]{2002MNRAS.334..673L}
+{Lewis}, I., {Balogh}, M., {De Propris}, R., {Couch}, W., {Bower}, R., {Offer},
+  A., {Bland-Hawthorn}, J., {Baldry}, I.~K., {Baugh}, C., {Bridges}, T.,
+  {Cannon}, R., {Cole}, S., {Colless}, M., {Collins}, C., {Cross}, N.,
+  {Dalton}, G., {Driver}, S.~P., {Efstathiou}, G., {Ellis}, R.~S., {Frenk},
+  C.~S., {Glazebrook}, K., {Hawkins}, E., {Jackson}, C., {Lahav}, O.,
+  {Lumsden}, S., {Maddox}, S., {Madgwick}, D., {Norberg}, P., {Peacock}, J.~A.,
+  {Percival}, W., {Peterson}, B.~A., {Sutherland}, W., \& {Taylor}, K. (2002).
+\newblock {The 2dF Galaxy Redshift Survey: the environmental dependence of
+  galaxy star formation rates near clusters}.
+\newblock {\em \mnras}, 334, 673--683.
 
 \bibitem[{Loveday} et~al., 2012]{2012MNRAS.420.1239L}
 {Loveday}, J., {Norberg}, P., {Baldry}, I.~K., {Driver}, S.~P., {Hopkins},
@@ -294,6 +332,25 @@ Muzzin, A., Marchesini, D., Stefanon, M., Franx, M., McCracken, H.~J.,
   {THE} {COSMOS}/{UltraVISTA} {SURVEY}.
 \newblock {\em The Astrophysical Journal}, 777(1), 18.
 
+\bibitem[{Norberg} et~al., 2002]{2002MNRAS.332..827N}
+{Norberg}, P., {Baugh}, C.~M., {Hawkins}, E., {Maddox}, S., {Madgwick}, D.,
+  {Lahav}, O., {Cole}, S., {Frenk}, C.~S., {Baldry}, I., {Bland-Hawthorn}, J.,
+  {Bridges}, T., {Cannon}, R., {Colless}, M., {Collins}, C., {Couch}, W.,
+  {Dalton}, G., {De Propris}, R., {Driver}, S.~P., {Efstathiou}, G., {Ellis},
+  R.~S., {Glazebrook}, K., {Jackson}, C., {Lewis}, I., {Lumsden}, S.,
+  {Peacock}, J.~A., {Peterson}, B.~A., {Sutherland}, W., \& {Taylor}, K.
+  (2002).
+\newblock {The 2dF Galaxy Redshift Survey: the dependence of galaxy clustering
+  on luminosity and spectral type}.
+\newblock {\em \mnras}, 332, 827--838.
+
+\bibitem[{Park} et~al., 2007]{2007ApJ...658..898P}
+{Park}, C., {Choi}, Y.-Y., {Vogeley}, M.~S., {Gott}, J.~Richard, I., {Blanton},
+  M.~R., \& {SDSS Collaboration} (2007).
+\newblock {Environmental Dependence of Properties of Galaxies in the Sloan
+  Digital Sky Survey}.
+\newblock {\em \apj}, 658, 898--916.
+
 \bibitem[Peebles, 1982]{peebles_large-scale_1982}
 Peebles, P. J.~E. (1982).
 \newblock Large-scale background temperature and mass fluctuations due to
@@ -327,6 +384,11 @@ Riess, A.~G. et~al. (1998).
 \newblock {Observational evidence from supernovae for an accelerating universe
   and a cosmological constant}.
 \newblock {\em Astron. J.}, 116, 1009--1038.
+
+\bibitem[{Roberts} \& {Haynes}, 1994]{roberts94a}
+{Roberts}, M.~S. \& {Haynes}, M.~P. (1994).
+\newblock {Physical Parameters along the Hubble Sequence}.
+\newblock {\em Annual Review of Astronomy and Astrophysics}, 32, 115--152.
 
 \bibitem[Rubin et~al., 1980]{rubin_rotational_1980}
 Rubin, V.~C., Thonnard, N., \& Ford, Jr., W.~K. (1980).
@@ -409,6 +471,18 @@ Smee, S.~A., Gunn, J.~E., Uomoto, A., Roe, N., Schlegel, D., Rockosi, C.~M.,
 {Somerville}, R.~S. \& {Dav{\'e}}, R. (2015).
 \newblock {Physical Models of Galaxy Formation in a Cosmological Framework}.
 \newblock {\em Annual Review of Astronomy and Astrophysics}, 53, 51--113.
+
+\bibitem[{Strateva} et~al., 2001]{2001AJ....122.1861S}
+{Strateva}, I., {Ivezi{\'c}}, {\v Z}., {Knapp}, G.~R., {Narayanan}, V.~K.,
+  {Strauss}, M.~A., {Gunn}, J.~E., {Lupton}, R.~H., {Schlegel}, D., {Bahcall},
+  N.~A., {Brinkmann}, J., {Brunner}, R.~J., {Budav{\'a}ri}, T., {Csabai}, I.,
+  {Castander}, F.~J., {Doi}, M., {Fukugita}, M., {Gy{\H o}ry}, Z., {Hamabe},
+  M., {Hennessy}, G., {Ichikawa}, T., {Kunszt}, P.~Z., {Lamb}, D.~Q., {McKay},
+  T.~A., {Okamura}, S., {Racusin}, J., {Sekiguchi}, M., {Schneider}, D.~P.,
+  {Shimasaku}, K., \& {York}, D. (2001).
+\newblock {Color Separation of Galaxy Types in the Sloan Digital Sky Survey
+  Imaging Data}.
+\newblock {\em \aj}, 122, 1861--1874.
 
 \bibitem[Tomczak et~al., 2014]{tomczak_galaxy_2014}
 Tomczak, A.~R., Quadri, R.~F., Tran, K.-V.~H., Labb{\'e}, I., Straatman, C.

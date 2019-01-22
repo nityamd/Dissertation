@@ -12,83 +12,83 @@ Repeated entry---line 408 of file references.bib
  : @article{cooper_measuring_2005
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1266 of file references.bib
+Repeated entry---line 1281 of file references.bib
  : @article{salim_uv_2007
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1303 of file references.bib
+Repeated entry---line 1318 of file references.bib
  : @article{da_cunha_simple_2008
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1438 of file references.bib
+Repeated entry---line 1453 of file references.bib
  : @article{ilbert_mass_2013
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1453 of file references.bib
+Repeated entry---line 1468 of file references.bib
  : @article{muzzin_evolution_2013
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1502 of file references.bib
+Repeated entry---line 1517 of file references.bib
  : @article{tomczak_galaxy_2014
  :                             ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1888 of file references.bib
+I was expecting a `,' or a `}'---line 1903 of file references.bib
  : @proceeding{doi: 
  :                  10.1117/12.856027,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1950 of file references.bib
+Repeated entry---line 1965 of file references.bib
  : @article{drory_manga_2015
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1964 of file references.bib
+Repeated entry---line 1979 of file references.bib
  : @article{bundy_overview_2014
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2025 of file references.bib
+Repeated entry---line 2040 of file references.bib
  : @article{bruzual_a._spectral_1983-2
  :                                    ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "york00a"
 Warning--I didn't find a database entry for "martin05a"
-You've used 55 entries,
+You've used 63 entries,
             2229 wiz_defined-function locations,
-            844 strings with 27034 characters,
-and the built_in function-call counts, 42311 in all, are:
-= -- 3387
-> -- 4259
-< -- 19
-+ -- 1662
-- -- 1642
-* -- 4615
-:= -- 7857
-add.period$ -- 165
-call.type$ -- 55
-change.case$ -- 1095
-chr.to.int$ -- 53
-cite$ -- 55
-duplicate$ -- 770
-empty$ -- 1520
-format.name$ -- 1712
-if$ -- 7512
+            892 strings with 30710 characters,
+and the built_in function-call counts, 48973 in all, are:
+= -- 3924
+> -- 4938
+< -- 20
++ -- 1926
+- -- 1904
+* -- 5344
+:= -- 9085
+add.period$ -- 189
+call.type$ -- 63
+change.case$ -- 1266
+chr.to.int$ -- 61
+cite$ -- 63
+duplicate$ -- 882
+empty$ -- 1755
+format.name$ -- 1984
+if$ -- 8702
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 55
-newline$ -- 278
-num.names$ -- 165
-pop$ -- 966
+missing$ -- 63
+newline$ -- 318
+num.names$ -- 189
+pop$ -- 1120
 preamble$ -- 1
-purify$ -- 1095
+purify$ -- 1266
 quote$ -- 0
-skip$ -- 569
+skip$ -- 650
 stack$ -- 0
-substring$ -- 1532
-swap$ -- 55
+substring$ -- 1804
+swap$ -- 63
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 330
+type$ -- 378
 warning$ -- 0
-while$ -- 167
+while$ -- 191
 width$ -- 0
-write$ -- 717
+write$ -- 821
 (There were 10 error messages)
