@@ -48,47 +48,48 @@ Repeated entry---line 2040 of file references.bib
  : @article{bruzual_a._spectral_1983-2
  :                                    ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "959ApJ...129..243S"
 Warning--I didn't find a database entry for "york00a"
 Warning--I didn't find a database entry for "martin05a"
-You've used 63 entries,
+You've used 64 entries,
             2229 wiz_defined-function locations,
-            892 strings with 30710 characters,
-and the built_in function-call counts, 48973 in all, are:
-= -- 3924
-> -- 4938
-< -- 20
-+ -- 1926
-- -- 1904
-* -- 5344
-:= -- 9085
-add.period$ -- 189
-call.type$ -- 63
-change.case$ -- 1266
-chr.to.int$ -- 61
-cite$ -- 63
-duplicate$ -- 882
-empty$ -- 1755
-format.name$ -- 1984
-if$ -- 8702
+            900 strings with 30866 characters,
+and the built_in function-call counts, 49321 in all, are:
+= -- 3959
+> -- 4945
+< -- 21
++ -- 1928
+- -- 1906
+* -- 5371
+:= -- 9146
+add.period$ -- 192
+call.type$ -- 64
+change.case$ -- 1272
+chr.to.int$ -- 62
+cite$ -- 64
+duplicate$ -- 896
+empty$ -- 1784
+format.name$ -- 1987
+if$ -- 8772
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 63
-newline$ -- 318
-num.names$ -- 189
-pop$ -- 1120
+missing$ -- 64
+newline$ -- 323
+num.names$ -- 192
+pop$ -- 1123
 preamble$ -- 1
-purify$ -- 1266
+purify$ -- 1272
 quote$ -- 0
-skip$ -- 650
+skip$ -- 661
 stack$ -- 0
-substring$ -- 1804
-swap$ -- 63
+substring$ -- 1837
+swap$ -- 64
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 378
+type$ -- 384
 warning$ -- 0
-while$ -- 191
+while$ -- 194
 width$ -- 0
-write$ -- 821
+write$ -- 834
 (There were 10 error messages)

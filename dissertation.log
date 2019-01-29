@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  22 JAN 2019 00:32
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  29 JAN 2019 09:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1371,64 +1371,69 @@ LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
 (Font)              scaled to size 8.09479pt on input line 67.
  [13] [14] [15] [16] [17] [18]
-[19] [20]) [21]
+[19]
+
+Package natbib Warning: Citation `959ApJ...129..243S' on page 20 undefined on i
+nput line 113.
+
+[20] [21]) [22]
 \openout2 = `chapters/chapter1.aux'.
 
  (./chapters/chapter1.tex
 Chapter 1.
-[22
+[23
 
 
 
 ]
 
-Package natbib Warning: Citation `york00a' on page 23 undefined on input line 8
+Package natbib Warning: Citation `york00a' on page 24 undefined on input line 8
 .
 
 
-Package natbib Warning: Citation `martin05a' on page 23 undefined on input line
+Package natbib Warning: Citation `martin05a' on page 24 undefined on input line
  8.
 
-[23] [24]
+[24] [25]
 Overfull \hbox (6.96745pt too wide) in paragraph at lines 16--16
 |[]\EU1/EBGaramond(3)/m/sc/12 Constructing a local sample spanning Ultraviolet 
 to Infrared Imaging| 
  []
 
 File: figures/sample.png Graphic file (type QTm)
-<use  "figures/sample.png" > [25] [26] [27] [28]
+<use  "figures/sample.png" > [26] [27] [28] [29]
 Overfull \hbox (27.27144pt too wide) in paragraph at lines 121--132
 \EU1/EBGaramond(3)/bx/n/12 optical color whereas, as discussed above, the SSFR$
 []$’s do not. Assuming the SSFR$[]$’s 
  []
 
-[29]
+[30]
 File: figures/1_panel_plot.pdf Graphic file (type QTm)
  <use  "figures/1_panel_plot.pdf" >
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/it' will be
 (Font)              scaled to size 8.09479pt on input line 170.
- [30] [31] [32]
+ [31] [32] [33]
 File: figures/2_env_plot.pdf Graphic file (type QTm)
 
 <use  "figures/2_env_plot.pdf" >
 
 LaTeX Warning: Command \textsubscript invalid in math mode on input line 236.
 
-[33] [34]
+[34] [35]
 File: figures/3_outliers.pdf Graphic file (type QTm)
- <use  "figures/3_outliers.pdf" > [35]
+ <use  "figures/3_outliers.pdf" > [36]
 File: figures/4_jk_plot.pdf Graphic file (type QTm)
 
-<use  "figures/4_jk_plot.pdf" > [36]) [37]
+<use  "figures/4_jk_plot.pdf" > [37]) [38]
 \openout2 = `chapters/chapter2.aux'.
 
  (./chapters/chapter2.tex
 Chapter 2.
-[38
+[39
 
 
 
-] [39] [40]
+] [40] [41]
 
 LaTeX Font Warning: Font shape `EU1/NotoMono(0)/bx/n' undefined
 (Font)              using `EU1/NotoMono(0)/m/n' instead on input line 19.
@@ -1437,7 +1442,7 @@ LaTeX Font Info:    Font shape `EU1/EBGaramond(3)/bx/n' will be
 (Font)              scaled to size 8.0pt on input line 19.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(3)/bx/n' will be
 (Font)              scaled to size 6.0pt on input line 19.
-[41]
+[42]
 File: figures/Kauffmann_grid.png Graphic file (type QTm)
  <use  "figures/Kauffmann_grid.png" >
 LaTeX Font Info:    Font shape `EU1/NotoMono(0)/m/n' will be
@@ -1475,7 +1480,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 40.
 
-[42]
+[43]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 44.
@@ -1495,7 +1500,7 @@ Overfull \hbox (1.45946pt too wide) in paragraph at lines 51--52
 xhibiting some of the same age-metallicity 
  []
 
-[43] [44]
+[44] [45]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 56.
@@ -1508,9 +1513,9 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 56.
 
-[45]
+[46]
 File: figures/gal_aperture.pdf Graphic file (type QTm)
- <use  "figures/gal_aperture.pdf" > [46] [47]
+ <use  "figures/gal_aperture.pdf" > [47] [48]
 File: figures/full_aperture_comparisons.pdf Graphic file (type QTm)
 
 <use  "figures/full_aperture_comparisons.pdf" >
@@ -1538,9 +1543,9 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 111.
 
-[48] [49]
+[49] [50]
 File: figures/dn4000_full_aperture_comparisons.pdf Graphic file (type QTm)
- <use  "figures/dn4000_full_aperture_comparisons.pdf" > [50] [51]
+ <use  "figures/dn4000_full_aperture_comparisons.pdf" > [51] [52]
 File: figures/hdelta_full_aperture_comparisons.pdf Graphic file (type QTm)
 
 <use  "figures/hdelta_full_aperture_comparisons.pdf" >
@@ -1569,37 +1574,37 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 135.
 
 File: figures/quiver_a.pdf Graphic file (type QTm)
-<use  "figures/quiver_a.pdf" > [52]
+<use  "figures/quiver_a.pdf" > [53]
 File: figures/quiver_b.pdf Graphic file (type QTm)
  <use  "figures/quiver_b.pdf" >
 File: figures/quiver_c.pdf Graphic file (type QTm)
 
-<use  "figures/quiver_c.pdf" >) [53] [54] [55] [56]
+<use  "figures/quiver_c.pdf" >) [54] [55] [56] [57]
 \openout2 = `chapters/conclusion.aux'.
 
  (./chapters/conclusion.tex
 Chapter 3.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(3)/bx/n' will be
 (Font)              scaled to size 24.88pt on input line 1.
-) [57
+) [58
 
 
 
 ] (./dissertation.bbl
 LaTeX Font Info:    Font shape `EU1/EBGaramond(3)/bx/it' will be
 (Font)              scaled to size 12.0pt on input line 6.
- [58
+ [59
 
 
 
-] [59] [60]
+] [60] [61]
 Missing character: There is no ^^89 in font EB Garamond 12 Regular/OT:script=la
 tn;language=DFLT;mapping=tex-text;mapping=tex-text;+onum;+liga;mapping=tex-text
 ;!
 Missing character: There is no ^^83 in font EB Garamond 12 Regular/OT:script=la
 tn;language=DFLT;mapping=tex-text;mapping=tex-text;+onum;+liga;mapping=tex-text
 ;!
- [61] [62] [63] [64] [65]) [66]
+ [62] [63] [64] [65] [66]) [67]
 \openout2 = `endmatter/colophon.aux'.
 
 
@@ -1621,12 +1626,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 43.
  ) 
 Here is how much of TeX's memory you used:
- 25667 strings out of 493591
- 455472 string characters out of 6143546
- 491952 words of memory out of 5000000
- 28687 multiletter control sequences out of 15000+600000
+ 25671 strings out of 493591
+ 455573 string characters out of 6143546
+ 492103 words of memory out of 5000000
+ 28691 multiletter control sequences out of 15000+600000
  12504 words of font info for 103 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
- 60i,10n,107p,10404b,553s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,10n,107p,10404b,555s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (72 pages).
+Output written on dissertation.pdf (73 pages).
