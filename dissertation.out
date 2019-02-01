@@ -10,46 +10,47 @@
 \BOOKMARK [2][-]{subsection.0.2.1}{Structure\040Formation\040in\040the\040Universe}{section.0.2}% 10
 \BOOKMARK [2][-]{subsection.0.2.2}{Galaxy\040Properties\040in\040the\040Observable\040Universe}{section.0.2}% 11
 \BOOKMARK [2][-]{subsection.0.2.3}{Questions\040in\040Galaxy\040Evolution}{section.0.2}% 12
-\BOOKMARK [1][-]{section.0.3}{Observational\040Indicators\040of\040Star\040Formation}{chapter.0}% 13
+\BOOKMARK [1][-]{section.0.3}{Observational\040Indicators\040of\040Star\040Formation\040and\040Stellar\040Mass}{chapter.0}% 13
 \BOOKMARK [2][-]{subsection.0.3.1}{Integrated\040Star\040Formation\040Rates\040for\040Galaxies}{section.0.3}% 14
 \BOOKMARK [2][-]{subsection.0.3.2}{Spectral\040Diagnostics\040and\040Stellar\040Population\040Synthesis\040Models}{section.0.3}% 15
-\BOOKMARK [1][-]{section.0.4}{Star\040Formation\040in\040the\040Local\040Universe}{chapter.0}% 16
-\BOOKMARK [2][-]{subsection.0.4.1}{The\040Age\040of\040Digital\040Survey\040Astronomy}{section.0.4}% 17
-\BOOKMARK [2][-]{subsection.0.4.2}{Constraining\040Star\040Formation\040and\040Stellar\040Mass\040Estimates}{section.0.4}% 18
-\BOOKMARK [2][-]{subsection.0.4.3}{This\040Thesis}{section.0.4}% 19
-\BOOKMARK [0][-]{chapter.1}{UV\040to\040IR\040Star\040Formation\040Indicators\040and\040Environments}{}% 20
-\BOOKMARK [1][-]{section.1.1}{Introduction}{chapter.1}% 21
-\BOOKMARK [1][-]{section.1.2}{Constructing\040a\040local\040sample\040spanning\040Ultraviolet\040to\040Infrared\040Imaging}{chapter.1}% 22
-\BOOKMARK [1][-]{section.1.3}{Estimating\040the\040Specific\040Star\040Formation\040Rates}{chapter.1}% 23
-\BOOKMARK [2][-]{subsection.1.3.1}{SED\040Fitting\040-\040MAGPHYS}{section.1.3}% 24
-\BOOKMARK [2][-]{subsection.1.3.2}{UV\040Star\040Formation\040Rates}{section.1.3}% 25
-\BOOKMARK [1][-]{section.1.4}{Environments}{chapter.1}% 26
-\BOOKMARK [2][-]{subsection.1.4.1}{Measures\040of\040Environment}{section.1.4}% 27
-\BOOKMARK [2][-]{subsection.1.4.2}{Edge\040Effects}{section.1.4}% 28
-\BOOKMARK [2][-]{subsection.1.4.3}{Environments\040in\040Color-Color\040Space}{section.1.4}% 29
-\BOOKMARK [1][-]{section.1.5}{The\040Environments\040of\040the\040Outliers}{chapter.1}% 30
-\BOOKMARK [2][-]{subsection.1.5.1}{Green-valley\040interlopers}{section.1.5}% 31
-\BOOKMARK [2][-]{subsection.1.5.2}{Jackknife\040Errors}{section.1.5}% 32
-\BOOKMARK [1][-]{section.1.6}{Summary\040and\040Conclusion}{chapter.1}% 33
-\BOOKMARK [0][-]{chapter.2}{Aperture\040effects\040in\040Stellar\040Mass\040Estimates}{}% 34
-\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 35
-\BOOKMARK [2][-]{subsection.2.1.1}{The\040SDSS\040spectra}{section.2.1}% 36
-\BOOKMARK [2][-]{subsection.2.1.2}{The\040MPA\040JHU\040Catalog}{section.2.1}% 37
-\BOOKMARK [1][-]{section.2.2}{The H"δA-Dn4000 plane}{chapter.2}% 38
-\BOOKMARK [2][-]{subsection.2.2.1}{Measuring\040the\040Dn4000\040index}{section.2.2}% 39
-\BOOKMARK [2][-]{subsection.2.2.2}{Measuring the H"δA index}{section.2.2}% 40
-\BOOKMARK [1][-]{section.2.3}{Manga\040Overview}{chapter.2}% 41
-\BOOKMARK [2][-]{subsection.2.3.1}{Introduction\040to\040Integral\040Field\040Spectroscopy}{section.2.3}% 42
-\BOOKMARK [2][-]{subsection.2.3.2}{The\040MaNGA\040IFU\040Design}{section.2.3}% 43
-\BOOKMARK [1][-]{section.2.4}{Data}{chapter.2}% 44
-\BOOKMARK [2][-]{subsection.2.4.1}{MaNGA\040Target\040Selection\040and\040DRP}{section.2.4}% 45
-\BOOKMARK [2][-]{subsection.2.4.2}{Our\040Sample}{section.2.4}% 46
-\BOOKMARK [1][-]{section.2.5}{Methods}{chapter.2}% 47
-\BOOKMARK [2][-]{subsection.2.5.1}{Variable\040Aperture\040Measurements}{section.2.5}% 48
-\BOOKMARK [2][-]{subsection.2.5.2}{Variable\040Redshift\040Measurements}{section.2.5}% 49
-\BOOKMARK [2][-]{subsection.2.5.3}{H"δA, Dn4000 Measurements within Apertures}{section.2.5}% 50
-\BOOKMARK [1][-]{section.2.6}{Comparison\040to\040Full\040Aperture\040Measurements}{chapter.2}% 51
-\BOOKMARK [1][-]{section.2.7}{Offsets in the H"δA-Dn4000 plane}{chapter.2}% 52
-\BOOKMARK [1][-]{section.2.8}{Discussion}{chapter.2}% 53
-\BOOKMARK [0][-]{chapter.3}{Conclusion}{}% 54
-\BOOKMARK [0][-]{chapter*.23}{References}{}% 55
+\BOOKMARK [2][-]{subsection.0.3.3}{Estimating\040Stellar\040Mass\040Content}{section.0.3}% 16
+\BOOKMARK [1][-]{section.0.4}{Star\040Formation\040in\040the\040Local\040Universe}{chapter.0}% 17
+\BOOKMARK [2][-]{subsection.0.4.1}{The\040Age\040of\040Digital\040Survey\040Astronomy}{section.0.4}% 18
+\BOOKMARK [2][-]{subsection.0.4.2}{Constraining\040Star\040Formation\040and\040Stellar\040Mass\040Estimates}{section.0.4}% 19
+\BOOKMARK [2][-]{subsection.0.4.3}{This\040Thesis}{section.0.4}% 20
+\BOOKMARK [0][-]{chapter.1}{UV\040to\040IR\040Star\040Formation\040Indicators\040and\040Environments}{}% 21
+\BOOKMARK [1][-]{section.1.1}{Introduction}{chapter.1}% 22
+\BOOKMARK [1][-]{section.1.2}{Constructing\040a\040local\040sample\040spanning\040Ultraviolet\040to\040Infrared\040Imaging}{chapter.1}% 23
+\BOOKMARK [1][-]{section.1.3}{Estimating\040the\040Specific\040Star\040Formation\040Rates}{chapter.1}% 24
+\BOOKMARK [2][-]{subsection.1.3.1}{SED\040Fitting\040-\040MAGPHYS}{section.1.3}% 25
+\BOOKMARK [2][-]{subsection.1.3.2}{UV\040Star\040Formation\040Rates}{section.1.3}% 26
+\BOOKMARK [1][-]{section.1.4}{Environments}{chapter.1}% 27
+\BOOKMARK [2][-]{subsection.1.4.1}{Measures\040of\040Environment}{section.1.4}% 28
+\BOOKMARK [2][-]{subsection.1.4.2}{Edge\040Effects}{section.1.4}% 29
+\BOOKMARK [2][-]{subsection.1.4.3}{Environments\040in\040Color-Color\040Space}{section.1.4}% 30
+\BOOKMARK [1][-]{section.1.5}{The\040Environments\040of\040the\040Outliers}{chapter.1}% 31
+\BOOKMARK [2][-]{subsection.1.5.1}{Green-valley\040interlopers}{section.1.5}% 32
+\BOOKMARK [2][-]{subsection.1.5.2}{Jackknife\040Errors}{section.1.5}% 33
+\BOOKMARK [1][-]{section.1.6}{Summary\040and\040Conclusion}{chapter.1}% 34
+\BOOKMARK [0][-]{chapter.2}{Aperture\040effects\040in\040Stellar\040Mass\040Estimates}{}% 35
+\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 36
+\BOOKMARK [2][-]{subsection.2.1.1}{The\040SDSS\040spectra}{section.2.1}% 37
+\BOOKMARK [2][-]{subsection.2.1.2}{The\040MPA\040JHU\040Catalog}{section.2.1}% 38
+\BOOKMARK [1][-]{section.2.2}{The H"δA-Dn4000 plane}{chapter.2}% 39
+\BOOKMARK [2][-]{subsection.2.2.1}{Measuring\040the\040Dn4000\040index}{section.2.2}% 40
+\BOOKMARK [2][-]{subsection.2.2.2}{Measuring the H"δA index}{section.2.2}% 41
+\BOOKMARK [1][-]{section.2.3}{Manga\040Overview}{chapter.2}% 42
+\BOOKMARK [2][-]{subsection.2.3.1}{Introduction\040to\040Integral\040Field\040Spectroscopy}{section.2.3}% 43
+\BOOKMARK [2][-]{subsection.2.3.2}{The\040MaNGA\040IFU\040Design}{section.2.3}% 44
+\BOOKMARK [1][-]{section.2.4}{Data}{chapter.2}% 45
+\BOOKMARK [2][-]{subsection.2.4.1}{MaNGA\040Target\040Selection\040and\040DRP}{section.2.4}% 46
+\BOOKMARK [2][-]{subsection.2.4.2}{Our\040Sample}{section.2.4}% 47
+\BOOKMARK [1][-]{section.2.5}{Methods}{chapter.2}% 48
+\BOOKMARK [2][-]{subsection.2.5.1}{Variable\040Aperture\040Measurements}{section.2.5}% 49
+\BOOKMARK [2][-]{subsection.2.5.2}{Variable\040Redshift\040Measurements}{section.2.5}% 50
+\BOOKMARK [2][-]{subsection.2.5.3}{H"δA, Dn4000 Measurements within Apertures}{section.2.5}% 51
+\BOOKMARK [1][-]{section.2.6}{Comparison\040to\040Full\040Aperture\040Measurements}{chapter.2}% 52
+\BOOKMARK [1][-]{section.2.7}{Offsets in the H"δA-Dn4000 plane}{chapter.2}% 53
+\BOOKMARK [1][-]{section.2.8}{Discussion}{chapter.2}% 54
+\BOOKMARK [0][-]{chapter.3}{Conclusion}{}% 55
+\BOOKMARK [0][-]{chapter*.23}{References}{}% 56

@@ -239,8 +239,13 @@ Kennicutt, R.~C. \& Evans, N.~J. (2012).
 \newblock Star {{Formation}} in the {{Milky Way}} and {{Nearby Galaxies}}.
 \newblock {\em Annual Review of Astronomy and Astrophysics}, 50(1), 531--608.
 
-\bibitem[{Kennicutt}, 1998]{1998ApJ...498..541K}
-{Kennicutt}, Jr., R.~C. (1998).
+\bibitem[{Kennicutt}, 1998a]{1998ARA&A..36..189K}
+{Kennicutt}, Jr., R.~C. (1998a).
+\newblock {Star Formation in Galaxies Along the Hubble Sequence}.
+\newblock {\em \araa}, 36, 189--232.
+
+\bibitem[{Kennicutt}, 1998b]{1998ApJ...498..541K}
+{Kennicutt}, Jr., R.~C. (1998b).
 \newblock {The Global Schmidt Law in Star-forming Galaxies}.
 \newblock {\em \apj}, 498, 541--552.
 
@@ -375,6 +380,11 @@ Salim, S., Rich, R.~M., Charlot, S., Brinchmann, J., Johnson, B.~D.,
   {others} (2007b).
 \newblock {UV} {Star} {Formation} {Rates} in the {Local} {Universe}.
 \newblock {\em The Astrophysical Journal Supplement Series}, 173(2), 267.
+
+\bibitem[{Salpeter}, 1955]{1955ApJ...121..161S}
+{Salpeter}, E.~E. (1955).
+\newblock {The Luminosity Function and Stellar Evolution.}
+\newblock {\em \apj}, 121, 161.
 
 \bibitem[S\'anchez et~al., 2012]{sanchez_califa_2012}
 S\'anchez, S.~F., Kennicutt, R.~C., {Gil de Paz}, A., {van de Ven}, G.,

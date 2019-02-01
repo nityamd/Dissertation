@@ -70,6 +70,7 @@
 \newcommand\mnras{some journal name}
 \newcommand\nat{some journal name}
 \newcommand\aj{some journal name}
+\newcommand\araa{some journal name}
 \newcommand{\lt}{\ensuremath <}
 % \usepackage{fixltx2e}
 \usepackage{ragged2e}

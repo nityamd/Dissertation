@@ -215,7 +215,7 @@ additional predictions the simulations may make, depends on the
 reliability of the observations they are tuned to.
 
 
-\section{Observational Indicators of Star Formation}
+\section{Observational Indicators of Star Formation and Stellar Mass}
 
 In this section we will explore the question of how we can observationally infer star formation in galaxies. This is intrinsically tied to fundamental questions regarding what determines the rate at which galaxies convert gas into stars, the spatial regions within the galaxy where star formation occurs and the physical mechanisms such as feedback, jets, etc that might govern the process. 
 
@@ -223,21 +223,24 @@ In this section we will explore the question of how we can observationally infer
 
 Since we know that star formation ultimately is the result of the collapse of Giant Molecular Clouds (GMC) of cold gas, it follows that the star formation rate in a galaxy must relate to the availability of cold molecular gas. It was first proposed by Schmidt in 1959 \citep{959ApJ...129..243S} that star formation in a galaxy scales with the the surface density of gas in the galaxy. The star formation rate, it was proposed by Robert Kennicutt \citep{1998ApJ...498..541K} per unit area is related to the mean surface density of the cold gas in the galaxy by a power law:\\
 $$\Epsilon_{\rm SF}  = A{\Epsilon_{\rm g}}^N$$
-The determination of N relied on a host of empirical studies based on gas content and star formation from a host of disk and starburst galaxies and was found to be $\sim 1.3-1.5$ and came to be known as the Kennicutt-Schmidt Law. The gas content can be thought of as a combination of neutral Hydrogen (HI) and molecular gas. One of the ways of inferring the neutral hydrogen content in a galaxy is through the 21 cm emission line flux, but this is a weak signal that occurs in the radio wave region of the electromagnetic spectrum and at higher redshifts, this becomes more difficult to observe. Molecular gas can be inferred from CO and HCN transitions for instance. To constrain the value of ``N",  \citet{1998ApJ...498..541K} used a few well known Star Formation Rate (SFR) tracers such as $H\alpha$ imaging and far-infrared photometry, both of which are discussed below.\\
+The determination of N relied on a host of empirical studies based on gas content and star formation from a host of disk and starburst galaxies and was found to be $\sim 1.3-1.5$ and came to be known as the Kennicutt-Schmidt Law.  The gas content can be thought of as a combination of neutral Hydrogen (HI) and molecular gas. One of the ways of inferring the neutral hydrogen content in a galaxy is through the 21 cm emission line flux, but this is a weak signal that occurs in the radio wave region of the electromagnetic spectrum and at higher redshifts, this becomes more difficult to observe. Molecular gas can be inferred from CO and HCN transitions for instance. To constrain the value of ``N",  \citet{1998ApJ...498..541K} used a few well known Star Formation Rate (SFR) tracers such as $H\alpha$ imaging and far-infrared photometry, both of which are discussed further in this section.\\
 
-The star formation in galaxies results in the heating up of the Interstellar Medium (ISM) which in turn results in emissions from ionized gas. The most significant of these is the Balmer emission lines due to emission from ionized Hydrogen. A region that contains clouds with ionized Hydrogen emission in a galaxy is known as a HII region and the presence of HII regions in a galaxy is thus a tracer of recent star formation. Arguably the most relevant Balmer line for star formation is the emission line corresponding to the transition from the third to the second energy level in the hydrogen atom, also known as the $H\alpha$ line that occurs at the visible red part of the electromagnetic spectrum at $656.28 {\rm nm}$. Thus, one of the most widely used estimators of SFR is a linear function of the emission line luminosity of the $H\alpha$ line: (\citet{1994ApJ...435...22K, 1998ApJ...498..106M})
-$${\rm SFR}\hbox{ }({\rm M}_{\odot} {\rm yr}^{-1}) = 7.9 \times 10^{42} {\rm L}({\rm H}\alpha) \hbox{ }({\rm ergs }\hbox{ } {\rm s}^{-1})$$
+To be able to infer star formation rates from galaxies, one has to investigate their stellar populations. As it is almost impossible to resolve stars in galaxies (barring the closest ones) even with space telescopes, to get the star formation properties of a galaxy, we rely on integrated light measurements in the Ultraviolet (UV) and Infrared (IR) continuum or the so-called nebular recombination lines. A comprehensive review of this subject can be found in \citet{1998ARA&A..36..189K}. For instance, as younger stars tend to be bluer, it is reasonable to expect that continuum luminosity integrated across the blue or near-UV part of the spectrum would be an indicator of recent star formation. However, depending on the Initial Mass Function (IMF) of the galaxy, often a considerable part of the blue spectrum is the result of old stars as well. Thus to ascertain how much of the blue light is due to recent star formation, one has to calibrate the SFR-Luminosity relation using an evolutionary synthesis model (Section \ref{sed}) that presupposes an IMF and provides this scaling as a function of color. The result of the \citet{1998ApJ...498..106M} calibration to a Salpeter IMF \citep{1955ApJ...121..161S} gives us a star formation rate as a function of UV Luminosity ${\rm L}_{\nu}$(in a wavelength range of 1500?2800 \AA):
+$${\rm SFR}\hbox{ }({\rm M}_{\odot} {\rm yr}^{-1}) = 1.4 \times 10^{-28} {\rm L}_{\nu} \hbox{ }({\rm ergs }\hbox{ } {\rm s}^{-1})\hbox{ } {\rm Hz}^{-1})$$\\
 
+The significant issue with prescribing a UV star formation rate is the presence of dust in galaxies. Dust tends to absorb a significant fraction of the bluer part of the spectrum and re-emit in the infrared. Any UV star formation measurement thus needs to account for this dust attenuation, a problem we will discuss further in Chapter \ref{ch:sfrk}. However this exact property of dust gives us another strong signal for star formation, now from integrated light in the IR continuum. The thermal re-emission of dust occurs in the FIR (far-infrared) part of the spectrum (10 $\mu$m - 100 $\mu$m). In principle, this makes the FIR Luminosity a tracer of young stellar population. However this is dependent on the dust opacity and how much of it is heated by the younger stellar populations. The optimal situation for a SFR based on ${\rm L}_{\rm FIR}$ would be as a tracer of dusty circum-nuclear starbursts.\\
 
+The star formation in galaxies results in the heating up of the Interstellar Medium (ISM) which in turn results in emissions from ionized gas. The most significant of these is the Balmer emission lines due to emission from ionized Hydrogen. A region that contains clouds with ionized Hydrogen emission in a galaxy is known as a HII region and the presence of HII regions in a galaxy is thus a probe of a young massive stellar population. Arguably the most relevant Balmer line for star formation is the emission line corresponding to the transition from the third to the second energy level in the hydrogen atom, also known as the $H\alpha$ line that occurs at the visible red part of the electromagnetic spectrum at $656.28 {\rm nm}$. Thus, one of the most widely used estimators of SFR is a linear function of the emission line luminosity of the $H\alpha$ line (\citet{1994ApJ...435...22K, 1998ApJ...498..106M}):
+$${\rm SFR}\hbox{ }({\rm M}_{\odot} {\rm yr}^{-1}) = 7.9 \times 10^{42} {\rm L}({\rm H}\alpha) \hbox{ }({\rm ergs }\hbox{ } {\rm s}^{-1})$$\\
 
-IR star formation rates
-UV star formation rates
-
-
-{\bf MRB says: You probably want to also have something
-about observation of stellar mass distribution.}
+There are many other nebular emission lines including the other Balmer lines such as $H\beta$ - however these tend to be weakened by stellar absorption. Additionally, there are the so-called forbidden lines such as [OII] doublet which occurs at 3727 \AA, for instance which are sensitive to the ionization state of the gas and thus, tracers of star formation as well. However, dust attenuation is a significant factor here as well, though less so than the UV star formation rates. All the star formation rates discussed above assume some priors on the evolution of the galaxy from the IMF chosen to the timelines of starbursts and effective stellar population synthesis models are required to be able to successfully account for the spectral energy distribution of the galaxy and give accurate insights into the stellar and dust content of the galaxy.\\
 
 \subsection{Spectral Diagnostics and Stellar Population Synthesis Models}
+
+\subsection{Estimating Stellar Mass Content}
+
+
+\label{sed}
 {\bf MRB says: I assume this section is about observations 
 of SF in galaxies. That would make sense. You need to 
 introduce importance of dust here.}
@@ -248,6 +251,11 @@ Absorption lines
 
 {\bf MRB: Maybe combine this with the next.}
 SED's: Stebbins Whitford: \href{http://adsabs.harvard.edu/abs/1968ApJ...154...21O}.
+
+
+
+{\bf MRB says: You probably want to also have something
+about observation of stellar mass distribution.}
 
 \section{Star Formation in the Local Universe}
 
