@@ -9,15 +9,14 @@
 \contentsline {section}{\numberline {0.2}Galaxy Formation and Evolution}{11}{section.0.2}
 \contentsline {subsection}{\numberline {0.2.1}Structure Formation in the Universe}{11}{subsection.0.2.1}
 \contentsline {subsection}{\numberline {0.2.2}Galaxy Properties in the Observable Universe}{15}{subsection.0.2.2}
-\contentsline {subsection}{\numberline {0.2.3}Galaxies as Star Formation Factories}{18}{subsection.0.2.3}
-\contentsline {subsection}{\numberline {0.2.4}Questions in Galaxy Evolution}{20}{subsection.0.2.4}
+\contentsline {subsection}{\numberline {0.2.3}Questions in Galaxy Evolution}{18}{subsection.0.2.3}
 \contentsline {section}{\numberline {0.3}Observational Indicators of Star Formation}{20}{section.0.3}
 \contentsline {subsection}{\numberline {0.3.1}Integrated Star Formation Rates for Galaxies}{20}{subsection.0.3.1}
-\contentsline {subsection}{\numberline {0.3.2}What can we infer from a Galaxy Spectrum?}{21}{subsection.0.3.2}
-\contentsline {subsection}{\numberline {0.3.3}What can we infer from Photometry?}{22}{subsection.0.3.3}
+\contentsline {subsection}{\numberline {0.3.2}Spectral Diagnostics and Stellar Population Synthesis Models}{22}{subsection.0.3.2}
 \contentsline {section}{\numberline {0.4}Star Formation in the Local Universe}{22}{section.0.4}
 \contentsline {subsection}{\numberline {0.4.1}The Age of Digital Survey Astronomy}{22}{subsection.0.4.1}
-\contentsline {subsection}{\numberline {0.4.2}Contraining Star Formation and Stellar Mass Estimates}{22}{subsection.0.4.2}
+\contentsline {subsection}{\numberline {0.4.2}Constraining Star Formation and Stellar Mass Estimates}{22}{subsection.0.4.2}
+\contentsline {subsection}{\numberline {0.4.3}This Thesis}{22}{subsection.0.4.3}
 \contentsline {chapter}{\numberline {1}UV to IR Star Formation Indicators and Environments}{23}{chapter.1}
 \contentsline {section}{\numberline {1.1}Introduction}{24}{section.1.1}
 \contentsline {section}{\numberline {1.2}Constructing a local sample spanning Ultraviolet to Infrared Imaging}{26}{section.1.2}

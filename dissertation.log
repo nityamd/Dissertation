@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  29 JAN 2019 09:31
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  31 JAN 2019 20:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1374,7 +1374,7 @@ LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
 [19]
 
 Package natbib Warning: Citation `959ApJ...129..243S' on page 20 undefined on i
-nput line 113.
+nput line 224.
 
 [20] [21]) [22]
 \openout2 = `chapters/chapter1.aux'.
@@ -1626,10 +1626,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 43.
  ) 
 Here is how much of TeX's memory you used:
- 25671 strings out of 493591
- 455573 string characters out of 6143546
- 492103 words of memory out of 5000000
- 28691 multiletter control sequences out of 15000+600000
+ 25656 strings out of 493591
+ 455138 string characters out of 6143546
+ 492823 words of memory out of 5000000
+ 28676 multiletter control sequences out of 15000+600000
  12504 words of font info for 103 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  60i,10n,107p,10404b,555s stack positions out of 5000i,500n,10000p,200000b,80000s

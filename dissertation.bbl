@@ -17,16 +17,6 @@ Bacon, R., Brinchmann, J., Richard, J., Contini, T., Drake, A., Franx, M.,
 \newblock The {{MUSE 3D}} view of the {{{\emph{Hubble}}}} {{Deep Field South}}.
 \newblock {\em Astronomy \& Astrophysics}, 575, A75.
 
-\bibitem[{Baldry} et~al., 2012]{2012MNRAS.421..621B}
-{Baldry}, I.~K., {Driver}, S.~P., {Loveday}, J., {Taylor}, E.~N., {Kelvin},
-  L.~S., {Liske}, J., {Norberg}, P., {Robotham}, A.~S.~G., {Brough}, S.,
-  {Hopkins}, A.~M., {Bamford}, S.~P., {Peacock}, J.~A., {Bland-Hawthorn}, J.,
-  {Conselice}, C.~J., {Croom}, S.~M., {Jones}, D.~H., {Parkinson}, H.~R.,
-  {Popescu}, C.~C., {Prescott}, M., {Sharp}, R.~G., \& {Tuffs}, R.~J. (2012).
-\newblock {Galaxy And Mass Assembly (GAMA): the galaxy stellar mass function at
-  z $\lt$ 0.06}.
-\newblock {\em \mnras}, 421, 621--634.
-
 \bibitem[{Balogh} et~al., 1999]{1999ApJ...527...54B}
 {Balogh}, M.~L., {Morris}, S.~L., {Yee}, H.~K.~C., {Carlberg}, R.~G., \&
   {Ellingson}, E. (1999).
@@ -39,12 +29,6 @@ Behroozi, P.~S., Conroy, C., \& Wechsler, R.~H. (2010).
 \newblock A {{COMPREHENSIVE ANALYSIS OF UNCERTAINTIES AFFECTING THE STELLAR
   MASS}}-{{HALO MASS RELATION FOR}} 0 \&lt; {\emph{z}} \&lt; 4.
 \newblock {\em The Astrophysical Journal}, 717(1), 379--403.
-
-\bibitem[{Benson} et~al., 2003]{2003ApJ...599...38B}
-{Benson}, A.~J., {Bower}, R.~G., {Frenk}, C.~S., {Lacey}, C.~G., {Baugh},
-  C.~M., \& {Cole}, S. (2003).
-\newblock {What Shapes the Luminosity Function of Galaxies?}
-\newblock {\em \apj}, 599, 38--49.
 
 \bibitem[{Blanton} et~al., 2006]{2006ApJ...645..977B}
 {Blanton}, M.~R., {Eisenstein}, D., {Hogg}, D.~W., \& {Zehavi}, I. (2006).
@@ -62,6 +46,13 @@ Behroozi, P.~S., Conroy, C., \& Wechsler, R.~H. (2010).
 \newblock {The Broadband Optical Properties of Galaxies with Redshifts
   0.02$\lt$z$\lt$0.22}.
 \newblock {\em \apj}, 594, 186--207.
+
+\bibitem[{Blanton} et~al., 2005]{blanton05a}
+{Blanton}, M.~R., {Lupton}, R.~H., {Schlegel}, D.~J., {Strauss}, M.~A.,
+  {Brinkmann}, J., {Fukugita}, M., \& {Loveday}, J. (2005).
+\newblock {The Properties and Luminosity Function of Extremely Low Luminosity
+  Galaxies}.
+\newblock {\em \apj}, 631, 208--230.
 
 \bibitem[Blanton \& Moustakas, 2009a]{blanton_physical_2009-1}
 Blanton, M.~R. \& Moustakas, J. (2009a).
@@ -139,23 +130,6 @@ Burgarella, D., Buat, V., Gruppioni, C., Cucciati, O., Heinis, S., Berta, S.,
   $\leq$ {\emph{z}} $\leq$ 4) of dust attenuation and of the total
   ({{UV}}+{{IR}}) star formation rate density.
 \newblock {\em Astronomy \& Astrophysics}, 554, A70.
-
-\bibitem[{Cappellari} et~al., 2012]{2012Natur.484..485C}
-{Cappellari}, M., {McDermid}, R.~M., {Alatalo}, K., {Blitz}, L., {Bois}, M.,
-  {Bournaud}, F., {Bureau}, M., {Crocker}, A.~F., {Davies}, R.~L., {Davis},
-  T.~A., {de Zeeuw}, P.~T., {Duc}, P.-A., {Emsellem}, E., {Khochfar}, S.,
-  {Krajnovi{\'c}}, D., {Kuntschner}, H., {Lablanche}, P.-Y., {Morganti}, R.,
-  {Naab}, T., {Oosterloo}, T., {Sarzi}, M., {Scott}, N., {Serra}, P.,
-  {Weijmans}, A.-M., \& {Young}, L.~M. (2012).
-\newblock {Systematic variation of the stellar initial mass function in
-  early-type galaxies}.
-\newblock {\em \nat}, 484, 485--488.
-
-\bibitem[{Chabrier}, 2003]{2003PASP..115..763C}
-{Chabrier}, G. (2003).
-\newblock {Galactic Stellar and Substellar Initial Mass Function}.
-\newblock {\em Publications of the Astronomical Society of the Pacific}, 115,
-  763--795.
 
 \bibitem[Cooper et~al., 2005]{cooper_measuring_2005}
 Cooper, M.~C., Newman, J.~A., Madgwick, D.~S., Gerke, B.~F., Yan, R., \& Davis,
@@ -270,10 +244,10 @@ Kennicutt, R.~C. \& Evans, N.~J. (2012).
 \newblock {The Global Schmidt Law in Star-forming Galaxies}.
 \newblock {\em \apj}, 498, 541--552.
 
-\bibitem[{Kroupa}, 2001]{2001MNRAS.322..231K}
-{Kroupa}, P. (2001).
-\newblock {On the variation of the initial mass function}.
-\newblock {\em \mnras}, 322, 231--246.
+\bibitem[{Kennicutt} et~al., 1994]{1994ApJ...435...22K}
+{Kennicutt}, Jr., R.~C., {Tamblyn}, P., \& {Congdon}, C.~E. (1994).
+\newblock {Past and future star formation in disk galaxies}.
+\newblock {\em \apj}, 435, 22--36.
 
 \bibitem[Lee et~al., 2009]{lee_comparison_2009}
 Lee, J.~C., {Gil de Paz}, A., Tremonti, C., Kennicutt, R.~C., Salim, S.,
@@ -283,13 +257,6 @@ Lee, J.~C., {Gil de Paz}, A., Tremonti, C., Kennicutt, R.~C., Salim, S.,
 \newblock {{COMPARISON OF H$\alpha$ AND UV STAR FORMATION RATES IN THE LOCAL
   VOLUME}}: {{SYSTEMATIC DISCREPANCIES FOR DWARF GALAXIES}}.
 \newblock {\em The Astrophysical Journal}, 706(1), 599--613.
-
-\bibitem[Leroy et~al., 2008]{1538-3881-136-6-2782}
-Leroy, A.~K., Walter, F., Brinks, E., Bigiel, F., de~Blok, W. J.~G., Madore,
-  B., \& Thornley, M.~D. (2008).
-\newblock The star formation efficiency in nearby galaxies: Measuring where gas
-  forms stars effectively.
-\newblock {\em The Astronomical Journal}, 136(6), 2782.
 
 \bibitem[{Lewis} et~al., 2002]{2002MNRAS.334..673L}
 {Lewis}, I., {Balogh}, M., {De Propris}, R., {Couch}, W., {Bower}, R., {Offer},
@@ -303,22 +270,15 @@ Leroy, A.~K., Walter, F., Brinks, E., Bigiel, F., de~Blok, W. J.~G., Madore,
   galaxy star formation rates near clusters}.
 \newblock {\em \mnras}, 334, 673--683.
 
-\bibitem[{Loveday} et~al., 2012]{2012MNRAS.420.1239L}
-{Loveday}, J., {Norberg}, P., {Baldry}, I.~K., {Driver}, S.~P., {Hopkins},
-  A.~M., {Peacock}, J.~A., {Bamford}, S.~P., {Liske}, J., {Bland-Hawthorn}, J.,
-  {Brough}, S., {Brown}, M.~J.~I., {Cameron}, E., {Conselice}, C.~J., {Croom},
-  S.~M., {Frenk}, C.~S., {Gunawardhana}, M., {Hill}, D.~T., {Jones}, D.~H.,
-  {Kelvin}, L.~S., {Kuijken}, K., {Nichol}, R.~C., {Parkinson}, H.~R.,
-  {Phillipps}, S., {Pimbblet}, K.~A., {Popescu}, C.~C., {Prescott}, M.,
-  {Robotham}, A.~S.~G., {Sharp}, R.~G., {Sutherland}, W.~J., {Taylor}, E.~N.,
-  {Thomas}, D., {Tuffs}, R.~J., {van Kampen}, E., \& {Wijesinghe}, D. (2012).
-\newblock {Galaxy and Mass Assembly (GAMA): ugriz galaxy luminosity functions}.
-\newblock {\em \mnras}, 420, 1239--1262.
-
 \bibitem[Madau \& Dickinson, 2014]{madau_cosmic_2014}
 Madau, P. \& Dickinson, M. (2014).
 \newblock Cosmic {{Star}}-{{Formation History}}.
 \newblock {\em Annual Review of Astronomy and Astrophysics}, 52(1), 415--486.
+
+\bibitem[{Madau} et~al., 1998]{1998ApJ...498..106M}
+{Madau}, P., {Pozzetti}, L., \& {Dickinson}, M. (1998).
+\newblock {The Star Formation History of Field Galaxies}.
+\newblock {\em \apj}, 498, 106--116.
 
 \bibitem[Moustakas et~al., 2013]{moustakas_primus_2013}
 Moustakas, J., Coil, A.~L., Aird, J., Blanton, M.~R., Cool, R.~J., Eisenstein,
@@ -415,11 +375,6 @@ Salim, S., Rich, R.~M., Charlot, S., Brinchmann, J., Johnson, B.~D.,
   {others} (2007b).
 \newblock {UV} {Star} {Formation} {Rates} in the {Local} {Universe}.
 \newblock {\em The Astrophysical Journal Supplement Series}, 173(2), 267.
-
-\bibitem[{Salpeter}, 1955]{1955ApJ...121..161S}
-{Salpeter}, E.~E. (1955).
-\newblock {The Luminosity Function and Stellar Evolution.}
-\newblock {\em \apj}, 121, 161.
 
 \bibitem[S\'anchez et~al., 2012]{sanchez_califa_2012}
 S\'anchez, S.~F., Kennicutt, R.~C., {Gil de Paz}, A., {van de Ven}, G.,
