@@ -68,9 +68,13 @@
 \renewcommand{\cftchapfont}{\normalsize \scshape}
 \newcommand\apj{some journal name}
 \newcommand\mnras{some journal name}
-\newcommand\nat{some journal name}
 \newcommand\aj{some journal name}
+\newcommand\aap{some journal name}
 \newcommand\araa{some journal name}
+\newcommand\apjl{some journal name}
+\newcommand\apjs{some journal name}
+\newcommand\apss{some journal name}
+\newcommand\rmxaa{some journal name}
 \newcommand{\lt}{\ensuremath <}
 % \usepackage{fixltx2e}
 \usepackage{ragged2e}

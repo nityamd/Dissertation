@@ -177,16 +177,18 @@ that to remain star forming, galaxies require a steady inflow of gas
 from the external environment.
 
 Models of galaxy formation built from numerical hydrodynamic
-simulations are powerful enough now to predict this evolutionary
+simulations (\citet{2015MNRAS.452..575S, 2015MNRAS.450.1937C, 
+2016MNRAS.462.3265D}) are powerful enough now to predict this evolutionary
 process in a cosmological context. However, they can typically resolve
 scale of only 100 pc or so, which is far larger than a forming star or
 even an individual massive molecular cloud. The detailed star
 formation and feedback processes are therefore the product of subgrid
-physics that are calibrated on the observations themselves. There are
-a number of free parameters in the subgrid models, characterizing the
+physics \citep{2007MNRAS.380..963A} that are calibrated on the observations 
+themselves. There are a number of free parameters in the subgrid models, characterizing the
 rate of star formation as a function of local conditions, the effects
-of supernova and stellar feedback, the activity of supermassive black
-holes, and other effects.  The calibration of the parameters used for
+of supernova \citep{2013MNRAS.429.1922C} and stellar feedback 
+\citep{2012MNRAS.421.3522H}, the activity of supermassive black holes, 
+and other effects.  The calibration of the parameters used for
 these simulations, and the use of the simulations as a test of the
 overall picture for cosmological galaxy formation, therefore requires
 that the observations they are calibrated on and compared to are
@@ -205,9 +207,9 @@ determined by the observed stellar mass function.
 
 The star formation patterns are also informative. For star-forming
 galaxies, the star formation rates scale approximately as
-$M_\ast^{2/3}$. Fully quenched galaxies are found at the highest
-masses and/or in the densest regions. What determines the star
-formation rates, and what processes quench some galaxies, are
+$M_\ast^{2/3}$ \citep{2007ApJ...660L..43N}. Fully quenched galaxies are 
+found at the highest masses and/or in the densest regions. What determines the 
+star formation rates, and what processes quench some galaxies, are
 important questions the simulations are designed to help answer. The
 simulation parameters can be tuned to produce these patterns, but the
 meaningfulness of those tuning parameters, and the legitimacy of
@@ -217,42 +219,112 @@ reliability of the observations they are tuned to.
 
 \section{Observational Indicators of Star Formation and Stellar Mass}
 
-In this section we will explore the question of how we can observationally infer star formation in galaxies. This is intrinsically tied to fundamental questions regarding what determines the rate at which galaxies convert gas into stars, the spatial regions within the galaxy where star formation occurs and the physical mechanisms such as feedback, jets, etc that might govern the process. 
+In this section we will review how astronomers observationally infer star formation rates and stellar masses in galaxies. 
+% This is intrinsically tied to fundamental questions regarding what determines the rate at which galaxies convert gas into stars, the spatial regions within the galaxy where star formation occurs, and the physical mechanisms such as feedback, jets, etc that might govern the process. 
 
 \subsection{Integrated Star Formation Rates for Galaxies}
 
-Since we know that star formation ultimately is the result of the collapse of Giant Molecular Clouds (GMC) of cold gas, it follows that the star formation rate in a galaxy must relate to the availability of cold molecular gas. It was first proposed by Schmidt in 1959 \citep{959ApJ...129..243S} that star formation in a galaxy scales with the the surface density of gas in the galaxy. The star formation rate, it was proposed by Robert Kennicutt \citep{1998ApJ...498..541K} per unit area is related to the mean surface density of the cold gas in the galaxy by a power law:\\
+Since we know that star formation ultimately is the result of the collapse within Giant Molecular Clouds (GMC) of cold gas, it follows that the star formation rate in a galaxy must relate to the availability of cold molecular gas. It was first proposed by Schmidt in 1959 \citep{1959ApJ...129..243S} that star formation in a galaxy scales with the the surface density of gas in the galaxy. As reviewed by \citet{1998ApJ...498..541K}, the mean surface density of galaxy star formation 
+rate is approximately related to the mean surface density of the 
+cold gas in the galaxy (neutral plus molecular gas) by a power law
+known as the Kennicutt-Schmidt Law:\\
 $$\Epsilon_{\rm SF}  = A{\Epsilon_{\rm g}}^N$$
-The determination of N relied on a host of empirical studies based on gas content and star formation from a host of disk and starburst galaxies and was found to be $\sim 1.3-1.5$ and came to be known as the Kennicutt-Schmidt Law.  The gas content can be thought of as a combination of neutral Hydrogen (HI) and molecular gas. One of the ways of inferring the neutral hydrogen content in a galaxy is through the 21 cm emission line flux, but this is a weak signal that occurs in the radio wave region of the electromagnetic spectrum and at higher redshifts, this becomes more difficult to observe. Molecular gas can be inferred from CO and HCN transitions for instance. To constrain the value of ``N",  \citet{1998ApJ...498..541K} used a few well known Star Formation Rate (SFR) tracers such as $H\alpha$ imaging and far-infrared photometry, both of which are discussed further in this section.\\
+The determination of $N$ relies on a host of empirical studies based on gas content and star formation from a host of disk and starburst galaxies and is found to be $\sim 1.3-1.5$.
+The neutral gas content is detected through emission from the
+21~cm hyperfine transition of hydrogen, assuming a cosmic mean 
+helium fraction.
+Molecular gas is dominated by H$_2$, which unfortunately does not 
+have strong emission lines at typical molecular cloud temperatures.
+The molecular gas mass is typically inferred from trace molecules
+like CO and HCN. 
 
-To be able to infer star formation rates from galaxies, one has to investigate their stellar populations. As it is almost impossible to resolve stars in galaxies (barring the closest ones) even with space telescopes, to get the star formation properties of a galaxy, we rely on integrated light measurements in the Ultraviolet (UV) and Infrared (IR) continuum or the so-called nebular recombination lines. A comprehensive review of this subject can be found in \citet{1998ARA&A..36..189K}. For instance, as younger stars tend to be bluer, it is reasonable to expect that continuum luminosity integrated across the blue or near-UV part of the spectrum would be an indicator of recent star formation. However, depending on the Initial Mass Function (IMF) of the galaxy, often a considerable part of the blue spectrum is the result of old stars as well. Thus to ascertain how much of the blue light is due to recent star formation, one has to calibrate the SFR-Luminosity relation using an evolutionary synthesis model (Section \ref{sed}) that presupposes an IMF and provides this scaling as a function of color. The result of the \citet{1998ApJ...498..106M} calibration to a Salpeter IMF \citep{1955ApJ...121..161S} gives us a star formation rate as a function of UV Luminosity ${\rm L}_{\nu}$(in a wavelength range of 1500?2800 \AA):
+To be able to infer star formation rates from galaxies, one has to
+investigate their stellar populations. As it is almost impossible to
+resolve stars in galaxies (barring the closest ones) even with space
+telescopes, to get the star formation properties of a galaxy, we rely
+on integrated light measurements in the Ultraviolet (UV) and Infrared
+(IR) continuum or the so-called nebular recombination lines. A
+comprehensive review of this subject can be found in
+\citet{kennicutt_star_2012}. For instance, because short-lived,
+massive stars have high temperatures at their surface, the continuum
+luminosity integrated across the blue or near-UV part of the spectrum
+is an indicator of recent star formation.  The quantitative
+relationship between recent star formation and the UV light depends
+for its calibration on evolutionary synthesis models (Section
+\ref{sed}) and an assumption about the stellar initial mass function
+(IMF), since the bulk of the stellar mass is in low mass stars, but
+the bulk of the light comes from the massive stars. For example,
+\citet{1998ApJ...498..106M} and \citet{kennicutt_star_2012} report
+calibrations (assuming a Salpeter IMF; \citealt{1955ApJ...121..161S}):
+relative to the UV Luminosity ${\rm L}_{\nu}$(in a wavelength range of
+1500?2800 \AA):
 $${\rm SFR}\hbox{ }({\rm M}_{\odot} {\rm yr}^{-1}) = 1.4 \times 10^{-28} {\rm L}_{\nu} \hbox{ }({\rm ergs }\hbox{ } {\rm s}^{-1})\hbox{ } {\rm Hz}^{-1})$$\\
 
-The significant issue with prescribing a UV star formation rate is the presence of dust in galaxies. Dust tends to absorb a significant fraction of the bluer part of the spectrum and re-emit in the infrared. Any UV star formation measurement thus needs to account for this dust attenuation, a problem we will discuss further in Chapter \ref{ch:sfrk}. However this exact property of dust gives us another strong signal for star formation, now from integrated light in the IR continuum. The thermal re-emission of dust occurs in the FIR (far-infrared) part of the spectrum (10 $\mu$m - 100 $\mu$m). In principle, this makes the FIR Luminosity a tracer of young stellar population. However this is dependent on the dust opacity and how much of it is heated by the younger stellar populations. The optimal situation for a SFR based on ${\rm L}_{\rm FIR}$ would be as a tracer of dusty circum-nuclear starbursts.\\
+A significant issue with inferring a UV star formation rate is the
+presence of dust in galaxies. Dust absorbs a significant fraction of
+the bluer part of the spectrum, and because of its low temperature
+re-emits the absorbed energy in the mid- and far-infrared. Any UV star
+formation measurement thus needs to account for this dust
+attenuation. Furthermore, because of these effects, the infrared light
+(10--100 $\mu$m) is a tracer of the star formation rate as well.  we
+will discuss further these issues further in Chapter \ref{ch:sfrk}.
 
-The star formation in galaxies results in the heating up of the Interstellar Medium (ISM) which in turn results in emissions from ionized gas. The most significant of these is the Balmer emission lines due to emission from ionized Hydrogen. A region that contains clouds with ionized Hydrogen emission in a galaxy is known as a HII region and the presence of HII regions in a galaxy is thus a probe of a young massive stellar population. Arguably the most relevant Balmer line for star formation is the emission line corresponding to the transition from the third to the second energy level in the hydrogen atom, also known as the $H\alpha$ line that occurs at the visible red part of the electromagnetic spectrum at $656.28 {\rm nm}$. Thus, one of the most widely used estimators of SFR is a linear function of the emission line luminosity of the $H\alpha$ line (\citet{1994ApJ...435...22K, 1998ApJ...498..106M}):
+Star formation in galaxies, specifically the production of hot and
+massive stars, results in the heating and ionization of gas in the
+Interstellar Medium (ISM), which in turn leads to observable line
+emission.  The most significant of these are the Balmer emission lines
+due to emission from Hydrogen during the recombination processes that
+balance the ionization processes in the nebulae surrounding hot
+stars. These nebulae are known as HII regions, and the presence of HII
+regions in a galaxy and their characteristic Balmer line emission is
+thus a probe of a young massive stellar population. The strongest of
+these recombination lines in the optical is the $n=3$ to $n=2$
+transition, the $H\alpha$ line at $656.28 {\rm nm}$. During the
+recombination process, electrons enter at typically high $n$ states.
+following that event, any direct transition from some high $n$ to the
+$n=1$ state will lead to a photon which is quickly absorbed under
+nebular conditions by exciting another nearby atom. This resonant
+scattering continues under the photon is absorbed on dust, or a rare
+2-photon decay occurs from the $2s$ state, or Doppler shifts scatter
+the photon into the wings of the absorption line. The net effect is
+that almost every ionizing photon leads to a Balmer photon. The ratio
+of the resulting Balmer lines to each other can be calculated and is
+relatively constant, with weak dependence on temperature or electron
+density.  Thus, one of the most widely used estimators of SFR is a
+linear function of the emission line luminosity of the $H\alpha$ line
+(\citet{1994ApJ...435...22K, 1998ApJ...498..106M}):
 $${\rm SFR}\hbox{ }({\rm M}_{\odot} {\rm yr}^{-1}) = 7.9 \times 10^{42} {\rm L}({\rm H}\alpha) \hbox{ }({\rm ergs }\hbox{ } {\rm s}^{-1})$$\\
+The bluer Balmer emission lines  such sa
+as $H\beta$ are intrinsically weaker, and often substantially
+dust-reddened. 
 
-There are many other nebular emission lines including the other Balmer lines such as $H\beta$ - however these tend to be weakened by stellar absorption. Additionally, there are the so-called forbidden lines such as [OII] doublet which occurs at 3727 \AA, for instance which are sensitive to the ionization state of the gas and thus, tracers of star formation as well. However, dust attenuation is a significant factor here as well, though less so than the UV star formation rates. All the star formation rates discussed above assume some priors on the evolution of the galaxy from the IMF chosen to the timelines of starbursts and effective stellar population synthesis models are required to be able to successfully account for the spectral energy distribution of the galaxy and give accurate insights into the stellar and dust content of the galaxy.\\
+Collisionally excited lines such as the [OII] doublet at 3727
+\AA\ also correlate with star formation, but are much more sensitive
+to the metallicity, temperature, and density of the gas.
+
+All the star formation rates discussed above assume some priors on the
+evolution of the galaxy from the IMF chosen to the timelines of
+starbursts and effective stellar population synthesis models are
+required to be able to successfully account for the spectral energy
+distribution of the galaxy and give accurate insights into the stellar
+and dust content of the galaxy.\\
 
 \subsection{Spectral Diagnostics and Stellar Population Synthesis Models}
-
-\subsection{Estimating Stellar Mass Content}
-
-
 \label{sed}
-{\bf MRB says: I assume this section is about observations 
-of SF in galaxies. That would make sense. You need to 
-introduce importance of dust here.}
 
-Continuum
-Emission lines
-Absorption lines
+The galaxy spectrum contains an imprint of its Star Formation History (SFH), stellar metallicity and abundance pattern, stellar Initial Mass Function (IMF), total stellar mass and the nature of its gas and dust content. However, to be able to interpret the details in a spectrum accurately, one has to rely on evolutionary synthesis models or what are called Stellar Population Synthesis (SPS) models. Typically these models contain a comprehensive library of stellar spectra of stars across ages, masses and luminosities. The earliest such models (\citet{1971ApJS...22..445S, 1972A&A....20..361F}) relied on using a linear combination of the diverse individual stellar spectra to reconstruct the integrated light emission from a galaxy. However as this might conceivably involve way too many parameters, the more recent models (\citet{1995ApJS...96....9L, 2002A&A...392....1S, bruzual_stellar_2003}) involve time-evolving a handful of global parameters such as the IMF, the SFR and the rate of chemical enrichment, for instance. This in turn results in distribution of stellar populations from which the integrated spectrum of the galaxy can be computed.\\
 
-{\bf MRB: Maybe combine this with the next.}
-SED's: Stebbins Whitford: \href{http://adsabs.harvard.edu/abs/1968ApJ...154...21O}.
+Broadly speaking, SPS models require the following ingredients: \citep{2011Ap&SS.331....1W} an initial mass function (IMF), stellar evolutionary tracks (isochrones), stellar spectral libraries and a star formation model parametrized with an analytic function for SFR. The choice of IMF (\citet{1955ApJ...121..161S, 2001MNRAS.322..231K, 2003PASP..115..763C}) determines the distribution of stellar masses initially and the the spectral libraries convert the stellar evolution outputs such as surface gravity and effective temperature into observable Spectral Energy Distributions (SED's). The spectral libraries can either be calculated theoretically (\citet{2005A&A...443..735C, 2005A&A...436.1049M}) or on a purely empirical basis and are oftentimes a combination of both. Some notable modern stellar spectral libraries constructed from observations are ELODIE \citep{2004astro.ph..9214P}, STELIB \citep{2003A&A...402..433L}, MILES \citep{2006MNRAS.371..703S}, etc.\\
 
+The next step in reconstructing the SED of a galaxy would be to account for the effect of the Interstellar Medium (ISM) on the integrated light from the simple stellar populations. The ISM primarily comprises of gas and dust and a model to account for the radiative transfer through the ISM is needed. Photoionization codes such as CLOUDY \citep{2013RMxAA..49..137F} account for the ionization of atomic gas by star light. The more significant effect on the SED comes from dust which redistributes the flux densities not just via scattering but also by absorbing from the bluer part of the spectrum and re-emitting light in the infrared. Effective models of dust \citet{calzetti_calibration_2007, 2007ApJ...657..810D} are thus almost always combined with the SPS models.\\
 
+The evolutionary synthesis models combined with the dust models can effectively offer a snapshot of a galaxy template at any instant in its cosmic history as needed, thus enabling them to be able to fit photometric/spectroscopic data from galaxies at arbitrary redshifts. The method of fitting observed data using a SPS model to infer the physical properties of a galaxy is known as SED fitting. The input data can either be in the form of photometric broadband fluxes or observed spectra and sometimes, spectral indices. A recent review on the subject of SED fitting can be found in \citet{conroy_modeling_2013}.\\ 
+
+Typically, a SED fitting method needs to reliably search the model space of the SPS and dust libraries at a redshift comparable to the redshift of the observed galaxy to fit for a chosen set of parameters relating to the SFH and dust attenuation. While most SED fitting codes employ a grid-based ${\chi}^{2}$ minimization technique, depending on the size of the parameter space, other methods such as Markov Chain Monte Carlo (MCMC), Principle Component Analysis (PCA) have been used as well. Some commonly used full UV-to-IR SED fitting packages are MAGPHYS \citep{da_cunha_simple_2008}, CIGALE \citep{2009A&A...507.1793N} and Prospector \citep{2017ApJ...837..170L}.\\
+
+There are a couple of things worth noting about SED fitting. Firstly, what is being fitted to is often the ``shape" of the spectrum, i.e., we are concerned with reproducing the observed relative flux ratios (i.e. colors) between the photometric bandpasses. Thus, the inferred properties are independent of the bolometric luminosity and commonly derived parameters are the mass-to-light ratios (M/L) of the galaxy, the Specific Star Formation Rate (SSFR, the SFR per unit solar mass), dust attenuation and metallicity. Secondly, the robustness of fitting an SED to observed spectrometric/photometric data relies a lot on how the systematic uncertainties in the SPS (and dust) models are accounted for. Thus the priors on the SFH and dust libraries can significantly impact the inference of the stellar mass, SFR and mean stellar age.\\
+
+\subsection{Inferring SFR and $M_{*}$ from SED fitting}
 
 {\bf MRB says: You probably want to also have something
 about observation of stellar mass distribution.}
@@ -263,8 +335,6 @@ about observation of stellar mass distribution.}
 as a reanalysis of Legacy photometry}
 
 \subsection{The Age of Digital Survey Astronomy}
-
-\subsection{Constraining Star Formation and Stellar Mass Estimates}
 
 \subsection{This Thesis}
 Brief overview of structure of thesis

@@ -13,44 +13,43 @@
 \contentsline {section}{\numberline {0.3}Observational Indicators of Star Formation and Stellar Mass}{20}{section.0.3}
 \contentsline {subsection}{\numberline {0.3.1}Integrated Star Formation Rates for Galaxies}{20}{subsection.0.3.1}
 \contentsline {subsection}{\numberline {0.3.2}Spectral Diagnostics and Stellar Population Synthesis Models}{23}{subsection.0.3.2}
-\contentsline {subsection}{\numberline {0.3.3}Estimating Stellar Mass Content}{23}{subsection.0.3.3}
-\contentsline {section}{\numberline {0.4}Star Formation in the Local Universe}{24}{section.0.4}
-\contentsline {subsection}{\numberline {0.4.1}The Age of Digital Survey Astronomy}{24}{subsection.0.4.1}
-\contentsline {subsection}{\numberline {0.4.2}Constraining Star Formation and Stellar Mass Estimates}{24}{subsection.0.4.2}
-\contentsline {subsection}{\numberline {0.4.3}This Thesis}{24}{subsection.0.4.3}
-\contentsline {chapter}{\numberline {1}UV to IR Star Formation Indicators and Environments}{25}{chapter.1}
-\contentsline {section}{\numberline {1.1}Introduction}{26}{section.1.1}
-\contentsline {section}{\numberline {1.2}Constructing a local sample spanning Ultraviolet to Infrared Imaging}{28}{section.1.2}
-\contentsline {section}{\numberline {1.3}Estimating the Specific Star Formation Rates}{30}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}SED Fitting - MAGPHYS}{30}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}UV Star Formation Rates}{31}{subsection.1.3.2}
-\contentsline {section}{\numberline {1.4}Environments}{33}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Measures of Environment}{33}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}Edge Effects}{35}{subsection.1.4.2}
-\contentsline {subsection}{\numberline {1.4.3}Environments in Color-Color Space}{35}{subsection.1.4.3}
-\contentsline {section}{\numberline {1.5}The Environments of the Outliers}{37}{section.1.5}
-\contentsline {subsection}{\numberline {1.5.1}Green-valley interlopers}{37}{subsection.1.5.1}
-\contentsline {subsection}{\numberline {1.5.2}Jackknife Errors}{38}{subsection.1.5.2}
-\contentsline {section}{\numberline {1.6}Summary and Conclusion}{39}{section.1.6}
-\contentsline {chapter}{\numberline {2}Aperture effects in Stellar Mass Estimates}{41}{chapter.2}
-\contentsline {section}{\numberline {2.1}Introduction}{42}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}The SDSS spectra}{44}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}The MPA JHU Catalog}{44}{subsection.2.1.2}
-\contentsline {section}{\numberline {2.2}The $H{"δ}_{\rm A}-D_{\rm n}4000$ plane}{45}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Measuring the $D_{\rm n}4000$ index}{46}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Measuring the $H{"δ}_{\rm A}$ index}{48}{subsection.2.2.2}
-\contentsline {section}{\numberline {2.3}Manga Overview}{48}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Introduction to Integral Field Spectroscopy}{48}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}The MaNGA IFU Design}{48}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}Data}{48}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}MaNGA Target Selection and DRP}{48}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Our Sample}{48}{subsection.2.4.2}
-\contentsline {section}{\numberline {2.5}Methods}{49}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Variable Aperture Measurements}{49}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Variable Redshift Measurements}{51}{subsection.2.5.2}
-\contentsline {subsection}{\numberline {2.5.3}$H{"δ}_{\rm A}$, $D_{\rm n}4000$ Measurements within Apertures}{51}{subsection.2.5.3}
-\contentsline {section}{\numberline {2.6}Comparison to Full Aperture Measurements}{53}{section.2.6}
-\contentsline {section}{\numberline {2.7}Offsets in the $H{"δ}_{\rm A}$-$D_{\rm n}4000$ plane}{56}{section.2.7}
-\contentsline {section}{\numberline {2.8}Discussion}{56}{section.2.8}
-\contentsline {chapter}{\numberline {3}Conclusion}{60}{chapter.3}
-\contentsline {chapter}{References}{69}{chapter*.23}
+\contentsline {subsection}{\numberline {0.3.3}Inferring SFR and $M_{*}$ from SED fitting}{26}{subsection.0.3.3}
+\contentsline {section}{\numberline {0.4}Star Formation in the Local Universe}{26}{section.0.4}
+\contentsline {subsection}{\numberline {0.4.1}The Age of Digital Survey Astronomy}{26}{subsection.0.4.1}
+\contentsline {subsection}{\numberline {0.4.2}This Thesis}{26}{subsection.0.4.2}
+\contentsline {chapter}{\numberline {1}UV to IR Star Formation Indicators and Environments}{27}{chapter.1}
+\contentsline {section}{\numberline {1.1}Introduction}{28}{section.1.1}
+\contentsline {section}{\numberline {1.2}Constructing a local sample spanning Ultraviolet to Infrared Imaging}{30}{section.1.2}
+\contentsline {section}{\numberline {1.3}Estimating the Specific Star Formation Rates}{32}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}SED Fitting - MAGPHYS}{32}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}UV Star Formation Rates}{33}{subsection.1.3.2}
+\contentsline {section}{\numberline {1.4}Environments}{35}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Measures of Environment}{35}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Edge Effects}{37}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.3}Environments in Color-Color Space}{37}{subsection.1.4.3}
+\contentsline {section}{\numberline {1.5}The Environments of the Outliers}{39}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Green-valley interlopers}{39}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}Jackknife Errors}{40}{subsection.1.5.2}
+\contentsline {section}{\numberline {1.6}Summary and Conclusion}{41}{section.1.6}
+\contentsline {chapter}{\numberline {2}Aperture effects in Stellar Mass Estimates}{43}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{44}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}The SDSS spectra}{46}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}The MPA JHU Catalog}{46}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}The $H{"δ}_{\rm A}-D_{\rm n}4000$ plane}{47}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Measuring the $D_{\rm n}4000$ index}{48}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Measuring the $H{"δ}_{\rm A}$ index}{50}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Manga Overview}{50}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Introduction to Integral Field Spectroscopy}{50}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}The MaNGA IFU Design}{50}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Data}{50}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}MaNGA Target Selection and DRP}{50}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Our Sample}{50}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}Methods}{51}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Variable Aperture Measurements}{51}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Variable Redshift Measurements}{53}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}$H{"δ}_{\rm A}$, $D_{\rm n}4000$ Measurements within Apertures}{53}{subsection.2.5.3}
+\contentsline {section}{\numberline {2.6}Comparison to Full Aperture Measurements}{55}{section.2.6}
+\contentsline {section}{\numberline {2.7}Offsets in the $H{"δ}_{\rm A}$-$D_{\rm n}4000$ plane}{58}{section.2.7}
+\contentsline {section}{\numberline {2.8}Discussion}{58}{section.2.8}
+\contentsline {chapter}{\numberline {3}Conclusion}{62}{chapter.3}
+\contentsline {chapter}{References}{73}{chapter*.23}

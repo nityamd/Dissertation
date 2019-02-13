@@ -32,6 +32,10 @@ Repeated entry---line 1534 of file references.bib
  : @article{tomczak_galaxy_2014
  :                             ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 1551 of file references.bib
+ : @article{bruzual_stellar_2003
+ :                              ,
+I'm skipping whatever remains of this entry
 I was expecting a `,' or a `}'---line 1920 of file references.bib
  : @proceeding{doi: 
  :                  10.1117/12.856027,
@@ -48,48 +52,47 @@ Repeated entry---line 2057 of file references.bib
  : @article{bruzual_a._spectral_1983-2
  :                                    ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "959ApJ...129..243S"
 Warning--I didn't find a database entry for "york00a"
 Warning--I didn't find a database entry for "martin05a"
-You've used 61 entries,
+You've used 87 entries,
             2229 wiz_defined-function locations,
-            880 strings with 28719 characters,
-and the built_in function-call counts, 45864 in all, are:
-= -- 3701
-> -- 4532
-< -- 20
-+ -- 1765
-- -- 1744
-* -- 4973
-:= -- 8497
-add.period$ -- 183
-call.type$ -- 61
-change.case$ -- 1176
-chr.to.int$ -- 58
-cite$ -- 61
-duplicate$ -- 854
-empty$ -- 1697
-format.name$ -- 1822
-if$ -- 8173
+            1039 strings with 35083 characters,
+and the built_in function-call counts, 58879 in all, are:
+= -- 4872
+> -- 5396
+< -- 29
++ -- 2083
+- -- 2060
+* -- 6223
+:= -- 10847
+add.period$ -- 261
+call.type$ -- 87
+change.case$ -- 1464
+chr.to.int$ -- 84
+cite$ -- 87
+duplicate$ -- 1216
+empty$ -- 2424
+format.name$ -- 2174
+if$ -- 10619
 int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 61
-newline$ -- 308
-num.names$ -- 183
-pop$ -- 1034
+missing$ -- 87
+newline$ -- 438
+num.names$ -- 261
+pop$ -- 1265
 preamble$ -- 1
-purify$ -- 1176
+purify$ -- 1464
 quote$ -- 0
-skip$ -- 629
+skip$ -- 898
 stack$ -- 0
-substring$ -- 1743
-swap$ -- 61
+substring$ -- 2532
+swap$ -- 87
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 366
+type$ -- 522
 warning$ -- 0
-while$ -- 186
+while$ -- 263
 width$ -- 0
-write$ -- 795
-(There were 10 error messages)
+write$ -- 1131
+(There were 11 error messages)

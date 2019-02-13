@@ -1,5 +1,13 @@
 \begin{thebibliography}{}
 
+\bibitem[{Agertz} et~al., 2007]{2007MNRAS.380..963A}
+{Agertz}, O., {Moore}, B., {Stadel}, J., {Potter}, D., {Miniati}, F., {Read},
+  J., {Mayer}, L., {Gawryszczak}, A., {Kravtsov}, A., {Nordlund}, {\r{A}}.,
+  {Pearce}, F., {Quilis}, V., {Rudd}, D., {Springel}, V., {Stone}, J.,
+  {Tasker}, E., {Teyssier}, R., {Wadsley}, J., \& {Walder}, R. (2007).
+\newblock {Fundamental differences between SPH and grid methods}.
+\newblock {\em \mnras}, 380, 963--978.
+
 \bibitem[Alpher et~al., 1948]{alpher_origin_1948}
 Alpher, R.~A., Bethe, H., \& Gamow, G. (1948).
 \newblock The {{Origin}} of {{Chemical Elements}}.
@@ -72,8 +80,14 @@ Brinchmann, J., Charlot, S., White, S. D.~M., Tremonti, C., Kauffmann, G.,
 \newblock {\em Monthly Notices of the Royal Astronomical Society}, 351(4),
   1151--1179.
 
-\bibitem[Bruzual \& Charlot, 2003]{bruzual_stellar_2003-1}
-Bruzual, G. \& Charlot, S. (2003).
+\bibitem[Bruzual \& Charlot, 2003a]{bruzual_stellar_2003}
+Bruzual, G. \& Charlot, S. (2003a).
+\newblock Stellar population synthesis at the resolution of 2003.
+\newblock {\em Monthly Notices of the Royal Astronomical Society}, 344(4),
+  1000--1028.
+
+\bibitem[Bruzual \& Charlot, 2003b]{bruzual_stellar_2003-1}
+Bruzual, G. \& Charlot, S. (2003b).
 \newblock Stellar population synthesis at the resolution of 2003.
 \newblock {\em Monthly Notices of the Royal Astronomical Society}, 344(4),
   1000--1028.
@@ -131,11 +145,51 @@ Burgarella, D., Buat, V., Gruppioni, C., Cucciati, O., Heinis, S., Berta, S.,
   ({{UV}}+{{IR}}) star formation rate density.
 \newblock {\em Astronomy \& Astrophysics}, 554, A70.
 
+\bibitem[Calzetti et~al., 2007]{calzetti_calibration_2007}
+Calzetti, D., Kennicutt, R.~C., Engelbracht, C.~W., Leitherer, C., Draine,
+  B.~T., Kewley, L., Moustakas, J., Sosey, M., Dale, D.~A., Gordon, K.~D., \&
+  {others} (2007).
+\newblock The calibration of mid-infrared star formation rate indicators.
+\newblock {\em The Astrophysical Journal}, 666(2), 870.
+
+\bibitem[{Chabrier}, 2003]{2003PASP..115..763C}
+{Chabrier}, G. (2003).
+\newblock {Galactic Stellar and Substellar Initial Mass Function}.
+\newblock {\em Publications of the Astronomical Society of the Pacific}, 115,
+  763--795.
+
+\bibitem[{Coelho} et~al., 2005]{2005A&A...443..735C}
+{Coelho}, P., {Barbuy}, B., {Mel{\'e}ndez}, J., {Schiavon}, R.~P., \&
+  {Castilho}, B.~V. (2005).
+\newblock {A library of high resolution synthetic stellar spectra from 300 nm
+  to 1.8 {\ensuremath{\mu}}m with solar and {\ensuremath{\alpha}}-enhanced
+  composition}.
+\newblock {\em \aap}, 443, 735--746.
+
+\bibitem[Conroy, 2013]{conroy_modeling_2013}
+Conroy, C. (2013).
+\newblock Modeling the panchromatic spectral energy distributions of galaxies.
+\newblock {\em arXiv preprint arXiv:1301.7095}.
+
 \bibitem[Cooper et~al., 2005]{cooper_measuring_2005}
 Cooper, M.~C., Newman, J.~A., Madgwick, D.~S., Gerke, B.~F., Yan, R., \& Davis,
   M. (2005).
 \newblock Measuring galaxy environments with deep redshift surveys.
 \newblock {\em The Astrophysical Journal}, 634(2), 833.
+
+\bibitem[{Crain} et~al., 2015]{2015MNRAS.450.1937C}
+{Crain}, R.~A., {Schaye}, J., {Bower}, R.~G., {Furlong}, M., {Schaller}, M.,
+  {Theuns}, T., {Dalla Vecchia}, C., {Frenk}, C.~S., {McCarthy}, I.~G.,
+  {Helly}, J.~C., {Jenkins}, A., {Rosas-Guevara}, Y.~M., {White}, S.~D.~M., \&
+  {Trayford}, J.~W. (2015).
+\newblock {The EAGLE simulations of galaxy formation: calibration of subgrid
+  physics and model variations}.
+\newblock {\em \mnras}, 450, 1937--1961.
+
+\bibitem[{Creasey} et~al., 2013]{2013MNRAS.429.1922C}
+{Creasey}, P., {Theuns}, T., \& {Bower}, R.~G. (2013).
+\newblock {How supernova explosions power galactic winds}.
+\newblock {\em \mnras}, 429, 1922--1948.
 
 \bibitem[da~Cunha et~al., 2008]{da_cunha_simple_2008}
 da~Cunha, E., Charlot, S., \& Elbaz, D. (2008).
@@ -144,11 +198,22 @@ da~Cunha, E., Charlot, S., \& Elbaz, D. (2008).
 \newblock {\em Monthly Notices of the Royal Astronomical Society}, 388(4),
   1595--1617.
 
+\bibitem[{Dav{\'e}} et~al., 2016]{2016MNRAS.462.3265D}
+{Dav{\'e}}, R., {Thompson}, R., \& {Hopkins}, P.~F. (2016).
+\newblock {MUFASA: galaxy formation simulations with meshless hydrodynamics}.
+\newblock {\em \mnras}, 462, 3265--3284.
+
 \bibitem[{Davis} et~al., 1985]{1985ApJ...292..371D}
 {Davis}, M., {Efstathiou}, G., {Frenk}, C.~S., \& {White}, S.~D.~M. (1985).
 \newblock {The evolution of large-scale structure in a universe dominated by
   cold dark matter}.
 \newblock {\em \apj}, 292, 371--394.
+
+\bibitem[{Draine} \& {Li}, 2007]{2007ApJ...657..810D}
+{Draine}, B.~T. \& {Li}, A. (2007).
+\newblock {Infrared Emission from Interstellar Dust. IV. The
+  Silicate-Graphite-PAH Model in the Post-Spitzer Era}.
+\newblock {\em \apj}, 657, 810--837.
 
 \bibitem[Dressler, 1980]{dressler_galaxy_1980}
 Dressler, A. (1980).
@@ -177,6 +242,19 @@ Drory, N., MacDonald, N., Bershady, M.~A., Bundy, K., Gunn, J., Law, D.~R.,
 \newblock {Evidence from the motions of old stars that the Galaxy collapsed.}
 \newblock {\em \apj}, 136, 748.
 
+\bibitem[{Faber}, 1972]{1972A&A....20..361F}
+{Faber}, S.~M. (1972).
+\newblock {Quadratic programming applied to the problem of galaxy population
+  synthesis.}
+\newblock {\em \aap}, 20, 361--374.
+
+\bibitem[{Ferland} et~al., 2013]{2013RMxAA..49..137F}
+{Ferland}, G.~J., {Porter}, R.~L., {van Hoof}, P.~A.~M., {Williams}, R.~J.~R.,
+  {Abel}, N.~P., {Lykins}, M.~L., {Shaw}, G., {Henney}, W.~J., \& {Stancil},
+  P.~C. (2013).
+\newblock {The 2013 Release of Cloudy}.
+\newblock {\em \rmxaa}, 49, 137--163.
+
 \bibitem[Freeman, 1970]{freeman_disks_1970-1}
 Freeman, K.~C. (1970).
 \newblock On the {{Disks}} of {{Spiral}} and so {{Galaxies}}.
@@ -187,6 +265,11 @@ Guth, A.~H. (1981).
 \newblock Inflationary universe: A possible solution to the horizon and
   flatness problems.
 \newblock {\em Phys. Rev. D}, 23, 347--356.
+
+\bibitem[{Hopkins} et~al., 2012]{2012MNRAS.421.3522H}
+{Hopkins}, P.~F., {Quataert}, E., \& {Murray}, N. (2012).
+\newblock {Stellar feedback in galaxies and the origin of galaxy-scale winds}.
+\newblock {\em \mnras}, 421, 3522--3537.
 
 \bibitem[{Hubble}, 1929]{1929PNAS...15..168H}
 {Hubble}, E. (1929).
@@ -239,13 +322,8 @@ Kennicutt, R.~C. \& Evans, N.~J. (2012).
 \newblock Star {{Formation}} in the {{Milky Way}} and {{Nearby Galaxies}}.
 \newblock {\em Annual Review of Astronomy and Astrophysics}, 50(1), 531--608.
 
-\bibitem[{Kennicutt}, 1998a]{1998ARA&A..36..189K}
-{Kennicutt}, Jr., R.~C. (1998a).
-\newblock {Star Formation in Galaxies Along the Hubble Sequence}.
-\newblock {\em \araa}, 36, 189--232.
-
-\bibitem[{Kennicutt}, 1998b]{1998ApJ...498..541K}
-{Kennicutt}, Jr., R.~C. (1998b).
+\bibitem[{Kennicutt}, 1998]{1998ApJ...498..541K}
+{Kennicutt}, Jr., R.~C. (1998).
 \newblock {The Global Schmidt Law in Star-forming Galaxies}.
 \newblock {\em \apj}, 498, 541--552.
 
@@ -253,6 +331,18 @@ Kennicutt, R.~C. \& Evans, N.~J. (2012).
 {Kennicutt}, Jr., R.~C., {Tamblyn}, P., \& {Congdon}, C.~E. (1994).
 \newblock {Past and future star formation in disk galaxies}.
 \newblock {\em \apj}, 435, 22--36.
+
+\bibitem[{Kroupa}, 2001]{2001MNRAS.322..231K}
+{Kroupa}, P. (2001).
+\newblock {On the variation of the initial mass function}.
+\newblock {\em \mnras}, 322, 231--246.
+
+\bibitem[{Le Borgne} et~al., 2003]{2003A&A...402..433L}
+{Le Borgne}, J.~F., {Bruzual}, G., {Pell{\'o}}, R., {Lan{\c{c}}on}, A.,
+  {Rocca-Volmerange}, B., {Sanahuja}, B., {Schaerer}, D., {Soubiran}, C., \&
+  {V{\'\i}lchez-G{\'o}mez}, R. (2003).
+\newblock {STELIB: A library of stellar spectra at R \textasciitilde 2000}.
+\newblock {\em \aap}, 402, 433--442.
 
 \bibitem[Lee et~al., 2009]{lee_comparison_2009}
 Lee, J.~C., {Gil de Paz}, A., Tremonti, C., Kennicutt, R.~C., Salim, S.,
@@ -262,6 +352,19 @@ Lee, J.~C., {Gil de Paz}, A., Tremonti, C., Kennicutt, R.~C., Salim, S.,
 \newblock {{COMPARISON OF H$\alpha$ AND UV STAR FORMATION RATES IN THE LOCAL
   VOLUME}}: {{SYSTEMATIC DISCREPANCIES FOR DWARF GALAXIES}}.
 \newblock {\em The Astrophysical Journal}, 706(1), 599--613.
+
+\bibitem[{Leitherer} \& {Heckman}, 1995]{1995ApJS...96....9L}
+{Leitherer}, C. \& {Heckman}, T.~M. (1995).
+\newblock {Synthetic properties of starburst galaxies}.
+\newblock {\em \apjs}, 96, 9--38.
+
+\bibitem[{Leja} et~al., 2017]{2017ApJ...837..170L}
+{Leja}, J., {Johnson}, B.~D., {Conroy}, C., {van Dokkum}, P.~G., \& {Byler}, N.
+  (2017).
+\newblock {Deriving Physical Properties from Broadband Photometry with
+  Prospector: Description of the Model and a Demonstration of its Accuracy
+  Using 129 Galaxies in the Local Universe}.
+\newblock {\em \apj}, 837, 170.
 
 \bibitem[{Lewis} et~al., 2002]{2002MNRAS.334..673L}
 {Lewis}, I., {Balogh}, M., {De Propris}, R., {Couch}, W., {Bower}, R., {Offer},
@@ -285,6 +388,11 @@ Madau, P. \& Dickinson, M. (2014).
 \newblock {The Star Formation History of Field Galaxies}.
 \newblock {\em \apj}, 498, 106--116.
 
+\bibitem[{Martins} et~al., 2005]{2005A&A...436.1049M}
+{Martins}, F., {Schaerer}, D., \& {Hillier}, D.~J. (2005).
+\newblock {A new calibration of stellar parameters of Galactic O stars}.
+\newblock {\em \aap}, 436, 1049--1065.
+
 \bibitem[Moustakas et~al., 2013]{moustakas_primus_2013}
 Moustakas, J., Coil, A.~L., Aird, J., Blanton, M.~R., Cool, R.~J., Eisenstein,
   D.~J., Mendez, A.~J., Wong, K.~C., Zhu, G., \& Arnouts, S. (2013).
@@ -301,6 +409,26 @@ Muzzin, A., Marchesini, D., Stefanon, M., Franx, M., McCracken, H.~J.,
   {STAR}-{FORMING} {AND} {QUIESCENT} {GALAXIES} {TO} \textit{z} = 4 {FROM}
   {THE} {COSMOS}/{UltraVISTA} {SURVEY}.
 \newblock {\em The Astrophysical Journal}, 777(1), 18.
+
+\bibitem[{Noeske} et~al., 2007]{2007ApJ...660L..43N}
+{Noeske}, K.~G., {Weiner}, B.~J., {Faber}, S.~M., {Papovich}, C., {Koo}, D.~C.,
+  {Somerville}, R.~S., {Bundy}, K., {Conselice}, C.~J., {Newman}, J.~A.,
+  {Schiminovich}, D., {Le Floc'h}, E., {Coil}, A.~L., {Rieke}, G.~H., {Lotz},
+  J.~M., {Primack}, J.~R., {Barmby}, P., {Cooper}, M.~C., {Davis}, M., {Ellis},
+  R.~S., {Fazio}, G.~G., {Guhathakurta}, P., {Huang}, J., {Kassin}, S.~A.,
+  {Martin}, D.~C., {Phillips}, A.~C., {Rich}, R.~M., {Small}, T.~A., {Willmer},
+  C.~N.~A., \& {Wilson}, G. (2007).
+\newblock {Star Formation in AEGIS Field Galaxies since z=1.1: The Dominance of
+  Gradually Declining Star Formation, and the Main Sequence of Star-forming
+  Galaxies}.
+\newblock {\em \apjl}, 660, L43--L46.
+
+\bibitem[{Noll} et~al., 2009]{2009A&A...507.1793N}
+{Noll}, S., {Burgarella}, D., {Giovannoli}, E., {Buat}, V., {Marcillac}, D., \&
+  {Mu{\~n}oz-Mateos}, J.~C. (2009).
+\newblock {Analysis of galaxy spectral energy distributions from far-UV to
+  far-IR with CIGALE: studying a SINGS test sample}.
+\newblock {\em \aap}, 507, 1793--1813.
 
 \bibitem[{Norberg} et~al., 2002]{2002MNRAS.332..827N}
 {Norberg}, P., {Baugh}, C.~M., {Hawkins}, E., {Maddox}, S., {Madgwick}, D.,
@@ -348,6 +476,11 @@ Peng, Y.-j., Lilly, S.~J., Kova{\v c}, K., Bolzonella, M., Pozzetti, L.,
 {Penzias}, A.~A. \& {Wilson}, R.~W. (1965).
 \newblock {A Measurement of Excess Antenna Temperature at 4080 Mc/s.}
 \newblock {\em \apj}, 142, 419--421.
+
+\bibitem[{Prugniel} \& {Soubiran}, 2004]{2004astro.ph..9214P}
+{Prugniel}, P. \& {Soubiran}, C. (2004).
+\newblock {New release of the ELODIE library}.
+\newblock {\em arXiv Astrophysics e-prints}.
 
 \bibitem[Riess et~al., 1998]{Riess:1998cb}
 Riess, A.~G. et~al. (1998).
@@ -408,6 +541,33 @@ S\'anchez, S.~F., Kennicutt, R.~C., {Gil de Paz}, A., {van de Ven}, G.,
   {{I}}. {{Survey}} presentation$\star$.
 \newblock {\em Astronomy \& Astrophysics}, 538, A8.
 
+\bibitem[{S{\'a}nchez-Bl{\'a}zquez} et~al., 2006]{2006MNRAS.371..703S}
+{S{\'a}nchez-Bl{\'a}zquez}, P., {Peletier}, R.~F., {Jim{\'e}nez-Vicente}, J.,
+  {Cardiel}, N., {Cenarro}, A.~J., {Falc{\'o}n-Barroso}, J., {Gorgas}, J.,
+  {Selam}, S., \& {Vazdekis}, A. (2006).
+\newblock {Medium-resolution Isaac Newton Telescope library of empirical
+  spectra}.
+\newblock {\em \mnras}, 371, 703--718.
+
+\bibitem[{Schmidt}, 1959]{1959ApJ...129..243S}
+{Schmidt}, M. (1959).
+\newblock {The Rate of Star Formation.}
+\newblock {\em \apj}, 129, 243.
+
+\bibitem[{Schulz} et~al., 2002]{2002A&A...392....1S}
+{Schulz}, J., {Fritze-v. Alvensleben}, U., {M{\"o}ller}, C.~S., \& {Fricke},
+  K.~J. (2002).
+\newblock {Spectral and photometric evolution of simple stellar populations at
+  various metallicities}.
+\newblock {\em \aap}, 392, 1--11.
+
+\bibitem[{Sijacki} et~al., 2015]{2015MNRAS.452..575S}
+{Sijacki}, D., {Vogelsberger}, M., {Genel}, S., {Springel}, V., {Torrey}, P.,
+  {Snyder}, G.~F., {Nelson}, D., \& {Hernquist}, L. (2015).
+\newblock {The Illustris simulation: the evolving population of black holes
+  across cosmic time}.
+\newblock {\em \mnras}, 452, 575--596.
+
 \bibitem[Smee et~al., 2013]{smee_multi-object_2013}
 Smee, S.~A., Gunn, J.~E., Uomoto, A., Roe, N., Schlegel, D., Rockosi, C.~M.,
   Carr, M.~A., Leger, F., Dawson, K.~S., Olmstead, M.~D., Brinkmann, J., Owen,
@@ -442,6 +602,12 @@ Smee, S.~A., Gunn, J.~E., Uomoto, A., Roe, N., Schlegel, D., Rockosi, C.~M.,
 \newblock {Physical Models of Galaxy Formation in a Cosmological Framework}.
 \newblock {\em Annual Review of Astronomy and Astrophysics}, 53, 51--113.
 
+\bibitem[{Spinrad} \& {Taylor}, 1971]{1971ApJS...22..445S}
+{Spinrad}, H. \& {Taylor}, B.~J. (1971).
+\newblock {The Stellar Content of the Nuclei of Nearby Galaxies. I. M31, M32,
+  and M81}.
+\newblock {\em \apjs}, 22, 445.
+
 \bibitem[{Strateva} et~al., 2001]{2001AJ....122.1861S}
 {Strateva}, I., {Ivezi{\'c}}, {\v Z}., {Knapp}, G.~R., {Narayanan}, V.~K.,
   {Strauss}, M.~A., {Gunn}, J.~E., {Lupton}, R.~H., {Schlegel}, D., {Bahcall},
@@ -473,6 +639,11 @@ Tremonti, C.~A., Heckman, T.~M., Kauffmann, G., Brinchmann, J., Charlot, S.,
   from 53,000 {{Star}}-forming {{Galaxies}} in the {{Sloan Digital Sky
   Survey}}.
 \newblock {\em The Astrophysical Journal}, 613(2), 898--913.
+
+\bibitem[{Walcher} et~al., 2011]{2011Ap&SS.331....1W}
+{Walcher}, J., {Groves}, B., {Budav{\'a}ri}, T., \& {Dale}, D. (2011).
+\newblock {Fitting the integrated spectral energy distributions of galaxies}.
+\newblock {\em \apss}, 331, 1--52.
 
 \bibitem[Worthey, 1994]{worthey_comprehensive_1994}
 Worthey, G. (1994).
