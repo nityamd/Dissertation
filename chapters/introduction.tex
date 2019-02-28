@@ -223,6 +223,7 @@ In this section we will review how astronomers observationally infer star format
 % This is intrinsically tied to fundamental questions regarding what determines the rate at which galaxies convert gas into stars, the spatial regions within the galaxy where star formation occurs, and the physical mechanisms such as feedback, jets, etc that might govern the process. 
 
 \subsection{Integrated Star Formation Rates for Galaxies}
+\label{sfrs}
 
 Since we know that star formation ultimately is the result of the collapse within Giant Molecular Clouds (GMC) of cold gas, it follows that the star formation rate in a galaxy must relate to the availability of cold molecular gas. It was first proposed by Schmidt in 1959 \citep{1959ApJ...129..243S} that star formation in a galaxy scales with the the surface density of gas in the galaxy. As reviewed by \citet{1998ApJ...498..541K}, the mean surface density of galaxy star formation 
 rate is approximately related to the mean surface density of the 
@@ -312,32 +313,119 @@ and dust content of the galaxy.\\
 \subsection{Spectral Diagnostics and Stellar Population Synthesis Models}
 \label{sed}
 
-The galaxy spectrum contains an imprint of its Star Formation History (SFH), stellar metallicity and abundance pattern, stellar Initial Mass Function (IMF), total stellar mass and the nature of its gas and dust content. However, to be able to interpret the details in a spectrum accurately, one has to rely on evolutionary synthesis models or what are called Stellar Population Synthesis (SPS) models. Typically these models contain a comprehensive library of stellar spectra of stars across ages, masses and luminosities. The earliest such models (\citet{1971ApJS...22..445S, 1972A&A....20..361F}) relied on using a linear combination of the diverse individual stellar spectra to reconstruct the integrated light emission from a galaxy. However as this might conceivably involve way too many parameters, the more recent models (\citet{1995ApJS...96....9L, 2002A&A...392....1S, bruzual_stellar_2003}) involve time-evolving a handful of global parameters such as the IMF, the SFR and the rate of chemical enrichment, for instance. This in turn results in distribution of stellar populations from which the integrated spectrum of the galaxy can be computed.\\
+The galaxy spectrum contains an imprint of its Star Formation History (SFH), stellar metallicity and abundance pattern, stellar Initial Mass Function (IMF), total stellar mass and the nature of its gas and dust content. However, to be able to interpret the details in a spectrum accurately, one has to rely on evolutionary synthesis models or what are called Stellar Population Synthesis (SPS) models. Typically these models contain a comprehensive library of stellar spectra of stars across ages, masses and luminosities. The earliest such models (\citealt{1971ApJS...22..445S, 1972AandA....20..361F}) relied on using a linear combination of the diverse individual stellar spectra to reconstruct the integrated light emission from a galaxy. However,
+populations of stars do not come in arbitrary mixes --- stars are formed
+together in groups that evolve over time in a regular way. More 
+recent models (\citealt{1995ApJS...96....9L, 2002AandA...392....1S, bruzual_stellar_2003}) involve setting handful of global parameters,
+such as the IMF, the SFR, the rate of chemical enrichment, and 
+using the laws of stellar evolution and of stellar atmospheres to 
+predict the emergent integrated spectrum of the population
+as it evolves in time.\\
 
-Broadly speaking, SPS models require the following ingredients: \citep{2011Ap&SS.331....1W} an initial mass function (IMF), stellar evolutionary tracks (isochrones), stellar spectral libraries and a star formation model parametrized with an analytic function for SFR. The choice of IMF (\citet{1955ApJ...121..161S, 2001MNRAS.322..231K, 2003PASP..115..763C}) determines the distribution of stellar masses initially and the the spectral libraries convert the stellar evolution outputs such as surface gravity and effective temperature into observable Spectral Energy Distributions (SED's). The spectral libraries can either be calculated theoretically (\citet{2005A&A...443..735C, 2005A&A...436.1049M}) or on a purely empirical basis and are oftentimes a combination of both. Some notable modern stellar spectral libraries constructed from observations are ELODIE \citep{2004astro.ph..9214P}, STELIB \citep{2003A&A...402..433L}, MILES \citep{2006MNRAS.371..703S}, etc.\\
+Broadly speaking, SPS models require the following ingredients \citep{2011ApandSS.331....1W}: an IMF, stellar evolutionary tracks (isochrones), stellar spectral libraries, and a SFR 
+and chemical evolution model.
+The choice of IMF (\citealt{1955ApJ...121..161S, 2001MNRAS.322..231K, 2003PASP..115..763C}) determines the distribution of stellar masses initially and the spectral libraries convert the stellar evolution outputs such as surface gravity and effective temperature into observable Spectral Energy Distributions (SEDs). The spectral libraries 
+can either be calculated theoretically (\citealt{2005AandA...443..735C, 2005AandA...436.1049M}) or on a purely empirical basis and are oftentimes a combination of both. Some notable modern stellar spectral libraries constructed from observations are ELODIE \citep{2004astro.ph..9214P}, STELIB \citep{2003AandA...402..433L}, MILES \citep{2006MNRAS.371..703S}, 
+and most recently MaStar \citep{yan19a}.
 
-The next step in reconstructing the SED of a galaxy would be to account for the effect of the Interstellar Medium (ISM) on the integrated light from the simple stellar populations. The ISM primarily comprises of gas and dust and a model to account for the radiative transfer through the ISM is needed. Photoionization codes such as CLOUDY \citep{2013RMxAA..49..137F} account for the ionization of atomic gas by star light. The more significant effect on the SED comes from dust which redistributes the flux densities not just via scattering but also by absorbing from the bluer part of the spectrum and re-emitting light in the infrared. Effective models of dust \citet{calzetti_calibration_2007, 2007ApJ...657..810D} are thus almost always combined with the SPS models.\\
+The next step in reconstructing the SED of a galaxy is to account 
+for the effect of the Interstellar Medium (ISM) on the integrated 
+light from the simple stellar population. The ISM primarily 
+consists of gas and dust, and a model to account for the radiative 
+transfer through the ISM is needed. Photoionization codes such 
+as CLOUDY \citep{2013RMxAA..49..137F} account for the ionization 
+of atomic gas by star light. The more significant effect on the 
+SED comes from dust which redistributes the flux densities 
+via scattering and absorption from the bluer part of the spectrum,
+re-emitting absorbed light in the infrared. Models of 
+dust (\citealt{calzetti_calibration_2007, 2007ApJ...657..810D}) are 
+thus almost always combined with the SPS models.\\
 
-The evolutionary synthesis models combined with the dust models can effectively offer a snapshot of a galaxy template at any instant in its cosmic history as needed, thus enabling them to be able to fit photometric/spectroscopic data from galaxies at arbitrary redshifts. The method of fitting observed data using a SPS model to infer the physical properties of a galaxy is known as SED fitting. The input data can either be in the form of photometric broadband fluxes or observed spectra and sometimes, spectral indices. A recent review on the subject of SED fitting can be found in \citet{conroy_modeling_2013}.\\ 
+The evolutionary synthesis models combined with the dust models can 
+effectively predict galaxy SEDs at any instant in its cosmic history 
+as needed, thus enabling them to be able to be compared to 
+photometric or spectroscopic data from galaxies at arbitrary 
+redshifts. The method of fitting observed data using a SPS model to 
+infer the physical properties of a galaxy is known as SED fitting. The 
+input data can either be in the form of photometric broadband fluxes or 
+observed spectra and sometimes, spectral indices. A recent 
+review on the subject of SED fitting can be found in 
+\citet{conroy_modeling_2013}.\\ 
 
-Typically, a SED fitting method needs to reliably search the model space of the SPS and dust libraries at a redshift comparable to the redshift of the observed galaxy to fit for a chosen set of parameters relating to the SFH and dust attenuation. While most SED fitting codes employ a grid-based ${\chi}^{2}$ minimization technique, depending on the size of the parameter space, other methods such as Markov Chain Monte Carlo (MCMC), Principle Component Analysis (PCA) have been used as well. Some commonly used full UV-to-IR SED fitting packages are MAGPHYS \citep{da_cunha_simple_2008}, CIGALE \citep{2009A&A...507.1793N} and Prospector \citep{2017ApJ...837..170L}.\\
+SED fitting requires searching a large model space of the SPS 
+and dust libraries and evaluating how well-matched to observations
+are the predicted SEDs for  a chosen  set of parameters relating 
+to the SFH and dust attenuation. SED fitting codes
+employ a range of techniques, to perform this 
+mimization; examples of these codes are  MAGPHYS 
+\citep{da_cunha_simple_2008}, CIGALE \citep{2009AandA...507.1793N} and 
+Prospector \citep{2017ApJ...837..170L}.\\
 
-There are a couple of things worth noting about SED fitting. Firstly, what is being fitted to is often the ``shape" of the spectrum, i.e., we are concerned with reproducing the observed relative flux ratios (i.e. colors) between the photometric bandpasses. Thus, the inferred properties are independent of the bolometric luminosity and commonly derived parameters are the mass-to-light ratios (M/L) of the galaxy, the Specific Star Formation Rate (SSFR, the SFR per unit solar mass), dust attenuation and metallicity. Secondly, the robustness of fitting an SED to observed spectrometric/photometric data relies a lot on how the systematic uncertainties in the SPS (and dust) models are accounted for. Thus the priors on the SFH and dust libraries can significantly impact the inference of the stellar mass, SFR and mean stellar age.\\
+% grid-based ${\chi}^{2}$ minimization technique, depending 
+%on the size of the parameter space, other methods such as Markov Chain Monte Carlo (MCMC), 
+%Principle Component Analysis (PCA) have been used as well. 
 
-\subsection{Inferring SFR and $M_{*}$ from SED fitting}
+There are a couple of things worth noting about SED fitting. 
+Firstly, all the parameters except for the overall normalization
+are set by the ``shape" of the  spectrum, i.e., the observation
+flux ratios between photometric bandpasses ("colors'') or 
+spectral channels.
+Thus, parameters like the dust attenuation, metallicity, 
+age of the stellar population, are independent of the 
+bolometric luminosity. It is often convenient to derive
+parameters like the mass-to-light ratio (M/L) of the 
+galaxy, the Specific Star Formation Rate (SSFR, the 
+SFR per unit solar mass), dust attenuation, and metallicity. 
+Secondly, the robustness of fitting an SED to observed 
+spectrometric and photometric data relies a lot on how 
+the systematic uncertainties in the SPS (and dust) models 
+are accounted for. Thus the priors on the SFH and dust 
+libraries can significantly impact the inference of the 
+stellar mass, SFR and mean stellar age.\\
 
-{\bf MRB says: You probably want to also have something
-about observation of stellar mass distribution.}
+
+\subsection{Inferring $M_{*}$ and SFR from SED fitting}
+\label{masses}
+
+While historically the way galaxy masses have been estimated is by looking at rotation curves and the kinematics within a galaxy, for galaxies apart from the closest ones this information is often unavailable. Thus, similar to what we have discussed with regards to SFR indicators in Section \ref{sfrs}, we have to figure out a way to meaningfully infer the total stellar mass content ($M_{*}$) from a galaxy by looking at its integrated light. One of the main parameters constrained by the SED shape of a galaxy is the Mass-to-Light ratio (M/L) from which the stellar mass can be obtained by multiplying the luminosity within the wavelength range under consideration.\\
+
+ The easiest way to obtain M/L ratios involve using their relationships with color. \citet{2001ApJ...550..212B} used the \citet{bruzual_stellar_2003} SPS models to map the relationship between M/L and color as a function of metallicity and SFH. \citep{2009MNRAS.400.1181Z} also later developed tables for the color-M/L relationship using a library of model galaxy SED's. A related way to estimate stellar masses is by using SED fitting methods on broadband photometry. Of the physical parameters interpreted via SED fitting, stellar masses tend to be relatively robust \citep{2001ApJ...559..620P, 2009ApJ...701.1839M}, especially in comparison to SFR estimates. One reason for this maybe that that the effect of dust-reddening is very minimal on the SFH-metallicity variations in the color-M/L plane. However both these methods are hugely affected by the SFH uncertainties inherent in using SPS models, especially in terms of accounting for the bursty star formation episodes. One way this can be resolved is by looking at spectroscopic indicators of starburst that are not affected by the age-metallicity degeneracy.\\
+
+Higher metallicity in the ISM and dust tend to manifest themselves in the spectra of unresolved stellar populations in galaxies in a very similar way to what they would look like if they had older mean stellar ages and this effect is known as the age-metallicity degeneracy \citet{worthey_comprehensive_1994}. \citet{kauffmann_stellar_2003} used a combination of two spectral indicators (Section \ref{indices}), the $H_{\delta_{\rm A}}$ absorption index (representing the Balmer transition from $n = 2$ to $n = 6$ levels) and the $D_{\rm n} 4000$ index (which is representative of the $4000$ \AA break found in the spectra of galaxies) to constrain the M/L ratios of galaxies. They did so by using a suite of observed spectra from SDSS and a SPS model to fit for the spectra. While the age-metallicity degeneracy does indeed affect the Balmer lines, the two aforementioned indices together provide a robust M/L constraint. They obtained 95\%  confidence limits on stellar masses of 0.2 and 0.3 dex and these are part of the most popularly used catalogues, the MPA-JHU SFR and $M_{*}$ catalog. I investigate the affects of aperture correction in the MPA-JHU catalog using spatially resolved spectra in Chapter \ref{ch:acm}.\\
+
+Surprisingly, the uncertainties in spectroscopically based stellar masses obtained by fitting observed optical spectra \citep{kauffmann_stellar_2003, 2012MNRAS.421..314C} are not significantly better than the color-based stellar masses, except for galaxies with unusual SFH's \citet{2005MNRAS.362...41G}. However, spectroscopically derived masses are more robust to dust attenuation than photometric masses (i.e. stellar masses obtained by fitting broadband photometry). Examples of photometrically derived masses using SPS models can be found in \citet{2004ApJ...616L.103D, 2007AJ....133..734B}\\
+
+SFR measurements using SED fitting are dependent on the SFH shape (i.e. star formation as a function of time) used by the evolutionary synthesis models. For instance, typically in the modeling of early-type galaxies, the SFHs are represented as an exponential decay whose half-life is a parameter that is constrained by the SED fitting method used. The choice of priors on the SFH libraries can thus create high systematic uncertainties in SFR and stellar age estimation. The priors on dust modeling and the age-metallicity degeneracy inherent in SEDs can cause further challenges and thus, in the absence of high quality data, SFR estimations from SED fitting cannot be relied upon without fully understanding the nature and extent of these biases.\\
+
+The aforementioned MPA-JHU catalog contains SFR estimates for SDSS galaxy spectra using the \citet{brinchmann_physical_2004} method of modeling a suite of optical emission lines with model parameters including metallicity, dust attenuation, ionization parameter, etc. \citet{salim_uv_2007} used broadband photometry instead from a similar sample of SDSS galaxies along with UV photometry from GALEX using SPS models with a range of exponentially declining and bursty SFH's, metallicities and dust attenuation. Their comparison with the MPA-JHU SFR's showed that in general the two SFR's are in good agreement with the offset being the result of differences in optical depth accounted for by dust attenuation. Alternative ways of constructing SFH libraries include using semi-analytical models, the results of hydrodynamic simulations or using non-parametric SFH's. In general, SED-based SFR's, when a fixed IMF is assumed, are consistent within a factor of two level \citep{conroy_modeling_2013}.\\
+
+The estimations of SFR and $M_{*}$ of galaxies rely heavily of the availability and quality of data. Over the last decade, these have improved significantly, thanks to the high quality multi-band photometry as well as spectroscopy, including spatially resolved spectra, that have been collected by various ground-based and space-based observatories. I review the significant observational surveys related to these observatories along with the major results gleaned from them in the next section.\\
 
 \section{Star Formation in the Local Universe}
 
-{\bf MRB: Maybe Legacy, plus MaNGA. NSA can be mentioned
-as a reanalysis of Legacy photometry}
-
 \subsection{The Age of Digital Survey Astronomy}
+
+Redshift surveys in astronomy have their origins in the early 20th century when astronomers were interested in investigating Hubble's Law and the large scale structure of the Universe. The CfA redshift survey (1977) was the first systematic attempt at mapping a section of the sky and was later extended to the CfA2 survey which successfully obtained the spectra of 15,000 galaxies in the 1990s. With the advent of fibre-optic and multi-slit spectrographs which allowed for simultaneous observations of hundreds of galaxies, larger redshift surveys such as the 2dF Galaxy Redshift Survey (2dFGRS) (cite), the Sloan Digital Sky Survey (SDSS) (cite), the Galaxy and Mass Assembly (GAMA) Survey (cite) , etc. have enabled astronomers to be able to study the physical properties of galaxies in a statistically rigorous manner.\\
+
+The choice of survey or sample of a survey that one uses to build a dataset depends on the particular question in galaxy evolution that is being investigated. Thus, understanding the redshift limits of the survey (the so-called depth of a survey) or subsample that is being used to construct a volume-limited dataset is a crucial step in this process. In this thesis, we only concern ourselves with the local Universe out to redshifts of $z < 1.5$ as the goal is to understand the limitations of some of the most commonly used SFR and $M_{*}$ indicators. The angular coverage of a survey is also of importance, especially if environment measures play a significant role in the analysis. Keeping these in mind, the surveys I have worked with are derived from the SDSS Legacy sample.\\
+
+The SDSS is the largest multi-spectral and multi-imaging spectroscopic survey thusfar that has been carried out using a 2.5m wide angle optical telescope at the Apache Point Observatory (Gunn et al. 2006) in New Mexico, United States since 2000. (all the citations: York et al. 2000; Strauss et al. 2002, ..?). SDSS covers 14,555 square degrees on the sky (a little over 35\% of the sky) up to depths of $z= 0.1$ for the main galaxy sample and out to $z = 7$ for the distant quasars. The Legacy Survey covers the first 8 years of the SDSS run and provides a uniform, well-calibrated map in \emph{u, g, r, i} and \emph{z} bands of around 8000 square degrees of the sky including the North Galactic Cap and three stripes in the South Galactic Cap.\\
+
+The NASA-Sloan Atlas (NSA) Catalog is a catalog of images and parameters of local galaxies up to redshifts of $z = 0.055$ that is derived from SDSS imaging, with additional UV broadband photometry from the space-based Galaxy Evolution Explorer (GALEX). The NSA is built from a reanalysis (cite Blanton et. al. 2011) with of the SDSS Legacy photometry,  with better object detection and deblending, making it better tuned for large, bright galaxies than the typical SDSS processing. This makes the NSA the ideal candidate to study the physical properties of galaxies in the Local Universe and I use the NSA to compare two star formation indicators in the context of dust in Chapter \ref{ch:sfrk}.\\
+
+Apart from broadband photometry, SDSS also uses a multi-slit spectrograph (cite Abazajian et al. 2009) to obtain the optical spectra of targeted galaxies. The spectra are taken using 3 arcsec diameter fibres and have a wavelength range of 3800-9200 \AA. Some of the major results in galaxy formation and evolution have been possible because of the SDSS spectroscopic survey (Section \ref{sec: results}). However, the major limitation of spectroscopic surveys has been that due to the limited size of the fiber, only a small sub-region of the galaxy defined by the size of the fiber and the orientation of the slit ends up being sampled, thus not giving us enough insight into the internal structure and dynamics of the galaxy. Additionally, one has to adequately fibre-correct any measurements made using the spectra. This has thus engendered the field of integral field spectroscopic surveys such as MUSE, SAMI, MaNGA, etc which aim to obtain spatially resolved spectra for significantly large samples of galaxies in the local Universe. Mapping Nearby Galaxies at Apache Point Observatory (MaNGA), is the largest such survey of that nature undertaken so far with a view to observe 10,000 galaxies by 2020 across a wide dynamic range in $M_{*}$, environment, and SFR with uniform radial coverage. The target selection for MaNGA is based on the NSA and so far, close to 6000 galaxies have been observed via MaNGA. I use this sample of galaxies to analyze the robustness of the aperture corrections made by cite Kauffmann by looking at the galaxies through multiple apertures and comparing the observed M/L ratios obtained thus in Chapter \ref{ch:acm}.
+
+\subsection{Major Results from SDSS: Stand-in Title}
+\label{sec: results}
+
+
 
 \subsection{This Thesis}
 Brief overview of structure of thesis
+
+
+
+
 
 
 

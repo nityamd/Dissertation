@@ -52,47 +52,58 @@ Repeated entry---line 2057 of file references.bib
  : @article{bruzual_a._spectral_1983-2
  :                                    ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 3418 of file references.bib
+ : @article{2007AJ....133..734B
+ :                             ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "1972AandA....20..361F"
+Warning--I didn't find a database entry for "2002AandA...392....1S"
+Warning--I didn't find a database entry for "2011ApandSS.331....1W"
+Warning--I didn't find a database entry for "2005AandA...443..735C"
+Warning--I didn't find a database entry for "2005AandA...436.1049M"
+Warning--I didn't find a database entry for "2003AandA...402..433L"
+Warning--I didn't find a database entry for "2009AandA...507.1793N"
 Warning--I didn't find a database entry for "york00a"
 Warning--I didn't find a database entry for "martin05a"
-You've used 87 entries,
+You've used 89 entries,
             2229 wiz_defined-function locations,
-            1039 strings with 35083 characters,
-and the built_in function-call counts, 58879 in all, are:
-= -- 4872
-> -- 5396
-< -- 29
-+ -- 2083
-- -- 2060
-* -- 6223
-:= -- 10847
-add.period$ -- 261
-call.type$ -- 87
-change.case$ -- 1464
-chr.to.int$ -- 84
-cite$ -- 87
-duplicate$ -- 1216
-empty$ -- 2424
-format.name$ -- 2174
-if$ -- 10619
+            1061 strings with 36862 characters,
+and the built_in function-call counts, 61502 in all, are:
+= -- 5095
+> -- 5668
+< -- 31
++ -- 2189
+- -- 2166
+* -- 6487
+:= -- 11291
+add.period$ -- 267
+call.type$ -- 89
+change.case$ -- 1527
+chr.to.int$ -- 86
+cite$ -- 89
+duplicate$ -- 1277
+empty$ -- 2498
+format.name$ -- 2286
+if$ -- 11118
 int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 87
-newline$ -- 438
-num.names$ -- 261
-pop$ -- 1265
+missing$ -- 89
+newline$ -- 448
+num.names$ -- 267
+pop$ -- 1326
 preamble$ -- 1
-purify$ -- 1464
+purify$ -- 1527
 quote$ -- 0
-skip$ -- 898
+skip$ -- 966
 stack$ -- 0
-substring$ -- 2532
-swap$ -- 87
-text.length$ -- 0
+substring$ -- 2627
+swap$ -- 122
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 522
+type$ -- 534
 warning$ -- 0
-while$ -- 263
+while$ -- 269
 width$ -- 0
-write$ -- 1131
-(There were 11 error messages)
+write$ -- 1157
+(There were 12 error messages)

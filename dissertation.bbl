@@ -38,6 +38,11 @@ Behroozi, P.~S., Conroy, C., \& Wechsler, R.~H. (2010).
   MASS}}-{{HALO MASS RELATION FOR}} 0 \&lt; {\emph{z}} \&lt; 4.
 \newblock {\em The Astrophysical Journal}, 717(1), 379--403.
 
+\bibitem[{Bell} \& {de Jong}, 2001]{2001ApJ...550..212B}
+{Bell}, E.~F. \& {de Jong}, R.~S. (2001).
+\newblock {Stellar Mass-to-Light Ratios and the Tully-Fisher Relation}.
+\newblock {\em \apj}, 550, 212--229.
+
 \bibitem[{Blanton} et~al., 2006]{2006ApJ...645..977B}
 {Blanton}, M.~R., {Eisenstein}, D., {Hogg}, D.~W., \& {Zehavi}, I. (2006).
 \newblock {The Scale Dependence of Relative Galaxy Bias: Encouragement for the
@@ -71,6 +76,12 @@ Blanton, M.~R. \& Moustakas, J. (2009a).
 Blanton, M.~R. \& Moustakas, J. (2009b).
 \newblock Physical {{Properties}} and {{Environments}} of {{Nearby Galaxies}}.
 \newblock {\em Annual Review of Astronomy and Astrophysics}, 47(1), 159--210.
+
+\bibitem[{Blanton} \& {Roweis}, 2007]{2007AJ....133..734B}
+{Blanton}, M.~R. \& {Roweis}, S. (2007).
+\newblock {K-Corrections and Filter Transformations in the Ultraviolet,
+  Optical, and Near-Infrared}.
+\newblock {\em \aj}, 133, 734--754.
 
 \bibitem[Brinchmann et~al., 2004]{brinchmann_physical_2004}
 Brinchmann, J., Charlot, S., White, S. D.~M., Tremonti, C., Kauffmann, G.,
@@ -158,13 +169,14 @@ Calzetti, D., Kennicutt, R.~C., Engelbracht, C.~W., Leitherer, C., Draine,
 \newblock {\em Publications of the Astronomical Society of the Pacific}, 115,
   763--795.
 
-\bibitem[{Coelho} et~al., 2005]{2005A&A...443..735C}
-{Coelho}, P., {Barbuy}, B., {Mel{\'e}ndez}, J., {Schiavon}, R.~P., \&
-  {Castilho}, B.~V. (2005).
-\newblock {A library of high resolution synthetic stellar spectra from 300 nm
-  to 1.8 {\ensuremath{\mu}}m with solar and {\ensuremath{\alpha}}-enhanced
-  composition}.
-\newblock {\em \aap}, 443, 735--746.
+\bibitem[{Chen} et~al., 2012]{2012MNRAS.421..314C}
+{Chen}, Y.-M., {Kauffmann}, G., {Tremonti}, C.~A., {White}, S., {Heckman},
+  T.~M., {Kova{\v{c}}}, K., {Bundy}, K., {Chisholm}, J., {Maraston}, C.,
+  {Schneider}, D.~P., {Bolton}, A.~S., {Weaver}, B.~A., \& {Brinkmann}, J.
+  (2012).
+\newblock {Evolution of the most massive galaxies to z= 0.6 - I. A new method
+  for physical parameter estimation}.
+\newblock {\em \mnras}, 421, 314--332.
 
 \bibitem[Conroy, 2013]{conroy_modeling_2013}
 Conroy, C. (2013).
@@ -221,6 +233,11 @@ Dressler, A. (1980).
   formation and evolution of galaxies.
 \newblock {\em The Astrophysical Journal}, 236, 351.
 
+\bibitem[{Drory} et~al., 2004]{2004ApJ...616L.103D}
+{Drory}, N., {Bender}, R., \& {Hopp}, U. (2004).
+\newblock {Comparing Spectroscopic and Photometric Stellar Mass Estimates}.
+\newblock {\em \apj}, 616, L103--L106.
+
 \bibitem[Drory et~al., 2015]{drory_manga_2015}
 Drory, N., MacDonald, N., Bershady, M.~A., Bundy, K., Gunn, J., Law, D.~R.,
   Smith, M., Stoll, R., Tremonti, C.~A., Wake, D.~A., Yan, R., Weijmans, A.~M.,
@@ -242,12 +259,6 @@ Drory, N., MacDonald, N., Bershady, M.~A., Bundy, K., Gunn, J., Law, D.~R.,
 \newblock {Evidence from the motions of old stars that the Galaxy collapsed.}
 \newblock {\em \apj}, 136, 748.
 
-\bibitem[{Faber}, 1972]{1972A&A....20..361F}
-{Faber}, S.~M. (1972).
-\newblock {Quadratic programming applied to the problem of galaxy population
-  synthesis.}
-\newblock {\em \aap}, 20, 361--374.
-
 \bibitem[{Ferland} et~al., 2013]{2013RMxAA..49..137F}
 {Ferland}, G.~J., {Porter}, R.~L., {van Hoof}, P.~A.~M., {Williams}, R.~J.~R.,
   {Abel}, N.~P., {Lykins}, M.~L., {Shaw}, G., {Henney}, W.~J., \& {Stancil},
@@ -259,6 +270,12 @@ Drory, N., MacDonald, N., Bershady, M.~A., Bundy, K., Gunn, J., Law, D.~R.,
 Freeman, K.~C. (1970).
 \newblock On the {{Disks}} of {{Spiral}} and so {{Galaxies}}.
 \newblock {\em The Astrophysical Journal}, 160, 811.
+
+\bibitem[{Gallazzi} et~al., 2005]{2005MNRAS.362...41G}
+{Gallazzi}, A., {Charlot}, S., {Brinchmann}, J., {White}, S.~D.~M., \&
+  {Tremonti}, C.~A. (2005).
+\newblock {The ages and metallicities of galaxies in the local universe}.
+\newblock {\em \mnras}, 362, 41--58.
 
 \bibitem[Guth, 1981]{PhysRevD.23.347}
 Guth, A.~H. (1981).
@@ -337,13 +354,6 @@ Kennicutt, R.~C. \& Evans, N.~J. (2012).
 \newblock {On the variation of the initial mass function}.
 \newblock {\em \mnras}, 322, 231--246.
 
-\bibitem[{Le Borgne} et~al., 2003]{2003A&A...402..433L}
-{Le Borgne}, J.~F., {Bruzual}, G., {Pell{\'o}}, R., {Lan{\c{c}}on}, A.,
-  {Rocca-Volmerange}, B., {Sanahuja}, B., {Schaerer}, D., {Soubiran}, C., \&
-  {V{\'\i}lchez-G{\'o}mez}, R. (2003).
-\newblock {STELIB: A library of stellar spectra at R \textasciitilde 2000}.
-\newblock {\em \aap}, 402, 433--442.
-
 \bibitem[Lee et~al., 2009]{lee_comparison_2009}
 Lee, J.~C., {Gil de Paz}, A., Tremonti, C., Kennicutt, R.~C., Salim, S.,
   Bothwell, M., Calzetti, D., Dalcanton, J., Dale, D., Engelbracht, C., Jos\'e
@@ -388,11 +398,6 @@ Madau, P. \& Dickinson, M. (2014).
 \newblock {The Star Formation History of Field Galaxies}.
 \newblock {\em \apj}, 498, 106--116.
 
-\bibitem[{Martins} et~al., 2005]{2005A&A...436.1049M}
-{Martins}, F., {Schaerer}, D., \& {Hillier}, D.~J. (2005).
-\newblock {A new calibration of stellar parameters of Galactic O stars}.
-\newblock {\em \aap}, 436, 1049--1065.
-
 \bibitem[Moustakas et~al., 2013]{moustakas_primus_2013}
 Moustakas, J., Coil, A.~L., Aird, J., Blanton, M.~R., Cool, R.~J., Eisenstein,
   D.~J., Mendez, A.~J., Wong, K.~C., Zhu, G., \& Arnouts, S. (2013).
@@ -410,6 +415,14 @@ Muzzin, A., Marchesini, D., Stefanon, M., Franx, M., McCracken, H.~J.,
   {THE} {COSMOS}/{UltraVISTA} {SURVEY}.
 \newblock {\em The Astrophysical Journal}, 777(1), 18.
 
+\bibitem[{Muzzin} et~al., 2009]{2009ApJ...701.1839M}
+{Muzzin}, A., {Marchesini}, D., {van Dokkum}, P.~G., {Labb{\'e}}, I., {Kriek},
+  M., \& {Franx}, M. (2009).
+\newblock {A Near-Infrared Spectroscopic Survey of K-Selected Galaxies at
+  z\textasciitilde 2.3: Comparison of Stellar Population Synthesis Codes and
+  Constraints from the Rest-Frame NIR}.
+\newblock {\em \apj}, 701, 1839--1864.
+
 \bibitem[{Noeske} et~al., 2007]{2007ApJ...660L..43N}
 {Noeske}, K.~G., {Weiner}, B.~J., {Faber}, S.~M., {Papovich}, C., {Koo}, D.~C.,
   {Somerville}, R.~S., {Bundy}, K., {Conselice}, C.~J., {Newman}, J.~A.,
@@ -423,13 +436,6 @@ Muzzin, A., Marchesini, D., Stefanon, M., Franx, M., McCracken, H.~J.,
   Galaxies}.
 \newblock {\em \apjl}, 660, L43--L46.
 
-\bibitem[{Noll} et~al., 2009]{2009A&A...507.1793N}
-{Noll}, S., {Burgarella}, D., {Giovannoli}, E., {Buat}, V., {Marcillac}, D., \&
-  {Mu{\~n}oz-Mateos}, J.~C. (2009).
-\newblock {Analysis of galaxy spectral energy distributions from far-UV to
-  far-IR with CIGALE: studying a SINGS test sample}.
-\newblock {\em \aap}, 507, 1793--1813.
-
 \bibitem[{Norberg} et~al., 2002]{2002MNRAS.332..827N}
 {Norberg}, P., {Baugh}, C.~M., {Hawkins}, E., {Maddox}, S., {Madgwick}, D.,
   {Lahav}, O., {Cole}, S., {Frenk}, C.~S., {Baldry}, I., {Bland-Hawthorn}, J.,
@@ -441,6 +447,11 @@ Muzzin, A., Marchesini, D., Stefanon, M., Franx, M., McCracken, H.~J.,
 \newblock {The 2dF Galaxy Redshift Survey: the dependence of galaxy clustering
   on luminosity and spectral type}.
 \newblock {\em \mnras}, 332, 827--838.
+
+\bibitem[{Papovich} et~al., 2001]{2001ApJ...559..620P}
+{Papovich}, C., {Dickinson}, M., \& {Ferguson}, H.~C. (2001).
+\newblock {The Stellar Populations and Evolution of Lyman Break Galaxies}.
+\newblock {\em \apj}, 559, 620--653.
 
 \bibitem[{Park} et~al., 2007]{2007ApJ...658..898P}
 {Park}, C., {Choi}, Y.-Y., {Vogeley}, M.~S., {Gott}, J.~Richard, I., {Blanton},
@@ -500,18 +511,18 @@ Rubin, V.~C., Thonnard, N., \& Ford, Jr., W.~K. (1980).
   /{{R}} = 122 kpc/.
 \newblock {\em The Astrophysical Journal}, 238, 471.
 
-\bibitem[Salim et~al., 2007a]{salim_uv_2007-1}
+\bibitem[Salim et~al., 2007a]{salim_uv_2007}
 Salim, S., Rich, R.~M., Charlot, S., Brinchmann, J., Johnson, B.~D.,
   Schiminovich, D., Seibert, M., Mallery, R., Heckman, T.~M., Forster, K., \&
   {others} (2007a).
-\newblock {{UV Star Formation Rates}} in the {{Local Universe}}.
+\newblock {UV} {Star} {Formation} {Rates} in the {Local} {Universe}.
 \newblock {\em The Astrophysical Journal Supplement Series}, 173(2), 267.
 
-\bibitem[Salim et~al., 2007b]{salim_uv_2007}
+\bibitem[Salim et~al., 2007b]{salim_uv_2007-1}
 Salim, S., Rich, R.~M., Charlot, S., Brinchmann, J., Johnson, B.~D.,
   Schiminovich, D., Seibert, M., Mallery, R., Heckman, T.~M., Forster, K., \&
   {others} (2007b).
-\newblock {UV} {Star} {Formation} {Rates} in the {Local} {Universe}.
+\newblock {{UV Star Formation Rates}} in the {{Local Universe}}.
 \newblock {\em The Astrophysical Journal Supplement Series}, 173(2), 267.
 
 \bibitem[{Salpeter}, 1955]{1955ApJ...121..161S}
@@ -553,13 +564,6 @@ S\'anchez, S.~F., Kennicutt, R.~C., {Gil de Paz}, A., {van de Ven}, G.,
 {Schmidt}, M. (1959).
 \newblock {The Rate of Star Formation.}
 \newblock {\em \apj}, 129, 243.
-
-\bibitem[{Schulz} et~al., 2002]{2002A&A...392....1S}
-{Schulz}, J., {Fritze-v. Alvensleben}, U., {M{\"o}ller}, C.~S., \& {Fricke},
-  K.~J. (2002).
-\newblock {Spectral and photometric evolution of simple stellar populations at
-  various metallicities}.
-\newblock {\em \aap}, 392, 1--11.
 
 \bibitem[{Sijacki} et~al., 2015]{2015MNRAS.452..575S}
 {Sijacki}, D., {Vogelsberger}, M., {Genel}, S., {Springel}, V., {Torrey}, P.,
@@ -640,11 +644,6 @@ Tremonti, C.~A., Heckman, T.~M., Kauffmann, G., Brinchmann, J., Charlot, S.,
   Survey}}.
 \newblock {\em The Astrophysical Journal}, 613(2), 898--913.
 
-\bibitem[{Walcher} et~al., 2011]{2011Ap&SS.331....1W}
-{Walcher}, J., {Groves}, B., {Budav{\'a}ri}, T., \& {Dale}, D. (2011).
-\newblock {Fitting the integrated spectral energy distributions of galaxies}.
-\newblock {\em \apss}, 331, 1--52.
-
 \bibitem[Worthey, 1994]{worthey_comprehensive_1994}
 Worthey, G. (1994).
 \newblock Comprehensive stellar population models and the disentanglement of
@@ -673,6 +672,28 @@ Wyder, T.~K., Martin, D.~C., Schiminovich, D., Seibert, M., Budavari, T.,
 \newblock The {{UV}}-{{Optical Galaxy Color}}-{{Magnitude Diagram}}. {{I}}.
   {{Basic Properties}}.
 \newblock {\em The Astrophysical Journal Supplement Series}, 173(2), 293--314.
+
+\bibitem[{Yan} et~al., 2018]{yan19a}
+{Yan}, R., {Chen}, Y., {Lazarz}, D., {Bizyaev}, D., {Maraston}, C.,
+  {Stringfellow}, G.~S., {McCarthy}, K., {Meneses-Goytia}, S., {Law}, D.~R.,
+  {Thomas}, D., {Falcon Barroso}, J., {S{\'a}nchez-Gallego}, J.~R., {Schlafly},
+  E., {Zheng}, Z., {Argudo-Fern{\'a}ndez}, M., {Beaton}, R.~L., {Beers}, T.~C.,
+  {Bershady}, M., {Blanton}, M.~R., {Brownstein}, J., {Bundy}, K., {Chambers},
+  K.~C., {Cherinka}, B., {De Lee}, N., {Drory}, N., {Galbany}, L., {Holtzman},
+  J., {Imig}, J., {Kaiser}, N., {Kinemuchi}, K., {Liu}, C., {Luo}, A.-L.,
+  {Magnier}, E., {Majewski}, S., {Nair}, P., {Oravetz}, A., {Oravetz}, D.,
+  {Pan}, K., {Sobeck}, J., {Stassun}, K., {Talbot}, M., {Tremonti}, C.,
+  {Waters}, C., {Weijmans}, A.-M., {Wilhelm}, R., {Zasowski}, G., {Zhao}, G.,
+  \& {Zhao}, Y.-H. (2018).
+\newblock {SDSS-IV MaStar -- A Large and Comprehensive Empirical Stellar
+  Spectral Library: First Release}.
+\newblock {\em arXiv e-prints}, (pp.\ arXiv:1812.02745).
+
+\bibitem[{Zibetti} et~al., 2009]{2009MNRAS.400.1181Z}
+{Zibetti}, S., {Charlot}, S., \& {Rix}, H.-W. (2009).
+\newblock {Resolved stellar mass maps of galaxies - I. Method and implications
+  for global mass estimates}.
+\newblock {\em \mnras}, 400, 1181--1198.
 
 \bibitem[{Zwicky}, 1937]{1937ApJ....86..217Z}
 {Zwicky}, F. (1937).
