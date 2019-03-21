@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  21 MAR 2019 09:30
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  21 MAR 2019 11:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1505,106 +1505,113 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 49.
 
+[61]
+
+LaTeX Warning: Reference `fig:early_late_type' on page 62 undefined on input li
+ne 60.
+
+File: figures/spectra_placeholder.png Graphic file (type QTm)
+<use  "figures/spectra_placeholder.png" >
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 53.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 53.
-
-[61] [62]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 64.
+(hyperref)                removing `math shift' on input line 70.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 64.
+(hyperref)                removing `math shift' on input line 70.
+
+[62] [63] [64]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 81.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 64.
+(hyperref)                removing `subscript' on input line 81.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 64.
+(hyperref)                removing `math shift' on input line 81.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 64.
+(hyperref)                removing `math shift' on input line 81.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 64.
+(hyperref)                removing `subscript' on input line 81.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 81.
 
 File: figures/hd_d4000_mlratio_coarser_binning.pdf Graphic file (type QTm)
 <use  "figures/hd_d4000_mlratio_coarser_binning.pdf" >
 LaTeX Font Info:    Font shape `EU1/NotoMono(0)/m/n' will be
-(Font)              scaled to size 7.67609pt on input line 71.
+(Font)              scaled to size 7.67609pt on input line 88.
 LaTeX Font Info:    Font shape `EU1/NotoMono(0)/m/it' will be
-(Font)              scaled to size 7.67609pt on input line 71.
+(Font)              scaled to size 7.67609pt on input line 88.
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
-(Font)              scaled to size 5.66635pt on input line 71.
+(Font)              scaled to size 5.66635pt on input line 88.
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
-(Font)              scaled to size 4.0474pt on input line 71.
- [63] [64]
+(Font)              scaled to size 4.0474pt on input line 88.
+ [65] [66] [67]
 File: figures/full_aperture_comparisons.pdf Graphic file (type QTm)
 
 <use  "figures/full_aperture_comparisons.pdf" >
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 122.
+(hyperref)                removing `math shift' on input line 139.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 122.
+(hyperref)                removing `subscript' on input line 139.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 122.
+(hyperref)                removing `math shift' on input line 139.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 122.
+(hyperref)                removing `math shift' on input line 139.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 122.
+(hyperref)                removing `subscript' on input line 139.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 122.
+(hyperref)                removing `math shift' on input line 139.
 
-[65] [66]
+[68] [69]
 File: figures/dn4000_full_aperture_comparisons.pdf Graphic file (type QTm)
- <use  "figures/dn4000_full_aperture_comparisons.pdf" > [67] [68]
+ <use  "figures/dn4000_full_aperture_comparisons.pdf" > [70]
 File: figures/hdelta_full_aperture_comparisons.pdf Graphic file (type QTm)
 
-<use  "figures/hdelta_full_aperture_comparisons.pdf" > [69]
+<use  "figures/hdelta_full_aperture_comparisons.pdf" > [71]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 146.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 146.
+(hyperref)                removing `math shift' on input line 163.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 146.
+(hyperref)                removing `subscript' on input line 163.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 146.
+(hyperref)                removing `math shift' on input line 163.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 146.
+(hyperref)                removing `math shift' on input line 163.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 146.
+(hyperref)                removing `subscript' on input line 163.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 163.
 
 File: figures/quiver_a.pdf Graphic file (type QTm)
 <use  "figures/quiver_a.pdf" >
@@ -1612,28 +1619,28 @@ File: figures/quiver_b.pdf Graphic file (type QTm)
  <use  "figures/quiver_b.pdf" >
 File: figures/quiver_c.pdf Graphic file (type QTm)
 
-<use  "figures/quiver_c.pdf" >) [70] [71] [72] [73]
+<use  "figures/quiver_c.pdf" >) [72] [73] [74] [75]
 \openout2 = `chapters/conclusion.aux'.
 
  (./chapters/conclusion.tex
 Chapter 3.
-) [74
+) [76
 
 
 
-] (./dissertation.bbl [75
+] (./dissertation.bbl [77
 
 
 
-] [76] [77] [78] [79] [80] [81] [82]
+] [78] [79] [80] [81] [82] [83] [84]
 Missing character: There is no ^^89 in font EB Garamond 12 Regular/OT:script=la
 tn;language=DFLT;mapping=tex-text;mapping=tex-text;+onum;+liga;mapping=tex-text
 ;!
 Missing character: There is no ^^83 in font EB Garamond 12 Regular/OT:script=la
 tn;language=DFLT;mapping=tex-text;mapping=tex-text;+onum;+liga;mapping=tex-text
 ;!
- [83]
-[84] [85] [86] [87] [88] [89] [90] [91]) [92]
+ [85]
+[86] [87] [88] [89] [90] [91] [92] [93]) [94]
 \openout2 = `endmatter/colophon.aux'.
 
  (./endmatter/colophon.tex)
@@ -1652,17 +1659,20 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 43.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 43.
  ) 
 Here is how much of TeX's memory you used:
- 25860 strings out of 493591
- 459860 string characters out of 6143546
- 516172 words of memory out of 5000000
- 28882 multiletter control sequences out of 15000+600000
+ 25872 strings out of 493591
+ 460148 string characters out of 6143546
+ 516265 words of memory out of 5000000
+ 28893 multiletter control sequences out of 15000+600000
  12504 words of font info for 103 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
- 60i,9n,107p,10404b,679s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,9n,107p,10404b,685s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (98 pages).
+Output written on dissertation.pdf (100 pages).
