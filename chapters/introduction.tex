@@ -70,6 +70,7 @@ Since we are limited in our observations by the fact that we cannot observe gala
 Thus, there are still many questions to be answered including and not limited to: how and where the baryons collapse, how galactic disks stabilize, the drivers and mechanisms of galactic feedback and what ultimately causes the relative frequency of different galaxy types in the observable Universe. There are thus many holes in this narrative of galaxy formation and evolution and astronomers are working to bridge this gap in two main ways: from the observational side, this involves accurate measurements of galaxy properties across cosmic time and from the (theoretical) side of computational astrophysics, this involves fine-tuning the sub-grid models of galaxy formation and evolution simulations so as to be able to reproduce the estimated from the properties. These both take from and in turn inform the parameters in the $\Lambda$CDM model of the Universe that cosmologists are engaged in refining.\\
 
 \subsection{Galaxy Properties in the Observable Universe}
+\label{sec: gal_prop}
 
 The commonly used classification scheme for galaxies based on their most obvious attribute, the morphologies of their luminous components, was invented by Edwin Hubble in 1926. The classification scheme is based on the relative sizes and of the bulges and disks in galaxies and broadly encompasses four types of morphologies: elliptical, lenticular, spiral and irregular (Fig. \ref{fig:hubble_classification}). Galaxy morphologies are strongly correlated with their other physical properties such as luminosity, age, chemical composition, star formation histories and kinematics (\citealt{roberts94a}). The bulges usually contain older, redder stars and the disks are characterized by mixed stellar populations along with gas and dust. The disks may also contain spiral arms which usually contain pockets of star formation activity. Elliptical galaxies have almost no disk. Lenticulars are smooth like ellipticals but contain a puffy, thick disk that when observed obliquely has a distinct oval-like appearance (lentil-shaped!). Spirals can have a bulge but are characterized by their thin disk, often with spiral arms. Irregulars are akin to spirals but as their name suggests, appear less organized in their light distribution. Early ideas about galaxy evolution suggested that galaxies formed as ellipticals or lenticulars (referred to as `early-type' galaxies) and later evolved into spirals or irregulars (referred to as `late-type' galaxies) and while there are strong correlations between galactic structure and their star formation rates, it is now known that this is in general untrue.\\
 
@@ -95,7 +96,7 @@ is changing with time as stars evolve off the main sequence and reach
 their fates, for example as black holes, neutron stars, or white
 dwarfs.  A more stable and sometimes more interesting quantity is the
 total mass in stars, the stellar mass. Because the luminosities of
-stars varies as $L\propto M^{-\alpha}$, where $\alpha \sim 3$--$5$,
+stars varies as $L\propto M^{-{\mathrm\alpha}}$, where $\alpha \sim 3$--$5$,
 and the more massive stars die rapidly, the total ratio of luminosity
 to stellar mass varies over time. Furthermore, because the massive
 stars are very hot, the overall color of the stellar population starts
@@ -154,7 +155,7 @@ importance at a fixed local environment
 
  
 \subsection{Questions in Galaxy Evolution}
-\label{sec: questions}
+\label{questions}
 
 The lifecycle of a galaxy can be thought of in terms of the timeline
 of the events between the formation of the first stars in the galaxy
@@ -261,7 +262,7 @@ the bulk of the light comes from the massive stars. For example,
 calibrations (assuming a Salpeter IMF; \citealt{1955ApJ...121..161S}):
 relative to the UV Luminosity ${\rm L}_{\nu}$(in a wavelength range of
 1500?2800 \AA):
-$${\rm SFR}\hbox{ }({\rm M}_{\odot} {\rm yr}^{-1}) = 1.4 \times 10^{-28} {\rm L}_{\nu} \hbox{ }({\rm ergs }\hbox{ } {\rm s}^{-1})\hbox{ } {\rm Hz}^{-1})$$\\
+$${\rm SFR}\hbox{ }({\rm M}_{\odot} {\rm yr}^{-1}) = 1.4 \times 10^{-28} {\rm L}_{\rm \nu} \hbox{ }({\rm ergs }\hbox{ } {\rm s}^{-1})\hbox{ } {\rm Hz}^{-1})$$\\
 
 A significant issue with inferring a UV star formation rate is the
 presence of dust in galaxies. Dust absorbs a significant fraction of
@@ -315,19 +316,19 @@ and dust content of the galaxy.\\
 \subsection{Spectral Diagnostics and Stellar Population Synthesis Models}
 \label{sed}
 
-The galaxy spectrum contains an imprint of its Star Formation History (SFH), stellar metallicity and abundance pattern, stellar Initial Mass Function (IMF), total stellar mass and the nature of its gas and dust content. However, to be able to interpret the details in a spectrum accurately, one has to rely on evolutionary synthesis models or what are called Stellar Population Synthesis (SPS) models. Typically these models contain a comprehensive library of stellar spectra of stars across ages, masses and luminosities. The earliest such models (\citealt{1971ApJS...22..445S, 1972AandA....20..361F}) relied on using a linear combination of the diverse individual stellar spectra to reconstruct the integrated light emission from a galaxy. However,
+The galaxy spectrum contains an imprint of its Star Formation History (SFH), stellar metallicity and abundance pattern, stellar Initial Mass Function (IMF), total stellar mass and the nature of its gas and dust content. However, to be able to interpret the details in a spectrum accurately, one has to rely on evolutionary synthesis models or what are called Stellar Population Synthesis (SPS) models. Typically these models contain a comprehensive library of stellar spectra of stars across ages, masses and luminosities. The earliest such models (\citealt{1971ApJS...22..445S, faber_1972}) relied on using a linear combination of the diverse individual stellar spectra to reconstruct the integrated light emission from a galaxy. However,
 populations of stars do not come in arbitrary mixes --- stars are formed
 together in groups that evolve over time in a regular way. More 
-recent models (\citealt{1995ApJS...96....9L, 2002AandA...392....1S, bruzual_stellar_2003}) involve setting handful of global parameters,
+recent models (\citealt{1995ApJS...96....9L, schulz_2002, bruzual_stellar_2003}) involve setting handful of global parameters,
 such as the IMF, the SFR, the rate of chemical enrichment, and 
 using the laws of stellar evolution and of stellar atmospheres to 
 predict the emergent integrated spectrum of the population
 as it evolves in time.\\
 
-Broadly speaking, SPS models require the following ingredients \citep{2011ApandSS.331....1W}: an IMF, stellar evolutionary tracks (isochrones), stellar spectral libraries, and a SFR 
+Broadly speaking, SPS models require the following ingredients \citep{walcher_2011}: an IMF, stellar evolutionary tracks (isochrones), stellar spectral libraries, and a SFR 
 and chemical evolution model.
 The choice of IMF (\citealt{1955ApJ...121..161S, 2001MNRAS.322..231K, 2003PASP..115..763C}) determines the distribution of stellar masses initially and the spectral libraries convert the stellar evolution outputs such as surface gravity and effective temperature into observable Spectral Energy Distributions (SEDs). The spectral libraries 
-can either be calculated theoretically (\citealt{2005AandA...443..735C, 2005AandA...436.1049M}) or on a purely empirical basis and are oftentimes a combination of both. Some notable modern stellar spectral libraries constructed from observations are ELODIE \citep{2004astro.ph..9214P}, STELIB \citep{2003AandA...402..433L}, MILES \citep{2006MNRAS.371..703S}, 
+can either be calculated theoretically (\citealt{coelho_2005, martins_2005}) or on a purely empirical basis and are oftentimes a combination of both. Some notable modern stellar spectral libraries constructed from observations are ELODIE \citep{2004astro.ph..9214P}, STELIB \citep{leborgne_2003}, MILES \citep{2006MNRAS.371..703S}, 
 and most recently MaStar \citep{yan19a}.
 
 The next step in reconstructing the SED of a galaxy is to account for
@@ -361,7 +362,7 @@ are the predicted SEDs for  a chosen  set of parameters relating
 to the SFH and dust attenuation. SED fitting codes
 employ a range of techniques, to perform this 
 mimization; examples of these codes are  MAGPHYS 
-\citep{da_cunha_simple_2008}, CIGALE \citep{2009AandA...507.1793N} and 
+\citep{da_cunha_simple_2008}, CIGALE \citep{noll_2009} and 
 Prospector \citep{2017ApJ...837..170L}.\\
 
 % grid-based ${\chi}^{2}$ minimization technique, depending 
@@ -396,7 +397,7 @@ formation, the SPS models predict the UV and ionizing spectrum of
 stellar populations. The UV light can be directly observed,
 supplemented with IR observations to quantify the UV light reprocessed
 by dust. The ionizing photons can be measured through emission lines
-from the ionized nebulae.
+from the ionized nebulae.\\
 
 Photometry provides useful constraints on stellar mass.  A useful
 concept in the quantification of stellar mass is that the
@@ -409,7 +410,7 @@ redder the color, the higher the $M/L$
 ratio. \citet{2001ApJ...550..212B} used the
 \citet{bruzual_stellar_2003} SPS models to map the relationship
 between $M/L$ and color as a function of metallicity and
-SFH. \citep{2009MNRAS.400.1181Z} also later developed tables for the
+SFH. \citet{2009MNRAS.400.1181Z} also later developed tables for the
 color-$M/L$ relationship using a library of model galaxy SEDs.  A
 related measure of stellar mass is by using SED fitting methods on
 broadband photometry, that fit more than two bandpasses
@@ -419,8 +420,8 @@ stellar masses tend to be relatively robust
 comparison to SFR estimates. One reason for this is that the effect of
 dust-reddening, stellar age, and metallicity cause similar variations
 in the color-$M/L$ plane.  Examples of photometrically derived masses
-using SPS models can be found in \citet{2004ApJ...616L.103D,
-  2007AJ....133..734B}\\
+using SPS models can be found in \citealt{2004ApJ...616L.103D,
+  2007AJ....133..734B}.\\
 
 Spectroscopy can also provide constraints on stellar mass, that in
 principle could be more detailed. For the SDSS Legacy Survey, which
@@ -441,7 +442,7 @@ formation, to fit for the spectra. They obtained 95\% confidence
 limits on stellar masses of 0.2 and 0.3 dex.  These results comprise
 the most commonly used catalog of physical parameters from the SDSS
 Legacy Survey, the MPA-JHU SFR and $M_{*}$ catalog, upon which
-hundreds of subsequent investigations rely.
+hundreds of subsequent investigations rely.\\
 
 Surprisingly, the uncertainties in spectroscopically based stellar
 masses obtained by fitting observed optical spectra
@@ -470,7 +471,7 @@ measurements of UV or emission line flux which hold on average, but
 for individual galaxies are affected by the star formation history and
 dust models.  In general, SED-based SFR's, when a fixed IMF is
 assumed, are consistent within a factor of two level
-\citep{conroy_modeling_2013}.
+\citep{conroy_modeling_2013}.\\
 
 Later in this thesis, I will be relying on two representative
 estimates of SFR which rely on the interpretation of SEDs.  The first,
@@ -526,6 +527,7 @@ gleaned from them in the following section.\\
 \section{Star Formation in the Local Universe}
 
 \subsection{The Age of Digital Survey Astronomy}
+\label{sec: surveys}
 
 Redshift surveys in astronomy have their origins in the early 20th
 century when astronomers were interested in investigating Hubble's Law
@@ -559,7 +561,7 @@ derived from the SDSS Legacy sample.\\
 
 SDSS is the largest spectroscopic and imaging survey of galaxies thus
 far. It has been carried out using a wide field 2.5-m optical
-telescope at the Apache Point Observatory \citet{2006AJ....131.2332G}
+telescope at the Apache Point Observatory \citep{2006AJ....131.2332G}
 in New Mexico, United States \citep{2000AJ....120.1579Y,
   2002AJ....124.1810S}. SDSS imaging covers 14,555 square degrees on
 the sky (a little over 35\%).  It provides a uniform, well-calibrated
@@ -578,7 +580,7 @@ because of the SDSS spectroscopic survey (see Section \ref{sec:
 
 A major limitation of single-fiber spectroscopic surveys is that only
 a sub-region of the galaxy defined by the size of the fiber is
-sampled, which makes it more difficult to infer the galaxys's internal
+sampled, which makes it more difficult to infer the galaxy's internal
 structure and dynamics or its global spectrum. To redress this
 problem, a number of integral field spectroscopic instruments have
 been built; they do not observe as many galaxies as the single-fiber
@@ -600,7 +602,7 @@ In my analysis, I use the NASA-Sloan Atlas (NSA), a catalog of images
 and parameters of local galaxies up to redshifts of $z = 0.055$ that
 is derived from SDSS imaging, with additional UV broadband photometry
 from the space-based Galaxy Evolution Explorer (GALEX). The NSA is
-built from a reanalysis \citet{2011AJ....142...31B} of the SDSS Legacy
+built from a reanalysis \citep{2011AJ....142...31B} of the SDSS Legacy
 photometry, with improved object detection and deblending, making it
 better tuned for large, bright galaxies than the typical SDSS
 processing. The MaNGA target list is drawn from the NSA. This makes
@@ -645,8 +647,8 @@ reflect the long-known segregation of morpghological types
 Galaxies without star formation must have been galaxies with star
 formation at some point in their past. The intermediate population of
 galaxies, the so-called ``green valley" \citep{2007ApJS..173..293W} or
-more aptly, the transitioning galaxies, (i.e., the galaxies that are
-in the process of transitioning from star-forming to quenched) is thus
+more aptly, the transitioning galaxies (i.e., the galaxies that are
+in the process of transitioning from star-forming to quenched), is thus
 a population of wide interest. Observationally, these are harder to
 identify without understanding the role of dust in obscuring galactic
 starlight, and thus their physical properties are not entirely
@@ -657,7 +659,7 @@ redshifts of $0 < z < 4$, there is a tight relation between galaxy
 star formation rates and their stellar masses, known as the star
 forming main sequence (SFMS) \citep{brinchmann_physical_2004,
   2007ApJ...660L..43N, 2015A&A...575A..74S}. This is usually observed
-as a power law relationship with ${\rm SFR} \propto {\rm M}^{\alpha}$,
+as a power law relationship with ${\rm SFR} \propto {\rm M}^{\mathrm \alpha}$,
 with an intrinsic scatter of 0.2-0.3 dex for moderate to relatively
 low mass galaxies. Recent investigations into the SFMS suggest that
 the value of $\alpha$ is between 0.6-1.2
@@ -675,7 +677,7 @@ quiescent (\citealt{moustakas_primus:_2013, hahn_primus_2015}).
 The question of how galaxies move off the SFMS to become quiescent or
 quenched, i.e. how galaxies turn off the process of star formation, is
 fundamental to the study of galaxy evolution, as we have seen in
-Section \ref{sec:questions}. In broad terms, two different process
+Section \ref{questions}. In broad terms, two different process
 have been proposed for this: internal processes that quench star
 formation such as AGN or supernova feedback \citep{peng_mass_2010} and
 external processes such as environmental effects which strip the
@@ -688,300 +690,6 @@ galaxies --- otherwise, the formation process of, say, an elliptical
 galaxy in the field would be different than the formation process of
 an elliptical in a cluster, even though the two populations of
 galaxies follow the same relationships. 
-
-Galaxy formation theorists seek to address these questions by
-employing semi-analytical models or hydrodynamic simulations that
-reproduce the diversity of observations we see
-(\citealt{somerville15a}). These theories are beginning to make
-detailed predictions that match observational results, but they rely
-on subgrid physics that require calibration. For example, it is now
-standard for theoretical models to calibrate their unknown subgrid
-parameters to the stellar mass function and SFMS at $z\sim 0$.  Then
-variation of galaxy properties with environment or redshift becomes a
-prediction of the model. In addition, theorists often interpret
-agreement with observations as validation for the characteristics
-assumed of the subgrid model.
-
-The precision with which the theories can match the stellar mass
-function and SFMS is increasing, and the predictive and interpretative
-power of the simulations therefore are increasing. For this reason, it
-is highly important to test the accuracy of the observational
-calibrations for the models. If the observational results to which the
-simulations are calibrated are in error in a systematic, that error
-propagates into the further predictions and the further interpretation
-of the simulations.
-
-This thesis explores two areas of importance in testing the robustness
-of the observations. First, it considers estimates of SFR and the
-relative importance of accounting for dust extinction and reemission;
-specifically to test in a new empirical way whether infrared-based SFR
-estimates yield more accurate star formation indicators.  Second, it
-considers aperture effects on estimates of stellar mass; specifically
-it uses new integral field spectroscopy observations to test aperture
-effects 
-\citet{kauffmann_stellar_2003} have performed
-an influential analysis using a combination of two spectral indicators
-(Section \ref{indices}). These two indicators are the ${\rm
-  H}\delta_{\rm A}$ absorption index (representing the Balmer
-transition from $n = 2$ to $n = 6$ levels) and the ${\rm D}_{\rm n}
-4000$ index (which is representative of the $4000$ \AA break found in
-the spectra of galaxies).  The use of this pair of indicators helps
-partially breaks the age-metallicity degeneracy
-(\citealt{worthey_comprehensive_1994}). \citet{kauffmann_stellar_2003}
-use this model to constrain the $M/L$ ratios of galaxies. They did so
-by using a suite of observed spectra from SDSS and a suite of SPS
-models, including ones with randomly distributed bursts of star
-formation, to fit for the spectra. They obtained 95\% confidence
-limits on stellar masses of 0.2 and 0.3 dex.  These results comprise
-the most commonly used catalog of physical parameters from the SDSS
-Legacy Survey, the MPA-JHU SFR and $M_{*}$ catalog, upon which
-hundreds of subsequent investigations rely.
-
-Surprisingly, the uncertainties in spectroscopically based stellar
-masses obtained by fitting observed optical spectra
-\citep{kauffmann_stellar_2003, 2012MNRAS.421..314C} are not quoted to
-be significantly better precision than the color-based stellar masses,
-except for galaxies with unusual SFH's
-\citet{2005MNRAS.362...41G}. However, spectroscopically derived masses
-are more robust to systematic effects such as dust attenuation than
-photometric masses (i.e. stellar masses obtained by fitting broadband
-photometry).
-
-An important practical point is that photometric measurements can
-generally measure the galaxy ``as a whole'' whereas in practice
-spectroscopic measurements are usually only of part of a galaxy. For
-example, in the case of \citet{kauffmann_stellar_2003}, they determine
-$M/L$ for the center of the galaxy and then apply that ratio based on
-the light of the galaxy as a whole.  I investigate the effects of
-aperture correction in the MPA-JHU catalog using spatially resolved
-spectra over much broader region than 3 arcsec in Chapter
-\ref{ch:acm}.\\
-
-Like the stellar mass, SFR measurements can be derived from
-photometric or spectroscopic measurements of the galaxy SED. As
-described above, there are scaling relations based on single
-measurements of UV or emission line flux which hold on average, but
-for individual galaxies are affected by the star formation history and
-dust models.  In general, SED-based SFR's, when a fixed IMF is
-assumed, are consistent within a factor of two level
-\citep{conroy_modeling_2013}.
-
-Later in this thesis, I will be relying on two representative
-estimates of SFR which rely on the interpretation of SEDs.  The first,
-due to \citet{salim_uv_2007}, used broadband photometry of SDSS
-galaxies and UV photometry from GALEX, interpreted using SPS models
-with a range of exponentially declining and bursty SFH's,
-metallicities and dust attenuation. They prescribed a specific,
-commonly used recipe for accounting for dust when using UV photometry,
-which shares much in common with a method usually used at high
-redshifts, known as the IRX-$\beta$ method (see \citealt{overzier11a}
-and references therein). The second, due to
-\citet{da_cunha_simple_2008} and implemented in the software MAGPHYS,
-uses UV, optical, and IR photometry to fit a self-consistent model to
-all of the data. The main difference is that MAGPHYS utilizes the IR
-data to constrain the dust reprocessing. I investigate in Chapter
-\ref{ch:sfrk} the differences between these methods, using galaxy
-environments to assess whether using IR information yields correct
-additional information about the SFR.
-
-In the SED modeling, the assumed SFH shape (i.e. star formation as a
-function of time) does matter. For instance, typically in the modeling
-of early-type galaxies, the SFHs are represented as an exponential
-decay function whose half-life is a parameter that is constrained by
-the SED fitting method used. The choice of priors on the SFH libraries
-can thus create systematic uncertainties in SFR estimation. The priors
-on dust modeling and the age-metallicity degeneracy inherent in SEDs
-can cause further challenges and thus, in the absence of high quality
-data, SFR estimations from SED fitting cannot be relied upon without a
-sufficient understanding the nature and extent of these biases.\\
-
-For completeness, we note here that the MPA-JHU catalog contains SFR
-estimates based on SDSS spectroscopy. The catalog utilizes the method
-of \citet{brinchmann_physical_2004}, which fits to the emission lines
-a suite of optical emission lines with model parameters including
-metallicity, dust attenuation, ionization parameter, etc. It then
-applies an aperture correction based on the $u$-band flux in the
-images to account for the limited fiber radius, assuming the H$\alpha$
-to $u$-band flux ratio is constant. This last assumption is
-questionable. Nevertheless, comparisons of photometric SFRs to 
-the MPA-JHU SFRs show that in general the two SFRs are in good
-agreement (e.g. \citealt{salim_uv_2007}).
-or using non-parametric SFH's.
-
-The estimations of SFR and $M_{*}$ of galaxies rely heavily of the
-availability and quality of data. Over the last decade, these have
-improved significantly, thanks to the high quality multi-band
-photometry as well as spectroscopy, including spatially resolved
-spectra, that have been collected by various ground-based and
-space-based observatories. I review the significant observational
-surveys related to these observatories along with the major results
-gleaned from them in the following section.\\
-
-\section{Star Formation in the Local Universe}
-
-\subsection{The Age of Digital Survey Astronomy}
-
-Redshift surveys in astronomy have their origins in the early 20th
-century when astronomers were interested in investigating Hubble's Law
-and the large scale structure of the Universe
-(\citealt{hubble31a}). The Center for Astrophysics (CfA) redshift
-survey (1977) was the first large systematic attempt at mapping a
-substantial contiguous volume of the sky and was later extended to the
-CfA2 survey which successfully obtained the spectra of over 15,000
-galaxies in the 1990s (\citealt{huchra95a}). With the advent of
-fiber-optic and multi-slit spectrographs allowing for simultaneous
-observations of hundreds of galaxies, larger redshift surveys such as
-the Las Campanas Redshift Survey (LCRS; \citealt{shectman96a}) the
-Two-degree Field Galaxy Redshift Survey (2dFGRS; \citealt{colless01a})
-, the Sloan Digital Sky Survey (SDSS; \citealt{2000AJ....120.1579Y,
-  eisenstein11a, blanton17a}), the Galaxy and Mass Assembly (GAMA)
-Survey, and others, have enabled astronomers to be able to study the
-physical properties of galaxies in a statistically rigorous manner.\\
-
-The choice of survey (or sample of a survey) to study depends on the
-particular question in galaxy evolution that is being
-investigated. Thus, understanding the redshift limits of the survey
-(the so-called depth of a survey) or subsample that is being used to
-construct a volume-limited dataset is a crucial step in this
-process. In this thesis, we only concern ourselves with the local
-Universe out to redshifts of $z < 0.15$ as the goal is to understand
-the limitations of some of the most commonly used SFR and $M_{*}$
-indicators. The angular coverage of a survey is also of importance,
-especially if environment measures play a significant role in the
-analysis. Keeping these in mind, the surveys I have worked with are
-derived from the SDSS Legacy sample.\\
-
-SDSS is the largest spectroscopic and imaging survey of galaxies thus
-far. It has been carried out using a wide field 2.5-m optical
-telescope at the Apache Point Observatory \citet{2006AJ....131.2332G}
-in New Mexico, United States \citep{2000AJ....120.1579Y,
-  2002AJ....124.1810S}. SDSS imaging covers 14,555 square degrees on
-the sky (a little over 35\%).  It provides a uniform, well-calibrated
-map in \emph{u, g, r, i} and \emph{z} bands.
-
-The spectroscopic SDSS Legacy Survey operated for eight years and
-covered 8,000 square degress on the sky, to a median redshift of $z=
-0.1$ for the main galaxy sample and and out to $z = 6$--$7$ for the
-distant quasars.  It used a multi-fiber spectrograph
-\citep{smee_multi-object_2013} to obtain the optical spectra of
-targeted galaxies. The spectra are taken using 3 arcsec diameter
-fibers and have a wavelength range of 3800--9200 \AA. Some of the
-major results in galaxy formation and evolution have been possible
-because of the SDSS spectroscopic survey (see Section \ref{sec:
-  results}).
-
-A major limitation of single-fiber spectroscopic surveys is that only
-a sub-region of the galaxy defined by the size of the fiber is
-sampled, which makes it more difficult to infer the galaxys's internal
-structure and dynamics or its global spectrum. To redress this
-problem, a number of integral field spectroscopic instruments have
-been built; they do not observe as many galaxies as the single-fiber
-surveys, but they observe them in greater detail. These instruments
-include Sydney-AAO Multi-object Integral-field spectrograph (SAMI;
-\citealt{bryant_sami_2015}), Mapping Nearby Galaxies at APO (MaNGA;
-\citealt{bundy_overview_2014}), and the MUSE spectrograph. SAMI and
-MaNGA are being used to undertake large homogeneous samples of
-galaxies in the local Universe.  MaNGA is the largest such survey of
-this nature so far, and aims to observe 10,000 galaxies by 2020 across
-a wide dynamic range in $M_{*}$, environment, and SFR with uniform
-radial coverage.  I use this sample of galaxies to analyze the
-robustness of the aperture corrections made by
-\citet{kauffmann_environmental_2004} by looking at the galaxies
-through multiple apertures and comparing the observed $M/L$ ratios
-obtained thus in Chapter \ref{ch:acm}.\\
-
-In my analysis, I use the NASA-Sloan Atlas (NSA), a catalog of images
-and parameters of local galaxies up to redshifts of $z = 0.055$ that
-is derived from SDSS imaging, with additional UV broadband photometry
-from the space-based Galaxy Evolution Explorer (GALEX). The NSA is
-built from a reanalysis \citet{2011AJ....142...31B} of the SDSS Legacy
-photometry, with improved object detection and deblending, making it
-better tuned for large, bright galaxies than the typical SDSS
-processing. The MaNGA target list is drawn from the NSA. This makes
-the NSA an ideal candidate to study the physical properties of
-galaxies in the Local Universe and I use the NSA to compare two star
-formation indicators in the context of dust in Chapter
-\ref{ch:sfrk}.\\
-
-\subsection{Studying Star Formation in the Local Universe}
-\label{sec: results}
-
-Large observational surveys such as the SDSS have, over the last two
-decades, enabled us to make accurate measurements of tracers of
-important physical properties of hundreds of thousands of galaxies
-across a wide redshift range. These measurements have in turn informed
-some of the most important results in reconstructing the cosmic star
-formation history of the Universe and understanding the process of
-galaxy formation and evolution. In this section, I will discuss some
-of the most important trends observed, their significance in galaxy
-evolution and finally, the need for robust SFR and $M_{*}$
-measurements, thus motivating the work in this thesis.\\
-
-\citet{2001AJ....122.1861S} observed, using SDSS imaging, the
-bimodality of galaxies, i.e., that there were two distinct populations
-of galaxies, a blue, star-forming population and a population of red,
-passive galaxies that have little or no star formation. As
-\citet{blanton_physical_2009-1} review, this bimodality is related to
-galaxy morphological types; blue galaxies are spiral galaxies and red
-galaxies are early type spiral, lenticular, or elliptical galaxies.
-
-The relationship between galaxies and their dark matter halo hosts,
-particularly in the context of galaxy clusters, has been investigated
-by looking at galaxy clustering measurements.  The passive
-non-star-forming large ellipticals preferentially exist in the center
-of these haloes \citep{2005ApJ...633..791Z}. Thus, for a sufficiently
-large local sample of galaxies, the star forming galaxies
-preferentially exist in lower environments and the passive ``quenched"
-population preferentially exist in clusters. These trends again
-reflect the long-known segregation of morpghological types
-(\citealt{dressler_galaxy_1980}).
-
-Galaxies without star formation must have been galaxies with star
-formation at some point in their past. The intermediate population of
-galaxies, the so-called ``green valley" \citep{2007ApJS..173..293W} or
-more aptly, the transitioning galaxies, (i.e., the galaxies that are
-in the process of transitioning from star-forming to quenched) is thus
-a population of wide interest. Observationally, these are harder to
-identify without understanding the role of dust in obscuring galactic
-starlight, and thus their physical properties are not entirely
-apparent.\\
-
-It has also been found that for star forming galaxies between
-redshifts of $0 < z < 4$, there is a tight relation between galaxy
-star formation rates and their stellar masses, known as the star
-forming main sequence (SFMS) \citep{brinchmann_physical_2004,
-  2007ApJ...660L..43N, 2015A&A...575A..74S}. This is usually observed
-as a power law relationship with ${\rm SFR} \propto {\rm M}^{\alpha}$,
-with an intrinsic scatter of 0.2-0.3 dex for moderate to relatively
-low mass galaxies. Recent investigations into the SFMS suggest that
-the value of $\alpha$ is between 0.6-1.2
-\citep{2014ApJS..214...15S}. Over cosmic time, the SFMS moves to lower
-star formation rates, which is the primary driver of the change in the
-cosmic star formation rate density (\citealt{madau_cosmic_2014}). At
-the same time, some galaxies leave the SFMS completely and become
-quiescent (\citealt{moustakas_primus:_2013, hahn_primus_2015}).
-
-% It has also been suggested that the scatter increases as a function
-% of stellar mass (Ilbert 2015), thus suggesting that more massive
-% galaxies might have a more diverse set of SFHs that have not been
-% yet fully explored.\\
-
-The question of how galaxies move off the SFMS to become quiescent or
-quenched, i.e. how galaxies turn off the process of star formation, is
-fundamental to the study of galaxy evolution, as we have seen in
-Section \ref{sec:questions}. In broad terms, two different process
-have been proposed for this: internal processes that quench star
-formation such as AGN or supernova feedback \citep{peng_mass_2010} and
-external processes such as environmental effects which strip the
-galaxy of its gas content \citep{peng_mass_2012,
-  2012ApJ...757...85G}. As \citet{blanton_physical_2019-1} point out,
-because galaxy scaling relations remain constant with environment even
-as the relation numbers of different galaxy types change, it is likely
-that internal processes are primarily driving the evolution of
-galaxies --- otherwise, the formation process of, say, an elliptical
-galaxy in the field would be different than the formation process of
-an elliptical in a cluster, even though the two populations of
-galaxies follow the same relationships. \\
 
 Galaxy formation theorists seek to address these questions by
 employing semi-analytical models or hydrodynamic simulations that
@@ -1009,11 +717,11 @@ This thesis explores two areas of importance in testing the robustness
 of the observations. First, it considers estimates of SFR and the
 relative importance of accounting for dust extinction and reemission.
 Specifically, I test in a new empirical way whether infrared-based SFR
-estimates such as \citet{da_cunha} yield more accurate star formation
-indicators than ultraviolet indicators. Since the ultraviolet
+estimates such as \citet{da_cunha_simple_2008} yield more accurate star 
+formation indicators than ultraviolet indicators. Since the ultraviolet
 indicators are the most accessible ones for high redshift
 observations, this topic is related to how reliably we can measure
-evolution of the SFMS.
+evolution of the SFMS.\\
 
 Second, it considers aperture effects on estimates of stellar mass.
 specifically I use new integral field spectroscopy observations to

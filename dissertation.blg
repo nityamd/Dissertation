@@ -12,94 +12,93 @@ Repeated entry---line 425 of file references.bib
  : @article{cooper_measuring_2005
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1298 of file references.bib
+Repeated entry---line 1437 of file references.bib
  : @article{salim_uv_2007
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1456 of file references.bib
+Repeated entry---line 1595 of file references.bib
  : @article{ilbert_mass_2013
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1471 of file references.bib
+Repeated entry---line 1610 of file references.bib
  : @article{muzzin_evolution_2013
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1520 of file references.bib
+Repeated entry---line 1659 of file references.bib
  : @article{tomczak_galaxy_2014
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1537 of file references.bib
+Repeated entry---line 1676 of file references.bib
  : @article{bruzual_stellar_2003
  :                              ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1906 of file references.bib
+I was expecting a `,' or a `}'---line 2045 of file references.bib
  : @proceeding{doi: 
  :                  10.1117/12.856027,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1968 of file references.bib
+Repeated entry---line 2107 of file references.bib
  : @article{drory_manga_2015
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1982 of file references.bib
+Repeated entry---line 2121 of file references.bib
  : @article{bundy_overview_2014
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2043 of file references.bib
+Repeated entry---line 2182 of file references.bib
  : @article{bruzual_a._spectral_1983-2
  :                                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3404 of file references.bib
+Repeated entry---line 3585 of file references.bib
  : @article{2007AJ....133..734B
  :                             ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "1972AandA....20..361F"
-Warning--I didn't find a database entry for "2002AandA...392....1S"
-Warning--I didn't find a database entry for "2011ApandSS.331....1W"
-Warning--I didn't find a database entry for "2005AandA...443..735C"
-Warning--I didn't find a database entry for "2005AandA...436.1049M"
-Warning--I didn't find a database entry for "2003AandA...402..433L"
-Warning--I didn't find a database entry for "2009AandA...507.1793N"
+Warning--I didn't find a database entry for "blanton_physical_2019-1"
 Warning--I didn't find a database entry for "york00a"
 Warning--I didn't find a database entry for "martin05a"
-You've used 100 entries,
+Warning--I didn't find a database entry for "best2005"
+Warning--I didn't find a database entry for "yan2016"
+Warning--I didn't find a database entry for "Cappellari2016"
+Warning--I didn't find a database entry for ""
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+You've used 124 entries,
             2229 wiz_defined-function locations,
-            1120 strings with 50005 characters,
-and the built_in function-call counts, 80879 in all, are:
-= -- 6479
-> -- 8286
-< -- 31
-+ -- 3223
-- -- 3200
-* -- 8814
-:= -- 14979
-add.period$ -- 300
-call.type$ -- 100
-change.case$ -- 2099
-chr.to.int$ -- 97
-cite$ -- 100
-duplicate$ -- 1431
-empty$ -- 2799
-format.name$ -- 3331
-if$ -- 14382
-int.to.chr$ -- 4
+            1237 strings with 62283 characters,
+and the built_in function-call counts, 103565 in all, are:
+= -- 8255
+> -- 10802
+< -- 38
++ -- 4206
+- -- 4178
+* -- 11349
+:= -- 19210
+add.period$ -- 372
+call.type$ -- 124
+change.case$ -- 2707
+chr.to.int$ -- 120
+cite$ -- 124
+duplicate$ -- 1767
+empty$ -- 3471
+format.name$ -- 4344
+if$ -- 18360
+int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 100
-newline$ -- 503
-num.names$ -- 300
-pop$ -- 1876
+missing$ -- 124
+newline$ -- 623
+num.names$ -- 372
+pop$ -- 2429
 preamble$ -- 1
-purify$ -- 2099
+purify$ -- 2707
 quote$ -- 0
-skip$ -- 1076
+skip$ -- 1323
 stack$ -- 0
-substring$ -- 2933
-swap$ -- 133
+substring$ -- 3663
+swap$ -- 157
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 600
+type$ -- 744
 warning$ -- 0
-while$ -- 302
+while$ -- 377
 width$ -- 0
-write$ -- 1300
+write$ -- 1612
 (There were 11 error messages)
