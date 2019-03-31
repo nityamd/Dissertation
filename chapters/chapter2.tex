@@ -67,6 +67,14 @@ This break was defined in by \citet{bruzual_a._spectral_1983-2} as the ratio of 
 \end{figure}
 
 
+\begin{figure}
+\includegraphics[width=\textwidth]{figures/mass_age_sfr_dist.pdf}
+\caption[The \citet{kauffmann_stellar_2003} grid to infer M/L ratios from the $h\delta_{A}-D_{n}4000$ plane]
+{The \citet{kauffmann_stellar_2003} grid to infer M/L ratios from the $h\delta_{A}-D_{n}4000$ plane
+\label{fig:kauff_grid}}
+\end{figure}
+
+
 \subsection{The Balmer H$\delta$ Absorption Line}
 \label{hdelta}
 
@@ -81,6 +89,12 @@ Measuring an absorption feature involves measuring the flux in a central bandpas
 \subsection{Constraining SFH's using H$\delta_{\rm A}$ and $D_{\rm n}4000$}
 \label{kauffmann method}
 
+The methods used by \citep{kauffmann} involve fitting observed spectra with SPS models based on spectral libraries to develop maximum likelihood estimated of stellar mass, star formation rates and stellar ages for the population of galaxies. Key to this is modelling the time evolution of a galaxy in the ${\rm H}\delta_{\rm A}$ - ${\rm D}_{\rm n} 4000$ phase space. As it turns out, together, these two indices provide a significant observational constraint on the age of a a galaxy. Even though the time evolution of either indicator in isolation does indeed depend on metallicity, the locus of galaxies in the plane is not as sensitive to metallicity and is informative of whether or not a star burst episode
+
+\subsection{The MPA-JHU Aperture Correction/Aperture Bias}
+\label{apercorr}
+
+
 \begin{figure}
 \includegraphics[width=\textwidth]{figures/hd_d4000_mlratio_coarser_binning.pdf}
 \caption[The \citet{kauffmann_stellar_2003} grid to infer M/L ratios from the $h\delta_{A}-D_{n}4000$ plane]
@@ -89,8 +103,6 @@ Measuring an absorption feature involves measuring the flux in a central bandpas
 \end{figure}
 
 
-\subsection{The MPA-JHU Aperture Correction/Aperture Bias}
-\label{apercorr}
 
 \section{Data}
 
@@ -163,21 +175,21 @@ MRB Says: At all redshifts, we can see that there is a systematic tendency for g
 \subsection{Offsets in the $H\delta_{\rm A}$-$D_{\rm n}4000$ plane}
 
 \begin{figure}
-\includegraphics[width=\textwidth]{figures/quiver_a.pdf}
+\includegraphics[width=\textwidth]{figures/mlz_offset_a.pdf}
 \caption[ The combined mean offset in $D_{\rm n}4000$-$h\delta_{\rm A}$ at $z=0.02$ from the full aperture measurements represented as a vector whose projections on the axes are the actual offsets in either direction ]{ The combined mean offset in $D_{\rm n}4000$-$h\delta_{\rm A}$ at $z=0.02$ from the full aperture measurements represented as a vector whose projections on the axes are the actual offsets in either direction
 \label{fig:offset_quiver1}}
 \end{figure}
 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{figures/quiver_b.pdf}
+\includegraphics[width=\textwidth]{figures/mlz_offset_b.pdf}
 \caption[ The combined mean offset in $D_{\rm n}4000$-$h\delta_{\rm A}$ at $z=0.06$ from the full aperture measurements represented as a vector whose projections on the axes are the actual offsets in either direction ]{ The combined mean offset in $D_{\rm n}4000$-$h\delta_{\rm A}$ at $z=0.06$ from the full aperture measurements represented as a vector whose projections on the axes are the actual offsets in either direction
 \label{fig:offset_quiver2}}
 \end{figure}
 
 \begin{figure}
-\includegraphics[width=\textwidth]{figures/quiver_c.pdf}
-\caption[ The combined mean offset in $D_{\rm n}4000$-$h\delta_{\rm A}$ at $z=0.14$ from the full aperture measurements represented as a vector whose projections on the axes are the actual offsets in either direction ]{ The combined mean offset in $D_{\rm n}4000$-$h\delta_{\rm A}$ at $z=0.14$ from the full aperture measurements represented as a vector whose projections on the axes are the actual offsets in either direction
+\includegraphics[width=\textwidth]{figures/mlz_offset_c.pdf}
+\caption[ The combined mean offset in $D_{\rm n}4000$-$h\delta_{\rm A}$ at $z=0.14$ from the full aperture measurements represented as a vector whose projections on the axes are the actual offsets in either direction ]{ \emph{Left:} The combined mean offset in $D_{\rm n}4000$-$h\delta_{\rm A}$ at $z=0.14$ from the full aperture measurements represented as a vector whose projections on the axes are the actual offsets in either direction. \emph{Right:} The offsets transformed to the z-band mass-to-light ratios using 
 \label{fig:offset_quiver3}}
 \end{figure}
 
@@ -185,17 +197,9 @@ MRB Says: At all redshifts, we can see that there is a systematic tendency for g
 
 MRB Says: * This mean tendency is *relatively* small. You should calculate from your grids the median offset for cells with D4000 > 1.3 or something like that, and quote that number. You should then look carefully at the Kauffmann figure to translate this to a change in $M/L_z$ --- my guess is that it is around 0.1 dex for z=0.06. Do this for z=0.06 and z=0.14.
 
- * The scatter about this mean is substantial relative to
- the mean. Again, calculate the median standard deviation
- over the cells with D4000 > 1.3 to quantify this. My guess
- is that it is  comparable to the mean itself. This means
- for individual galaxies the error can be a lot bigger.
- Again quote for both those redshifts.
+ * The scatter about this mean is substantial relative to the mean. Again, calculate the median standard deviation over the cells with D4000 > 1.3 to quantify this. My guess is that it is  comparable to the mean itself. This means for individual galaxies the error can be a lot bigger. Again quote for both those redshifts.
 
- * The main conclusion is that stellar masses more accurate
-than 0.1 dex (or whatever you see in the mean offset) are
-not possible, and that the scatter in the offset means the
-precision is degraded as well. This source of error is important
+ * The main conclusion is that stellar masses more accurate than 0.1 dex (or whatever you see in the mean offset) arenot possible, and that the scatter in the offset means the precision is degraded as well. This source of error is important
 to keep in mind but is probably not fatal for samples at z=0.1
 from MPA/JHU --- most results done rely on stellar masses
 at that precision. Using this sample at lower redshift may be

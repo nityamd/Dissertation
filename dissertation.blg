@@ -58,10 +58,11 @@ Warning--I didn't find a database entry for "martin05a"
 Warning--I didn't find a database entry for "best2005"
 Warning--I didn't find a database entry for "yan2016"
 Warning--I didn't find a database entry for "Cappellari2016"
+Warning--I didn't find a database entry for "kauffmann"
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 You've used 127 entries,
             2229 wiz_defined-function locations,
-            1248 strings with 62546 characters,
+            1249 strings with 62555 characters,
 and the built_in function-call counts, 104552 in all, are:
 = -- 8353
 > -- 10823

@@ -41,16 +41,16 @@
 \contentsline {subsection}{\numberline {2.2.1}The $D_{\rm n}4000$ break in Galaxy Spectra}{61}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}The Balmer H${"δ}$ Absorption Line}{62}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Constraining SFH's using H${"δ}_{\rm A}$ and $D_{\rm n}4000$}{66}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}The MPA-JHU Aperture Correction/Aperture Bias}{66}{subsection.2.2.4}
-\contentsline {section}{\numberline {2.3}Data}{66}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}MaNGA Target Selection and DRP}{66}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Our Sample}{66}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}Methods}{66}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Variable Aperture Measurements}{66}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}$H{"δ}_{\rm A}$, $D_{\rm n}4000$ Measurements within Apertures}{68}{subsection.2.4.2}
-\contentsline {section}{\numberline {2.5}Results}{68}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Comparison to Full Aperture Measurements}{68}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Offsets in the $H{"δ}_{\rm A}$-$D_{\rm n}4000$ plane}{72}{subsection.2.5.2}
-\contentsline {section}{\numberline {2.6}Discussion}{72}{section.2.6}
-\contentsline {chapter}{\numberline {3}Conclusion}{76}{chapter.3}
-\contentsline {chapter}{References}{94}{chapter*.22}
+\contentsline {subsection}{\numberline {2.2.4}The MPA-JHU Aperture Correction/Aperture Bias}{67}{subsection.2.2.4}
+\contentsline {section}{\numberline {2.3}Data}{67}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}MaNGA Target Selection and DRP}{67}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Our Sample}{67}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Methods}{68}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Variable Aperture Measurements}{68}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}$H{"δ}_{\rm A}$, $D_{\rm n}4000$ Measurements within Apertures}{69}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}Results}{71}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Comparison to Full Aperture Measurements}{71}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Offsets in the $H{"δ}_{\rm A}$-$D_{\rm n}4000$ plane}{74}{subsection.2.5.2}
+\contentsline {section}{\numberline {2.6}Discussion}{74}{section.2.6}
+\contentsline {chapter}{\numberline {3}Conclusion}{77}{chapter.3}
+\contentsline {chapter}{References}{95}{chapter*.23}
