@@ -6,40 +6,137 @@
 
 \section{Introduction}
 
-In this chapter we investigate methods of constraining the star formation histories and stellar masses of galaxies where galaxy spectra are available. In particular, we look at the largest galaxy catalog of estimated stellar masses, star formation rates and gas metallicities, the MPA-JHU catalog \citep{brinchmann_physical_2004, kauffmann_stellar_2003, tremonti_origin_2004}, obtained from spectra from the Sloan Digital Sky Survey (SDSS) Legacy Survey. The MPA-JHU catalog has, over the last decade and a half, been one of the most influential and widely-used catalogs in the fields of galaxy formation and evolution. Here we test a fundamental assumption of the catalog, which is that spectroscopic measurements of the central region of the galaxy yield sufficient information to constrain star formation histories and stellar masses for the galaxy as a whole.\\
+In this chapter we investigate methods of constraining the star formation histories and stellar masses of galaxies where galaxy spectra are available. In particular, we look at the largest galaxy catalog of estimated stellar masses, star formation rates and gas metallicities, the MPA-JHU catalog \citep{brinchmann_physical_2004, kauffmann_stellar_2003, tremonti_origin_2004}, obtained from spectra from the Sloan Digital Sky Survey (SDSS) Legacy Survey. The MPA-JHU catalog has, over the last decade and a half, been one of the most influential and widely-used catalogs in the fields of galaxy formation and evolution; the original catalog paper of \citet{kauffmann_stellar_2003} has been cited over a thousand times. Here we test a fundamental assumption of the catalog, which is that spectroscopic measurements of the central region of the galaxy yield sufficient information to constrain star formation histories and stellar masses for the galaxy as a whole.\\
 
-The importance of galaxy star formation histories have been discussion in Sections \ref{questions} and  \ref{sec: results} and crucial to analyzing them are accurate inferences of star formation rates and stellar masses from observed data. In particular, the stellar mass function, which is used to calibrate the parameters in simulations that seek to reproduce the star formation histories of galaxy populations, relies on accurate observational calibrations of stellar mass. In this spirit, I examine one of the most widely used stellar mass estimation methods that involves two spectral indicators and an aperture correction to account for the limited spatial resolution coverage of SDSS spectra. I investigate the robustness of this method using spatially resolved spectra from the MaNGA (Mapping Nearby Galaxies at Apache Point) survey.\\
+The importance of galaxy star formation histories has been discussed in Sections \ref{questions} and  \ref{sec: results}. Crucial to analyzing these histories are accurate inferences of star formation rates and stellar masses from observed data. In particular, the stellar mass function, which is used to calibrate the parameters in simulations that seek to reproduce the star formation histories of galaxy populations, relies on accurate observational calibrations of stellar mass. In this spirit, I examine one of the most widely used stellar mass estimation methods; this method from \citet{kauffmann_stellar_2003} involves two spectral indicators and uses an aperture correction to account for the limited spatial resolution coverage of SDSS spectra. I investigate the robustness of this method using spatially resolved spectra from the Mapping Nearby Galaxies at Apache Point Observatory survey (MaNGA; \citealt{bundy_overview_2014}).\\
 
 \subsection{The SDSS spectra}
 \label{sdss spectra}
 
-As introduced in Section \ref{sec: surveys}, SDSS has been conducting a coordinated imaging and spectroscopic survey since 2000 and is currently in its fourth phase of operation. The first two phases of the survey, SDSS and its extension, SDSS-II, which covered approximately 10000 square degrees of mostly the northern galactic sky ran between 2000-2008 and served as the primary database for the original MPA-JHU catalog. The measurements made by \citet{brinchmann_physical_2004, kauffmann_stellar_2003, tremonti_origin_2004} were extended to SDSS-III (covering an additional 4000 square degrees) and thus we focus on the eighth data release, DR8, released in January 2011, that contains photometry of over a billion objects and the observed spectra of a little over 900,000 galaxies \citep{2009ApJS..182..543A} from SDSS-III.\\
+As introduced in Section \ref{sec: surveys}, SDSS has been conducting a coordinated imaging and spectroscopic survey since 2000 and is currently in its fourth phase of operation. The first two phases of the survey, SDSS and its extension SDSS-II, ran from 2000--2008 and took spectroscopy over approximately 8,000 square degrees of mostly the northern galactic sky 
+ran between 2000-2008. It served as the primary database for the MPA-JHU catalog (\citealt{brinchmann_physical_2004, kauffmann_stellar_2003, tremonti_origin_2004}), whose final results were published in SDSS's Data Release 8 (DR8), 
+which contains observed spectra of a little over 900,000 galaxies \citep{aihara11a}.\\
 
-The imaging and spectroscopic data are observed using a 2.5 m telescope at the Apache Point Observatory (APO) in Sunspot, New Mexico. The imaging data is obtained by using a wide-field mosaic CCD camera and the spectroscopic data, using twin multi-object fiber spectrographs  \citep{smee_multi-object_2013}, all of which are mounted at the Cassegrain focus of the telescope. The imaging survey, which is carried out in drift-scanning mode using a 5 $\times$ 6 array of 2048 $\times$ 2048 pixel detectors, obtains photometry in the \emph{u, g, r, i} and \emph{z} bands. This broadband photometric data, after reduction and calibration, serves as the pool of data from which spectroscopic target selection is then done. The spectroscopic fiber plug plates, also known as tiles, are aluminum plates which have holes drilled into them at positions decided upon by the target selection and the optical fibers are plugged into into these holes. They have a circular field-of-view of radius 1.49 degrees and can fit in 640 fibers, allowing for simultaneous observation of 640 spectra (mostly galaxy spectra and some which are reserved for blank sky observations for calibration) in a 3 degree diameter field of view over the course of a single exposure.\\
+The imaging and spectroscopic data were observed using a 2.5 m telescope at the Apache Point Observatory (APO) in Sunspot, New Mexico. The imaging data was obtained by using a wide-field mosaic CCD camera and the spectroscopic data, using twin multi-object fiber spectrographs  \citep{smee_multi-object_2013}, all of which are mounted at the Cassegrain focus of the telescope. The imaging survey, which is carried out in drift-scanning mode using a 5 $\times$ 6 array of 2048 $\times$ 2048 pixel detectors, obtains photometry in the \emph{u, g, r, i} and \emph{z} bands. This broadband photometric data, after reduction and calibration, serves as the pool of data from which spectroscopic target selection is then done. The spectroscopic fiber plug-plates are aluminum plates which have holes drilled into them at positions decided upon by the target selection and the optical fibers are plugged into into these holes. They have a circular field-of-view of radius 1.49 degrees and during SDSS-I and -II were outfitted with 640 fibers, allowing for simultaneous observation of 640 spectra (mostly galaxy spectra and some which are reserved for standard and blank sky observations for calibration) in a 3 degree diameter field of view over the course of a single exposure.\\
 
 The fiber diameter of the optical fibers was chosen with a view to maximize the signal-to-noise (S/N) ratio for an extended source, keeping in mind the sky conditions at APO. The optimal choice that was decided upon corresponds to a fiber diameter of 180 $\mu$m or 3''. The rest-frame wavelength range of the spectra at the median redshift is from 3500 \AA\ to 8500 \AA\ with a spectral resolution:\\ $$R = \frac{\Delta \lambda}{\lambda} \approx 2000.$$ The spectra are calibrated using observations of F stars in each 3 degree field.\\
 
-SDSS imaging data and spectra have played a significant role in many discoveries in astronomy and cosmology over the last decade and a half. Prominent among them are the discovery of baryon acoustic oscillation (BAO) signatures in galaxy clustering in 2005 which engendered a new method to constrain fundamental cosmological parameters, the discovery and subsequent studies of quasars which has given us insight into the growth of black holes, the discovery of the bimodal nature of galaxy properties and the relationship between galaxies and their dark matter haloes and insights into the chemical abundances and star formation history of the Milky Way. Key to some of the important results in galaxy evolution, in particular, has been the use of star formation rates, stellar masses and metallicities obtained from the MPA-JHU Catalog, which was developed specifically using SDSS spectroscopic data. I discuss the catalog and the methods used to estimate these quantities in the following sections.\\
- 
-\subsection{The MPA JHU Catalog}
+SDSS imaging data and spectra have played a significant role in many discoveries in astronomy and cosmology over the last decade and a half. In addition to fundamental measurements of cosmological parameters and the study of distant quasars and stars in our own galaxy, the Main Sample of galaxies in SDSS-I and -II (\citet{strauss02a}) has informed much of the new understanding of galaxy properties that we have today. This 
+new understanding has included the quantification of the 
+bimodal nature of galaxy properties {\bf cites}, the relationship
+between galaxy properties and environment {\bf cites}, and
+how galaxy properties relate to the masses and other properties
+of their host dark matter halos {\bf cites}. Key to many 
+of these  works has been the use of new ways to estimate
+star formation histories, stellar masses, and chemistry of 
+stars in galaxies, including those found in the MPA-JHU 
+catalog.
+I discuss the catalog and the methods used to estimate these quantities in the following sections.\\
 
-The MPA-JHU catalog is the result of a collaborative effort between a group of researchers at the Max Planck Institute for Astrophysics and the John Hopkins University and was put together on the heels of the first SDSS Data Release (DR1) of spectroscopic observations. The original dataset they used was 120,808 galaxies drawn from the SDSS DR1 for which the following properties were estimated: stellar masses and mass-to-light ratios, effective stellar attenuation by dust, indicators of recent major starbursts, current total and specific star-formation rates, gas-phase metallicities, AGN classifications based on the standard emission line ratio diagnostic diagrams and AGN luminosities. The methods of estimation of these properties can be found in \citet{kauffmann_stellar_2003} for the stellar masses, \citet{brinchmann_physical_2004} for the star formation rates and \citet{tremonti_origin_2004} for the gas phase metallicities.\\
+\subsection{The MPA-JHU Catalog}
 
-The MPA-JHU catalog measurements are ubiquitous in galaxy evolution literature with many important results relying on the inferred SFR's, masses and metallicities from the catalog. A few examples of scientific results from which the significance of the catalog can be evinced would be: understanding the host galaxies of AGN's by Kewley \citep{kewley2006}, the star formation-density relation and its reversal in distant universe by \citet{elbaz2007}, constraining the mass-metallicity relationship for star-forming galaxies \citep{kewley2008}, the mass dependence of radio-loud AGN's \citep{best2005}, insights into quenching mechanisms \citep{peng_mass_2010} and large scale galactic conformity \citep{kauffmann2013}, mapping the stellar mass function \citep{2009MNRAS.398.2177L, 2015MNRAS.454.4027D}, etc.\\
+The MPA-JHU catalog is the result of a collaborative effort between a group of researchers at the Max Planck Institute for Astrophysics and the John Hopkins University and was first constructed for the first SDSS Data Release (DR1) of spectroscopic observations. The original dataset they used was 120,808 galaxies drawn from the SDSS DR1 for which the following properties were estimated: stellar masses and mass-to-light ratios, effective stellar attenuation by dust, indicators of recent major starbursts, current total and specific star-formation rates, gas-phase metallicities, AGN classifications based on the standard emission line ratio diagnostic diagrams and AGN luminosities. The methods of estimation of these properties can be found in \citet{kauffmann_stellar_2003} for the stellar masses, \citet{brinchmann_physical_2004} for the star formation rates and \citet{tremonti_origin_2004} for the gas phase metallicities.\\
 
-The MPA-JHU catalog use SDSS spectra to constrain the stellar masses and star formation histories in the catalog are obtained by looking at two key spectral indicators of starbursts and age of a galaxy: the Balmer ${\rm H}\delta_{\rm A}$ absorption line index and the ${\rm D}_{\rm n}4000$ break index.   Because they are both measurements defined over a narrow range of wavelengths in the blue, that are similar to each other, and are independent of the absolute flux, they are designed to be insensitive to dust extinction within the galaxy. The indices are discussed in detail in Sections \ref{d4000} and \ref{hdelta}. Using the distribution of the observed galaxies in the ${\rm H}\delta_{\rm A}-{\rm D}_{\rm n}4000$ plane and by employing Stellar Population Synthesis (SPS) models by \citet{bruzual_stellar_2003-1} to model the evolution of galaxies in this plane, they are able to derive maximum likelihood estimates of the stellar mass of a galaxy \citep{kauffmann_stellar_2003}, the attenuation of optical light by dust and the fraction of stars in a galaxy formed in recent bursts.\\
+The MPA-JHU catalog measurements are ubiquitous in galaxy evolution literature with many important results relying on the inferred SFR's, masses and metallicities from the catalog. A few examples of scientific results from which the significance of the catalog can be evinced would be: understanding the host galaxies of AGN's by Kewley \citep{kewley2006}, the star formation-density relation and its reversal in distant universe by \citet{elbaz2007}, constraining the mass-metallicity relationship for star-forming galaxies \citep{kewley2008}, the mass dependence of radio-loud AGN's \citep{best05a}, insights into quenching mechanisms \citep{peng_mass_2010} and large scale galactic conformity \citep{kauffmann2013}, mapping the stellar mass function \citep{2009MNRAS.398.2177L, 2015MNRAS.454.4027D}, and many others.\\
 
-There is a crucial step to the way the stellar masses are inferred in the catalog. What is actually inferred for a given point in the ${\rm H}\delta_{\rm A}-{\rm D}_{\rm n}4000$ phase space is the mass-to-light ratio in the $z$-band. Now, as we have just seen in Section \ref{sdss spectra}, due to the nature of fiber spectroscopy, the angular area of coverage of a galaxy observed is limited to 3'', which could correspond to different actual physical sizes depending on the redshift of the galaxy. Thus, \citet{kauffmann_stellar_2003} (and \citet{brinchmann_physical_2004} for SFR's) prescribe a method of aperture correction that relies on the assumption that the mass-to-light ($M/L$) ratio of the central part of a galaxy is representative of the entire galaxy. Thus the fiber M/L ratios are obtained in the \emph{z}-band are multiplied by the luminosity of the galaxy in the z-band, that can be obtained from SDSS broadband photometry to recover the total stellar mass of the galaxy. The methodology and the motivations behind it are discussed in further detail in Section \ref{kauffmann method}.\\
+The MPA-JHU catalog uses SDSS spectra to constrain the stellar masses and star formation histories in the catalog by looking at two key spectral indicators of starbursts and age of a galaxy: the Balmer ${\rm H}\delta_{\rm A}$ absorption line index and the ${\rm D}_{\rm n}4000$ break index.   Because they are both measurements defined over a narrow range of wavelengths in the blue, that are similar to each other, and are independent of the absolute flux, they are designed to be insensitive to dust extinction within the galaxy. The indices are discussed in detail in Sections \ref{d4000} and \ref{hdelta}. Using the distribution of the observed galaxies in the ${\rm H}\delta_{\rm A}-{\rm D}_{\rm n}4000$ plane and by employing Stellar Population Synthesis (SPS) models by \citet{bruzual_stellar_2003-1} to model the evolution of galaxies in this plane, they are able to derive maximum likelihood estimates of the stellar mass of a galaxy \citep{kauffmann_stellar_2003}, the attenuation of optical light by dust and the fraction of stars in a galaxy formed in recent bursts.\\
 
-It follows from the above that the MPA-JHU catalog stellar masses might possibly be systematically affected at different regions of the ${\rm H}\delta_{\rm A}-{\rm D}_{\rm n}4000$ phase space wherever the central M/L ratios are not representative of the entire galaxy. This can be an issue where there are distinct bulge and disk components, such as for luminous spiral galaxies. The way to be able to quantify exactly how offset the MPA-JHU masses might be depending on the size of the aperture, what one would need is spatially resolved spectra for the galaxy. Integral Field Unit (IFU) based surveys provide us the necessary data to be able to do that. I review briefly the field of integral field spectroscopy and in more detail, the survey I will use to test the robustness of the MPA-JHU methods, MaNGA (Mapping Nearby Galaxies at Apache Point \citep{bundy_overview_2014}), in the following section.\\
+The spectra are only of the center of the galaxy so do not on their own constrain the total stellar mass. What is actually inferred from each spectrum at a given point ${\rm H}\delta_{\rm A}-{\rm D}_{\rm n}4000$ phase space is the mass-to-light ratio in the $z$-band for models that are at that same point. Now, as we have just seen in Section \ref{sdss spectra}, due to the nature of fiber spectroscopy, the angular area of coverage of a galaxy observed is limited to 3$''$, which could correspond to different actual physical sizes depending on the redshift of the galaxy. Thus, \citet{kauffmann_stellar_2003} (and in a similar way for SFRs, \citealt{brinchmann_physical_2004}) prescribe a method of aperture correction that relies on the assumption that the mass-to-light ($M/L$) ratio of the central part of a galaxy is representative of the entire galaxy. Thus the fiber M/L ratios are obtained in the \emph{z}-band are multiplied by the luminosity of the galaxy in the \emph{z}-band, that can be obtained from SDSS broadband photometry accounting for 
+the full flex of the galaxy and thus presumably the 
+total stellar mass of the galaxy. The methodology and the motivations behind it are discussed in further detail in Section \ref{kauffmann method}.\\
+
+It follows from the above that the MPA-JHU catalog stellar 
+masses would be systematically affected whenever the 
+central $M/L$ ratios were not representative of the 
+entire galaxy. For example, the bulge and disk components
+of luminous spiral galaxies have systematically different
+star formation histories and thus mass-to-light ratios; 
+since the bulge dominates the inner part of the galaxy,
+it can potentially dominate the fiber spectrum and yield
+a $M/L$ unrepresentative of the galaxy as a whole.
+To quantify exactly how this systematic affects
+MPA-JHU masses  spatially resolved spectra for galaxies
+is necessary.
+Integral Field Unit (IFU) based surveys provide us the 
+necessary data to be able to do that. In the following
+section, I review briefly  the field of integral field spectroscopy and describe in more detail the MaNGA survey
+\citep{bundy_overview_2014}.
 
 \subsection{Integral Field Spectroscopy and MaNGA}
 
-Integral Field Spectroscopy in astronomy was engendered by the need to study spectra of extended objects in some form of positional coordinates, where a single spectrum is insufficient to capture the internal dynamics of an object. An integral field spectrograph is thus equipped with an Integral Field Unit (IFU) that enables the observation of multiple regions of the extended object simultaneously to thus obtain spatially resolved spectra. There are many ways of doing this, including and not limited to, image slicers, lenslet arrays, and multi-fiber IFU's. As we have seen in Section \ref{sdss spectra}, while spectroscopic surveys have created huge breakthroughs in galaxy evolution and cosmology alike, the restricted spatial coverage have resulted in almost every result having to account for that in some way by either making corrections or extrapolations and often having to rely on photometric data (as is the case with the MPA-JHU catalog). Besides, it is hard to make anything more than educated guesses about the complex internal kinematics of an individual galaxy. The ability of IFU's to effectively provide us with spatial information has thus ushered in a new generation of spectroscopic surveys, the IFU-based surveys.\\
+Integral Field Spectroscopy in astronomy is motivated
+by the need to study the variation of spectra across
+extended objects, in order to determine its internal
+structure and dynamics.
+An Integral Field Unit (IFU) enables the observation 
+of multiple regions of the extended object simultaneously 
+to obtain these spatially resolved spectra. There are many 
+ways of doing this, including and not limited to image 
+slicers, lenslet arrays, and multi-fiber IFUs. As we 
+have seen in Section \ref{sdss spectra}, while 
+spectroscopic surveys have created huge breakthroughs 
+in galaxy evolution and cosmology alike, their restricted 
+spatial coverage has resulted in the need for more or 
+less uncertain aperture corrections to measure properties
+of the galaxy as a whole, and in the inability to 
+make reliable inferences about galaxies' internal structure.
 
-Some noteworthy IFU-based surveys include SAMI (Sydney-Australian-Astronomical-Observatory Multi-object Integral-Field Spectrograph \citep{bryant_sami_2015, yan2016}), MUSE (Multi Unit Spectroscopic Explorer \citep{bacon_muse_2015}) and CALIFA (Calar Alto Legacy Integral Field Area Survey) \citep{sanchez_califa_2012}. IFU-based surveys, have, over the last decade contributed immensely to our understanding of the internal lives of galaxies. A recent review on this can be found in \citet{Cappellari2016}. For the purposes of this project, which is more of an attempt at quantifying the robustness of the MPA-JHU aperture corrections using spatially resolved spectra, the survey that bests suits us would be MaNGA (Mapping Nearby Galaxies at Apache Point \citep{bundy_overview_2014}). MaNGA is the most ambitious IFU-based survey undertaken so far, with a view to obtain spatially resolved spectra of about 10,000 galaxies by 2020. Besides the statistical significance of the MaNGA galaxy sample (Section \ref{mangadrp}), the fact that it is SDSS based and thus in effect subject to the same systematics as the MPA-JHU catalog makes it an ideal candidate to investigate this question with.\\
+Some noteworthy IFU-based surveys include the 
+Sydney-Australian-Astronomical-Observatory Multi-object Integral-Field Spectrograph (SAMI; \citealt{bryant_sami_2015}), the 
+Multi Unit Spectroscopic Explorer (MUST; \citealt{bacon_muse_2015}), and the Calar Alto Legacy 
+Integral Field Area Survey (CALIFA; \citealt{sanchez_califa_2012}). 
+Over the last decade these and other surveys have
+contributed greatly to our understanding of the internal 
+lives of galaxies. 
+For the purposes of this project, 
+the survey that bests suits our purposes is 
+MaNGA (Mapping Nearby Galaxies at Apache Point \citep{bundy_overview_2014}). MaNGA is the largest 
+IFU-based survey undertaken so far in terms of 
+numbers of galaxies, planning to obtain spatially 
+resolved spectra of about 10,000 galaxies by 2020. 
+This size and the homogeneous selection of 
+galaxies is one important consideration 
+(Section \ref{mangadrp}). Another important 
+consideration is that it uses the BOSS spectrograph,
+which is very similar to the original SDSS spectrograph,
+and the data is calibrated and processed using very
+similar methods to SDSS-I and -II data.
+These properties make it a natural sample to use
+to test systematics in the methods applied to 
+the MPA-JHU catalog.
 
-MaNGA uses a multiple fiber IFU \citep{drory_manga_2015} and similar to the procedure of plugging in the single fiber cables as discussed in Section \ref{sdss spectra}, the multiple fiber bundles are plugged into the IFU holes drilled into the tiles which are then places at the focal plane of the 2.5m telescope at Apache Point. The fibers are 0.5'' in size and the bundles themselves come in five sizes and contain 19, 37, 61, 91 or 127 fibers depending on the apparent size of the target galaxy. Each fiber in a fiber bundle thus produces a spaxel, which can be thought of as a spectrum for every two-dimensional pixel. The resulting MaNGA galaxy outputs are thus three dimensional ``datacubes" with two spatial dimensions and one spectral dimension. Each bundle also contains sky fibers to allow for very precise sky subtraction by looking at a region of the sky that is very close to the target. At a given time, MaNGA is able to target 17 galaxies (and 12 standard stars) in the 3 degree FOV with much wider and continuous wavelength coverage than similar IFU-based surveys.\\
+MaNGA uses 17 multiple fiber IFUs simultaneously
+\citep{drory_manga_2015}.
+In the same way that single fibers are plugged into 
+plates (Section \ref{sdss spectra}), the multiple 
+fiber bundles are plugged at the appropriate 
+locations on plug-plates to be observed at the 
+focal plane of the 2.5m telescope at Apache Point. 
+The fibers are 2.0$''$ in size and the bundles 
+themselves come in five sizes and contain 19, 
+37, 61, 91 or 127 fibers. The bundle assigned to 
+each galaxy is determined from the 
+angular size of the target galaxy. 
+
+The fibers are arranged in a hexagonal pattern, 
+and several observations are taken slightly offset 
+from each other (``dithered'') to produce a denser 
+hexagonal sampling. During data processing, the 
+observations are interpolated onto a rectangular 
+grid at each wavelength. 
+Each grid point is called a spaxel, which can be 
+thought of as a spectrum for every two-dimensional 
+pixel. The resulting MaNGA galaxy outputs are 
+thus three dimensional ``datacubes" with two 
+spatial dimensions and one spectral dimension. 
+
+Each bundle also contains sky fibers to allow for 
+very precise sky subtraction by looking at a region of 
+the sky that is within a few arcminutes of the target. 
+At a given time, MaNGA is able to target 17 galaxies 
+(and 12 standard stars) in the 3 degree FOV with much 
+wider and continuous wavelength coverage than other
+large IFU-based surveys.\\
 
 \section{The $H\delta_{\rm A}-D_{\rm n}4000$ plane}
 \label{indices}
@@ -49,9 +146,29 @@ In this section, I review the two spectral diagnostic tools used by the MPA-JHU 
 \subsection{The $D_{\rm n}4000$ break in Galaxy Spectra}
 \label{d4000}
 
-Spectral discontinuities in stars are produced by the accumulation of a large number of spectral lines in a narrow region. This produces a sharp opacity edge, often due to the contribution of ionized metals and reveals itself as a break in the spectrum of the star. For hotter stars, the elements are multiply ionized leading to smaller opacity and for cool stars, the opacity is low once again due to reduced ionization because of cooler temperatures. It is thus for the intermediate stars that the spectral discontinuities are most prominent as the temperature is optimal for maximum ionization. Thus the age of the stellar populations can have a significant signature in terms of the spectral discontinuities we would observe in galaxy spectra and the most prominent one in galaxy spectra occurs at 4000 \AA \citep{bruzual1981, bruzual_a._spectral_1983}. There are other discontinuities in the UV occurring at 2420, 2640, 2900 \AA, but the 4000 \AA break lends itself to to being a better indicator, not only because it is in a more ideal part of the spectrum, i.e., the optical blue, but also because it is the most statistically significant one observed in galaxy spectra.\\
+Spectral discontinuities in stars can be 
+produced by the accumulation of a large number 
+of spectral lines in a narrow region. 
+In certain cases this can lead to a relatively 
+sharp discontinuity, or ``break,'' in  the 
+spectrum of the star.  
+A prominent break in galaxy spectra occurs in the
+optical at 4000 
+\AA \citep{bruzual1981, bruzual_a._spectral_1983}, 
+which exists in the spectra of K stars and thus 
+appears in stellar populations older than a few
+billion years, which are dominated
+by K giants. Because it is associated with this 
+late stage in the evolution of stellar populations,
+the strength of this break is an indicator of the 
+mean stellar age over the past few billion years.
 
-The specific metallic absorption lines causing the break include a variety of elements in varying states of ionization, including including the CaII doublet, H and K ( 3969 \AA and 3934 \AA) and higher order Balmer lines such as H $\epsilon, \lambda$, etc \citep{hamilton1985}. As the break does tend to be pronounced in intermediately old stellar populations which tend to be metal rich, it does depend on stellar metallicity, exhibiting some of the same age-metallicity degeneracy that afflicts most spectroscopic indicators.\\ 
+The specific metallic absorption lines causing the break 
+include a variety of elements in varying states of 
+ionization, including including the CaII doublet, H 
+and K (3969 \AA and 3934 \AA) and higher order 
+Balmer lines such as H$\epsilon, \lambda$, etc. 
+\citep{hamilton1985}. As the break does tend to be pronounced in intermediately old stellar populations which tend to be metal rich, it does depend on stellar metallicity, exhibiting some of the same age-metallicity degeneracy that afflicts most spectroscopic indicators.\\ 
 
 %The so-called 4000 \AA\ break is produced by the absorption of metallic lines of a variety of elements in various states of ionization,  The opacity suddenly increases for photons bluer than this wavelength, which produces an intensity drop. It is enhanced in old stellar populations, which tend to be metal rich, but it is also present in younger galaxies.
 
