@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  1 APR 2019 12:51
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  1 APR 2019 13:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1031,11 +1031,8 @@ Package caption Info: hyperref package is loaded.
 \mybibindent=\skip120
 )
 (./dissertation.aux (./chapters/introduction.aux) (./chapters/chapter1.aux)
-(./chapters/chapter2.aux
-
-LaTeX Warning: Label `fig:kauff_grid' multiply defined.
-
-) (./chapters/conclusion.aux) (./endmatter/colophon.aux))
+(./chapters/chapter2.aux) (./chapters/conclusion.aux) (./endmatter/colophon.aux
+))
 \openout1 = `dissertation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -1058,8 +1055,7 @@ LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 8.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 8.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/tipa/t3cmr.fd
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 8.
@@ -1247,9 +1243,9 @@ Overfull \hbox (11.40508pt too wide) in paragraph at lines 10--10
  []
 
 
-Overfull \hbox (7.96242pt too wide) in paragraph at lines 11--11
- [][] [][][]\EU1/EBGaramond(3)/bx/n/12 The Kauffmann et al. (2003) grid to infe
-r M/L ratios from the $[][][] \OMS/cmsy/m/n/12 ^^@ [][][][][][]$ 
+Overfull \hbox (39.66504pt too wide) in paragraph at lines 11--11
+ [][] [][][]\EU1/EBGaramond(3)/bx/n/12 SFR’s, stellar masses, ages and Mass-to-
+light ratios as a function of H$[][]$ and $[][][][][][]$ 
  []
 
 
@@ -1272,35 +1268,58 @@ Overfull \hbox (4.87395pt too wide) in paragraph at lines 15--15
 ]$ 
  []
 
+LaTeX Font Info:    Font shape `EU1/EBGaramond(3)/m/it' will be
+(Font)              scaled to size 12.0pt on input line 16.
 
-Overfull \hbox (3.31702pt too wide) in paragraph at lines 16--16
- \EU1/EBGaramond(3)/bx/n/12 ture measurements represented as a vector whose pro
-jections on the axes are 
+Overfull \hbox (7.14503pt too wide) in paragraph at lines 16--16
+ \EU1/EBGaramond(3)/bx/n/12 aperture measurements represented as a vector whose
+ projections on the axes 
  []
 
 
-Overfull \hbox (3.31702pt too wide) in paragraph at lines 17--17
- \EU1/EBGaramond(3)/bx/n/12 ture measurements represented as a vector whose pro
-jections on the axes are 
+Overfull \hbox (9.50104pt too wide) in paragraph at lines 16--16
+ \EU1/EBGaramond(3)/bx/n/12 are the actual offsets in either direction. \EU1/EB
+Garamond(3)/m/it/12 Right: \EU1/EBGaramond(3)/bx/n/12 The offsets transformed t
+o the 
  []
 
 
-Overfull \hbox (3.31702pt too wide) in paragraph at lines 18--18
- \EU1/EBGaramond(3)/bx/n/12 ture measurements represented as a vector whose pro
-jections on the axes are 
+Overfull \hbox (7.14503pt too wide) in paragraph at lines 17--17
+ \EU1/EBGaramond(3)/bx/n/12 aperture measurements represented as a vector whose
+ projections on the axes 
+ []
+
+
+Overfull \hbox (9.50104pt too wide) in paragraph at lines 17--17
+ \EU1/EBGaramond(3)/bx/n/12 are the actual offsets in either direction. \EU1/EB
+Garamond(3)/m/it/12 Right: \EU1/EBGaramond(3)/bx/n/12 The offsets transformed t
+o the 
+ []
+
+
+Overfull \hbox (7.14503pt too wide) in paragraph at lines 18--18
+ \EU1/EBGaramond(3)/bx/n/12 aperture measurements represented as a vector whose
+ projections on the axes 
+ []
+
+
+Overfull \hbox (9.50104pt too wide) in paragraph at lines 18--18
+ \EU1/EBGaramond(3)/bx/n/12 are the actual offsets in either direction. \EU1/EB
+Garamond(3)/m/it/12 Right: \EU1/EBGaramond(3)/bx/n/12 The offsets transformed t
+o the 
  []
 
 )
 \tf@lof=\write5
 \openout5 = `dissertation.lof'.
 
- [9] (./frontmatter/dedication.tex) [4] (./frontmatter/thanks.tex) [5
+ [9] [10] (./frontmatter/dedication.tex) [4] (./frontmatter/thanks.tex)
+[5
 
 ]
 \openout2 = `chapters/introduction.aux'.
 
-
-(./chapters/introduction.tex
+ (./chapters/introduction.tex
 LaTeX Font Info:    Font shape `EU1/EBGaramond(3)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 1.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(3)/m/sl' in size <10> not availa
@@ -1348,10 +1367,7 @@ Chapter 0.
 [6
 
 
-] [7]
-LaTeX Font Info:    Font shape `EU1/EBGaramond(3)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 26.
- [8] [9]
+] [7] [8] [9]
 Overfull \hbox (11.01944pt too wide) in paragraph at lines 36--36
 \EU1/EBGaramond(3)/bx/n/12 posed. Eventually the cold dark matter theories won 
 out as their prediction of the anisotropies 
@@ -1522,7 +1538,7 @@ LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
 (Font)              scaled to size 4.0474pt on input line 191.
 
 
-LaTeX Warning: Float too large for page by 47.29243pt on input line 192.
+LaTeX Warning: Float too large for page by 59.29243pt on input line 192.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1668,18 +1684,15 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 43.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 43.
  ) 
 Here is how much of TeX's memory you used:
- 25875 strings out of 493591
- 460214 string characters out of 6143546
- 516503 words of memory out of 5000000
- 28895 multiletter control sequences out of 15000+600000
+ 25876 strings out of 493591
+ 460228 string characters out of 6143546
+ 516991 words of memory out of 5000000
+ 28896 multiletter control sequences out of 15000+600000
  12504 words of font info for 103 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  60i,9n,107p,10404b,687s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (101 pages).
+Output written on dissertation.pdf (102 pages).
