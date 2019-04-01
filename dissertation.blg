@@ -12,93 +12,90 @@ Repeated entry---line 425 of file references.bib
  : @article{cooper_measuring_2005
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1437 of file references.bib
+Repeated entry---line 1524 of file references.bib
  : @article{salim_uv_2007
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1595 of file references.bib
+Repeated entry---line 1682 of file references.bib
  : @article{ilbert_mass_2013
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1610 of file references.bib
+Repeated entry---line 1697 of file references.bib
  : @article{muzzin_evolution_2013
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1659 of file references.bib
+Repeated entry---line 1746 of file references.bib
  : @article{tomczak_galaxy_2014
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1676 of file references.bib
+Repeated entry---line 1763 of file references.bib
  : @article{bruzual_stellar_2003
  :                              ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 2045 of file references.bib
+I was expecting a `,' or a `}'---line 2153 of file references.bib
  : @proceeding{doi: 
  :                  10.1117/12.856027,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2107 of file references.bib
+Repeated entry---line 2215 of file references.bib
  : @article{drory_manga_2015
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2121 of file references.bib
+Repeated entry---line 2229 of file references.bib
  : @article{bundy_overview_2014
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2182 of file references.bib
+Repeated entry---line 2290 of file references.bib
  : @article{bruzual_a._spectral_1983-2
  :                                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3585 of file references.bib
+Repeated entry---line 3693 of file references.bib
  : @article{2007AJ....133..734B
  :                             ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "blanton_physical_2019-1"
 Warning--I didn't find a database entry for "york00a"
 Warning--I didn't find a database entry for "martin05a"
-Warning--I didn't find a database entry for "best2005"
-Warning--I didn't find a database entry for "yan2016"
-Warning--I didn't find a database entry for "Cappellari2016"
-Warning--I didn't find a database entry for "kauffmann"
+Warning--I didn't find a database entry for "strauss02a"
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-You've used 127 entries,
+You've used 128 entries,
             2229 wiz_defined-function locations,
-            1249 strings with 62555 characters,
-and the built_in function-call counts, 104552 in all, are:
-= -- 8353
-> -- 10823
+            1248 strings with 62238 characters,
+and the built_in function-call counts, 104280 in all, are:
+= -- 8345
+> -- 10741
 < -- 41
-+ -- 4213
-- -- 4184
-* -- 11424
-:= -- 19387
-add.period$ -- 381
-call.type$ -- 127
-change.case$ -- 2725
-chr.to.int$ -- 122
-cite$ -- 127
-duplicate$ -- 1809
-empty$ -- 3552
-format.name$ -- 4353
-if$ -- 18556
++ -- 4179
+- -- 4150
+* -- 11374
+:= -- 19333
+add.period$ -- 384
+call.type$ -- 128
+change.case$ -- 2713
+chr.to.int$ -- 123
+cite$ -- 128
+duplicate$ -- 1823
+empty$ -- 3574
+format.name$ -- 4320
+if$ -- 18521
 int.to.chr$ -- 6
 int.to.str$ -- 0
-missing$ -- 127
-newline$ -- 638
-num.names$ -- 381
-pop$ -- 2438
+missing$ -- 128
+newline$ -- 643
+num.names$ -- 384
+pop$ -- 2424
 preamble$ -- 1
-purify$ -- 2725
+purify$ -- 2713
 quote$ -- 0
-skip$ -- 1355
+skip$ -- 1365
 stack$ -- 0
-substring$ -- 3744
-swap$ -- 160
+substring$ -- 3756
+swap$ -- 161
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 762
+type$ -- 768
 warning$ -- 0
-while$ -- 386
+while$ -- 389
 width$ -- 0
-write$ -- 1651
+write$ -- 1664
 (There were 11 error messages)
