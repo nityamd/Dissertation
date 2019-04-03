@@ -166,15 +166,26 @@ mean stellar age over the past few billion years.
 The specific metallic absorption lines causing the break 
 include a variety of elements in varying states of 
 ionization, including including the CaII doublet, H 
-and K (3969 \AA and 3934 \AA) and higher order 
-Balmer lines such as H$\epsilon, \lambda$, etc. 
-\citep{hamilton1985}. As the break does tend to be pronounced in intermediately old stellar populations which tend to be metal rich, it does depend on stellar metallicity, exhibiting some of the same age-metallicity degeneracy that afflicts most spectroscopic indicators.\\ 
+and K (3969 \AA and 3934 \AA)
+\citep{hamilton1985}. The stellar break strength
+correlates positively with stellar metallicity, which
+means that for galaxies the break exhibits some of the 
+same age-metallicity degeneracy that afflicts most spectroscopic indicators.\\ 
 
 %The so-called 4000 \AA\ break is produced by the absorption of metallic lines of a variety of elements in various states of ionization,  The opacity suddenly increases for photons bluer than this wavelength, which produces an intensity drop. It is enhanced in old stellar populations, which tend to be metal rich, but it is also present in younger galaxies.
 
 %The most obvious discontinuity in the spectrum of a galaxy is often the $D_{n}4000$ break \citep{1999ApJ...527...54B}, which is a consequence of the absorption into electronic excited states by neutral and partially ionized metals whose lines happen to overlap in the region just blueward of 4000 \AA.  Older stellar populations have spectra dominated by relatively cool giant stars, and under these conditions the partially ionized metal lines are strong. Younger stellar populations have spectra dominated by hot stars, for which these lines are weaker. 
 
-This break was defined in by \citet{bruzual_a._spectral_1983-2} as the ratio of the average flux density $F_{\rm \nu}$ in two bands that span \textasciitilde200 \AA on either side of 4000 \AA. \citet{1999ApJ...527...54B} defined a narrow band definition for the same where the bands that are now 100 \AA wide with 3850 \AA - 3950 \AA as the ``blue continuum" and 4000 \AA - 4100 \AA as the ``red continuum". The bandpass used in \citet{kauffmann_stellar_2003} (\ref{fig:early_late_type}) is the same as the one introduced by \citet{1999ApJ...527...54B} and their motivation for doing so is that the narrow definition is more insensitive to reddening effects. I reproduce these measurements using the same narrow band definition.\\
+This break was defined in by \citet{bruzual_a._spectral_1983-2} as the 
+ratio of the average flux density $F_{\rm \nu}$ in two bands that span 
+\textasciitilde200 \AA\ on either side of 4000 \AA. 
+\citet{1999ApJ...527...54B} defined a narrow bandwidth for
+the break (known as $D_n$4000), using 100 \AA\ wide bands for
+the blue (3850--3950 \AA) and red (4000--4100 \AA).
+\citet{kauffmann_stellar_2003} 
+(Figure \ref{fig:early_late_type}) uses $D_n$4000, because
+it is less sensitive to dust reddening effects. In this 
+section, I will use the same narrow band definition.\\
 
 \begin{figure}
 \includegraphics[width=\textwidth]{figures/spectra_placeholder.png}
@@ -195,20 +206,114 @@ This break was defined in by \citet{bruzual_a._spectral_1983-2} as the ratio of 
 \subsection{The Balmer H$\delta$ Absorption Line}
 \label{hdelta}
 
-As we have seen in Section \ref{sed}, the spectral features of galaxies contain a wealth of information about their star formation properties. In particular the Balmer lines in the optical are very useful in understanding the ionized hydrogen content in the stellar populations in the galaxies and can thus provide valuable insight into star formation properties. The Balmer emission lines are the result of re-emission of light from hot, young stars by the ISM or HII regions in galaxies as we have seen in Section \ref{sfrs}. The absorption lines such as the H$\beta$, H$\gamma$ and H$\delta$ absorption lines, however, are characteristic of stellar spectra (predominantly occurring in A-type stars) and are thus tracers of the age and metallicity of stellar populations in galaxies. In particular, a strong H$\delta$ absorption feature is indicative of a starburst having happened 0.5-1.5 Gyrs ago \citep{1983ApJ...270....7D}, assuming that the stellar populations involved are mostly A-type stars.\\
+As we have seen in Section \ref{sed}, the spectral features of 
+galaxies contain a wealth of information about their star 
+formation properties. In stellar populations, the Balmer 
+absorption lines (H$\alpha$, H$\beta$, $H\gamma$, $H\delta$, \ldots)
+are indicative of the presence of A stars. The surface 
+temperatures of these stars are cool enough that their photospheres
+are not fully ionized, but hot enough that the $n=2$ state of
+hydrogen is populated and thus the $2\rightarrow n$ transitions 
+can cause absorption lines. The lifetimes of A stars are 0.5--1 
+billion years, and therefore the strength of the Balmer
+lines in galaxies is indicative of the relative fraction of star
+formation that has occurred in the past few hundred million to
+a billion years. For example, very strong H$\delta$ absorption 
+in the absence of signatures of star formation indicates a 
+a starburst having happened and ended 0.5--1.5 Gyrs ago 
+\citep{1983ApJ...270....7D}. 
 
-The evolution of the Balmer absorption line profiles in stellar spectra with age points to a tendency for the width of the lines to increase with the age of the stars until about 0.5 Gyr for stellar populations with solar metallicity. Up until ages of about 1 Gyr, the Balmer lines of individual stars are not dependent on metallicity. However the interpretation of stellar age from the integrated light from stellar populations can still be affected by metallicity considerations as lower metallicity stars evolve more slowly in the HR diagram with the strength of the absorption feature peaking at ages older than 1 Gyr. Thus a lower metallicity stellar population at an older age would exhibit a similar H$\delta$ absorption feature as an intermediate-age stellar population with solar (or higher) metallicity.\\
+Like many spectroscopic indicators,
+because the temperature of the stars is negatively correlated 
+with metallicity, Balmer line indicators also suffer from an
+age-metallicity degeneracy. However, this degeneracy can be 
+broken with additional measurements of other features of the 
+spectrum which have age-metallicity degeneracies that differ
+in detail. Thus with the appropriate SPS models, both the 
+mean age and metallicity can be simultaneously obtained. 
+The traditional tool for this purpose is the set of Lick indices, 
+obtained by using stellar spectra from the Lick Observatory 
+\citep{1997ApJS..111..377W, worthey_comprehensive_1994}. The 
+Lick indices are a system of 25 line indices, whose 
+relationship to underlying stellar properties is thought
+to be known. 
 
-The distinguishing factor, however, in the way the age-metallicity degeneracy affects the Balmer lines as opposed to the metallic absorption features is that the latter is tied more to the presence of the red giant branch stars and the former is more a consequence of the dependence of the main sequence turnoff temperature being a function of metallicity. Thus with the appropriate SPS models, both the mean age and metallicity can be simultaneously obtained. Particularly useful in this endeavor are the Lick indices, obtained by using stellar spectra from the Lick Observatory \citep{1997ApJS..111..377W, worthey_comprehensive_1994}. The Lick indices are a system of 25 line indices, that can successfully disentangle the effects of age and metallicity for a given [$\alpha$/Fe] abundance ratio.\\ 
+Here we will utilize these index measurements of the Balmer 
+lines. Specifically we focus on H$\delta$. Although this absorption
+line is weaker than the lower order lines, it is less contaminated.
+The interstellar gas in galaxies is emitting Balmer recombination
+lines. For H$\alpha$, $\beta$, and $\gamma$, the emission can 
+be strong enough to swamp the absorption line in the 
+continuum. 
 
-Measuring an absorption feature involves measuring the flux in a central bandpass relative to two pseudo-continuum bandpasses on either side. A line is drawn between the midpoints of the two flanking pseudo-continuum bandpasses to define the continuum from which an equivalent width is measured by integration. The bandpass definitions we use here, as defined by \citet{worthey_comprehensive_1994} are: an index Bandpass from 4083.50 - 4122.25 \AA with the blue and red bandpasses on either side being 4041.60 - 4079.75 \AA and 4128.50 - 4161 \AA respectively.
+Measuring these absorption feature indices involves measuring 
+the flux in a central bandpass relative to two pseudo-continuum 
+bandpasses on either side. The continuum from 
+which the equivalent width is measured is defined by linear
+interpolation between the midpoints  of the two flanking pseudo-continuum 
+bandpasses. The bandpass definitions we use here, as defined 
+by \citet{worthey_comprehensive_1994} are: an index bandpass from 
+4083.50--4122.25 \AA\ with the blue and red bandpasses on either side 
+being 4041.60--4079.75 \AA\ and 4128.50--4161 \AA\ respectively.
 
 \subsection{Constraining SFH's using H$\delta_{\rm A}$ and $D_{\rm n}4000$}
 \label{kauffmann method}
 
-The MPA-JHU measurements of stellar masses and ages rely on the results concerning the evolution of the H$\delta_{\rm A}$ and $D_{\rm n}4000$ indices for stellar populations. The evolutionary tracks of these indices with age are mapped by the spectral library, STELIB, incorporated into the SPS models \citep{bruzual_stellar_2003} that are used to fit the SDSS spectral data and the significant observation here is that at a given value of $D_{\rm n}4000$, a stronger H$\delta_{\rm A}$ feature is indicative of recent starbursts. While the evolution of each index with age is not independent of metallicity as we have seen above, together, the locus of galaxies in the H$\delta_{\rm A}$-$D_{\rm n}4000$ plane can provide constraints on the starburst histories of the galaxies. \citet{kauffmann2013} exploit this result to constrain the stellar mass-to-light ratios of galaxies by using a Bayesian inference technique. The prior distribution is a library of models that are generated by Monte Carlo realizations which are representative of both bursty and continuous star formation histories. The library consists of 32000 different star formation histories and their parameter space includes the H$\delta_{\rm A}$ and$D_{\rm n}4000$ indices, the stellar mass-to-light ratios in the z-band, the $g-r$ and $r-i$ colors and the fraction of stellar mass formed in bursts over the past 2 Gyr.\\
+The MPA-JHU measurements of stellar masses and ages rely on the 
+results concerning the evolution of the H$\delta_{\rm A}$ and 
+$D_{\rm n}4000$ indices for stellar populations. The evolutionary 
+tracks of these indices with age are mapped by the spectral library, 
+STELIB, incorporated into the SPS models \citep{bruzual_stellar_2003} 
+that are used to fit the SDSS spectral data. 
+A significant prediction of these models here is that 
+$D_{\rm n}4000$ is sensitive to the mean star formation rate over
+time scales of billions of years, whereas the H$\delta_{\rm A}$ feature 
+is sensitive to the mean star formation rate over hundreds of millions
+of years. These features therefore provide constraints on the star
+formation histories of the galaxies.
 
-This library of models thus enables the construction of a ``model grid" in the H$\delta_{\rm A}$-$D_{\rm n}4000$ plane that maps to various physical properties of the galaxy. For each galaxy in SDSS DR8, the spectra are processed using the SPECTRO2D pipleine and the spectral indices as well as emission line fluxes are calculated using a special purpose code \citep{tremonti_origin_2004} that recovers the best fit model spectrum for each galaxy based on the \citet{bruzual_stellar_2003} SPS models. Thus for each galaxy in the sample, there is an associated value of H$\delta_{\rm A}$ and $D_{\rm n}4000$, along with an error estimate and can now possibly be associated with a model from the library of star formation histories. As the prior on the distribution of the SFH's is akin to the parameter space being Monte Carlo sampled, the likelihood of the distribution of the data given the parameters can be assumed to be Gaussian. The median value of the posterior probability distributions of the parameters for each galaxy derived thus is then used as the ``best" estimate in the catalog. The resulting mass-to-light ratios for the SDSS DR8 galaxies in the H$\delta_{\rm A}$-$D_{\rm n}4000$ plane thus obtained are plotted in Figure \ref{fig:kauff_grid}.\\ 
+These observables are also related to metallicity, which means that
+how they relate to star formation history is affected by the
+age-metallicity degeneracy. However, the stellar mass-to-light ratio is 
+also affected by this degeneracy in a similar fashion; therefore
+a given value of these observables tends to correspond to the 
+same $M/L$ even for different metallicity populations.
+
+\citet{kauffmann2013} exploit these properties to constrain the 
+stellar mass-to-light ratios of galaxies by using a Bayesian 
+inference technique. The prior distribution is a library of models 
+that are generated by Monte Carlo realizations that are 
+representative of both bursty and continuous star formation 
+histories. The library consists of 32000 different star formation 
+histories, and provides predictions for each of the H$\delta_{\rm A}$ 
+and $D_{\rm n}4000$ indices, the stellar mass-to-light ratios in the 
+$z$-band, the $g-r$ and $r-i$ colors, and the fraction of stellar 
+mass formed in bursts over the past 2 Gyr.\\
+
+This library of models thus enables the construction of a 
+``model grid" in the H$\delta_{\rm A}$-$D_{\rm n}4000$ plane,
+where each point on the grid corresponds to a distribution of
+physical properties of the models.
+For each galaxy in SDSS DR8, the spectral indices are measured, 
+and then the physical properties and their uncertainties inferred
+from the distribution corresponding to those spectral index values.
+% as emission line fluxes are calculated using a special purpose 
+% code \citep{tremonti_origin_2004} that recovers the best fit 
+% model spectrum for each galaxy based on the 
+% \citet{bruzual_stellar_2003} SPS models. Thus for each galaxy 
+%value of H$\delta_{\rm A}$ 
+%and $D_{\rm n}4000$, along with an error estimate and can 
+%now possibly be associated with a model from the library of 
+%star formation histories. As the prior on the distribution of 
+% the SFH's is akin to the parameter space being Monte Carlo 
+% sampled, the likelihood of the distribution of the data 
+% given the parameters can be assumed to be Gaussian. 
+The resulting median value of the posterior probability distributions 
+of the parameters for each galaxy is then used 
+as the ``best" estimate in the catalog. The resulting 
+mass-to-light ratios for the SDSS DR8 galaxies in the 
+H$\delta_{\rm A}$-$D_{\rm n}4000$ plane thus obtained are 
+plotted in Figure \ref{fig:kauff_grid}.\\ 
 
 \begin{figure}
 \includegraphics[width=\textwidth]{figures/hd_d4000_mlratio_coarser_binning.pdf}
@@ -220,9 +325,59 @@ This library of models thus enables the construction of a ``model grid" in the H
 \subsection{The Stellar Mass Aperture Bias in MPA-JHU}
 \label{apercorr}
 
-As we have reviewed in Section \ref{sdss spectra}, the SDSS spectra capture starlight within the 3'' aperture diameter with fibers that have been placed as close to the centre of a galaxy as possible and thus there has to be a reasonable way of translating the ``fiber" mass-to-light ratios discussed above to total stellar masses, etc. The MPA-JHU catalog utilizes the broadband photometry data to obtain total stellar masses by multiplying the z-band mass-to-light ratios with the dust-corrected z-band Luminosity of the galaxies, thus extrapolating the fiber mass-to-light ratios and dust attenuation factor to the whole galaxy. Thus it can be expected that the aperture bias in stellar mass would be a strong source of systematic error here, as discussed in \citet{kauffmann2013} (and \citet{brinchmann_physical_2004} for the star formation rates).\\
+As we have reviewed in Section \ref{sdss spectra}, the SDSS spectra 
+collect starlight within the 3$''$ fiber diameter, with fibers that 
+have been placed as close to the centre of a galaxy as possible.
+Thus mass-to-light ratios discussed above only strictly apply to the
+center of the galaxies.
+To obtain total stellar masses, the MPA-JHU catalog 
+applies the mass-to-light ratio to the $z$-band photometry, using
+a spectroscopically-determined correction for dust extinction.
+This procedures assumes that the fiber mass-to-light ratios and 
+dust attenuation factor is applicable to the whole galaxy. This
+assumption could in principle be a source of systematic error,
+i.e. an  aperture bias, as discussed in \citet{kauffmann_stellar_2003} 
+(and \citet{brinchmann_physical_2004} for the star formation rates).\\
+For example,  spiral galaxies with star forming outer discs could have 
+the index measurements in the central bulge not reflective of the 
+galaxy's star formation properties as a whole at all. 
 
-The most severe scenario for this bias would be in the case of spiral galaxies with star forming discs where the index measurements in the central bulge would not be reflective of the galaxy properties as a whole at all. \citet{kauffmann2013} attempt to address this bias by comparing similar galaxies at different redshifts by using distance as a proxy for the fraction of galaxy that would fall within the aperture to see how significant the shift in the z-band M/L ratios are.\\
+\citet{kauffmann_stellar_2003} attempt to address this 
+bias by comparing galaxies with similar z-band luminosities 
+at different redshifts, using the fact that the physical
+size of the aperture will depend on distance,
+to see how significant the shift in ${\rm D}_{\rm n}4000$,
+$(M/L)_{z}$ and $A_{z}$ are. They find that ${\rm D}_{n}4000$ 
+and $A_{z}$ show a marked trend with redshift for galaxies 
+whose absolute magnitude in z-band is between 
+$-22.5 < M_{z} < -22.0$  but not for the galaxies that are 
+brighter or fainter than that. The trends for $(M/L)_{z}$ are 
+similar but less pronounced. However, even at the outer limit 
+of the redshifts probed, the median fraction of total light 
+from a galaxy entering the fiber is only half the total, and 
+so bias in the true global $(M/L)_{z}$ of the galaxies in the catalog 
+is not measured by this technique. 
+
+The stellar mass estimates in the MPA-JHU catalog are 
+certainly affected by other systematic effects, most
+prominently the  choice of the stellar IMF (which can cause 
+a factor of two issue), but also the stellar population 
+model choice, the choice of the star formation history prior 
+(i.e., the model library), and other effects. These sorts
+of biases have been explored in detail by other researchers
+(see \citealt{conroy_modeling_2013} and references therein).
+However, before this work there was not yet a direct 
+demonstration that the aperture bias in these estimates 
+was tolerable.
+
+% In the companion paper of \citet{kauffmann2013}, \citet{brinchmann_physical_2004}, which deals with estimating star formation rates and specific star formation rates for the MPA-JHU catalog, an aperture correction is proposed for the estimated SFR's. Their aperture correction entails constructing likelihood distributions for SFR/$L_{i}$  based on the $g-r$ and $r-i$ colors, where $L_{i}$, the \emph{i}-band luminosity, serves as a proxy for the mass of the galaxy. These are then used to infer the total galaxy SFR's from the fiber SFR's. It is explicitly stated by the authors of \citet{brinchmann_physical_2004} that one of the significant sources of systematic error in the SFR estimates would have to be the orientation of the aperture and that one would need to model spatially resolved spectra to be able to truly verify the validity of the aperture corrections.\\
+
+IFU-based surveys that cover a large fraction of each
+galaxy's area are ideal to test the aperture 
+effects on both SFRs and stellar masses in the MPA-JHU 
+catalog. Therefore, in this chapter I investigate the aperture 
+effects on the stellar mass estimates by using spatially 
+resolved spectral data from MaNGA.\\
 
 
 \section{Data}
