@@ -57,45 +57,45 @@ Warning--I didn't find a database entry for "york00a"
 Warning--I didn't find a database entry for "martin05a"
 Warning--I didn't find a database entry for "strauss02a"
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-You've used 128 entries,
+You've used 129 entries,
             2229 wiz_defined-function locations,
-            1248 strings with 62238 characters,
-and the built_in function-call counts, 104280 in all, are:
-= -- 8345
-> -- 10741
+            1252 strings with 62770 characters,
+and the built_in function-call counts, 105111 in all, are:
+= -- 8409
+> -- 10834
 < -- 41
-+ -- 4179
-- -- 4150
-* -- 11374
-:= -- 19333
-add.period$ -- 384
-call.type$ -- 128
-change.case$ -- 2713
-chr.to.int$ -- 123
-cite$ -- 128
-duplicate$ -- 1823
-empty$ -- 3574
-format.name$ -- 4320
-if$ -- 18521
++ -- 4215
+- -- 4186
+* -- 11466
+:= -- 19491
+add.period$ -- 387
+call.type$ -- 129
+change.case$ -- 2736
+chr.to.int$ -- 124
+cite$ -- 129
+duplicate$ -- 1837
+empty$ -- 3598
+format.name$ -- 4357
+if$ -- 18665
 int.to.chr$ -- 6
 int.to.str$ -- 0
-missing$ -- 128
-newline$ -- 643
-num.names$ -- 384
-pop$ -- 2424
+missing$ -- 129
+newline$ -- 648
+num.names$ -- 387
+pop$ -- 2445
 preamble$ -- 1
-purify$ -- 2713
+purify$ -- 2736
 quote$ -- 0
-skip$ -- 1365
+skip$ -- 1375
 stack$ -- 0
-substring$ -- 3756
-swap$ -- 161
+substring$ -- 3774
+swap$ -- 162
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 768
+type$ -- 774
 warning$ -- 0
-while$ -- 389
+while$ -- 392
 width$ -- 0
-write$ -- 1664
+write$ -- 1677
 (There were 11 error messages)

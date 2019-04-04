@@ -333,7 +333,7 @@ center of the galaxies.
 To obtain total stellar masses, the MPA-JHU catalog 
 applies the mass-to-light ratio to the $z$-band photometry, using
 a spectroscopically-determined correction for dust extinction.
-This procedures assumes that the fiber mass-to-light ratios and 
+These procedures assumes that the fiber mass-to-light ratios and 
 dust attenuation factor is applicable to the whole galaxy. This
 assumption could in principle be a source of systematic error,
 i.e. an  aperture bias, as discussed in \citet{kauffmann_stellar_2003} 
@@ -360,7 +360,7 @@ is not measured by this technique.
 
 The stellar mass estimates in the MPA-JHU catalog are 
 certainly affected by other systematic effects, most
-prominently the  choice of the stellar IMF (which can cause 
+prominently the choice of the stellar IMF (which can cause 
 a factor of two issue), but also the stellar population 
 model choice, the choice of the star formation history prior 
 (i.e., the model library), and other effects. These sorts
@@ -382,15 +382,16 @@ resolved spectral data from MaNGA.\\
 
 \section{Data}
 
-\subsection{MaNGA Target Selection and DRP}
+\subsection{MaNGA Target Selection}
 \label{mangadrp}
-Primary and Secondary Samples. NSA redshifts/Luminosity cut.
 
 
-Why Manga is ideal to test the MPA-JHU aperture correction.
+The MaNGA target selection is based on NSA photometry with the area of coverage being within the SDSS Legacy limits. This is done keeping in mind the sample size, the sampling in stellar mass, radial coverage and with a view to maximize the signal to noise ratio as well as the spatial resolution. The optimization process used to do this is described in \citet{2017AJ....154...86W}. The goal is to observe approximately 10,000 galaxies by 2020 (or first six years of SDSS-IV).\\
+
+The target selection was done in such a way that the MaNGA IFU's can cover the galaxy beyond its effective radius, $R_{e}$ (the radius within which half of the galaxy's light is contained). There are two samples, the Primary, the Secondary and the Color-enhanced samples. The primary and secondary samples, which make up 47\% and 37\% of the total sample, differ in the extent of spaxel coverage, with the former going out to $1.5R_{e}$ and the latter, $2.5R_{e}$.  The cuts in redshift for both are chosen to ensure that there is a flat number density distribution of galaxies in the absolute i-band magnitude. The color-enhanced sample, which makes up about 16\% of MaNGA, fills in for the undersampled regions in the \emph{N-i}-$M_{i}$ plane by extending the redshift limits in the primary sample so that galaxy types such as red galaxies with low luminosity, the green-valley galaxies and the high luminosity star-formers are represented in MaNGA.\\
 
 \subsection{Our Sample}
-The most recent MaNGA product launch, MPL-$8$, which was announced in November $2018$, containing products based on galaxy and stellar library observations from March $2014$ - July $2018$ serves as the source of our sample. It contains $950$ plates - $6779$ data cubes and $20649$ stellar library stars. Out of these, $6468$ are galaxies with measured NSA redshifts. These are representative of all the IFU sizes (list them: 19,37... 127) and span a redshift range upto $z = 0.15$.\\
+The most recent MaNGA product launch, MPL-$8$, which was announced in November $2018$, containing products based on galaxy and stellar library observations from March $2014$ - July $2018$ serves as the source of our sample. It contains $950$ plates - $6779$ data cubes and $20649$ stellar library stars. Out of these, $6468$ are galaxies with measured NSA redshifts. These are representative of all the IFU sizes (19, 37, 61, 91 or 127 fibers per IFU) and span a redshift range upto $z = 0.15$.\\
 For each galaxy observation, depending on the IFU bundle size (say $N_{X}$, $N_{Y}$ each describing a position $0.5$" from the previous spaxel), we have ($N_{X}$, $N_{Y}$) spectra which span $4563$ wavelength points. 
 
 \section{Methods}
