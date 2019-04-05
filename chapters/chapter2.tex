@@ -380,7 +380,7 @@ effects on the stellar mass estimates by using spatially
 resolved spectral data from MaNGA.\\
 
 
-\section{Data}
+\section{Data and Methods}
 
 \subsection{MaNGA Target Selection}
 \label{mangadrp}
@@ -445,11 +445,8 @@ spectra on a rectilinear grid with a spacing of
 The dimensions of the grid are aligned with north
 ($Y$) and east ($X$) on the sky.
 
-\section{Methods}
-\label{sec:chap2methods}
-
 \subsection{Variable Aperture Measurements}
-
+\label{sec:chap2methods}
 For any given data cube, we want to convert it into
 a set of aperture spectra with variable aperture to 
 simulate the spectrum that the SDSS-I and -II
@@ -469,16 +466,30 @@ light is included (with the lower number for de Vaucouleurs
 galaxies and the upper number for exponential galaxies;
 \citealt{graham05a}).
 
-% As each spaxel spans a width of 0.5'' in along the ``X" and ``Y" direction, at any point $(x,y)$ in the IFU image, the distance in arc-seconds of the centre of a spaxel from the central spaxel $(x_{c},y_{c})$ in the IFU would be:
+% As each spaxel spans a width of 0.5'' in along the ``X" and ``Y" 
+%direction, at any point $(x,y)$ in the IFU image, the distance in 
+%arc-seconds of the centre of a spaxel from the central spaxel 
+%$(x_{c},y_{c})$ in the IFU would be:
 % $$ d = (r(x,y) - r(x_{c},y_{c})) = \sqrt{(0.5*x)^2 + (0.5*y)^2} $$
 
 % Thus, for every spaxel in the IFU, where $d<=R$, that 
-% part of the galaxy would fall within the aperture and hence, we would include that spaxel in the measurement of whichever spectral index. Using this, for instance, we can simulate the SDSS fiber measurement, i.e.,  what the $1.5$" aperture radius used in SDSS would see versus the total galaxy or what we call a ``full aperture" measurement.
+% part of the galaxy would fall within the aperture and hence, 
+%we would include that spaxel in the measurement of whichever 
+%spectral index. Using this, for instance, we can simulate the 
+%SDSS fiber measurement, i.e.,  what the $1.5$" aperture 
+%radius used in SDSS would see versus the total galaxy 
+%or what we call a ``full aperture" measurement.
 
 %\begin{figure}
 %\includegraphics[width=\textwidth]{figures/gal_aperture.pdf}
-%\caption[Placeholder figure: TBD. Sample MaNGA galaxy view in the spaxel space with the $H{\delta_{\rm A}}$ distribution plotted as a function of position and the contours marking the aperture diameters at different angular distances in arcseconds]
-%{Placeholder figure: TBD. Sample MaNGA galaxy view in the spaxel space with the $H_{\delta_{\rm A}}$ distributions plotted as a function of position and the contours marking the aperture diameters at different angular distances in arcseconds
+%\caption[Placeholder figure: TBD. Sample MaNGA galaxy 
+%view in the spaxel space with the $H{\delta_{\rm A}}$ distribution 
+%plotted as a function of position and the contours marking 
+%the aperture diameters at different angular distances in arcseconds]
+%{Placeholder figure: TBD. Sample MaNGA galaxy view 
+%in the spaxel space with the $H_{\delta_{\rm A}}$ distributions 
+%plotted as a function of position and the contours 
+%marking the aperture diameters at different angular distances in arcseconds
 %\label{fig:sample_manga}}
 %\end{figure}
 
@@ -508,14 +519,15 @@ $z_{\rm obs} \le z_{\rm new}$.
 
 \begin{figure}
 \includegraphics[width=\textwidth]{figures/full_aperture_comparisons.pdf}
-\caption[The $D_{n}4000$, $h\delta_{A}$ indices measured at $z = 0.02,0.06,0.14$ with a $3''$ aperture compared to the full aperture measurement]
-{ The $D_{n}4000$ and $H\delta_{A}$ indices measured at $z = 0.02,0.06,$ and $0.14$ with a $3''$ aperture compared to the full aperture measurement. The dashed line corresponds
-to $x=y$.}
+\caption[The $D_{n}4000$, $h\delta_{A}$ indices measured at 
+$z = 0.02,0.06,0.14$ with a $3''$ aperture compared to the full aperture measurement]
+{ The $D_{n}4000$ and $H\delta_{A}$ indices measured 
+at $z = 0.02,0.06,$ and $0.14$ with a $3''$ aperture 
+compared to the full aperture measurement. The dashed line corresponds
+to $x=y$.
 \label{fig:redshift_comparison}}
 \end{figure}
 
-
-\subsection{$H\delta_{\rm A}$, $D_{\rm n}4000$ Measurements within Apertures}
 
 I measure $H\delta_{\rm A}$ and $D_{\rm n}4000$ indices in the standard
 fashion in the galaxy rest frames. To perform the measurements more 
@@ -596,7 +608,12 @@ mass-to-light ratios, for some fraction of the galaxies.
 \label{fig:offset_hdelta}}
 \end{figure}
 
+
 \subsection{Offsets in the $H\delta_{\rm A}$-$D_{\rm n}4000$ plane}
+
+The next step to comparing the full aperture measurements to the 3'' measurements at the three redshift bins would be to see where the galaxies move in the H$\delta_{\rm A}$ - $D_{\rm n}4000$ plane. The offsets in the plane binned along both the dimensions are plotted in Figure \ref{fig:offset_d4000} for the $D_{\rm n}4000$ measurements and in Figure \ref{fig:offset_hdelta} for the H$\delta_{\rm A}$ measurements. Apart from the mean offsets, we also plot the mean dispersions in each of these bins.\\
+
+The combined offsets in both the directions are plotted as quiver plots in Figures \ref{fig:offset_quiver1}, \ref{fig:offset_quiver2} and \ref{fig:offset_quiver3}. Using the MPA-JHU mass-to-light ratios and index measurements for SDSS DR8 galaxies, we have reconstructed the the grid transformation from a ($D_{\rm n}4000$, H$\delta_{\rm A}$) value to a ${\rm log}_{10}((M/L)_{z})$ value by interpolating over the grid shown in Figure \ref{fig:kauff_grid}. Thus each offset in the plane can be converted to an offset in terms of the mass-to-light ratios and the result of the conversions are plotted alongside as well.\\
 
 \begin{figure}
 \includegraphics[width=\textwidth]{figures/mlz_offset_a.pdf}
@@ -612,6 +629,15 @@ on the axes are the actual offsets in either direction.
 \emph{Right:} The offsets transformed to the $z$-band mass-to-light 
 ratios using the grid in Figure \ref{fig:kauff_grid}.
 \label{fig:offset_quiver1}}
+\end{figure}
+
+
+
+\begin{figure}
+\includegraphics[width=\textwidth]{figures/table.pdf}
+\caption[Table showing the mean offsets for the three redshift bins.]
+{Table showing the mean offsets for the three redshift bins
+\label{fig:redshift_comparison}}
 \end{figure}
 
 

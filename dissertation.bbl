@@ -490,6 +490,14 @@ Freeman, K.~C. (1970).
 \newblock {A Stellar Mass Threshold for Quenching of Field Galaxies}.
 \newblock {\em \apj}, 757, 85.
 
+\bibitem[{Graham} \& {Driver}, 2005]{graham05a}
+{Graham}, A.~W. \& {Driver}, S.~P. (2005).
+\newblock {A Concise Reference to (Projected) S{\'e}rsic R$^{1/n}$ Quantities,
+  Including Concentration, Profile Slopes, Petrosian Indices, and Kron
+  Magnitudes}.
+\newblock {\em Publications of the Astronomical Society of Australia}, 22,
+  118--127.
+
 \bibitem[{Gunn} et~al., 2006]{2006AJ....131.2332G}
 {Gunn}, J.~E., {Siegmund}, W.~A., {Mannery}, E.~J., {Owen}, R.~E., {Hull},
   C.~L., {Leger}, R.~F., {Carey}, L.~N., {Knapp}, G.~R., {York}, D.~G.,
@@ -623,6 +631,17 @@ Kennicutt, R.~C. \& Evans, N.~J. (2012).
 {Kroupa}, P. (2001).
 \newblock {On the variation of the initial mass function}.
 \newblock {\em \mnras}, 322, 231--246.
+
+\bibitem[Law et~al., 2016]{law_data_2016}
+Law, D.~R., Cherinka, B., Yan, R., Andrews, B.~H., Bershady, M.~A., Bizyaev,
+  D., Blanc, G.~A., Blanton, M.~R., Bolton, A.~S., Brownstein, J.~R., Bundy,
+  K., Chen, Y., Drory, N., D'Souza, R., Fu, H., Jones, A., Kauffmann, G.,
+  MacDonald, N., Masters, K.~L., Newman, J.~A., Parejko, J.~K.,
+  {S\'anchez-Gallego}, J.~R., S\'anchez, S.~F., Schlegel, D.~J., Thomas, D.,
+  Wake, D.~A., Weijmans, A.-M., Westfall, K.~B., \& Zhang, K. (2016).
+\newblock {{THE DATA REDUCTION PIPELINE FOR THE SDSS}}-{{IV MaNGA IFU GALAXY
+  SURVEY}}.
+\newblock {\em The Astronomical Journal}, 152(4), 83.
 
 \bibitem[{Le Borgne} et~al., 2003]{leborgne_2003}
 {Le Borgne}, J.~F., {Bruzual}, G., {Pell{\'o}}, R., {Lan{\c{c}}on}, A.,

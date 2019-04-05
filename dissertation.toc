@@ -42,15 +42,13 @@
 \contentsline {subsection}{\numberline {2.2.2}The Balmer H${"δ}$ Absorption Line}{64}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Constraining SFH's using H${"δ}_{\rm A}$ and $D_{\rm n}4000$}{65}{subsection.2.2.3}
 \contentsline {subsection}{\numberline {2.2.4}The Stellar Mass Aperture Bias in MPA-JHU}{66}{subsection.2.2.4}
-\contentsline {section}{\numberline {2.3}Data}{68}{section.2.3}
+\contentsline {section}{\numberline {2.3}Data and Methods}{68}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}MaNGA Target Selection}{68}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Our Sample}{69}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}Methods}{70}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Variable Aperture Measurements}{70}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}$H{"δ}_{\rm A}$, $D_{\rm n}4000$ Measurements within Apertures}{71}{subsection.2.4.2}
-\contentsline {section}{\numberline {2.5}Results}{71}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Comparison to Full Aperture Measurements}{71}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Offsets in the $H{"δ}_{\rm A}$-$D_{\rm n}4000$ plane}{77}{subsection.2.5.2}
-\contentsline {section}{\numberline {2.6}Discussion}{77}{section.2.6}
-\contentsline {chapter}{\numberline {3}Conclusion}{79}{chapter.3}
-\contentsline {chapter}{References}{98}{chapter*.23}
+\contentsline {subsection}{\numberline {2.3.3}Variable Aperture Measurements}{70}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}Results}{73}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Comparison to Full Aperture Measurements}{73}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Offsets in the $H{"δ}_{\rm A}$-$D_{\rm n}4000$ plane}{75}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}Discussion}{77}{section.2.5}
+\contentsline {chapter}{\numberline {3}Conclusion}{80}{chapter.3}
+\contentsline {chapter}{References}{99}{chapter*.24}

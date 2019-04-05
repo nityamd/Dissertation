@@ -36,19 +36,19 @@ I was expecting a `,' or a `}'---line 2153 of file references.bib
  : @proceeding{doi: 
  :                  10.1117/12.856027,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2215 of file references.bib
+Repeated entry---line 2233 of file references.bib
  : @article{drory_manga_2015
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2229 of file references.bib
+Repeated entry---line 2247 of file references.bib
  : @article{bundy_overview_2014
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2290 of file references.bib
+Repeated entry---line 2308 of file references.bib
  : @article{bruzual_a._spectral_1983-2
  :                                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3693 of file references.bib
+Repeated entry---line 3711 of file references.bib
  : @article{2007AJ....133..734B
  :                             ,
 I'm skipping whatever remains of this entry
@@ -57,45 +57,45 @@ Warning--I didn't find a database entry for "york00a"
 Warning--I didn't find a database entry for "martin05a"
 Warning--I didn't find a database entry for "strauss02a"
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-You've used 129 entries,
+You've used 131 entries,
             2229 wiz_defined-function locations,
-            1252 strings with 62770 characters,
-and the built_in function-call counts, 105111 in all, are:
-= -- 8409
-> -- 10834
-< -- 41
-+ -- 4215
-- -- 4186
-* -- 11466
-:= -- 19491
-add.period$ -- 387
-call.type$ -- 129
-change.case$ -- 2736
-chr.to.int$ -- 124
-cite$ -- 129
-duplicate$ -- 1837
-empty$ -- 3598
-format.name$ -- 4357
-if$ -- 18665
+            1262 strings with 63730 characters,
+and the built_in function-call counts, 106677 in all, are:
+= -- 8534
+> -- 10995
+< -- 42
++ -- 4277
+- -- 4248
+* -- 11638
+:= -- 19782
+add.period$ -- 393
+call.type$ -- 131
+change.case$ -- 2777
+chr.to.int$ -- 126
+cite$ -- 131
+duplicate$ -- 1865
+empty$ -- 3652
+format.name$ -- 4423
+if$ -- 18943
 int.to.chr$ -- 6
 int.to.str$ -- 0
-missing$ -- 129
-newline$ -- 648
-num.names$ -- 387
-pop$ -- 2445
+missing$ -- 131
+newline$ -- 658
+num.names$ -- 393
+pop$ -- 2481
 preamble$ -- 1
-purify$ -- 2736
+purify$ -- 2777
 quote$ -- 0
-skip$ -- 1375
+skip$ -- 1396
 stack$ -- 0
-substring$ -- 3774
-swap$ -- 162
+substring$ -- 3825
+swap$ -- 164
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 774
+type$ -- 786
 warning$ -- 0
-while$ -- 392
+while$ -- 398
 width$ -- 0
-write$ -- 1677
+write$ -- 1703
 (There were 11 error messages)
