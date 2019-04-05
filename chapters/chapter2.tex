@@ -472,8 +472,8 @@ galaxies and the upper number for exponential galaxies;
 % As each spaxel spans a width of 0.5'' in along the ``X" and ``Y" direction, at any point $(x,y)$ in the IFU image, the distance in arc-seconds of the centre of a spaxel from the central spaxel $(x_{c},y_{c})$ in the IFU would be:
 % $$ d = (r(x,y) - r(x_{c},y_{c})) = \sqrt{(0.5*x)^2 + (0.5*y)^2} $$
 
-Thus, for every spaxel in the IFU, where $d<=R$, that 
-part of the galaxy would fall within the aperture and hence, we would include that spaxel in the measurement of whichever spectral index. Using this, for instance, we can simulate the SDSS fiber measurement, i.e.,  what the $1.5$" aperture radius used in SDSS would see versus the total galaxy or what we call a ``full aperture" measurement.
+% Thus, for every spaxel in the IFU, where $d<=R$, that 
+% part of the galaxy would fall within the aperture and hence, we would include that spaxel in the measurement of whichever spectral index. Using this, for instance, we can simulate the SDSS fiber measurement, i.e.,  what the $1.5$" aperture radius used in SDSS would see versus the total galaxy or what we call a ``full aperture" measurement.
 
 %\begin{figure}
 %\includegraphics[width=\textwidth]{figures/gal_aperture.pdf}
@@ -482,54 +482,135 @@ part of the galaxy would fall within the aperture and hence, we would include th
 %\label{fig:sample_manga}}
 %\end{figure}
 
-One can alternately pose this question in terms of redshift. For all galaxies whose redshift $z_{\rm obs}$ is less than the redshift we are interested in, $z_{\rm cutoff}$, we can ask the question: if we shift the said galaxy to the said cutoff point, where would its location on the $H\delta_{\rm A}$ - $D_{\rm n}4000$ plane be? How offset is this from the ``full aperture" measurements?\\
-
+For any MaNGA galaxy at redshift $z_{\rm obs}$, we can simulate what
+the SDSS Main Sample spectrum would have looked like if it had observed the 
+galaxy at that redshift or any higher redshift. We simply calculate the 
+spectrum within an aperture that is 3$''$ diameter (if we are simulating 
+the Main Sample spectrum at $z_{\rm obs}$) or larger (if we are simulating
+the spectrum at a larger $z$).
 Transverse angular distance varies with redshift as follows:
-$$D_{\rm A}(z) = \frac{D_{\rm M}(z)}{1+z} $$,
+$$D_{\rm A}(z) = \frac{D_{\rm M}(z)}{1+z}, $$
 where $D_{\rm M}(z)$ is the co-moving distance at redshift z.
+So when a galaxy at $z_{\rm obs}$ is shifted to some other
+$z_{\rm new}$ the new distance $d_{\rm new}$ of spaxel $(x,y)$ 
+from the central spaxel $(x_{c},y_{c})$ relates to the old distance thus:
+$$ d_{\rm new} = \frac{(1+z_{\rm new})\times D_{\rm M}(z_{\rm obs}) \times d}{(1+z_{\rm obs}) \times  D_{\rm M}(z_{\rm new})} $$
+This equation allows us to define a new aperture of $d_{\rm new} < 3''$.
 
-So when a galaxy at $z_{\rm obs}$ is shifted to $z_{\rm cutoff}$ the new distance $d_{\rm new}$ of spaxel $(x,y)$ from the central spaxel $(x_{c},y_{c})$ relates to the old distance thus:
-$$ d_{\rm new} = \frac{(1+z_{\rm cutoff})\times D_{\rm M}(z_{\rm obs}) \times d}{(1+z_{\rm obs}) \times  D_{\rm M}(z_{\rm cutoff})} $$
-
-Using the above, we can now figure out the spaxels that would fall within a 3'' diameter aperture (say) at not only the observed redshift but also any redshift where we would like to collectively observe the behavior of the offset with a full aperture measurement in the $H\delta_{\rm A}$ - $D_{\rm n}4000$ plane.
+For any spectral measurement we can then compare the measurement
+of the total spectrum in the MaNGA cube to that which would have been
+measured through a 3$''$ aperture at a given redshift. Since galaxies
+come in a range of sizes and spectral profiles, this difference
+will vary from galaxy to galaxy and we must look at a large sample.
+Importantly, for a chosen redshift $z_{\rm new}$ at which to evaluate
+the degree of bias, we can only use a sample of galaxies with 
+$z_{\rm obs} \le z_{\rm new}$.
 
 \begin{figure}
 \includegraphics[width=\textwidth]{figures/full_aperture_comparisons.pdf}
 \caption[The $D_{n}4000$, $h\delta_{A}$ indices measured at $z = 0.02,0.06,0.14$ with a $3''$ aperture compared to the full aperture measurement]
-{ The $D_{n}4000$, $h\delta_{A}$ indices measured at $z = 0.02,0.06,0.14$ with a $3''$ aperture compared to the full aperture measurement
+{ The $D_{n}4000$ and $H\delta_{A}$ indices measured at $z = 0.02,0.06,$ and $0.14$ with a $3''$ aperture compared to the full aperture measurement. The dashed line corresponds
+to $x=y$.}
 \label{fig:redshift_comparison}}
 \end{figure}
 
 
 \subsection{$H\delta_{\rm A}$, $D_{\rm n}4000$ Measurements within Apertures}
-To get the $H\delta_{\rm A}$ and $D_{\rm n}4000$ index measurements for any aperture, we first redshift-correct the spectra obtained from all the spaxels within the aperture to rest-frame. As both the equivalent width of the Balmer $H\delta$ line as well as the $D_{n}4000$ break rely on the continuum as well as a ratio of fluxes in the case of the latter, we add up the spectra of the spaxels that fall within any aperture before estimating either. We then follow the procedure described in Section $2.2$ to calculate the indices. (In a footnote: the code for this is publicly available at --provide github link--.)
+
+I measure $H\delta_{\rm A}$ and $D_{\rm n}4000$ indices in the standard
+fashion in the galaxy rest frames. To perform the measurements more 
+efficiently, for each spaxel I measure the $H\delta_{\rm A}$ central
+and side bands and the two $D_{\rm n}4000$ bands, and store these five
+numbers separately. Then, instead of needing to access and coadd the full
+spectra, for each aperture I only need to add each of these five numbers
+across the relevant spaxels. I then combine them into the two index
+measurements following the procedure in Section 2.2.
 
 \section{Results}
 \subsection{Comparison to Full Aperture Measurements}
-To investigate how the full aperture measurements compare to the 3'' measurements, we choose 3 different redshift bins $z = 0.02,0.06$ and $0.14$ and observe how offset the $H\delta_{\rm A}$ and $D_{\rm n}4000$ measures are. For each redshift, I pick the galaxies whose redshift are below that redshift and ``shift" them to the cutoff redshift as described in Section \ref{sec:chap2methods} and compare the full aperture measurements to the 3'' measurements made at that redshift. The results of this are shown in Fig. \ref{fig:redshift_comparison}, where the full aperture measurements are plotted against the 3'' measurements at the respective redshifts with the colorbars indicating the number of galaxies in each bin. We note that the total number of galaxies in each redshift bin is 561 for $z = 0.02$, 5016 for $z = 0.06$ and 6402 for $z = 0.14$.\\
+
+To investigate how the full aperture measurements compare to the 3$''$ 
+measurements, I choose 3 different redshift bins $z = 0.02$, $0.06$, 
+and $0.14$, and determine how offset the $H\delta_{\rm A}$ and 
+$D_{\rm n}4000$ measures are. For each redshift $z$, I pick the galaxies 
+with redshifts $z_{\rm obs} < z$, ``shift" them to the cutoff 
+redshift as described in Section \ref{sec:chap2methods}, 
+and compare the full aperture measurements to the 3$''$
+measurements that would be made at redshift $z$. 
+
+The results of this procedure are shown in 
+Fig. \ref{fig:redshift_comparison}, where the full 
+aperture measurements are plotted against the 3$''$ measurements at 
+the each redshift, with the colorbars indicating the number of galaxies 
+in each bin. We note that the total number of galaxies at each redshift 
+is 561 for $z = 0.02$, 5016 for $z = 0.06$ and 6402 for $z = 0.14$.\\
+
+We first note the systematic change in the MaNGA sample between $z\sim 0.02$
+and $z\sim 0.14$. In order to achieve the desired areal coverage, the selection
+of galaxies is such that the lower redshift galaxies are lower luminosity
+and mass. These lower luminosity galaxies are more star forming and have
+older stellar populations, so they have deeper $H\delta_{A}$ and weaker 
+$D_{\rm n} 4000$. This trend is apparent the variation in the galaxy
+population from panel to panel. This trend means we need to look at all
+of the panels to understand the comparison between $3''$ aperture and full
+aperture measurements of these quantities.
 
 \begin{figure}
 \includegraphics[width=\textwidth]{figures/dn4000_full_aperture_comparisons.pdf}
-\caption[The mean offset and dispersion in the $D_{n}4000$ index measured at $z = 0.02,0.06$ and $0.14$ with a $3''$ aperture from the full aperture measurement]{ The mean offset and dispersion in the $D_{n}4000$ index measured at $z = 0.02,0.06$ and $0.14$ with a $3''$ aperture from the full aperture measurement
+\caption[The mean offset and dispersion in the $D_{n}4000$ index measured 
+at $z = 0.02,0.06$ and $0.14$ with a $3''$ aperture from the full aperture measurement]{ The mean offset and dispersion in the $D_{n}4000$ index measured at $z = 0.02,0.06$ and $0.14$ with a $3''$ aperture from the full aperture measurement
 \label{fig:offset_d4000}}
 \end{figure}
 
-From Fig. \ref{fig:redshift_comparison}, we can infer the following. For most of the galaxies the offset is pretty minimal as it as they fall pretty close to the $x=y$ line. We find that the scatter is the most at $z = 0.06$ and tends towards higher $D_{\rm n}4000$ and lower $H\delta_{\rm A}$ values relative to the full aperture measurements. This can be interpreted as the effect of the apertures beginning to cover the galaxy disks which have lower star formation activity than the bulge for galaxies with strong bulges. The scatter lessens as we approach $z = 0.14$, close to the survey limit, where for most of the galaxies, all of the light gets accounted for by the 3''aperture at this point.\\
+From Fig. \ref{fig:redshift_comparison}, we can infer the following. For 
+many galaxies the offset is pretty minimal; they fall pretty close 
+to the $x=y$ line. The scatter is largest at $z = 0.06$, and this scatter
+tends towards higher $D_{\rm n}4000$ and lower $H\delta_{\rm A}$ values 
+relative to the full aperture measurements, particularly for galaxies with
+intermediate $D_{\rm n}4000$ and $H\delta_{\rm A}$ values for the full
+aperture. This effect is likely due to spiral galaxies with strong galactic
+bulges. These galaxies are common at the masses populating the $z_{\rm obs} < 0.06$
+bin, and have the property that their bulges are considerably less star-forming
+than their disks. Thus, the 3$''$ aperture might cover their bulge but not their
+disk, and therefore show higher $D_{\rm n} 4000$ and lower $H\delta_{A}$) than
+the full aperture measurement. This effect is less prominent at $z=0.02$ because
+the galaxies in the MaNGA sample at those redshifts are lower luminosity and 
+have less prominent bulges. The scatter also lessens as we approach $z = 0.14$, 
+close to the survey limit; although this sample also contains spirals with
+strong bulges,  the 3$''$ aperture is larger with respect to the total size
+of galaxies at this redshift.\\
+
+From this figure, we conclude generally that the restrictions of
+how the MaNGA sample is selected make it hard to evaluate the effects 
+of the aperture bias at the lowest redshifts ($z\sim 0.02$) --- 
+clearly the sample there is not representative of the sample as a whole.
+However, the $z=0.06$ and $z=0.14$ cases bracket the median redshift of the 
+SDSS Main Sample so will characterize the aperture bias well for much
+of that sample. We can guess already that the general effect will be that
+the $3''$ fiber will overestimate the stellar ages and therefore their 
+mass-to-light ratios, for some fraction of the galaxies.
 
 \begin{figure}
 \includegraphics[width=\textwidth]{figures/hdelta_full_aperture_comparisons.pdf}
-\caption[The mean offset and dispersion in the $h\delta_{A}$ index measured at $z = 0.02,0.06$ and $0.14$ with a $3''$ aperture from the full aperture measurement ]{ The mean offset and dispersion in the $h\delta_{A}$ index measured at $z = 0.02,0.06$ and $0.14$ with a $3''$ aperture from the full aperture measurement 
+\caption[The mean offset and dispersion in the $H\delta_{A}$ index measured at $z = 0.02,0.06$ and $0.14$ with a $3''$ aperture from the full aperture measurement ]{ The mean offset and dispersion in the $H\delta_{A}$ index measured at $z = 0.02,0.06$ and $0.14$ with a $3''$ aperture from the full aperture measurement.
 \label{fig:offset_hdelta}}
 \end{figure}
-
-MRB Says: At all redshifts, we can see that there is a systematic tendency for galaxies to appear older through the fiber aperture than through the full aperture, and therefore to appear to have a higher M/L than they actually do. This would particularly affect the intermediate age galaxies (i.e. those with $D_{\rm n}4000$ in the green valley).\\
-
 
 \subsection{Offsets in the $H\delta_{\rm A}$-$D_{\rm n}4000$ plane}
 
 \begin{figure}
 \includegraphics[width=\textwidth]{figures/mlz_offset_a.pdf}
-\caption[  \emph{Left:} The combined mean offset in $D_{\rm n}4000$-$h\delta_{\rm A}$ at $z=0.02$ from the full aperture measurements represented as a vector whose projections on the axes are the actual offsets in either direction. \emph{Right:} The offsets transformed to the z-band mass-to-light ratios using the grid in Figure \ref{fig:kauff_grid}. ]{ \emph{Left:} The combined mean offset in $D_{\rm n}4000$-$h\delta_{\rm A}$ at $z=0.02$ from the full aperture measurements represented as a vector whose projections on the axes are the actual offsets in either direction. \emph{Right:} The offsets transformed to the z-band mass-to-light ratios using the grid in Figure \ref{fig:kauff_grid}.
+\caption[  \emph{Left:} The combined mean offset in 
+$D_{\rm n}4000$-$h\delta_{\rm A}$ at $z=0.02$ from the full aperture 
+measurements, represented as a vector whose projections on the axes 
+are the actual offsets in either direction. 
+\emph{Right:} The offsets transformed to the $z$-band mass-to-light ratios 
+using the grid in Figure \ref{fig:kauff_grid}. ]{ \emph{Left:} The combined 
+mean offset in $D_{\rm n}4000$-$h\delta_{\rm A}$ at $z=0.02$ from 
+the full aperture measurements represented as a vector whose projections 
+on the axes are the actual offsets in either direction. 
+\emph{Right:} The offsets transformed to the $z$-band mass-to-light 
+ratios using the grid in Figure \ref{fig:kauff_grid}.
 \label{fig:offset_quiver1}}
 \end{figure}
 
