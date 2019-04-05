@@ -385,22 +385,95 @@ resolved spectral data from MaNGA.\\
 \subsection{MaNGA Target Selection}
 \label{mangadrp}
 
+We use the MaNGA data set for two reasons. First,
+its spectra have very similar properties to that of 
+the original SDSS sample, with similar wavelength 
+ranges and resolution. Second, its IFU data covers 
+a large fraction of each galaxy, typically yielding 
+a more global picture of each galaxy than obtainable
+from other surveys. 
 
-The MaNGA target selection is based on NSA photometry with the area of coverage being within the SDSS Legacy limits. This is done keeping in mind the sample size, the sampling in stellar mass, radial coverage and with a view to maximize the signal to noise ratio as well as the spatial resolution. The optimization process used to do this is described in \citet{2017AJ....154...86W}. The goal is to observe approximately 10,000 galaxies by 2020 (or first six years of SDSS-IV).\\
+The MaNGA target selection is based on NSA photometry of 
+SDSS Main Sample galaxies. The selection is designed to 
+sample in a recoverable way as a function of stellar mass
+and redshift, that in combination with the chosen fiber 
+bundle sizes provide sufficient radial coverage as 
+described  in the next paragraph.
+The optimization process used to do this is described 
+in \citet{2017AJ....154...86W}. MaNGA's goal is to 
+observe approximately 10,000 galaxies by mid-2020,
+the end of SDSS-IV.
 
-The target selection was done in such a way that the MaNGA IFU's can cover the galaxy beyond its effective radius, $R_{e}$ (the radius within which half of the galaxy's light is contained). There are three samples, the Primary, the Secondary and the Color-enhanced samples. The primary and secondary samples, which make up 47\% and 37\% of the total sample, differ in the extent of spaxel coverage, with the former going out to $1.5R_{e}$ and the latter, $2.5R_{e}$.  The cuts in redshift for both are chosen to ensure that there is a flat number density distribution of galaxies in the absolute i-band magnitude. The color-enhanced sample, which makes up about 16\% of MaNGA, fills in for the undersampled regions in the \emph{N-i}-$M_{i}$ plane by extending the redshift limits in the primary sample so that galaxy types such as red galaxies with low luminosity, the green-valley galaxies and the high luminosity star-formers are represented in MaNGA.\\
+MaNGA radial coverage goals are to cover the galaxy 
+well beyond its effective radius, $R_{e}$ (the radius 
+within which half of the galaxy's light is contained). 
+There are three samples, the Primary, the Secondary, 
+and the Color-enhanced samples. The Primary and Secondary 
+samples, which make up 47\% and 37\% of the total sample, 
+differ in the extent of spaxel coverage, with the 
+former providing spectra for $>$80\% of galaxies to 
+beyond $1.5R_{e}$ and the latter providing spectra
+for $>$80\% of galaxies to beyond $2.5R_{e}$.  
+The cuts in redshift for both are chosen to ensure 
+that there is a flat number density distribution of 
+galaxies in the absolute i-band magnitude. The 
+color-enhanced sample, which makes up about 16\% 
+of MaNGA, fills in for the undersampled regions in 
+the \emph{N-i}-$M_{i}$ plane by extending the 
+redshift limits in the primary sample so that 
+galaxy types such as red galaxies with low luminosity, 
+the green-valley galaxies and the high luminosity 
+star-formers are better represented in MaNGA.\\
 
 \subsection{Our Sample}
-The most recent MaNGA product launch, MPL-$8$, which was announced in November $2018$, containing products based on galaxy and stellar library observations from March $2014$ - July $2018$ serves as the source of our sample. It contains $950$ plates - $6779$ data cubes and $20649$ stellar library stars. Out of these, $6468$ are galaxies with measured NSA redshifts. These are representative of all the IFU sizes (19, 37, 61, 91 or 127 fibers per IFU) and span a redshift range upto $z = 0.15$.\\
-For each galaxy observation, depending on the IFU bundle size (say $N_{X}$, $N_{Y}$ each describing a position $0.5$" from the previous spaxel), we have ($N_{X}$, $N_{Y}$) spectra which span $4563$ wavelength points. 
+
+We use MaNGA Product Launch 8 (MPL-$8$), 
+announced in November $2018$, containing products 
+based on galaxy and stellar library observations from 
+March $2014$ through July $2018$.
+It contains $950$ plates with $6779$ galaxy data cubes.
+Out of these cubes, $6468$ are galaxies with measured 
+NSA redshifts. These are representative of all the 
+IFU sizes (19, 37, 61, 91 or 127 fibers per IFU) and 
+span a redshift range up to $z = 0.15$.\\
+
+For each galaxy observation, depending on the IFU 
+bundle size, the MaNGA Data Redshift Pipeline 
+(\citealt{law_data_2016}) creates a data cube with
+spectra on a rectilinear grid with a spacing of 
+0.5$''$, with each grid point known as a ``spaxel.'' 
+The dimensions of the grid are aligned with north
+($Y$) and east ($X$) on the sky.
 
 \section{Methods}
 \label{sec:chap2methods}
 
 \subsection{Variable Aperture Measurements}
-For any given datacube, we can determine which spaxels fall within an aperture radius of $R$ arc-seconds as follows. As each spaxel spans a width of 0.5'' in along the ``X" and ``Y" direction, at any point $(x,y)$ in the IFU image, the distance in arc-seconds of the centre of a spaxel from the central spaxel $(x_{c},y_{c})$ in the IFU would be:
-$$ d = (r(x,y) - r(x_{c},y_{c})) = \sqrt{(0.5*x)^2 + (0.5*y)^2} $$
-Thus, for every spaxel in the IFU, where $d<=R$, that part of the galaxy would fall within the aperture and hence, we would include that spaxel in the measurement of whichever spectral index. Using this, for instance, we can simulate the SDSS fiber measurement, i.e.,  what the $1.5$" aperture radius used in SDSS would see versus the total galaxy or what we call a ``full aperture" measurement.
+
+For any given data cube, we want to convert it into
+a set of aperture spectra with variable aperture to 
+simulate the spectrum that the SDSS-I and -II
+surveys would have observed through single 3$''$ fibers.
+
+For any aperture radius $R$, we determine which 
+spaxels fall within an aperture radius of $R$ 
+arcseconds based on its angular distance from the 
+cube center (which corresponds to the center of 
+each galaxy). Then we sum the spaxels within radius $R$ 
+to obtain the equivalent spectrum. Alternatively we 
+can sum all of the spaxels to obtaina ``full aperture''
+measurement. Strictly speaking this aperture is of
+course not always full; however, for the required
+coverage of $1.5R_e$, typically 70\%--80\% of the 
+light is included (with the lower number for de Vaucouleurs
+galaxies and the upper number for exponential galaxies;
+\citealt{graham05a}).
+
+% As each spaxel spans a width of 0.5'' in along the ``X" and ``Y" direction, at any point $(x,y)$ in the IFU image, the distance in arc-seconds of the centre of a spaxel from the central spaxel $(x_{c},y_{c})$ in the IFU would be:
+% $$ d = (r(x,y) - r(x_{c},y_{c})) = \sqrt{(0.5*x)^2 + (0.5*y)^2} $$
+
+Thus, for every spaxel in the IFU, where $d<=R$, that 
+part of the galaxy would fall within the aperture and hence, we would include that spaxel in the measurement of whichever spectral index. Using this, for instance, we can simulate the SDSS fiber measurement, i.e.,  what the $1.5$" aperture radius used in SDSS would see versus the total galaxy or what we call a ``full aperture" measurement.
 
 %\begin{figure}
 %\includegraphics[width=\textwidth]{figures/gal_aperture.pdf}
