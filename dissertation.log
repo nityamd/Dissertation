@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  5 APR 2019 14:54
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  7 APR 2019 17:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1628,28 +1628,28 @@ File: figures/mlz_offset_b.pdf Graphic file (type QTm)
 <use  "figures/mlz_offset_b.pdf" >
 File: figures/mlz_offset_c.pdf Graphic file (type QTm)
  <use  "figures/mlz_offset_c.pdf" > [77]
-[78]) [79]
+[78] [79]) [80]
 \openout2 = `chapters/conclusion.aux'.
 
  (./chapters/conclusion.tex
 Chapter 3.
-) [80
+) [81
 
 
 
-] (./dissertation.bbl [81
+] (./dissertation.bbl [82
 
 
 
-] [82] [83] [84] [85] [86] [87] [88]
+] [83] [84] [85] [86] [87] [88] [89]
 Missing character: There is no ^^89 in font EB Garamond 12 Regular/OT:script=la
 tn;language=DFLT;mapping=tex-text;mapping=tex-text;+onum;+liga;mapping=tex-text
 ;!
 Missing character: There is no ^^83 in font EB Garamond 12 Regular/OT:script=la
 tn;language=DFLT;mapping=tex-text;mapping=tex-text;+onum;+liga;mapping=tex-text
 ;!
- [89]
-[90] [91] [92] [93] [94] [95] [96] [97] [98]) [99]
+ [90]
+[91] [92] [93] [94] [95] [96] [97] [98] [99]) [100]
 \openout2 = `endmatter/colophon.aux'.
 
  (./endmatter/colophon.tex)
@@ -1681,4 +1681,4 @@ Here is how much of TeX's memory you used:
  1347 hyphenation exceptions out of 8191
  60i,9n,107p,10404b,697s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (106 pages).
+Output written on dissertation.pdf (107 pages).
