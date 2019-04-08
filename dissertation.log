@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  7 APR 2019 17:13
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  8 APR 2019 10:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1031,11 +1031,8 @@ Package caption Info: hyperref package is loaded.
 \mybibindent=\skip120
 )
 (./dissertation.aux (./chapters/introduction.aux) (./chapters/chapter1.aux)
-(./chapters/chapter2.aux
-
-LaTeX Warning: Label `fig:redshift_comparison' multiply defined.
-
-) (./chapters/conclusion.aux) (./endmatter/colophon.aux))
+(./chapters/chapter2.aux) (./chapters/conclusion.aux) (./endmatter/colophon.aux
+))
 \openout1 = `dissertation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -1058,8 +1055,7 @@ LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 8.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 8.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/tipa/t3cmr.fd
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 8.
@@ -1288,26 +1284,26 @@ o the
  []
 
 
-Overfull \hbox (7.14503pt too wide) in paragraph at lines 18--18
+Overfull \hbox (7.14503pt too wide) in paragraph at lines 17--17
  \EU1/EBGaramond(3)/bx/n/12 aperture measurements represented as a vector whose
  projections on the axes 
  []
 
 
-Overfull \hbox (9.50104pt too wide) in paragraph at lines 18--18
+Overfull \hbox (9.50104pt too wide) in paragraph at lines 17--17
  \EU1/EBGaramond(3)/bx/n/12 are the actual offsets in either direction. \EU1/EB
 Garamond(3)/m/it/12 Right: \EU1/EBGaramond(3)/bx/n/12 The offsets transformed t
 o the 
  []
 
 
-Overfull \hbox (7.14503pt too wide) in paragraph at lines 19--19
+Overfull \hbox (7.14503pt too wide) in paragraph at lines 20--20
  \EU1/EBGaramond(3)/bx/n/12 aperture measurements represented as a vector whose
  projections on the axes 
  []
 
 
-Overfull \hbox (9.50104pt too wide) in paragraph at lines 19--19
+Overfull \hbox (9.50104pt too wide) in paragraph at lines 20--20
  \EU1/EBGaramond(3)/bx/n/12 are the actual offsets in either direction. \EU1/EB
 Garamond(3)/m/it/12 Right: \EU1/EBGaramond(3)/bx/n/12 The offsets transformed t
 o the 
@@ -1451,7 +1447,7 @@ to Infrared Imaging|
 
 File: figures/sample.png Graphic file (type QTm)
 <use  "figures/sample.png" > [40] [41] [42] [43]
-Overfull \hbox (27.27144pt too wide) in paragraph at lines 121--132
+Overfull \hbox (27.27144pt too wide) in paragraph at lines 124--135
 \EU1/EBGaramond(3)/bx/n/12 optical color whereas, as discussed above, the SSFR$
 []$’s do not. Assuming the SSFR$[]$’s 
  []
@@ -1596,36 +1592,39 @@ File: figures/hdelta_full_aperture_comparisons.pdf Graphic file (type QTm)
 <use  "figures/hdelta_full_aperture_comparisons.pdf" >
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 612.
+(hyperref)                removing `math shift' on input line 617.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 612.
+(hyperref)                removing `subscript' on input line 617.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 612.
+(hyperref)                removing `math shift' on input line 617.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 612.
+(hyperref)                removing `math shift' on input line 617.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 612.
+(hyperref)                removing `subscript' on input line 617.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 612.
+(hyperref)                removing `math shift' on input line 617.
 
 [75] [76]
 File: figures/mlz_offset_a.pdf Graphic file (type QTm)
  <use  "figures/mlz_offset_a.pdf" >
-File: figures/table.pdf Graphic file (type QTm)
- <use  "figures/table.pdf" >
 File: figures/mlz_offset_b.pdf Graphic file (type QTm)
 
 <use  "figures/mlz_offset_b.pdf" >
+File: figures/table.pdf Graphic file (type QTm)
+ <use  "figures/table.pdf" >
+File: figures/table_median.pdf Graphic file (type QTm)
+
+<use  "figures/table_median.pdf" >
 File: figures/mlz_offset_c.pdf Graphic file (type QTm)
  <use  "figures/mlz_offset_c.pdf" > [77]
 [78] [79]) [80]
@@ -1667,16 +1666,13 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 43.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 43.
  ) 
 Here is how much of TeX's memory you used:
- 25885 strings out of 493591
- 460431 string characters out of 6143546
- 516920 words of memory out of 5000000
- 28905 multiletter control sequences out of 15000+600000
+ 25889 strings out of 493591
+ 460511 string characters out of 6143546
+ 517140 words of memory out of 5000000
+ 28908 multiletter control sequences out of 15000+600000
  12504 words of font info for 103 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  60i,9n,107p,10404b,697s stack positions out of 5000i,500n,10000p,200000b,80000s

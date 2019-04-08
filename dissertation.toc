@@ -51,4 +51,4 @@
 \contentsline {subsection}{\numberline {2.4.2}Offsets in the $H{"δ}_{\rm A}$-$D_{\rm n}4000$ plane}{75}{subsection.2.4.2}
 \contentsline {section}{\numberline {2.5}Discussion}{77}{section.2.5}
 \contentsline {chapter}{\numberline {3}Conclusion}{81}{chapter.3}
-\contentsline {chapter}{References}{100}{chapter*.24}
+\contentsline {chapter}{References}{100}{chapter*.25}

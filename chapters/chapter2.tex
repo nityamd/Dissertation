@@ -19,7 +19,7 @@ which contains observed spectra of a little over 900,000 galaxies \citep{aihara1
 
 The imaging and spectroscopic data were observed using a 2.5 m telescope at the Apache Point Observatory (APO) in Sunspot, New Mexico. The imaging data was obtained by using a wide-field mosaic CCD camera and the spectroscopic data, using twin multi-object fiber spectrographs  \citep{smee_multi-object_2013}, all of which are mounted at the Cassegrain focus of the telescope. The imaging survey, which is carried out in drift-scanning mode using a 5 $\times$ 6 array of 2048 $\times$ 2048 pixel detectors, obtains photometry in the \emph{u, g, r, i} and \emph{z} bands. This broadband photometric data, after reduction and calibration, serves as the pool of data from which spectroscopic target selection is then done. The spectroscopic fiber plug-plates are aluminum plates which have holes drilled into them at positions decided upon by the target selection and the optical fibers are plugged into into these holes. They have a circular field-of-view of radius 1.49 degrees and during SDSS-I and -II were outfitted with 640 fibers, allowing for simultaneous observation of 640 spectra (mostly galaxy spectra and some which are reserved for standard and blank sky observations for calibration) in a 3 degree diameter field of view over the course of a single exposure.\\
 
-The fiber diameter of the optical fibers was chosen with a view to maximize the signal-to-noise (S/N) ratio for an extended source, keeping in mind the sky conditions at APO. The optimal choice that was decided upon corresponds to a fiber diameter of 180 $\mu$m or 3''. The rest-frame wavelength range of the spectra at the median redshift is from 3500 \AA\ to 8500 \AA\ with a spectral resolution:\\ $$R = \frac{\Delta \lambda}{\lambda} \approx 2000.$$ The spectra are calibrated using observations of F stars in each 3 degree field.\\
+The fiber diameter of the optical fibers was chosen with a view to maximize the signal-to-noise (S/N) ratio for an extended source, keeping in mind the sky conditions at APO. The optimal choice that was decided upon corresponds to a fiber diameter of 180 $\mu$m or 3''. The rest-frame wavelength range of the spectra at the median redshift is from 3500 \AA\ to 8500 \AA\ with a spectral resolution:\\ $$R = \frac{\lambda}{\Delta\lambda} \approx 2000.$$ The spectra are calibrated using observations of F stars in each 3 degree field.\\
 
 SDSS imaging data and spectra have played a significant role in many discoveries in astronomy and cosmology over the last decade and a half. In addition to fundamental measurements of cosmological parameters and the study of distant quasars and stars in our own galaxy, the Main Sample of galaxies in SDSS-I and -II (\citet{strauss02a}) has informed much of the new understanding of galaxy properties that we have today. This 
 new understanding has included the quantification of the 
@@ -618,10 +618,7 @@ mass-to-light ratios, for some fraction of the galaxies.
 
 The next step to comparing the full aperture measurements to the 3'' measurements at the three redshift bins would be to see where the galaxies move in the H$\delta_{\rm A}$ - $D_{\rm n}4000$ plane. The offsets in the plane binned along both the dimensions are plotted in Figure \ref{fig:offset_d4000} for the $D_{\rm n}4000$ measurements and in Figure \ref{fig:offset_hdelta} for the H$\delta_{\rm A}$ measurements. Apart from the mean offsets, we also plot the mean dispersions in each of these bins. The general tendency we see in the $D_{\rm n}4000$ offsets is that the more massive galaxies tend to have slightly negative offsets and the less massive ones, slightly positive offsets. In the case of H$\delta_{\rm A}$, the offsets on average tend to be mostly positive (in this case, tending toward the region of phase space with less massive galaxies) with the exception of a few bins with high H$\delta_{\rm A}$ where there are a few small negative offsets.\\
 
-The combined offsets in both the directions are plotted as quiver plots in Figures \ref{fig:offset_quiver1}, \ref{fig:offset_quiver2} and \ref{fig:offset_quiver3}. Using the MPA-JHU mass-to-light ratios and index measurements for SDSS DR8 galaxies, we have reconstructed the the grid transformation from a ($D_{\rm n}4000$, H$\delta_{\r
-m A}$) value to a ${\rm log}_{10}((M/L)_{z})$ value by interpolating over the grid shown in Figure \ref{fig:kauff_grid}. Thus each offset in the plane can be converted to an offset in terms of the mass-to-light ratios and the result of the conversions are plotted alongside as well.\\
-
-The offsets in maas-to-light ratios. 
+The combined offsets in both the directions are plotted as quiver plots that occupy the left subplots in Figures \ref{fig:offset_quiver1}, \ref{fig:offset_quiver2} and \ref{fig:offset_quiver3}. The length of the vector offsets in the quiver plots in the could translate into very different ${\rm log}_{10}((M/L)_{z})$ offsets depending on where they occur in the H$\delta_{\rm A}$ - $D_{\rm n}4000$ plane. Using the MPA-JHU mass-to-light ratios and index measurements for SDSS DR8 galaxies, we have reconstructed the the grid transformation from a ($D_{\rm n}4000$, H$\delta_{\rm A}$) value to a ${\rm log}_{10}((M/L)_{z})$ value by interpolating over the grid shown in Figure \ref{fig:kauff_grid}. Thus each offset in the plane can be converted to an offset in terms of the mass-to-light ratios and the result of the conversions are plotted alongside as well as the right subplots in the aforementioned figures.\\
 
 \begin{figure}
 \includegraphics[width=\textwidth]{figures/mlz_offset_a.pdf}
@@ -639,20 +636,26 @@ ratios using the grid in Figure \ref{fig:kauff_grid}.
 \label{fig:offset_quiver1}}
 \end{figure}
 
+\begin{figure}
+\includegraphics[width=\textwidth]{figures/mlz_offset_b.pdf}
+\caption[  \emph{Left:} The combined mean offset in $D_{\rm n}4000$-$h\delta_{\rm A}$ at $z=0.02$ from the full aperture measurements represented as a vector whose projections on the axes are the actual offsets in either direction. \emph{Right:} The offsets transformed to the z-band mass-to-light ratios using the grid in Figure \ref{fig:kauff_grid}. ]{ \emph{Left:} The combined mean offset in $D_{\rm n}4000$-$h\delta_{\rm A}$ at $z=0.06$ from the full aperture measurements represented as a vector whose projections on the axes are the actual offsets in either direction. \emph{Right:} The offsets transformed to the z-band mass-to-light ratios using the grid in Figure \ref{fig:kauff_grid}.
+\label{fig:offset_quiver2}}
+\end{figure}
 
 
 \begin{figure}
 \includegraphics[width=\textwidth]{figures/table.pdf}
 \caption[Table showing the mean offsets for the three redshift bins.]
 {Table showing the mean offsets for the three redshift bins
-\label{fig:redshift_comparison}}
+\label{tab: mean_offsets}}
 \end{figure}
 
 
 \begin{figure}
-\includegraphics[width=\textwidth]{figures/mlz_offset_b.pdf}
-\caption[  \emph{Left:} The combined mean offset in $D_{\rm n}4000$-$h\delta_{\rm A}$ at $z=0.02$ from the full aperture measurements represented as a vector whose projections on the axes are the actual offsets in either direction. \emph{Right:} The offsets transformed to the z-band mass-to-light ratios using the grid in Figure \ref{fig:kauff_grid}. ]{ \emph{Left:} The combined mean offset in $D_{\rm n}4000$-$h\delta_{\rm A}$ at $z=0.06$ from the full aperture measurements represented as a vector whose projections on the axes are the actual offsets in either direction. \emph{Right:} The offsets transformed to the z-band mass-to-light ratios using the grid in Figure \ref{fig:kauff_grid}.
-\label{fig:offset_quiver2}}
+\includegraphics[width=\textwidth]{figures/table_median.pdf}
+\caption[Table showing the median offsets for the three redshift bins.]
+{Table showing the median offsets for the three redshift bins
+\label{tab: median_offsets}}
 \end{figure}
 
 \begin{figure}
@@ -663,15 +666,23 @@ ratios using the grid in Figure \ref{fig:kauff_grid}.
 
 \section{Discussion}
 
-MRB Says: * This mean tendency is *relatively* small. You should calculate from your grids the median offset for cells with D4000 > 1.3 or something like that, and quote that number. You should then look carefully at the Kauffmann figure to translate this to a change in $M/L_z$ --- my guess is that it is around 0.1 dex for z=0.06. Do this for z=0.06 and z=0.14.
+We consolidate the results from Figures \ref{fig:offset_quiver1}, \ref{fig:offset_quiver2} and \ref{fig:offset_quiver3} in Table \ref{tab: mean_offsets} and  \ref{tab: median_offsets} where the mean and median offsets for the more massive and less massive galaxies are separately evaluated using the cut made in the $D_{\rm n}4000$-$h\delta_{\rm A}$ plane as shown in Figure \ref{fig:kauff_grid}. From these plots and the table, we can surmise the following:
 
- * The scatter about this mean is substantial relative to the mean. Again, calculate the median standard deviation over the cells with D4000 > 1.3 to quantify this. My guess is that it is  comparable to the mean itself. This means for individual galaxies the error can be a lot bigger. Again quote for both those redshifts.
+\begin{itemize}
+\item{The mean tendency overall is relatively small. The median offset for all the plots is very close to zero, however the dispersions are high implying that the while the \citet{kauffmann_stellar_2003} method is consistent, the outliers.}
+\item{The scatter about this mean is substantial relative to the mean. Again, calculate the median standard deviation over the cells with D4000 > 1.3 to quantify this. My guess is that it is  comparable to the mean itself. This means for individual galaxies the error can be a lot bigger. Again quote for both those redshifts.}
+\item{The main conclusion is that stellar masses more accurate than 0.1 dex (or whatever you see in the mean offset) are not possible, and that the scatter in the offset means the precision is degraded as well. This source of error is important to keep in mind but is probably not fatal for samples at z=0.1 from MPA/JHU --- most results done rely on stellar masses at that precision. Using this sample at lower redshift may be much more iffy.}
+\end{itemize}
 
- * The main conclusion is that stellar masses more accurate than 0.1 dex (or whatever you see in the mean offset) are not possible, and that the scatter in the offset means the precision is degraded as well. This source of error is important
-to keep in mind but is probably not fatal for samples at z=0.1
-from MPA/JHU --- most results done rely on stellar masses
-at that precision. Using this sample at lower redshift may be
-much more iffy.
+%MRB Says: * This mean tendency is *relatively* small. You should calculate from your grids the median offset for cells with D4000 > 1.3 or something like that, and quote that number. You should then look carefully at the Kauffmann figure to translate this to a change in $M/L_z$ --- my guess is that it is around 0.1 dex for z=0.06. Do this for z=0.06 and z=0.14.
+
+% * The scatter about this mean is substantial relative to the mean. Again, calculate the median standard deviation over the cells with D4000 > 1.3 to quantify this. My guess is that it is  comparable to the mean itself. This means for individual galaxies the error can be a lot bigger. Again quote for both those redshifts.
+
+% * The main conclusion is that stellar masses more accurate than 0.1 dex (or whatever you see in the mean offset) are not possible, and that the scatter in the offset means the precision is degraded as well. This source of error is important
+%to keep in mind but is probably not fatal for samples at z=0.1
+%from MPA/JHU --- most results done rely on stellar masses
+%at that precision. Using this sample at lower redshift may be
+%much more iffy.
 
 
 
