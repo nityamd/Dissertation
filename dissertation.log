@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  10 APR 2019 14:53
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  12 APR 2019 14:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1297,29 +1297,35 @@ o the
  []
 
 
-Overfull \hbox (7.14503pt too wide) in paragraph at lines 20--20
+Overfull \hbox (7.14503pt too wide) in paragraph at lines 18--18
  \EU1/EBGaramond(3)/bx/n/12 aperture measurements represented as a vector whose
  projections on the axes 
  []
 
 
-Overfull \hbox (9.50104pt too wide) in paragraph at lines 20--20
+Overfull \hbox (9.50104pt too wide) in paragraph at lines 18--18
  \EU1/EBGaramond(3)/bx/n/12 are the actual offsets in either direction. \EU1/EB
 Garamond(3)/m/it/12 Right: \EU1/EBGaramond(3)/bx/n/12 The offsets transformed t
 o the 
+ []
+
+[9]
+Overfull \hbox (4.44504pt too wide) in paragraph at lines 20--20
+ [][] [][][]\EU1/EBGaramond(3)/bx/n/12 The mean and dispersion of the mass-to-l
+ight ratio offsets in each of the red- 
  []
 
 )
 \tf@lof=\write5
 \openout5 = `dissertation.lof'.
 
- [9] [10] (./frontmatter/dedication.tex) [4] (./frontmatter/thanks.tex)
-[5
+ [10] (./frontmatter/dedication.tex) [4] (./frontmatter/thanks.tex) [5
 
 ]
 \openout2 = `chapters/introduction.aux'.
 
- (./chapters/introduction.tex
+
+(./chapters/introduction.tex
 LaTeX Font Info:    Font shape `EU1/EBGaramond(3)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 1.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(3)/m/sl' in size <10> not availa
@@ -1586,69 +1592,70 @@ File: figures/full_aperture_comparisons.pdf Graphic file (type QTm)
  <use  "figures/full_aperture_comparisons.pdf" > [71] [72]
 File: figures/dn4000_full_aperture_comparisons.pdf Graphic file (type QTm)
 
-<use  "figures/dn4000_full_aperture_comparisons.pdf" > [73] [74]
+<use  "figures/dn4000_full_aperture_comparisons.pdf" >
 File: figures/hdelta_full_aperture_comparisons.pdf Graphic file (type QTm)
 
-<use  "figures/hdelta_full_aperture_comparisons.pdf" >
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 617.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 617.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 617.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 617.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 617.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 617.
-
-[75] [76]
+<use  "figures/hdelta_full_aperture_comparisons.pdf" > [73] [74] [75]
 File: figures/mlz_offset_a.pdf Graphic file (type QTm)
- <use  "figures/mlz_offset_a.pdf" >
-File: figures/mlz_offset_b.pdf Graphic file (type QTm)
 
-<use  "figures/mlz_offset_b.pdf" >
+<use  "figures/mlz_offset_a.pdf" >
+File: figures/mlz_offset_b.pdf Graphic file (type QTm)
+ <use  "figures/mlz_offset_b.pdf" >
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 639.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 639.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 639.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 639.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 639.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 639.
+
+File: figures/mlz_offset_c.pdf Graphic file (type QTm)
+<use  "figures/mlz_offset_c.pdf" > [76] [77]
 File: figures/table.pdf Graphic file (type QTm)
  <use  "figures/table.pdf" >
+[78]
+File: figures/ml_offset_plot.pdf Graphic file (type QTm)
+ <use  "figures/ml_offset_plot.pdf" > [79] [80]
 File: figures/table_median.pdf Graphic file (type QTm)
 
-<use  "figures/table_median.pdf" >
-File: figures/mlz_offset_c.pdf Graphic file (type QTm)
- <use  "figures/mlz_offset_c.pdf" > [77]
-[78] [79]) [80]
+<use  "figures/table_median.pdf" > [81]) [82]
 \openout2 = `chapters/conclusion.aux'.
 
  (./chapters/conclusion.tex
 Chapter 3.
-) [81
+) [83
 
 
 
-] (./dissertation.bbl [82
+] (./dissertation.bbl [84
 
 
 
-] [83] [84] [85] [86] [87] [88] [89]
+] [85] [86] [87] [88] [89] [90] [91]
 Missing character: There is no ^^89 in font EB Garamond 12 Regular/OT:script=la
 tn;language=DFLT;mapping=tex-text;mapping=tex-text;+onum;+liga;mapping=tex-text
 ;!
 Missing character: There is no ^^83 in font EB Garamond 12 Regular/OT:script=la
 tn;language=DFLT;mapping=tex-text;mapping=tex-text;+onum;+liga;mapping=tex-text
 ;!
- [90]
-[91] [92] [93] [94] [95] [96] [97] [98] [99]) [100]
+ [92]
+[93] [94] [95] [96] [97] [98] [99] [100] [101]) [102]
 \openout2 = `endmatter/colophon.aux'.
 
  (./endmatter/colophon.tex)
@@ -1666,18 +1673,15 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 43.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 43.
  ) 
 Here is how much of TeX's memory you used:
- 25889 strings out of 493591
- 460511 string characters out of 6143546
- 517139 words of memory out of 5000000
- 28908 multiletter control sequences out of 15000+600000
+ 25892 strings out of 493591
+ 460577 string characters out of 6143546
+ 517262 words of memory out of 5000000
+ 28910 multiletter control sequences out of 15000+600000
  12504 words of font info for 103 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  60i,9n,107p,10404b,697s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (107 pages).
+Output written on dissertation.pdf (109 pages).

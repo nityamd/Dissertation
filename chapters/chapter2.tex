@@ -574,6 +574,17 @@ at $z = 0.02,0.06$ and $0.14$ with a $3''$ aperture from the full aperture measu
 \label{fig:offset_d4000}}
 \end{figure}
 
+\begin{figure}
+\includegraphics[width=\textwidth]{figures/hdelta_full_aperture_comparisons.pdf}
+\caption[The mean offset and dispersion in the $H\delta_{A}$
+ index measured at $z = 0.02,0.06$ and $0.14$ with a $3''$ 
+ aperture from the full aperture measurement ]
+ {The mean offset and dispersion in the $H\delta_{A}$ 
+ index measured at $z = 0.02,0.06$ and $0.14$ 
+ with a $3''$ aperture from the full aperture measurement.
+\label{fig:offset_hdelta}}
+\end{figure}
+
 From Fig. \ref{fig:redshift_comparison}, we can infer the following. For 
 many galaxies the offset is pretty minimal; they fall pretty close 
 to the $x=y$ line. The scatter is largest at $z = 0.06$, and this scatter
@@ -603,24 +614,6 @@ the $3''$ fiber will overestimate the stellar ages and therefore their
 mass-to-light ratios, for some fraction of the galaxies.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{figures/hdelta_full_aperture_comparisons.pdf}
-\caption[The mean offset and dispersion in the $H\delta_{A}$
- index measured at $z = 0.02,0.06$ and $0.14$ with a $3''$ 
- aperture from the full aperture measurement ]
- {The mean offset and dispersion in the $H\delta_{A}$ 
- index measured at $z = 0.02,0.06$ and $0.14$ 
- with a $3''$ aperture from the full aperture measurement.
-\label{fig:offset_hdelta}}
-\end{figure}
-
-
-\subsection{Offsets in the $H\delta_{\rm A}$-$D_{\rm n}4000$ plane}
-
-The next step to comparing the full aperture measurements to the 3'' measurements at the three redshift bins would be to see where the galaxies move in the H$\delta_{\rm A}$ - $D_{\rm n}4000$ plane. The offsets in the plane binned along both the dimensions are plotted in Figure \ref{fig:offset_d4000} for the $D_{\rm n}4000$ measurements and in Figure \ref{fig:offset_hdelta} for the H$\delta_{\rm A}$ measurements. Apart from the mean offsets, we also plot the mean dispersions in each of these bins. The general tendency we see in the $D_{\rm n}4000$ offsets is that the older galaxies tend to have slightly negative offsets and the younger ones, slightly positive offsets. In the case of H$\delta_{\rm A}$, the offsets on average tend to be mostly positive (in this case, tending toward the region of phase space with younger galaxies) with the exception of a few bins with high H$\delta_{\rm A}$ where there are a few small negative offsets.\\
-
-The combined offsets in both the directions are plotted as quiver plots that occupy the left subplots in Figures \ref{fig:offset_quiver1}, \ref{fig:offset_quiver2} and \ref{fig:offset_quiver3}. The length of the vector offsets in the quiver plots in the could translate into very different ${\rm log}_{10}((M/L)_{z})$ offsets depending on where they occur in the H$\delta_{\rm A}$ - $D_{\rm n}4000$ plane. Using the MPA-JHU mass-to-light ratios and index measurements for SDSS DR8 galaxies, we have reconstructed the the grid transformation from a ($D_{\rm n}4000$, H$\delta_{\rm A}$) value to a ${\rm log}_{10}((M/L)_{z})$ value by interpolating over the grid shown in Figure \ref{fig:kauff_grid}. Thus each offset in the plane can be converted to an offset in terms of the mass-to-light ratios and the result of the conversions are plotted alongside as well as the right subplots in the aforementioned figures.\\
-
-\begin{figure}
 \includegraphics[width=\textwidth]{figures/mlz_offset_a.pdf}
 \caption[  \emph{Left:} The combined mean offset in 
 $D_{\rm n}4000$-$h\delta_{\rm A}$ at $z=0.02$ from the full aperture 
@@ -643,13 +636,43 @@ ratios using the grid in Figure \ref{fig:kauff_grid}.
 \end{figure}
 
 
+\subsection{Offsets in the $H\delta_{\rm A}$-$D_{\rm n}4000$ plane}
+
+\begin{figure}
+\includegraphics[width=\textwidth]{figures/mlz_offset_c.pdf}
+\caption[ \emph{Left:} The combined mean offset in $D_{\rm n}4000$-$h\delta_{\rm A}$ at $z=0.14$ from the full aperture measurements represented as a vector whose projections on the axes are the actual offsets in either direction. \emph{Right:} The offsets transformed to the z-band mass-to-light ratios using the grid in Figure \ref{fig:kauff_grid}. ]{ \emph{Left:} The combined mean offset in $D_{\rm n}4000$-$h\delta_{\rm A}$ at $z=0.14$ from the full aperture measurements represented as a vector whose projections on the axes are the actual offsets in either direction. \emph{Right:} The offsets transformed to the z-band mass-to-light ratios using the grid in Figure \ref{fig:kauff_grid}.
+\label{fig:offset_quiver3}}
+\end{figure}
+
+The next step in comparing the full aperture measurements to the 3'' measurements would be to see where the galaxies move in the H$\delta_{\rm A}$ - $D_{\rm n}4000$ plane for each of the redshift bins. The offsets in the plane binned along both the dimensions are plotted in Figure \ref{fig:offset_d4000} for the $D_{\rm n}4000$ measurements and in Figure \ref{fig:offset_hdelta} for the H$\delta_{\rm A}$ measurements. Apart from the mean offsets, we also plot the mean dispersions in each of these bins. The general tendency we see in the $D_{\rm n}4000$ offsets is that the older galaxies tend to have slightly negative offsets and the younger ones, slightly positive offsets. In the case of H$\delta_{\rm A}$, the offsets on average tend to be mostly positive (in this case, tending toward the region of phase space with younger galaxies) with the exception of a few bins with high H$\delta_{\rm A}$ where there are a few small negative offsets.\\
+
 \begin{figure}
 \includegraphics[width=\textwidth]{figures/table.pdf}
 \caption[Table showing the mean offsets for the three redshift bins.]
 {Table showing the mean offsets for the three redshift bins
-\label{tab: mean_offsets}}
+\label{tab: mean_offset_table}}
 \end{figure}
 
+The combined offsets in both the directions are plotted as quiver plots that occupy the left subplots in Figures \ref{fig:offset_quiver1}, \ref{fig:offset_quiver2} and \ref{fig:offset_quiver3}. The length of the vector offsets in the quiver plots in the could translate into very different ${\rm log}_{10}((M/L)_{z})$ offsets depending on where they occur in the H$\delta_{\rm A}$ - $D_{\rm n}4000$ plane. Using the MPA-JHU mass-to-light ratios and index measurements for SDSS DR8 galaxies, we have reconstructed the the grid transformation from a ($D_{\rm n}4000$, H$\delta_{\rm A}$) value to a ${\rm log}_{10}((M/L)_{z})$ value by interpolating over the grid shown in Figure \ref{fig:kauff_grid}. Thus each offset in the plane can be converted to an offset in terms of the mass-to-light ratios and the result of the conversions are plotted alongside as well as the right subplots in the aforementioned figures.\\
+
+\begin{figure}
+\includegraphics[width=\textwidth]{figures/ml_offset_plot.pdf}
+\caption[ The mean and dispersion of the mass-to-light ratio 
+offsets in each of the redshift bins.]{The mean and 
+dispersions of the mass-to-light ratio offsets in each
+ of the redshift bins.
+\label{dispersion_plot}}
+\end{figure}
+
+\section{Discussion}
+
+We consolidate the results from Figures \ref{fig:offset_quiver1}, \ref{fig:offset_quiver2} and \ref{fig:offset_quiver3} in Tables \ref{tab: mean_offset_table} and  \ref{tab: median_offsets} where the mean and median offsets for the older and younger galaxies are separately evaluated using the cut made in the $D_{\rm n}4000$-$h\delta_{\rm A}$ plane as shown in Figure \ref{fig:kauff_grid}. From the plots and the tables, we can surmise the following:
+
+\begin{itemize}
+\item{The mean tendency overall is relatively small. We can see from both Table \ref{tab: mean_offset_table} and Figure \ref{dispersion_plot} that for both the younger and older galaxies in all bins, there is a slight negative mean and median offset.}
+\item{The scatter about the mean is substantial relative to the mean. For the mid-redshift bin, the standard deviation for the older galaxies is $\sim 0.181$ and the younger galaxies, $\sim 0.267$. This implies that for individual galaxies, the effect of aperture bias can be much bigger even if the average trend is minimal. This is also reflected in the uniformly high dispersions across bins in Figure \ref{dispersion_plot}}
+\item{The small mean offsets with high variances indicate that the distribution of the offsets is fairly non-Gaussian, indicating the need for a more suitable quantification of the dispersions. The median offsets with the median absolute deviations are thus calculated and shown in Table \ref{tab: median_offsets}. While the median offsets are close in value to the mean offsets, the dispersions are now almost halved: $\sim 0.08$ for the older galaxies and $\sim 0.14$ for the younger galaxies in the $z = 0.06$ bin.}
+\end{itemize}
 
 \begin{figure}
 \includegraphics[width=\textwidth]{figures/table_median.pdf}
@@ -658,22 +681,7 @@ ratios using the grid in Figure \ref{fig:kauff_grid}.
 \label{tab: median_offsets}}
 \end{figure}
 
-\begin{figure}
-\includegraphics[width=\textwidth]{figures/mlz_offset_c.pdf}
-\caption[ \emph{Left:} The combined mean offset in $D_{\rm n}4000$-$h\delta_{\rm A}$ at $z=0.14$ from the full aperture measurements represented as a vector whose projections on the axes are the actual offsets in either direction. \emph{Right:} The offsets transformed to the z-band mass-to-light ratios using the grid in Figure \ref{fig:kauff_grid}. ]{ \emph{Left:} The combined mean offset in $D_{\rm n}4000$-$h\delta_{\rm A}$ at $z=0.14$ from the full aperture measurements represented as a vector whose projections on the axes are the actual offsets in either direction. \emph{Right:} The offsets transformed to the z-band mass-to-light ratios using the grid in Figure \ref{fig:kauff_grid}.
-\label{fig:offset_quiver3}}
-\end{figure}
-
-\section{Discussion}
-
-We consolidate the results from Figures \ref{fig:offset_quiver1}, \ref{fig:offset_quiver2} and \ref{fig:offset_quiver3} in Table \ref{tab: mean_offsets} and  \ref{tab: median_offsets} where the mean and median offsets for the older and younger galaxies are separately evaluated using the cut made in the $D_{\rm n}4000$-$h\delta_{\rm A}$ plane as shown in Figure \ref{fig:kauff_grid}. From the plots and the tables, we can surmise the following:
-
-\begin{itemize}
-\item{The mean tendency overall is relatively small. The mean and median offsets are higher for the smaller redshifts and very close to zero for the highest redshift bin. The mean offset is of the order of 0.1 dex or less for the older galaxies but are higher for the younger galaxies. For the $z = 0.06$ bin, the mean offset below the line is $\sim -0.03$ and $\sim -0.02$ for the younger galaxies.}
-\item{The scatter about the mean is substantial relative to the mean. For the mid-redshift bin, the standard deviation for the older galaxies is $\sim 0.19$ and the younger galaxies, $\sim 0.3$. This implies that for individual galaxies, the effect of aperture bias can be much bigger even if the average trend is minimal.}
-\end{itemize}
-
-The main conclusion is that stellar masses more accurate than 0.1 dex (or whatever you see in the mean offset) are not possible, and that the scatter in the offset means the precision is degraded as well. This source of error is important to keep in mind but is probably not fatal for samples at z=0.1 from MPA/JHU --- most results done rely on stellar masses at that precision. Using this sample at lower redshift may be much more iffy.
+The fact that the mean offsets from the the full aperture measurements are not significant implies that the MPA-JHU masses are on average robust. The regions where the mass-to-light ratio grid (Figure \ref{fig:kauff_grid}) have steep gradients are understandably where the offsets in the $D_{\rm n}4000$-$h\delta_{\rm A}$ plane translate into higher offsets in mass. This is in particular pronounced for the younger galaxy population. As we have noted before, the sample selection of the MaNGA galaxies imply that the effects seen here for the $z = 0.02$ bin might not be entirely reflective of the aperture bias, but the dispersion in the offsets for the $z = 0.06$ and $z = 0.14$ bins show that the effect of aperture bias on the stellar mass function are significantly non-trivial.
 
 %MRB Says: * This mean tendency is *relatively* small. You should calculate from your grids the median offset for cells with D4000 > 1.3 or something like that, and quote that number. You should then look carefully at the Kauffmann figure to translate this to a change in $M/L_z$ --- my guess is that it is around 0.1 dex for z=0.06. Do this for z=0.06 and z=0.14.
 
