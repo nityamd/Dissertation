@@ -14,6 +14,7 @@ The presence of dust is an important complication in any analysis of galaxy ligh
 Here, we examine a sample of galaxies whose UV-IR photometry is available and estimate the star formation rate in two independent ways. First we exploit the fact that we have UV to IR photometry and perform SED fitting using MAGPHYS \citep{da_cunha_simple_2008}, which accounts for dust by using a simple method of energy balance to obtain the specific star formation rates (SSFRs). The other method involves using purely UV photometry to estimate both star formation rate and dust attenuation using the prescription given by Salim et al \citep{salim_uv_2007-1}. We also estimate the environments of our population. We ask the following questions of this sample. How do these different star formation estimators disagree with each other? How does each estimate correlate with environment? Does one trace environment more closely? Under the assumption that the environment primarily correlates with the SSFR rather than dust obscuration's effect on the observables, studying this correlation will yield insights into the relative accuracy of the methods.\\
 
 \section{Constructing a local sample spanning Ultraviolet to Infrared Imaging}
+\label{ch1_data}
 The sample on which we perform our measurements is based on the NASA-Sloan Atlas, a nearby galaxy sample which includes optical and ultraviolet imaging from SDSS and GALEX. We use NSA version {\tt v0\_1\_2}, whose redshift range extends up to $z = 0.055$ and includes SDSS (Data Release $9$) and GALEX imaging for galaxies. The total number of objects in this NSA catalog is ${\sim}150,000$. We define two samples from the NSA, one that we use to define environment (Environment Determining Population or EDP, hereafter) and one for which we determine star formation rates (Star Formation Rate Population or SFRP hereafter). We note that the SFRP is a subsample of the EDP. To get our EDP, we impose a volume-limited cut on this sample by retaining only galaxies with $-24.5 <M_{r}< -18.5$, which leaves us with $95,638$ galaxies.\\
 
 \begin{figure}
@@ -37,6 +38,7 @@ absolute magnitudes in the UV ($F$ and $N$ bands), optical
 and $W4$ bands).\\
 
 \section{Estimating the Specific Star Formation Rates}
+\label{ch1_sfr}
 
 We compare two approaches to calculating specific star 
 formation rates (SSFRs). The first uses UV, optical, and 
@@ -136,7 +138,7 @@ galaxies.
 
 
 \section{Environments}
-
+\label{ch1_env}
 We identified above a population of galaxies isolated in 
 color space, which appeared to have dust-extincted star formation, 
 such that the SSFR\textsubscript{UV} estimate was much less 
@@ -229,7 +231,7 @@ of environment on stellar mass.
 \end{figure}
 
 \section{The Environments of the Outliers}
-
+\label{ch1_results}
 Fig. $1.3$ shows the relationship between the two SSFR measurements,
 with points colored according to the mean environment, for each bin 
 in color-color space from Fig. $1.2$. There is a set of bins in 

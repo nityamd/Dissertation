@@ -13,7 +13,7 @@ And no grown-up will ever understand how such a thing could be so important!
 \section{A Brief History of Galaxy Evolution}
 
 \subsection{The Discovery of Galaxies}
-One of the momentous shifts in scientific thinking was the realization that our Sun might be one of many stars in the Universe. From this sprung the idea that perhaps the gravitationally bound system of stars, stellar remnants, gas and dust that the Sun is a part of is one of many such structures known as galaxies. The bright band of stars and dust that we observe in the night sky, which we now know as our own galaxy, the Milky Way, has been a puzzling topic since ancient times. The Greek philosopher Democritus is known to have speculated that this might be a band of distant stars but the thought was left by the wayside with the advent of Aristotelian physics. The astronomers of medieval Islam, such as Alhazen, al-Biruni and Ibn-Bajjah, centuries later, also hypothesized that the Milky Way was made of many stars such as our own Sun. However, observational proof for this came only in the 17th century when the Italian astronomer, Galileo Galelei pointed his telescope at this band and confirmed that the Milky Way was indeed made up of a huge number of faint stars.\\
+One of the momentous shifts in scientific thinking was the realization that our Sun might be one of many stars in the Universe. From this sprung the idea that perhaps the gravitationally bound system of stars, stellar remnants, gas and dust that the Sun is a part of is one of many such structures known as galaxies. The bright band of stars and dust that we observe in the night sky, which we now know as our own galaxy, the Milky Way, has been a puzzling topic since ancient times. The Greek philosopher Democritus is known to have speculated that this might be a band of distant stars \citep{lynn_letter} but the thought was left by the wayside with the advent of Aristotelian physics. The astronomers of medieval Islam, such as Alhazen, al-Biruni and Ibn-Bajjah, centuries later, also hypothesized that the Milky Way was made of many stars such as our own Sun. However, observational proof for this came only in the 17th century when the Italian astronomer, Galileo Galelei pointed his telescope at this band and confirmed that the Milky Way was indeed made up of a huge number of faint stars.\\
 
 Since the debate on a geocentric versus heliocentric Universe was still ongoing, Galileo's observations weren't given credence until more than century later, during which time, the development of Keplerian orbital mechanics and Newtonian Theory of Gravitation had resulted in a successful explanation of the Solar System and its dynamics. The idea that the galaxy might be a rotating configuration of a huge number of stars held together by gravitational forces that contained smaller gravitationally bound configurations such as our Solar System was first theorized by the English astronomer, Thomas Wright, in 1750. On the heels of his observation that the faint (then so-called) ``nebulae" observed might be distant galaxies that came out of ``external creations", philosopher Immannuel Kant hypothesized the existence of many such ``island Universes" and speculated that these could potentially form and evolve independently from our own, thus laying the underpinnings of the study of galaxy formation and evolution.\\
 
@@ -85,7 +85,7 @@ luminosity can serve as a reasonable (but not exact) proxy for
 current star formation activity. Observations reveal that fainter
 galaxies are more frequent per unit volume than galaxies as bright
 as our own. Very bright big ellipticals are much rarer than both.
-The distribution of galaxy luminosites, per volume and per unit
+The distribution of galaxy luminosities, per volume and per unit
 luminosity, is known as the ``luminosity function''
 (\citet{1988MNRAS.232..431E, blanton05a}), which provides key
 constraints on galaxy formation and evolution.
@@ -261,7 +261,7 @@ the bulk of the light comes from the massive stars. For example,
 \citet{1998ApJ...498..106M} and \citet{kennicutt_star_2012} report
 calibrations (assuming a Salpeter IMF; \citealt{1955ApJ...121..161S}):
 relative to the UV Luminosity ${\rm L}_{\nu}$(in a wavelength range of
-1500?2800 \AA):
+1500 \AA - 2800 \AA):
 $${\rm SFR}\hbox{ }({\rm M}_{\odot} {\rm yr}^{-1}) = 1.4 \times 10^{-28} {\rm L}_{\rm \nu} \hbox{ }({\rm ergs }\hbox{ } {\rm s}^{-1})\hbox{ } {\rm Hz}^{-1})$$\\
 
 A significant issue with inferring a UV star formation rate is the
@@ -731,8 +731,12 @@ hundreds of investigations based on the SDSS Legacy Survey and are
 highly influential.
 
 \subsection{This Thesis: Empirical Star Formation Estimates}
-Brief overview of structure of thesis
 
+In this thesis, I focus on evaluating the possible systematic effects in two ubiquitously used measurements of star formation in the field of galaxy evolution, the UV star formation rate and the stellar masses estimated in the largest catalog of measurements of physical properties of galaxies, the MPA-JHU Catalog.\\
+
+In Chapter \ref{ch:sfrk}, I evaluate the robustness of UV star formation rates in tracing star formation activity, especially in dust-obscured galaxies which might appear to be redder than they are in optical color. The steps towards doing this involve choosing an appropriate nearby galaxy sample (Section \ref{ch1_data}), estimating two different star formation rates - one relying purely on ultraviolet photometry and another, using UV-to-IR photometry with an SED fitting method that uses a physically motivated model for dust (Section \ref{ch1_sfr}), using galaxy environments to be able to identify the dust-obscured optical green valley galaxies (Section \ref{ch1_env}) and finally, evaluating which star formation rate is able to trace star formation activity in dust-reddened star formers better (Section \ref{ch1_results}).\\
+
+In Chapter \ref{ch:acm}, I examine the possible systematic effects in the stellar mass estimation method used in the MPA-JHU catalog due to aperture bias. To this end, I use spatially resolved spectroscopic data from the largest IFU-based survey designed thusfar (Section \ref{ch2_intro}) and employ variable apertures to obtain the spectra that would fall within 3'' apertures at various redshifts (Section \ref{sec:chap2methods})and evaluate the two key spectral indicators (Section \ref{indices}) that are used to constrain the mass-to-light ratios of the galaxies in the catalog, thus reproducing the \citet{kauffmann_stellar_2003} method. I then examine how offsets the mass-to-light ratios are from what they would be with a full aperture (i.e., if the ``entire" galaxy were to fall within the aperture) and the implication of the trends in these offsets (Section \ref{ch2_discussion}).\\
 
 
 

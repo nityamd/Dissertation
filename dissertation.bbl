@@ -689,6 +689,11 @@ Lee, J.~C., {Gil de Paz}, A., Tremonti, C., Kennicutt, R.~C., Salim, S.,
 \newblock {The distribution of stellar mass in the low-redshift Universe}.
 \newblock {\em \mnras}, 398, 2177--2187.
 
+\bibitem[{Lynn}, 1901]{lynn_letter}
+{Lynn}, W.~T. (1901).
+\newblock {Democritus and Galileo on the Milky Way}.
+\newblock {\em The Observatory}, 24, 382--383.
+
 \bibitem[Madau \& Dickinson, 2014]{madau_cosmic_2014}
 Madau, P. \& Dickinson, M. (2014).
 \newblock Cosmic {{Star}}-{{Formation History}}.
@@ -1005,6 +1010,14 @@ Smee, S.~A., Gunn, J.~E., Uomoto, A., Roe, N., Schlegel, D., Rockosi, C.~M.,
 \newblock {Spectroscopic Target Selection in the Sloan Digital Sky Survey: The
   Main Galaxy Sample}.
 \newblock {\em \aj}, 124, 1810--1824.
+
+\bibitem[{Tinker} et~al., 2017]{tinker17a}
+{Tinker}, J.~L., {Brownstein}, J.~R., {Guo}, H., {Leauthaud}, A., {Maraston},
+  C., {Masters}, K., {Montero-Dorta}, A.~D., {Thomas}, D., {Tojeiro}, R.,
+  {Weiner}, B., {Zehavi}, I., \& {Olmstead}, M.~D. (2017).
+\newblock {The Correlation between Halo Mass and Stellar Mass for the Most
+  Massive Galaxies in the Universe}.
+\newblock {\em \apj}, 839(2), 121.
 
 \bibitem[Tomczak et~al., 2014]{tomczak_galaxy_2014}
 Tomczak, A.~R., Quadri, R.~F., Tran, K.-V.~H., Labb{\'e}, I., Straatman, C.

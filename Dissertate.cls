@@ -66,15 +66,15 @@
 \usepackage[titles]{tocloft}
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
 \renewcommand{\cftchapfont}{\normalsize \scshape}
-\newcommand\apj{some journal name}
-\newcommand\mnras{some journal name}
-\newcommand\aj{some journal name}
-\newcommand\aap{some journal name}
-\newcommand\araa{some journal name}
-\newcommand\apjl{some journal name}
-\newcommand\apjs{some journal name}
-\newcommand\apss{some journal name}
-\newcommand\rmxaa{some journal name}
+\newcommand\apj{The Astrophysical Journal}
+\newcommand\mnras{Monthly Notices of the Royal Astronomical Society}
+\newcommand\aj{The Astronomical Journal}
+\newcommand\aap{Astronomy \& Astrophysics}
+\newcommand\araa{Annual Review of Astronomy and Astrophysics,}
+\newcommand\apjl{The Astrophysical Journal, Letters}
+\newcommand\apjs{The Astrophysical Journal, Supplement}
+\newcommand\apss{Astrophysics and Space Science}
+\newcommand\rmxaa{Revista Mexicana de Astronom{\^i}a y Astrof{\^i}sica}
 \newcommand{\lt}{\ensuremath <}
 % \usepackage{fixltx2e}
 \usepackage{ragged2e}

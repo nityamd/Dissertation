@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  12 APR 2019 14:16
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  16 APR 2019 13:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1427,7 +1427,7 @@ eight years and covered 8,000 square
 Package natbib Warning: Citation `blanton_physical_2019-1' on page 34 undefined
  on input line 685.
 
-[34]) [35] [36]
+[34] [35]) [36]
 \openout2 = `chapters/chapter1.aux'.
 
  (./chapters/chapter1.tex
@@ -1453,7 +1453,7 @@ to Infrared Imaging|
 
 File: figures/sample.png Graphic file (type QTm)
 <use  "figures/sample.png" > [40] [41] [42] [43]
-Overfull \hbox (27.27144pt too wide) in paragraph at lines 124--135
+Overfull \hbox (27.27144pt too wide) in paragraph at lines 126--137
 \EU1/EBGaramond(3)/bx/n/12 optical color whereas, as discussed above, the SSFR$
 []$’s do not. Assuming the SSFR$[]$’s 
  []
@@ -1462,13 +1462,13 @@ Overfull \hbox (27.27144pt too wide) in paragraph at lines 124--135
 File: figures/1_panel_plot.pdf Graphic file (type QTm)
  <use  "figures/1_panel_plot.pdf" >
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/it' will be
-(Font)              scaled to size 8.09479pt on input line 170.
+(Font)              scaled to size 8.09479pt on input line 172.
  [45] [46] [47]
 File: figures/2_env_plot.pdf Graphic file (type QTm)
 
 <use  "figures/2_env_plot.pdf" >
 
-LaTeX Warning: Command \textsubscript invalid in math mode on input line 236.
+LaTeX Warning: Command \textsubscript invalid in math mode on input line 238.
 
 [48] [49]
 File: figures/3_outliers.pdf Graphic file (type QTm)
@@ -1487,46 +1487,46 @@ Chapter 2.
 ] [54] [55]
 
 Package natbib Warning: Citation `strauss02a' on page 56 undefined on input lin
-e 24.
+e 25.
 
 [56] [57] [58] [59] [60]
 
 LaTeX Font Warning: Font shape `EU1/NotoMono(0)/m/sc' undefined
-(Font)              using `EU1/NotoMono(0)/m/n' instead on input line 141.
+(Font)              using `EU1/NotoMono(0)/m/n' instead on input line 142.
 
 LaTeX Font Info:    Font shape `EU1/NotoMono(0)/m/sc' will be
-(Font)              scaled to size 9.2113pt on input line 141.
+(Font)              scaled to size 9.2113pt on input line 142.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(3)/m/sc' will be
-(Font)              scaled to size 8.0pt on input line 141.
+(Font)              scaled to size 8.0pt on input line 142.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(3)/m/sc' will be
-(Font)              scaled to size 6.0pt on input line 141.
+(Font)              scaled to size 6.0pt on input line 142.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 141.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 141.
+(hyperref)                removing `math shift' on input line 142.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 141.
+(hyperref)                removing `subscript' on input line 142.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 141.
+(hyperref)                removing `subscript' on input line 142.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 146.
+(hyperref)                removing `math shift' on input line 142.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 146.
+(hyperref)                removing `math shift' on input line 147.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 146.
+(hyperref)                removing `subscript' on input line 147.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 147.
 
 [61]
 File: figures/spectra_placeholder.png Graphic file (type QTm)
@@ -1535,52 +1535,52 @@ File: figures/mass_age_sfr_dist.pdf Graphic file (type QTm)
 
 <use  "figures/mass_age_sfr_dist.pdf" >
 LaTeX Font Info:    Font shape `EU1/NotoMono(0)/m/n' will be
-(Font)              scaled to size 7.67609pt on input line 202.
+(Font)              scaled to size 7.67609pt on input line 203.
 LaTeX Font Info:    Font shape `EU1/NotoMono(0)/m/it' will be
-(Font)              scaled to size 7.67609pt on input line 202.
+(Font)              scaled to size 7.67609pt on input line 203.
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
-(Font)              scaled to size 5.66635pt on input line 202.
+(Font)              scaled to size 5.66635pt on input line 203.
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
-(Font)              scaled to size 4.0474pt on input line 202.
+(Font)              scaled to size 4.0474pt on input line 203.
 
 
-LaTeX Warning: Float too large for page by 59.29243pt on input line 203.
+LaTeX Warning: Float too large for page by 59.29243pt on input line 204.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 206.
+(hyperref)                removing `math shift' on input line 207.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 206.
+(hyperref)                removing `math shift' on input line 207.
 
 [62] [63] [64]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 259.
+(hyperref)                removing `math shift' on input line 260.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 259.
+(hyperref)                removing `subscript' on input line 260.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 259.
+(hyperref)                removing `math shift' on input line 260.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 259.
+(hyperref)                removing `math shift' on input line 260.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 259.
+(hyperref)                removing `subscript' on input line 260.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 259.
+(hyperref)                removing `math shift' on input line 260.
 
 [65]
-Overfull \hbox (7.56738pt too wide) in paragraph at lines 293--316
+Overfull \hbox (7.56738pt too wide) in paragraph at lines 294--317
 []\EU1/EBGaramond(3)/bx/n/12 This library of models thus enables the constructi
 on of a “model grid” in the H$[][]$-$[][][][][][]$ 
  []
@@ -1603,27 +1603,27 @@ File: figures/mlz_offset_b.pdf Graphic file (type QTm)
  <use  "figures/mlz_offset_b.pdf" >
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 639.
+(hyperref)                removing `math shift' on input line 643.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 639.
+(hyperref)                removing `subscript' on input line 643.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 639.
+(hyperref)                removing `math shift' on input line 643.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 639.
+(hyperref)                removing `math shift' on input line 643.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 639.
+(hyperref)                removing `subscript' on input line 643.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 639.
+(hyperref)                removing `math shift' on input line 643.
 
 File: figures/mlz_offset_c.pdf Graphic file (type QTm)
 <use  "figures/mlz_offset_c.pdf" > [76] [77]
@@ -1634,31 +1634,32 @@ File: figures/ml_offset_plot.pdf Graphic file (type QTm)
  <use  "figures/ml_offset_plot.pdf" > [79] [80]
 File: figures/table_median.pdf Graphic file (type QTm)
 
-<use  "figures/table_median.pdf" > [81]) [82]
+<use  "figures/table_median.pdf" > [81] [82]) [83]
 \openout2 = `chapters/conclusion.aux'.
 
  (./chapters/conclusion.tex
 Chapter 3.
-) [83
+[84
 
 
 
-] (./dissertation.bbl [84
+] [85]) [86] (./dissertation.bbl [87
 
 
 
-] [85] [86] [87] [88] [89] [90] [91]
+] [88] [89] [90] [91] [92] [93] [94]
 Missing character: There is no ^^89 in font EB Garamond 12 Regular/OT:script=la
 tn;language=DFLT;mapping=tex-text;mapping=tex-text;+onum;+liga;mapping=tex-text
 ;!
 Missing character: There is no ^^83 in font EB Garamond 12 Regular/OT:script=la
 tn;language=DFLT;mapping=tex-text;mapping=tex-text;+onum;+liga;mapping=tex-text
 ;!
- [92]
-[93] [94] [95] [96] [97] [98] [99] [100] [101]) [102]
+
+[95] [96] [97] [98] [99] [100] [101] [102] [103] [104]) [105]
 \openout2 = `endmatter/colophon.aux'.
 
- (./endmatter/colophon.tex)
+
+(./endmatter/colophon.tex)
 
 Package natbib Warning: There were undefined citations.
 
@@ -1676,12 +1677,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 43.
  ) 
 Here is how much of TeX's memory you used:
- 25892 strings out of 493591
- 460577 string characters out of 6143546
- 517262 words of memory out of 5000000
- 28910 multiletter control sequences out of 15000+600000
+ 25904 strings out of 493591
+ 460753 string characters out of 6143546
+ 518833 words of memory out of 5000000
+ 28922 multiletter control sequences out of 15000+600000
  12504 words of font info for 103 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  60i,9n,107p,10404b,697s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (109 pages).
+Output written on dissertation.pdf (112 pages).
