@@ -57,45 +57,46 @@ Warning--I didn't find a database entry for "york00a"
 Warning--I didn't find a database entry for "martin05a"
 Warning--I didn't find a database entry for "strauss02a"
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-You've used 133 entries,
+Warning--empty publisher in book_agnes_clerke
+You've used 134 entries,
             2229 wiz_defined-function locations,
-            1273 strings with 64205 characters,
-and the built_in function-call counts, 107684 in all, are:
-= -- 8622
-> -- 11065
-< -- 43
-+ -- 4303
-- -- 4274
-* -- 11737
-:= -- 19966
-add.period$ -- 399
-call.type$ -- 133
-change.case$ -- 2800
-chr.to.int$ -- 128
-cite$ -- 133
-duplicate$ -- 1893
-empty$ -- 3707
-format.name$ -- 4451
-if$ -- 19130
+            1276 strings with 64304 characters,
+and the built_in function-call counts, 107955 in all, are:
+= -- 8645
+> -- 11072
+< -- 44
++ -- 4305
+- -- 4276
+* -- 11757
+:= -- 20015
+add.period$ -- 401
+call.type$ -- 134
+change.case$ -- 2805
+chr.to.int$ -- 129
+cite$ -- 135
+duplicate$ -- 1907
+empty$ -- 3730
+format.name$ -- 4454
+if$ -- 19182
 int.to.chr$ -- 6
 int.to.str$ -- 0
-missing$ -- 133
-newline$ -- 668
-num.names$ -- 399
-pop$ -- 2499
+missing$ -- 135
+newline$ -- 672
+num.names$ -- 402
+pop$ -- 2508
 preamble$ -- 1
-purify$ -- 2800
+purify$ -- 2806
 quote$ -- 0
-skip$ -- 1417
+skip$ -- 1427
 stack$ -- 0
-substring$ -- 3879
-swap$ -- 166
+substring$ -- 3891
+swap$ -- 167
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 798
-warning$ -- 0
-while$ -- 404
+type$ -- 802
+warning$ -- 1
+while$ -- 406
 width$ -- 0
-write$ -- 1729
+write$ -- 1739
 (There were 11 error messages)
