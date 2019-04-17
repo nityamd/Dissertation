@@ -708,10 +708,15 @@ Madau, P. \& Dickinson, M. (2014).
 \newblock {The Star Formation History of Field Galaxies}.
 \newblock {\em \apj}, 498, 106--116.
 
-\bibitem[{Martins} et~al., 2005]{martins_2005}
-{Martins}, F., {Schaerer}, D., \& {Hillier}, D.~J. (2005).
-\newblock {A new calibration of stellar parameters of Galactic O stars}.
-\newblock {\em \aap}, 436, 1049--1065.
+\bibitem[{Martin} et~al., 2005]{martin_galex2005}
+{Martin}, D.~C., {Fanson}, J., {Schiminovich}, D., {Morrissey}, P., {Friedman},
+  P.~G., {Barlow}, T.~A., {Conrow}, T., {Grange}, R., {Jelinsky}, P.~N.,
+  {Milliard}, B., {Siegmund}, O. H.~W., {Bianchi}, L., {Byun}, Y.-I., {Donas},
+  J., {Forster}, K., {Heckman}, T.~M., {Lee}, Y.-W., {Madore}, B.~F., {Malina},
+  R.~F., {Neff}, S.~G., {Rich}, R.~M., {Small}, T., {Surber}, F., {Szalay},
+  A.~S., {Welsh}, B., \& {Wyder}, T.~K. (2005).
+\newblock {The Galaxy Evolution Explorer: A Space Ultraviolet Survey Mission}.
+\newblock {\em \apj}, 619(1), L1--L6.
 
 \bibitem[Moustakas et~al., 2013a]{moustakas_primus:_2013}
 Moustakas, J., Coil, A.~L., Aird, J., Blanton, M.~R., Cool, R.~J., Eisenstein,
@@ -1117,7 +1122,7 @@ Wyder, T.~K., Martin, D.~C., Schiminovich, D., Seibert, M., Budavari, T.,
   Spectral Library: First Release}.
 \newblock {\em arXiv e-prints}, (pp.\ arXiv:1812.02745).
 
-\bibitem[{York} et~al., 2000]{2000AJ....120.1579Y}
+\bibitem[{York} et~al., 2000]{york00a}
 {York}, D.~G., {Adelman}, J., {Anderson}, John~E., J., {Anderson}, S.~F.,
   {Annis}, J., {Bahcall}, N.~A., {Bakken}, J.~A., {Barkhouser}, R., {Bastian},
   S., {Berman}, E., {Boroski}, W.~N., {Bracker}, S., {Briegel}, C., {Briggs},

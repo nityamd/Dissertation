@@ -52,44 +52,44 @@ Repeated entry---line 3755 of file references.bib
  : @article{2007AJ....133..734B
  :                             ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "martins_2005"
+Warning--I didn't find a database entry for "2000AJ....120.1579Y"
 Warning--I didn't find a database entry for "blanton_physical_2019-1"
-Warning--I didn't find a database entry for "york00a"
-Warning--I didn't find a database entry for "martin05a"
 Warning--I didn't find a database entry for "strauss02a"
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--empty publisher in book_agnes_clerke
 You've used 134 entries,
             2229 wiz_defined-function locations,
-            1276 strings with 64304 characters,
-and the built_in function-call counts, 107955 in all, are:
-= -- 8645
-> -- 11072
+            1276 strings with 64836 characters,
+and the built_in function-call counts, 108637 in all, are:
+= -- 8687
+> -- 11187
 < -- 44
-+ -- 4305
-- -- 4276
-* -- 11757
-:= -- 20015
++ -- 4351
+- -- 4322
+* -- 11848
+:= -- 20149
 add.period$ -- 401
 call.type$ -- 134
-change.case$ -- 2805
+change.case$ -- 2828
 chr.to.int$ -- 129
 cite$ -- 135
 duplicate$ -- 1907
-empty$ -- 3730
-format.name$ -- 4454
-if$ -- 19182
+empty$ -- 3727
+format.name$ -- 4500
+if$ -- 19290
 int.to.chr$ -- 6
 int.to.str$ -- 0
 missing$ -- 135
 newline$ -- 672
 num.names$ -- 402
-pop$ -- 2508
+pop$ -- 2531
 preamble$ -- 1
-purify$ -- 2806
+purify$ -- 2829
 quote$ -- 0
 skip$ -- 1427
 stack$ -- 0
-substring$ -- 3891
+substring$ -- 3879
 swap$ -- 167
 text.length$ -- 1
 text.prefix$ -- 0

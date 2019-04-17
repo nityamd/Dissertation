@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  16 APR 2019 14:14
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  16 APR 2019 23:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1397,7 +1397,12 @@ Overfull \hbox (0.67941pt too wide) in paragraph at lines 319--326
 Formation History (SFH), stellar metal- 
  []
 
-[23] [24] [25]
+[23]
+
+Package natbib Warning: Citation `martins_2005' on page 24 undefined on input l
+ine 331.
+
+[24] [25]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 388.
@@ -1411,12 +1416,22 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 388.
 
 [26] [27] [28] [29]
+
+Package natbib Warning: Citation `2000AJ....120.1579Y' on page 30 undefined on 
+input line 545.
+
+
 Overfull \hbox (2.67145pt too wide) in paragraph at lines 532--547
 \EU1/EBGaramond(3)/bx/n/12 Redshift surveys in astronomy have their origins in 
 the early 20th century when astronomers 
  []
 
 [30]
+
+Package natbib Warning: Citation `2000AJ....120.1579Y' on page 31 undefined on 
+input line 566.
+
+
 Overfull \hbox (0.67946pt too wide) in paragraph at lines 570--580
 []\EU1/EBGaramond(3)/bx/n/12 The spectroscopic SDSS Legacy Survey operated for 
 eight years and covered 8,000 square 
@@ -1436,16 +1451,7 @@ Chapter 1.
 
 
 
-]
-
-Package natbib Warning: Citation `york00a' on page 38 undefined on input line 8
-.
-
-
-Package natbib Warning: Citation `martin05a' on page 38 undefined on input line
- 8.
-
-[38] [39]
+] [38] [39]
 Overfull \hbox (6.96745pt too wide) in paragraph at lines 16--16
 |[]\EU1/EBGaramond(3)/m/sc/12 Constructing a local sample spanning Ultraviolet 
 to Infrared Imaging| 
@@ -1470,9 +1476,9 @@ File: figures/2_env_plot.pdf Graphic file (type QTm)
 
 LaTeX Warning: Command \textsubscript invalid in math mode on input line 238.
 
-[48] [49]
+[48]
 File: figures/3_outliers.pdf Graphic file (type QTm)
- <use  "figures/3_outliers.pdf" > [50]
+ <use  "figures/3_outliers.pdf" > [49] [50]
 File: figures/4_jk_plot.pdf Graphic file (type QTm)
 
 <use  "figures/4_jk_plot.pdf" > [51]) [52]
@@ -1678,8 +1684,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 43.
  ) 
 Here is how much of TeX's memory you used:
  25907 strings out of 493591
- 460828 string characters out of 6143546
- 518860 words of memory out of 5000000
+ 460819 string characters out of 6143546
+ 518859 words of memory out of 5000000
  28925 multiletter control sequences out of 15000+600000
  12504 words of font info for 103 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
