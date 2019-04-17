@@ -35,7 +35,11 @@ which do not have reliable environment determinations (see Section
 \ref{edge}). Our SFRP ultimately consists of $61,046$ objects with 
 absolute magnitudes in the UV ($F$ and $N$ bands), optical 
 ($u$, $g$, $r$, $i$ and $z$ bands) and infrared ($W1$, $W2$, $W3$ 
-and $W4$ bands).\\
+and $W4$ bands). While the \emph{k}-corrected magnitudes are 
+available for the optical and UV bands, we had to reasonably account for them
+for the WISE bands. To this end, the \emph{k}-corrections were obtained for
+the WISE bands iteratively by using MAGPHYS to re-calculate them and were
+found to converge after the second iteration.\\
 
 \section{Estimating the Specific Star Formation Rates}
 \label{ch1_sfr}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  16 APR 2019 23:36
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  17 APR 2019 00:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1458,44 +1458,43 @@ to Infrared Imaging|
  []
 
 File: figures/sample.png Graphic file (type QTm)
-<use  "figures/sample.png" > [40] [41] [42] [43]
-Overfull \hbox (27.27144pt too wide) in paragraph at lines 126--137
+<use  "figures/sample.png" > [40] [41] [42] [43] [44]
+Overfull \hbox (27.27144pt too wide) in paragraph at lines 130--141
 \EU1/EBGaramond(3)/bx/n/12 optical color whereas, as discussed above, the SSFR$
 []$’s do not. Assuming the SSFR$[]$’s 
  []
 
-[44]
 File: figures/1_panel_plot.pdf Graphic file (type QTm)
- <use  "figures/1_panel_plot.pdf" >
+<use  "figures/1_panel_plot.pdf" >
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/it' will be
-(Font)              scaled to size 8.09479pt on input line 172.
+(Font)              scaled to size 8.09479pt on input line 176.
  [45] [46] [47]
 File: figures/2_env_plot.pdf Graphic file (type QTm)
 
 <use  "figures/2_env_plot.pdf" >
 
-LaTeX Warning: Command \textsubscript invalid in math mode on input line 238.
+LaTeX Warning: Command \textsubscript invalid in math mode on input line 242.
 
-[48]
+[48] [49]
 File: figures/3_outliers.pdf Graphic file (type QTm)
- <use  "figures/3_outliers.pdf" > [49] [50]
+ <use  "figures/3_outliers.pdf" > [50]
 File: figures/4_jk_plot.pdf Graphic file (type QTm)
 
-<use  "figures/4_jk_plot.pdf" > [51]) [52]
+<use  "figures/4_jk_plot.pdf" > [51] [52]) [53]
 \openout2 = `chapters/chapter2.aux'.
 
  (./chapters/chapter2.tex
 Chapter 2.
-[53
+[54
 
 
 
-] [54] [55]
+] [55] [56]
 
-Package natbib Warning: Citation `strauss02a' on page 56 undefined on input lin
+Package natbib Warning: Citation `strauss02a' on page 57 undefined on input lin
 e 25.
 
-[56] [57] [58] [59] [60]
+[57] [58] [59] [60] [61]
 
 LaTeX Font Warning: Font shape `EU1/NotoMono(0)/m/sc' undefined
 (Font)              using `EU1/NotoMono(0)/m/n' instead on input line 142.
@@ -1534,7 +1533,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 147.
 
-[61]
+[62]
 File: figures/spectra_placeholder.png Graphic file (type QTm)
  <use  "figures/spectra_placeholder.png" >
 File: figures/mass_age_sfr_dist.pdf Graphic file (type QTm)
@@ -1560,7 +1559,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 207.
 
-[62] [63] [64]
+[63] [64] [65]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 260.
@@ -1585,23 +1584,23 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 260.
 
-[65]
+[66]
 Overfull \hbox (7.56738pt too wide) in paragraph at lines 294--317
 []\EU1/EBGaramond(3)/bx/n/12 This library of models thus enables the constructi
 on of a “model grid” in the H$[][]$-$[][][][][][]$ 
  []
 
 File: figures/hd_d4000_mlratio_coarser_binning.pdf Graphic file (type QTm)
-<use  "figures/hd_d4000_mlratio_coarser_binning.pdf" > [66] [67] [68] [69]
-[70]
+<use  "figures/hd_d4000_mlratio_coarser_binning.pdf" > [67] [68] [69] [70]
+[71]
 File: figures/full_aperture_comparisons.pdf Graphic file (type QTm)
- <use  "figures/full_aperture_comparisons.pdf" > [71] [72]
+ <use  "figures/full_aperture_comparisons.pdf" > [72] [73]
 File: figures/dn4000_full_aperture_comparisons.pdf Graphic file (type QTm)
 
 <use  "figures/dn4000_full_aperture_comparisons.pdf" >
 File: figures/hdelta_full_aperture_comparisons.pdf Graphic file (type QTm)
 
-<use  "figures/hdelta_full_aperture_comparisons.pdf" > [73] [74] [75]
+<use  "figures/hdelta_full_aperture_comparisons.pdf" > [74] [75] [76]
 File: figures/mlz_offset_a.pdf Graphic file (type QTm)
 
 <use  "figures/mlz_offset_a.pdf" >
@@ -1632,36 +1631,36 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 643.
 
 File: figures/mlz_offset_c.pdf Graphic file (type QTm)
-<use  "figures/mlz_offset_c.pdf" > [76] [77]
+<use  "figures/mlz_offset_c.pdf" > [77] [78]
 File: figures/table.pdf Graphic file (type QTm)
  <use  "figures/table.pdf" >
-[78]
+[79]
 File: figures/ml_offset_plot.pdf Graphic file (type QTm)
- <use  "figures/ml_offset_plot.pdf" > [79] [80]
+ <use  "figures/ml_offset_plot.pdf" > [80] [81]
 File: figures/table_median.pdf Graphic file (type QTm)
 
-<use  "figures/table_median.pdf" > [81] [82]) [83]
+<use  "figures/table_median.pdf" > [82] [83]) [84]
 \openout2 = `chapters/conclusion.aux'.
 
  (./chapters/conclusion.tex
 Chapter 3.
-[84
+[85
 
 
 
-] [85]) [86] (./dissertation.bbl [87
+] [86]) [87] (./dissertation.bbl [88
 
 
 
-] [88] [89] [90] [91] [92] [93] [94]
-[95]
+] [89] [90] [91] [92] [93] [94] [95]
+[96]
 Missing character: There is no ^^89 in font EB Garamond 12 Regular/OT:script=la
 tn;language=DFLT;mapping=tex-text;mapping=tex-text;+onum;+liga;mapping=tex-text
 ;!
 Missing character: There is no ^^83 in font EB Garamond 12 Regular/OT:script=la
 tn;language=DFLT;mapping=tex-text;mapping=tex-text;+onum;+liga;mapping=tex-text
 ;!
- [96] [97] [98] [99] [100] [101] [102] [103] [104]) [105]
+ [97] [98] [99] [100] [101] [102] [103] [104] [105]) [106]
 \openout2 = `endmatter/colophon.aux'.
 
 
@@ -1691,4 +1690,4 @@ Here is how much of TeX's memory you used:
  1347 hyphenation exceptions out of 8191
  60i,9n,107p,10404b,699s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (112 pages).
+Output written on dissertation.pdf (113 pages).

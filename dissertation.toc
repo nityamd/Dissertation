@@ -23,32 +23,32 @@
 \contentsline {section}{\numberline {1.2}Constructing a local sample spanning Ultraviolet to Infrared Imaging}{40}{section.1.2}
 \contentsline {section}{\numberline {1.3}Estimating the Specific Star Formation Rates}{42}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}SED Fitting - MAGPHYS}{42}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}UV Star Formation Rates}{43}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.2}UV Star Formation Rates}{44}{subsection.1.3.2}
 \contentsline {section}{\numberline {1.4}Environments}{45}{section.1.4}
 \contentsline {subsection}{\numberline {1.4.1}Measures of Environment}{45}{subsection.1.4.1}
 \contentsline {subsection}{\numberline {1.4.2}Edge Effects}{47}{subsection.1.4.2}
-\contentsline {subsection}{\numberline {1.4.3}Environments in Color-Color Space}{47}{subsection.1.4.3}
-\contentsline {section}{\numberline {1.5}The Environments of the Outliers}{49}{section.1.5}
-\contentsline {subsection}{\numberline {1.5.1}Green-valley interlopers}{49}{subsection.1.5.1}
-\contentsline {subsection}{\numberline {1.5.2}Jackknife Errors}{50}{subsection.1.5.2}
+\contentsline {subsection}{\numberline {1.4.3}Environments in Color-Color Space}{48}{subsection.1.4.3}
+\contentsline {section}{\numberline {1.5}The Environments of the Outliers}{48}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Green-valley interlopers}{50}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}Jackknife Errors}{51}{subsection.1.5.2}
 \contentsline {section}{\numberline {1.6}Summary and Conclusion}{51}{section.1.6}
-\contentsline {chapter}{\numberline {2}Aperture effects in Stellar Mass Estimates}{53}{chapter.2}
-\contentsline {section}{\numberline {2.1}Introduction}{54}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}The SDSS spectra}{55}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}The MPA-JHU Catalog}{56}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Integral Field Spectroscopy and MaNGA}{59}{subsection.2.1.3}
-\contentsline {section}{\numberline {2.2}The $H{"δ}_{\rm A}-D_{\rm n}4000$ plane}{61}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}The $D_{\rm n}4000$ break in Galaxy Spectra}{61}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}The Balmer H${"δ}$ Absorption Line}{64}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Constraining SFH's using H${"δ}_{\rm A}$ and $D_{\rm n}4000$}{65}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}The Stellar Mass Aperture Bias in MPA-JHU}{66}{subsection.2.2.4}
-\contentsline {section}{\numberline {2.3}Data and Methods}{68}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}MaNGA Target Selection}{68}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Our Sample}{69}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Variable Aperture Measurements}{70}{subsection.2.3.3}
-\contentsline {section}{\numberline {2.4}Results}{73}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Comparison to Full Aperture Measurements}{73}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Offsets in the $H{"δ}_{\rm A}$-$D_{\rm n}4000$ plane}{76}{subsection.2.4.2}
-\contentsline {section}{\numberline {2.5}Discussion}{81}{section.2.5}
-\contentsline {chapter}{\numberline {3}Conclusion}{84}{chapter.3}
-\contentsline {chapter}{References}{105}{chapter*.26}
+\contentsline {chapter}{\numberline {2}Aperture effects in Stellar Mass Estimates}{54}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{55}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}The SDSS spectra}{56}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}The MPA-JHU Catalog}{57}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Integral Field Spectroscopy and MaNGA}{60}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}The $H{"δ}_{\rm A}-D_{\rm n}4000$ plane}{62}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}The $D_{\rm n}4000$ break in Galaxy Spectra}{62}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}The Balmer H${"δ}$ Absorption Line}{65}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Constraining SFH's using H${"δ}_{\rm A}$ and $D_{\rm n}4000$}{66}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}The Stellar Mass Aperture Bias in MPA-JHU}{67}{subsection.2.2.4}
+\contentsline {section}{\numberline {2.3}Data and Methods}{69}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}MaNGA Target Selection}{69}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Our Sample}{70}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Variable Aperture Measurements}{71}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}Results}{74}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Comparison to Full Aperture Measurements}{74}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Offsets in the $H{"δ}_{\rm A}$-$D_{\rm n}4000$ plane}{77}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}Discussion}{82}{section.2.5}
+\contentsline {chapter}{\numberline {3}Conclusion}{85}{chapter.3}
+\contentsline {chapter}{References}{106}{chapter*.26}
