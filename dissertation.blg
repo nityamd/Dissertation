@@ -53,6 +53,10 @@ Repeated entry---line 3874 of file references.bib
  :                             ,
 I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Repeated entry---line 4572 of file references.bib
+ : @article{desi16a
+ :                 ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "martins_2005"
 Warning--I didn't find a database entry for "2000AJ....120.1579Y"
 Warning--I didn't find a database entry for "blanton_physical_2019-1"
@@ -99,4 +103,4 @@ warning$ -- 1
 while$ -- 412
 width$ -- 0
 write$ -- 1765
-(There were 11 error messages)
+(There were 12 error messages)

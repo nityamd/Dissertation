@@ -74,6 +74,7 @@
 \newcommand\apjl{The Astrophysical Journal, Letters}
 \newcommand\apjs{The Astrophysical Journal, Supplement}
 \newcommand\apss{Astrophysics and Space Science}
+\newcommand\ssr{Space Science Reviews}
 \newcommand\rmxaa{Revista Mexicana de Astronom{\^i}a y Astrof{\^i}sica}
 \newcommand{\lt}{\ensuremath <}
 % \usepackage{fixltx2e}
