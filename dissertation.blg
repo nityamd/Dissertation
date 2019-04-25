@@ -16,87 +16,87 @@ Repeated entry---line 1524 of file references.bib
  : @article{salim_uv_2007
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1682 of file references.bib
+Repeated entry---line 1801 of file references.bib
  : @article{ilbert_mass_2013
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1697 of file references.bib
+Repeated entry---line 1816 of file references.bib
  : @article{muzzin_evolution_2013
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1746 of file references.bib
+Repeated entry---line 1865 of file references.bib
  : @article{tomczak_galaxy_2014
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1763 of file references.bib
+Repeated entry---line 1882 of file references.bib
  : @article{bruzual_stellar_2003
  :                              ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 2153 of file references.bib
+I was expecting a `,' or a `}'---line 2272 of file references.bib
  : @proceeding{doi: 
  :                  10.1117/12.856027,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2277 of file references.bib
+Repeated entry---line 2396 of file references.bib
  : @article{drory_manga_2015
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2291 of file references.bib
+Repeated entry---line 2410 of file references.bib
  : @article{bundy_overview_2014
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2352 of file references.bib
+Repeated entry---line 2471 of file references.bib
  : @article{bruzual_a._spectral_1983-2
  :                                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3755 of file references.bib
+Repeated entry---line 3874 of file references.bib
  : @article{2007AJ....133..734B
  :                             ,
 I'm skipping whatever remains of this entry
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--I didn't find a database entry for "martins_2005"
 Warning--I didn't find a database entry for "2000AJ....120.1579Y"
 Warning--I didn't find a database entry for "blanton_physical_2019-1"
 Warning--I didn't find a database entry for "strauss02a"
-Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--empty publisher in book_agnes_clerke
-You've used 134 entries,
+You've used 136 entries,
             2229 wiz_defined-function locations,
-            1276 strings with 64836 characters,
-and the built_in function-call counts, 108637 in all, are:
-= -- 8687
-> -- 11187
-< -- 44
-+ -- 4351
-- -- 4322
-* -- 11848
-:= -- 20149
-add.period$ -- 401
-call.type$ -- 134
-change.case$ -- 2828
-chr.to.int$ -- 129
-cite$ -- 135
-duplicate$ -- 1907
-empty$ -- 3727
-format.name$ -- 4500
-if$ -- 19290
+            1286 strings with 72099 characters,
+and the built_in function-call counts, 119348 in all, are:
+= -- 9427
+> -- 12773
+< -- 45
++ -- 4983
+- -- 4954
+* -- 13159
+:= -- 22165
+add.period$ -- 407
+call.type$ -- 136
+change.case$ -- 3154
+chr.to.int$ -- 131
+cite$ -- 137
+duplicate$ -- 1968
+empty$ -- 3796
+format.name$ -- 5134
+if$ -- 21088
 int.to.chr$ -- 6
 int.to.str$ -- 0
-missing$ -- 135
-newline$ -- 672
-num.names$ -- 402
-pop$ -- 2531
+missing$ -- 137
+newline$ -- 682
+num.names$ -- 408
+pop$ -- 2856
 preamble$ -- 1
-purify$ -- 2829
+purify$ -- 3155
 quote$ -- 0
-skip$ -- 1427
+skip$ -- 1494
 stack$ -- 0
-substring$ -- 3879
-swap$ -- 167
-text.length$ -- 1
+substring$ -- 3956
+swap$ -- 202
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 802
+type$ -- 814
 warning$ -- 1
-while$ -- 406
+while$ -- 412
 width$ -- 0
-write$ -- 1739
+write$ -- 1765
 (There were 11 error messages)
