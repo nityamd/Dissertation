@@ -3,7 +3,7 @@
 
 \newpage
 \section{Introduction}
-Determining the formation history of galaxies is one of the most important tasks in astronomy. The average star formation rates of galaxies have reduced with cosmic time (as reviewed by \citealt{madau_cosmic_2014}) and star-forming galaxies ``transition" to red and quiescent ones over that time \citep[\emph{e.g.}][among others]{peng_mass_2010, ilbert_mass_2013, muzzin_evolution_2013, moustakas_primus_2013, tomczak_galaxy_2014}. Many mechanisms have been proposed to explain the observed patterns of galaxy evolution but there are many unresolved questions regarding them. These mechanisms are known to have a some correlation with the environment, due to the fact that galaxy type depends on environment in the present day \citep{dressler_galaxy_1980, blanton_physical_2009-1}.\\
+Determining the formation history of galaxies is one of the most important tasks in astronomy. The average star formation rates of galaxies have reduced with cosmic time (as reviewed by \citealt{madau_cosmic_2014}) and star-forming galaxies ``transition" to red and quiescent ones over that time \citep[\emph{e.g.}][among others]{peng_mass_2010, ilbert_mass_2013, muzzin_evolution_2013, moustakas_primus_2013, tomczak_galaxy_2014}. Many mechanisms have been proposed to explain the observed patterns of galaxy evolution but there are many unresolved questions regarding them. These mechanisms are known to have some correlation with the environment, due to the fact that galaxy type depends on environment in the present day \citep{dressler_galaxy_1980, blanton_physical_2009-1}.\\
 
 Star formation rate estimates are an important tool in the observational study of this problem \citep{kennicutt_star_2012}. The light emitted from galaxies can reveal recent star formation through the ultraviolet light of massive stars, recombination line emission in the ionized gas around those stars, in infrared light from dust in the galaxies absorbing the ultraviolet starlight, and from radio synchrotron emission from the ionized gas. Ultraviolet, optical, and infrared images and spectra are available for numerous low redshift galaxies, from the Sloan Digital Sky Survey (SDSS; \citet{york00a}), the Wide-field Infrared Survey Explorer (WISE; \citet{wright_wide-field_2010}), and the Galaxy Evolution Explorer (GALEX; \citet{martin_galex2005}).
 
@@ -15,21 +15,20 @@ Here, we examine a sample of galaxies whose UV-IR photometry is available and es
 
 \section{Constructing a local sample spanning Ultraviolet to Infrared Imaging}
 \label{ch1_data}
-The sample on which we perform our measurements is based on the NASA-Sloan Atlas, a nearby galaxy sample which includes optical and ultraviolet imaging from SDSS and GALEX. We use NSA version {\tt v0\_1\_2}, whose redshift range extends up to $z = 0.055$ and includes SDSS (Data Release $9$) and GALEX imaging for galaxies. The total number of objects in this NSA catalog is ${\sim}150,000$. We define two samples from the NSA, one that we use to define environment (Environment Determining Population or EDP, hereafter) and one for which we determine star formation rates (Star Formation Rate Population or SFRP hereafter). We note that the SFRP is a subsample of the EDP. To get our EDP, we impose a volume-limited cut on this sample by retaining only galaxies with $-24.5 <M_{r}< -18.5$, which leaves us with $95,638$ galaxies.\\
-
-\begin{figure}
-\includegraphics[width=\textwidth]{figures/sample}
-\caption[Data: The local sample distribution across optical and IR colors]{The local sample distribution across optical and IR colors
-\label{fig:sample}}
-\end{figure}
-
-The star formation rate determinations we use here require both UV data and IR data. About 80\% of our galaxies have UV data from GALEX analyzed in the NSA. To obtain infrared imaging for the data we use the Wide-Field Infrared Survey Explorer (WISE) data and match the objects from the NSA with the ALLWISE Source Catalog to get the four-band infrared fluxes for each galaxy. About 99\% of galaxies in this sample have WISE data. 
+The sample on which we perform our measurements is based on the NASA-Sloan Atlas (NSA), a nearby galaxy sample which includes optical and ultraviolet imaging from SDSS and GALEX. We use NSA version {\tt v0\_1\_2}, whose redshift range extends up to $z = 0.055$ and includes SDSS (Data Release $9$) and GALEX imaging for galaxies. The total number of objects in this NSA catalog is ${\sim}150,000$. We define two samples from the NSA, one that we use to define environment (Environment Determining Population or EDP, hereafter) and one for which we determine star formation rates (Star Formation Rate Population or SFRP hereafter). We note that the SFRP is a subsample of the EDP. To get our EDP, we impose a volume-limited cut on this sample by retaining only galaxies with $-24.5 <M_{r}< -18.5$, which leaves us with $95,638$ galaxies. The imaging data from which we infer the star formation rates thus span 11 bandpasses: \emph{F} and \emph{N}, the Far-UV and  Near-UV bands from GALEX; \emph{u, g, r, i} and \emph{z}, the optical bands from SDSS; and \emph{W1, W2, W3} and \emph{W4}, the IR imaging bandpasses from WISE. Together, these cover imaging information of every galaxy from ~ 1000 \AA - 22000 \AA.\\
+The star formation rate determinations we use here require both UV data 
+and IR data. About 80\% of our galaxies have UV data from GALEX 
+analyzed in the NSA. To obtain infrared imaging for the data we use 
+the Wide-Field Infrared Survey Explorer (WISE) data and match the 
+objects from the NSA with the ALLWISE Source Catalog to get the 
+four-band infrared fluxes for each galaxy. About 99\% of galaxies in 
+this sample have WISE data.\\ 
 We intend to study the evolution of these galaxies through the 
 optical-IR color space, and therefore remove all galaxies with 
 missing/faulty photometry in GALEX, SDSS, or WISE. This process 
 includes limiting the color range of objects in the optical 
 ($7.5> N-r >=0$) and infrared ($3.0> [W1]- [W3] >= -3.0$) 
-colors (top left corner of Fig. $1$). 
+colors (\ref{fig:sample}).  
 In addition, we remove some objects near the edges of the sample,
 which do not have reliable environment determinations (see Section 
 \ref{edge}). Our SFRP ultimately consists of $61,046$ objects with 
@@ -40,6 +39,26 @@ available for the optical and UV bands, we had to reasonably account for them
 for the WISE bands. To this end, the \emph{k}-corrections were obtained for
 the WISE bands iteratively by using MAGPHYS to re-calculate them and were
 found to converge after the second iteration.\\
+
+\begin{figure}
+\includegraphics[width=\textwidth]{figures/number_of_galaxies}
+\caption[Data: The local sample distribution binned along optical 
+and IR colors. The optical color \emph{N-r} is a logarithm of the ratio
+of the fluxes from the \emph{r} band to the \emph{N} band and is
+representative of how red the galaxy is (i.e., higher the \emph{N-r},
+the redder the galaxy). The IR color \emph{[W1]-[W3]}, similarly, is
+the logarithm of the ratio of the flux from the IR bands, \emph{[W3]}
+and \emph{[W1]}.]{Data: The local sample distribution binned along optical 
+and IR colors. The optical color \emph{N-r} is a logarithm of the ratio
+of the fluxes from the \emph{r} band to the \emph{N} band and is
+representative of how red the galaxy is (i.e., higher the \emph{N-r},
+the redder the galaxy). The IR color \emph{[W1]-[W3]}, similarly, is
+the logarithm of the ratio of the flux from the IR bands, \emph{[W3]}
+and \emph{[W1]}.
+\label{fig:sample}}
+\end{figure}
+
+
 
 \section{Estimating the Specific Star Formation Rates}
 \label{ch1_sfr}

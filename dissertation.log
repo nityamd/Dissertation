@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  25 APR 2019 16:29
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  8 MAY 2019 16:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1192,6 +1192,35 @@ Overfull \hbox (15.98506pt too wide) in paragraph at lines 2--2
 heme for galaxy morphologies (SDSS 
  []
 
+LaTeX Font Info:    Font shape `EU1/EBGaramond(3)/m/it' will be
+(Font)              scaled to size 12.0pt on input line 4.
+
+Overfull \hbox (6.78905pt too wide) in paragraph at lines 4--4
+ [][] [][][]\EU1/EBGaramond(3)/bx/n/12 Data: The local sample distribution binn
+ed along optical and IR colors. The 
+ []
+
+
+Overfull \hbox (16.66106pt too wide) in paragraph at lines 4--4
+ \EU1/EBGaramond(3)/bx/n/12 optical color \EU1/EBGaramond(3)/m/it/12 N-r \EU1/E
+BGaramond(3)/bx/n/12 is a logarithm of the ratio of the fluxes from the \EU1/EB
+Garamond(3)/m/it/12 r \EU1/EBGaramond(3)/bx/n/12 band to the 
+ []
+
+
+Overfull \hbox (10.73305pt too wide) in paragraph at lines 4--4
+ \EU1/EBGaramond(3)/m/it/12 N \EU1/EBGaramond(3)/bx/n/12 band and is representa
+tive of how red the galaxy is (i.e., higher the \EU1/EBGaramond(3)/m/it/12 N-r\
+EU1/EBGaramond(3)/bx/n/12 , the 
+ []
+
+
+Overfull \hbox (8.22105pt too wide) in paragraph at lines 4--4
+ \EU1/EBGaramond(3)/bx/n/12 redder the galaxy). The IR color \EU1/EBGaramond(3)
+/m/it/12 [W1]-[W3]\EU1/EBGaramond(3)/bx/n/12 , similarly, is the logarithm of t
+he 
+ []
+
 
 Overfull \hbox (12.20508pt too wide) in paragraph at lines 5--5
  [][] [][][]\EU1/EBGaramond(3)/bx/n/12 The SSFR measurements and environment sh
@@ -1228,15 +1257,15 @@ Overfull \hbox (2.64507pt too wide) in paragraph at lines 6--6
 axy bins with the same 
  []
 
+[8
 
+]
 Overfull \hbox (1.76904pt too wide) in paragraph at lines 7--7
  [][] [][][]\EU1/EBGaramond(3)/bx/n/12 The outliers shown as a function of the 
 Star Formation Rates as well as Op- 
  []
 
-[8
 
-]
 Overfull \hbox (39.66504pt too wide) in paragraph at lines 10--10
  [][] [][][]\EU1/EBGaramond(3)/bx/n/12 SFR’s, stellar masses, ages and Mass-to-
 light ratios as a function of H$[][]$ and $[][][][][][]$ 
@@ -1267,51 +1296,79 @@ Overfull \hbox (5.30905pt too wide) in paragraph at lines 11--11
  []
 
 
-Overfull \hbox (25.75797pt too wide) in paragraph at lines 13--13
+Overfull \hbox (13.17026pt too wide) in paragraph at lines 12--12
+ [][] [][][]\EU1/EBGaramond(3)/bx/n/12 A sample MaNGA galaxy at a redshift of $
+[] \OT1/cmr/m/n/12 = []\OML/cmm/m/it/12 :[][][]$ \EU1/EBGaramond(3)/bx/n/12 vie
+wed through a 127 fiber 
+ []
+
+
+Overfull \hbox (1.84105pt too wide) in paragraph at lines 12--12
+ \EU1/EBGaramond(3)/bx/n/12 IFU. The spatial distribution of the flux for this 
+galaxy in the spaxel-space is 
+ []
+
+
+Overfull \hbox (5.93303pt too wide) in paragraph at lines 13--13
+ [][] [][][]\EU1/EBGaramond(3)/bx/n/12 The flux distribution of the galaxy show
+n in Fig 2.3 as seen through the IFU. 
+ []
+
+
+Overfull \hbox (1.73305pt too wide) in paragraph at lines 13--13
+ \EU1/EBGaramond(3)/bx/n/12 The X and Y axes represent the spaxel space where e
+ach unit corresponds to 
+ []
+
+
+Overfull \hbox (12.44505pt too wide) in paragraph at lines 13--13
+ \EU1/EBGaramond(3)/bx/n/12 0.5” in the North-South and East-West directions as
+ seen in Fig 2.3. The color- 
+ []
+
+
+Overfull \hbox (5.49185pt too wide) in paragraph at lines 13--13
+ \EU1/EBGaramond(3)/bx/n/12 bar shows the amount of total flux (in ergs/$\OT1/c
+mr/m/n/12 ([])[]$\EU1/EBGaramond(3)/bx/n/12 ) from each spaxel. The in- 
+ []
+
+
+Overfull \hbox (6.37827pt too wide) in paragraph at lines 13--13
+ \EU1/EBGaramond(3)/bx/n/12 nermost circle shows the 3” view at the redshift of
+ the galaxy ($[] \OT1/cmr/m/n/12 = []\OML/cmm/m/it/12 :[][][]$\EU1/EBGaramond(3
+)/bx/n/12 ), the 
+ []
+
+
+Overfull \hbox (16.66104pt too wide) in paragraph at lines 13--13
+ \EU1/EBGaramond(3)/bx/n/12 circles concentric to it show the 3” view of the ga
+laxy if it were at redshifts 0.06, 
+ []
+
+
+Overfull \hbox (16.96106pt too wide) in paragraph at lines 13--13
+ \EU1/EBGaramond(3)/bx/n/12 0.1, 0.14 and 0.5 respectively and the outermost ci
+rcle within which all the spax- 
+ []
+
+[9]
+Overfull \hbox (25.75797pt too wide) in paragraph at lines 15--15
  [][] [][][]\EU1/EBGaramond(3)/bx/n/12 The mean offset and dispersion in the $[
 ][][][][][]$ index measured at $[] \OT1/cmr/m/n/12 = []\OML/cmm/m/it/12 :[][]; 
 []:[][]$ 
  []
 
 
-Overfull \hbox (8.28194pt too wide) in paragraph at lines 14--14
+Overfull \hbox (8.28194pt too wide) in paragraph at lines 16--16
  [][] [][][]\EU1/EBGaramond(3)/bx/n/12 The mean offset and dispersion in the $[
 ][][]$ index measured at $[] \OT1/cmr/m/n/12 = []\OML/cmm/m/it/12 :[][]; []:[][
 ]$ 
  []
 
-LaTeX Font Info:    Font shape `EU1/EBGaramond(3)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 15.
 
-Overfull \hbox (9.88104pt too wide) in paragraph at lines 15--15
+Overfull \hbox (9.88104pt too wide) in paragraph at lines 17--17
  \EU1/EBGaramond(3)/bx/n/12 aperture measurements, represented as a vector whos
 e projections on the axes 
- []
-
-
-Overfull \hbox (9.50104pt too wide) in paragraph at lines 15--15
- \EU1/EBGaramond(3)/bx/n/12 are the actual offsets in either direction. \EU1/EB
-Garamond(3)/m/it/12 Right: \EU1/EBGaramond(3)/bx/n/12 The offsets transformed t
-o the 
- []
-
-
-Overfull \hbox (7.14503pt too wide) in paragraph at lines 16--16
- \EU1/EBGaramond(3)/bx/n/12 aperture measurements represented as a vector whose
- projections on the axes 
- []
-
-
-Overfull \hbox (9.50104pt too wide) in paragraph at lines 16--16
- \EU1/EBGaramond(3)/bx/n/12 are the actual offsets in either direction. \EU1/EB
-Garamond(3)/m/it/12 Right: \EU1/EBGaramond(3)/bx/n/12 The offsets transformed t
-o the 
- []
-
-
-Overfull \hbox (7.14503pt too wide) in paragraph at lines 17--17
- \EU1/EBGaramond(3)/bx/n/12 aperture measurements represented as a vector whose
- projections on the axes 
  []
 
 
@@ -1321,20 +1378,46 @@ Garamond(3)/m/it/12 Right: \EU1/EBGaramond(3)/bx/n/12 The offsets transformed t
 o the 
  []
 
-[9]
-Overfull \hbox (4.44504pt too wide) in paragraph at lines 19--19
+
+Overfull \hbox (7.14503pt too wide) in paragraph at lines 18--18
+ \EU1/EBGaramond(3)/bx/n/12 aperture measurements represented as a vector whose
+ projections on the axes 
+ []
+
+
+Overfull \hbox (9.50104pt too wide) in paragraph at lines 18--18
+ \EU1/EBGaramond(3)/bx/n/12 are the actual offsets in either direction. \EU1/EB
+Garamond(3)/m/it/12 Right: \EU1/EBGaramond(3)/bx/n/12 The offsets transformed t
+o the 
+ []
+
+
+Overfull \hbox (7.14503pt too wide) in paragraph at lines 19--19
+ \EU1/EBGaramond(3)/bx/n/12 aperture measurements represented as a vector whose
+ projections on the axes 
+ []
+
+
+Overfull \hbox (9.50104pt too wide) in paragraph at lines 19--19
+ \EU1/EBGaramond(3)/bx/n/12 are the actual offsets in either direction. \EU1/EB
+Garamond(3)/m/it/12 Right: \EU1/EBGaramond(3)/bx/n/12 The offsets transformed t
+o the 
+ []
+
+[10]
+Overfull \hbox (4.44504pt too wide) in paragraph at lines 21--21
  [][] [][][]\EU1/EBGaramond(3)/bx/n/12 The mean and dispersion of the mass-to-l
 ight ratio offsets in each of the red- 
  []
 
 
-Overfull \hbox (9.24101pt too wide) in paragraph at lines 19--19
+Overfull \hbox (9.24101pt too wide) in paragraph at lines 21--21
  \EU1/EBGaramond(3)/bx/n/12 shift bins binned along the $[][][][][][]$ and H$[]
 []$ axes. It is evident that the mean 
  []
 
 
-Overfull \hbox (16.25304pt too wide) in paragraph at lines 19--19
+Overfull \hbox (16.25304pt too wide) in paragraph at lines 21--21
  \EU1/EBGaramond(3)/bx/n/12 offsets for all galaxies are relatively small while
  the scatter about the mean is sig- 
  []
@@ -1343,13 +1426,13 @@ Overfull \hbox (16.25304pt too wide) in paragraph at lines 19--19
 \tf@lof=\write5
 \openout5 = `dissertation.lof'.
 
- [10] (./frontmatter/dedication.tex) [4] (./frontmatter/thanks.tex) [5
+ [11] (./frontmatter/dedication.tex) [4] (./frontmatter/thanks.tex [5
 
-]
+])
+[6]
 \openout2 = `chapters/introduction.aux'.
 
-
-(./chapters/introduction.tex
+ (./chapters/introduction.tex
 LaTeX Font Info:    Font shape `EU1/EBGaramond(3)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 1.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(3)/m/sl' in size <10> not availa
@@ -1394,16 +1477,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--6
  []
 
 Chapter 0.
-[6
+[7
 
 
-] [7] [8] [9]
+] [8] [9] [10]
 Overfull \hbox (11.01944pt too wide) in paragraph at lines 36--36
 \EU1/EBGaramond(3)/bx/n/12 posed. Eventually the cold dark matter theories won 
 out as their prediction of the anisotropies 
  []
 
-[10] [11] [12]
+[11] [12] [13]
 File: figures/hubble.jpeg Graphic file (type QTm)
  <use  "figures/hubble.jpeg" >
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/bx/n' will be
@@ -1414,19 +1497,19 @@ LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
 (Font)              scaled to size 9.71375pt on input line 67.
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
 (Font)              scaled to size 8.09479pt on input line 67.
- [13] [14] [15] [16] [17] [18]
-[19] [20] [21] [22]
+ [14] [15] [16] [17] [18] [19]
+[20] [21] [22] [23]
 Overfull \hbox (0.67941pt too wide) in paragraph at lines 319--326
 \EU1/EBGaramond(3)/bx/n/12 The galaxy spectrum contains an imprint of its Star 
 Formation History (SFH), stellar metal- 
  []
 
-[23]
+[24]
 
-Package natbib Warning: Citation `martins_2005' on page 24 undefined on input l
+Package natbib Warning: Citation `martins_2005' on page 25 undefined on input l
 ine 331.
 
-[24] [25]
+[25] [26]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 388.
@@ -1439,9 +1522,9 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 388.
 
-[26] [27] [28] [29]
+[27] [28] [29] [30]
 
-Package natbib Warning: Citation `2000AJ....120.1579Y' on page 30 undefined on 
+Package natbib Warning: Citation `2000AJ....120.1579Y' on page 31 undefined on 
 input line 545.
 
 
@@ -1450,9 +1533,9 @@ Overfull \hbox (2.67145pt too wide) in paragraph at lines 532--547
 the early 20th century when astronomers 
  []
 
-[30]
+[31]
 
-Package natbib Warning: Citation `2000AJ....120.1579Y' on page 31 undefined on 
+Package natbib Warning: Citation `2000AJ....120.1579Y' on page 32 undefined on 
 input line 566.
 
 
@@ -1461,64 +1544,65 @@ Overfull \hbox (0.67946pt too wide) in paragraph at lines 570--580
 eight years and covered 8,000 square 
  []
 
-[31] [32] [33]
+[32] [33] [34]
 
-Package natbib Warning: Citation `blanton_physical_2019-1' on page 34 undefined
+Package natbib Warning: Citation `blanton_physical_2019-1' on page 35 undefined
  on input line 685.
 
-[34] [35]) [36]
+[35] [36]) [37]
 \openout2 = `chapters/chapter1.aux'.
 
  (./chapters/chapter1.tex
 Chapter 1.
-[37
+[38
 
 
 
-] [38] [39]
+] [39] [40]
 Overfull \hbox (6.96745pt too wide) in paragraph at lines 16--16
 |[]\EU1/EBGaramond(3)/m/sc/12 Constructing a local sample spanning Ultraviolet 
 to Infrared Imaging| 
  []
 
-File: figures/sample.png Graphic file (type QTm)
-<use  "figures/sample.png" > [40] [41] [42] [43] [44]
-Overfull \hbox (27.27144pt too wide) in paragraph at lines 130--141
+[41]
+File: figures/number_of_galaxies.png Graphic file (type QTm)
+ <use  "figures/number_of_galaxies.png" >
+LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/it' will be
+(Font)              scaled to size 8.09479pt on input line 58.
+ [42] [43] [44] [45]
+Overfull \hbox (27.27144pt too wide) in paragraph at lines 149--160
 \EU1/EBGaramond(3)/bx/n/12 optical color whereas, as discussed above, the SSFR$
 []$’s do not. Assuming the SSFR$[]$’s 
  []
 
 File: figures/1_panel_plot.pdf Graphic file (type QTm)
-<use  "figures/1_panel_plot.pdf" >
-LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/it' will be
-(Font)              scaled to size 8.09479pt on input line 176.
- [45] [46] [47]
+<use  "figures/1_panel_plot.pdf" > [46] [47] [48]
 File: figures/2_env_plot.pdf Graphic file (type QTm)
 
 <use  "figures/2_env_plot.pdf" >
 
-LaTeX Warning: Command \textsubscript invalid in math mode on input line 242.
+LaTeX Warning: Command \textsubscript invalid in math mode on input line 261.
 
-[48] [49]
+[49] [50]
 File: figures/3_outliers.pdf Graphic file (type QTm)
- <use  "figures/3_outliers.pdf" > [50]
+ <use  "figures/3_outliers.pdf" > [51] [52]
 File: figures/4_jk_plot.pdf Graphic file (type QTm)
 
-<use  "figures/4_jk_plot.pdf" > [51] [52] [53]) [54]
+<use  "figures/4_jk_plot.pdf" > [53] [54]) [55]
 \openout2 = `chapters/chapter2.aux'.
 
  (./chapters/chapter2.tex
 Chapter 2.
-[55
+[56
 
 
 
-] [56] [57]
+] [57] [58]
 
-Package natbib Warning: Citation `strauss02a' on page 58 undefined on input lin
+Package natbib Warning: Citation `strauss02a' on page 59 undefined on input lin
 e 25.
 
-[58] [59] [60] [61] [62]
+[59] [60] [61] [62] [63]
 
 LaTeX Font Warning: Font shape `EU1/NotoMono(0)/m/sc' undefined
 (Font)              using `EU1/NotoMono(0)/m/n' instead on input line 142.
@@ -1557,9 +1641,9 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 147.
 
-[63]
+[64]
 
-LaTeX Warning: Reference `fig:early_late_type' on page 64 undefined on input li
+LaTeX Warning: Reference `fig:early_late_type' on page 65 undefined on input li
 ne 187.
 
 File: figures/mass_age_sfr_dist.pdf Graphic file (type QTm)
@@ -1584,7 +1668,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 208.
 
-[64] [65]
+[65] [66]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 261.
@@ -1609,23 +1693,29 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 261.
 
-[66]
+[67]
 Overfull \hbox (7.56738pt too wide) in paragraph at lines 295--318
 []\EU1/EBGaramond(3)/bx/n/12 This library of models thus enables the constructi
 on of a “model grid” in the H$[][]$-$[][][][][][]$ 
  []
 
 File: figures/hd_d4000_mlratio_coarser_binning.pdf Graphic file (type QTm)
-<use  "figures/hd_d4000_mlratio_coarser_binning.pdf" > [67] [68] [69] [70]
-[71] [72]
+<use  "figures/hd_d4000_mlratio_coarser_binning.pdf" > [68] [69] [70] [71]
+[72]
+File: figures/manga_9890_12702.png Graphic file (type QTm)
+ <use  "figures/manga_9890_12702.png" >
+File: figures/gal_aperture_redshifts.pdf Graphic file (type QTm)
+
+<use  "figures/gal_aperture_redshifts.pdf" > [73] [74] [75]
 File: figures/full_aperture_comparisons.pdf Graphic file (type QTm)
- <use  "figures/full_aperture_comparisons.pdf" > [73] [74]
+
+<use  "figures/full_aperture_comparisons.pdf" > [76] [77]
 File: figures/dn4000_full_aperture_comparisons.pdf Graphic file (type QTm)
 
 <use  "figures/dn4000_full_aperture_comparisons.pdf" >
 File: figures/hdelta_full_aperture_comparisons.pdf Graphic file (type QTm)
 
-<use  "figures/hdelta_full_aperture_comparisons.pdf" > [75] [76] [77]
+<use  "figures/hdelta_full_aperture_comparisons.pdf" > [78] [79] [80]
 File: figures/mlz_offset_a.pdf Graphic file (type QTm)
 
 <use  "figures/mlz_offset_a.pdf" >
@@ -1633,60 +1723,60 @@ File: figures/mlz_offset_b.pdf Graphic file (type QTm)
  <use  "figures/mlz_offset_b.pdf" >
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 644.
+(hyperref)                removing `math shift' on input line 668.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 644.
+(hyperref)                removing `subscript' on input line 668.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 644.
+(hyperref)                removing `math shift' on input line 668.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 644.
+(hyperref)                removing `math shift' on input line 668.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 644.
+(hyperref)                removing `subscript' on input line 668.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 644.
+(hyperref)                removing `math shift' on input line 668.
 
 File: figures/mlz_offset_c.pdf Graphic file (type QTm)
-<use  "figures/mlz_offset_c.pdf" > [78] [79]
+<use  "figures/mlz_offset_c.pdf" > [81] [82]
 File: figures/table.pdf Graphic file (type QTm)
  <use  "figures/table.pdf" >
 File: figures/ml_offset_plot.pdf Graphic file (type QTm)
 
-<use  "figures/ml_offset_plot.pdf" > [80] [81] [82]
+<use  "figures/ml_offset_plot.pdf" > [83] [84] [85]
 File: figures/table_median.pdf Graphic file (type QTm)
 
-<use  "figures/table_median.pdf" > [83]) [84]
+<use  "figures/table_median.pdf" > [86]) [87]
 \openout2 = `chapters/conclusion.aux'.
 
  (./chapters/conclusion.tex
 Chapter 3.
-[85
+[88
 
 
 
-] [86] [87]) [88] (./dissertation.bbl [89
+] [89] [90]) [91] (./dissertation.bbl [92
 
 
 
-] [90] [91] [92] [93] [94] [95]
-[96] [97] [98]
+] [93] [94] [95] [96] [97] [98]
+[99] [100] [101]
 Missing character: There is no ^^89 in font EB Garamond 12 Regular/OT:script=la
 tn;language=DFLT;mapping=tex-text;mapping=tex-text;+onum;+liga;mapping=tex-text
 ;!
 Missing character: There is no ^^83 in font EB Garamond 12 Regular/OT:script=la
 tn;language=DFLT;mapping=tex-text;mapping=tex-text;+onum;+liga;mapping=tex-text
 ;!
- [99] [100] [101] [102] [103] [104] [105] [106] [107] [108])
-[109]
+ [102] [103] [104] [105] [106] [107] [108] [109] [110] [111])
+[112]
 \openout2 = `endmatter/colophon.aux'.
 
  (./endmatter/colophon.tex)
@@ -1710,12 +1800,12 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 43.
  ) 
 Here is how much of TeX's memory you used:
- 25912 strings out of 493591
- 460867 string characters out of 6143546
- 519319 words of memory out of 5000000
- 28931 multiletter control sequences out of 15000+600000
+ 25918 strings out of 493591
+ 461036 string characters out of 6143546
+ 520581 words of memory out of 5000000
+ 28935 multiletter control sequences out of 15000+600000
  12504 words of font info for 103 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  60i,9n,107p,10404b,707s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (116 pages).
+Output written on dissertation.pdf (120 pages).

@@ -406,6 +406,7 @@ in \citet{2017AJ....154...86W}. MaNGA's goal is to
 observe approximately 10,000 galaxies by mid-2020,
 the end of SDSS-IV.
 
+
 MaNGA radial coverage goals are to cover the galaxy 
 well beyond its effective radius, $R_{e}$ (the radius 
 within which half of the galaxy's light is contained). 
@@ -483,18 +484,39 @@ galaxies and the upper number for exponential galaxies;
 %radius used in SDSS would see versus the total galaxy 
 %or what we call a ``full aperture" measurement.
 
-%\begin{figure}
-%\includegraphics[width=\textwidth]{figures/gal_aperture.pdf}
-%\caption[Placeholder figure: TBD. Sample MaNGA galaxy 
-%view in the spaxel space with the $H{\delta_{\rm A}}$ distribution 
-%plotted as a function of position and the contours marking 
-%the aperture diameters at different angular distances in arcseconds]
-%{Placeholder figure: TBD. Sample MaNGA galaxy view 
-%in the spaxel space with the $H_{\delta_{\rm A}}$ distributions 
-%plotted as a function of position and the contours 
-%marking the aperture diameters at different angular distances in arcseconds
-%\label{fig:sample_manga}}
-%\end{figure}
+\begin{figure}
+\includegraphics[width=\textwidth]{figures/manga_9890_12702}
+\caption[A sample MaNGA galaxy  at a redshift of $z = 0.039$ viewed 
+through a 127 fiber IFU. The spatial distribution of the flux for this galaxy in 
+the spaxel-space is shown in Fig \ref{fig:sample_manga}.]
+{A sample MaNGA galaxy  at a redshift of $z = 0.039$ viewed 
+through a 127 fiber IFU. The spatial distribution of the flux for this galaxy in 
+the spaxel-space is shown in Fig \ref{fig:sample_manga}.
+\label{fig:sample_manga0}}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=\textwidth]{figures/gal_aperture_redshifts.pdf}
+\caption[The flux distribution of the galaxy shown in Fig \ref{fig:sample_manga0}
+as seen through the IFU. The X and Y axes represent the spaxel space 
+where each unit corresponds to 0.5'' in the North-South and East-West 
+directions as seen in Fig \ref{fig:sample_manga0}. The color-bar shows the 
+amount of total flux (in ergs/$({\rm cm})^{2}$) from each spaxel. The innermost circle 
+shows the 3'' view at the redshift of the galaxy ($z = 0.039$), the circles 
+concentric to it show the 3'' view of the galaxy if it were at redshifts
+0.06, 0.1, 0.14 and 0.5 respectively and the outermost circle within which 
+all the spaxels from the galaxy is contained is termed as the ``full aperture".]
+{The flux distribution of the galaxy shown in Fig \ref{fig:sample_manga0}
+as seen through the IFU. The X and Y axes represent the spaxel space 
+where each unit corresponds to 0.5'' in the North-South and East-West 
+directions as seen in Fig \ref{fig:sample_manga0}. The color-bar shows the 
+amount of total flux (in ergs/$({\rm cm})^{2}$) from each spaxel. The innermost circle 
+shows the 3'' view at the redshift of the galaxy ($z = 0.039$), the circles 
+concentric to it show the 3'' view of the galaxy if it were at redshifts
+0.06, 0.1, 0.14 and 0.5 respectively and the outermost circle within which 
+all the spaxels from the galaxy is contained is termed as the ``full aperture".
+\label{fig:sample_manga}}
+\end{figure}
 
 For any MaNGA galaxy at redshift $z_{\rm obs}$, we can simulate what
 the SDSS Main Sample spectrum would have looked like if it had observed the 
@@ -574,7 +596,9 @@ aperture measurements of these quantities.
 \begin{figure}
 \includegraphics[width=\textwidth]{figures/dn4000_full_aperture_comparisons.pdf}
 \caption[The mean offset and dispersion in the $D_{n}4000$ index measured 
-at $z = 0.02,0.06$ and $0.14$ with a $3''$ aperture from the full aperture measurement]{ The mean offset and dispersion in the $D_{n}4000$ index measured at $z = 0.02,0.06$ and $0.14$ with a $3''$ aperture from the full aperture measurement
+at $z = 0.02,0.06$ and $0.14$ with a $3''$ aperture from the full aperture measurement]{ 
+The mean offset and dispersion in the $D_{n}4000$ index measured at 
+$z = 0.02,0.06$ and $0.14$ with a $3''$ aperture from the full aperture measurement
 \label{fig:offset_d4000}}
 \end{figure}
 
