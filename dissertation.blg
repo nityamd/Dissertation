@@ -57,50 +57,46 @@ Repeated entry---line 4572 of file references.bib
  : @article{desi16a
  :                 ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "martins_2005"
-Warning--I didn't find a database entry for "2000AJ....120.1579Y"
-Warning--I didn't find a database entry for "blanton_physical_2019-1"
-Warning--I didn't find a database entry for "strauss02a"
 Warning--empty publisher in book_agnes_clerke
-You've used 136 entries,
+You've used 139 entries,
             2229 wiz_defined-function locations,
-            1286 strings with 72099 characters,
-and the built_in function-call counts, 119348 in all, are:
-= -- 9427
-> -- 12773
+            1292 strings with 72356 characters,
+and the built_in function-call counts, 121708 in all, are:
+= -- 9621
+> -- 12997
 < -- 45
-+ -- 4983
-- -- 4954
-* -- 13159
-:= -- 22165
-add.period$ -- 407
-call.type$ -- 136
-change.case$ -- 3154
-chr.to.int$ -- 131
-cite$ -- 137
-duplicate$ -- 1968
-empty$ -- 3796
-format.name$ -- 5134
-if$ -- 21088
-int.to.chr$ -- 6
++ -- 5070
+- -- 5040
+* -- 13418
+:= -- 22594
+add.period$ -- 416
+call.type$ -- 139
+change.case$ -- 3212
+chr.to.int$ -- 133
+cite$ -- 140
+duplicate$ -- 2010
+empty$ -- 3891
+format.name$ -- 5223
+if$ -- 21515
+int.to.chr$ -- 7
 int.to.str$ -- 0
-missing$ -- 137
-newline$ -- 682
-num.names$ -- 408
-pop$ -- 2856
+missing$ -- 140
+newline$ -- 697
+num.names$ -- 417
+pop$ -- 2908
 preamble$ -- 1
-purify$ -- 3155
+purify$ -- 3213
 quote$ -- 0
-skip$ -- 1494
+skip$ -- 1523
 stack$ -- 0
-substring$ -- 3956
-swap$ -- 202
+substring$ -- 4073
+swap$ -- 205
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 814
+type$ -- 832
 warning$ -- 1
-while$ -- 412
+while$ -- 421
 width$ -- 0
-write$ -- 1765
+write$ -- 1804
 (There were 12 error messages)

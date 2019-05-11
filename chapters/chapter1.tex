@@ -79,6 +79,31 @@ flux in the $r$-band, and then take the mean normalized flux
 in each band over all galaxies in the bin. This procedure 
 yields a ``template" SED for each bin in the color-color space.\\
 
+\begin{figure}
+\includegraphics[width=\textwidth]{figures/1_panel_plot.pdf}
+\caption[The SSFR measurements and environment 
+    shown the color-color 
+    space. Each point in the plot is shown at the mean colors in each of 
+    the bins we use. The grey value or color of the points in each
+    panel show the mean value in each bin for the quantity described 
+    by the corresponding  color bar.]
+    {The SSFR measurements and environment 
+    shown the color-color 
+    space. Each point in the plot is shown at the mean colors in each of 
+    the bins we use. The grey value or color of the points in each
+    panel show the mean value in each bin for the quantity described 
+    by the corresponding  color bar.
+    \emph{Top left:} Logarithmic number density in each of the 
+    bins; all bins with fewer than $5$ galaxies were discarded in this 
+    and the other panels. \emph{Top right:} Environment; in each bin, 
+    the average number of nearest neighbors is calculated in a 
+    projected cylinder ($r_{t} = 0.5 Mpc$ and $v_{los} = \pm 1000 km/s$). 
+    \emph{Bottom left:} the Specific Star Formation Rates obtained from 
+    MAGPHYS. \emph{Bottom right:} UV Specific Star Formation Rates 
+    estimated by using the method described in \citet{salim_uv_2007}.
+\label{fig:panel_plot}}
+\end{figure}
+
 We then use Multi-wavelength Analysis of Galaxy Physical Properties 
 (\citet{da_cunha_simple_2008}) software to infer the SSFR for 
 each template SED. MAGPHYS is a physical model-based method
@@ -95,7 +120,7 @@ sub-sampled thus, MAGPHYS uses chi-squared fitting to see which
 combination best reproduces the observed fluxes along with the 
 likelihood for the distributions. The results for the SSFRs 
 thus obtained for each template are shown in the lower left 
-panel of Fig $1.2$ along with the number distribution of 
+panel of Fig \ref{fig:panel_plot} along with the number distribution of 
 the galaxies across the chosen bins. Note that bins with 
 $< 5$ galaxies were omitted as those regions of the 
 color-color space are obviously under-sampled.\\ 
@@ -111,8 +136,9 @@ dust-extincted in the UV, with the reemission by dust
 reddening the IR colors. In what follows, we will use the 
 UV-optical and IR colors of individual galaxies, and the 
 dependence of the SSFR on these colors shown in the lower 
-left panel of Fig $1.2$, to assign an SSFR to each 
+left panel of Fig. \ref{fig:panel_plot}, to assign an SSFR to each 
 individual galaxy.\\
+
 
 \subsection{UV Star Formation Rates}
 
@@ -146,7 +172,7 @@ stars, these are hot enough that we are observing their Rayleigh-Jeans
 tail spectra, and this slope is basically constant with age of the
 population. Thus the observed UV color reveals the dust reddening.
 
-The lower right panel of Fig. $1.2$ shows the mean 
+The lower right panel of Fig. \ref{fig:panel_plot} shows the mean 
 SSFR\textsubscript{UV} as a function of color. Compared to the 
 lower left panel, the SSFR\textsubscript{UV}'s have a nearly 
 monotonic relationship with UV-optical color whereas, as discussed 
@@ -162,38 +188,14 @@ galaxies.
 
 \section{Environments}
 \label{ch1_env}
-We identified above a population of galaxies isolated in 
-color space, which appeared to have dust-extincted star formation, 
+We have identified above a population of galaxies isolated in 
+color space that appear to have dust-extincted star formation, 
 such that the SSFR\textsubscript{UV} estimate was much less 
 than the SSFR\textsubscript{MAGPHYS}. In order to confirm whether 
 MAGPHYS is capturing an inherent property in this population of 
 galaxies, we examine an independent physical property, namely 
 the environments of our sample.\\
 
-\begin{figure}
-\includegraphics[width=\textwidth]{figures/1_panel_plot.pdf}
-\caption[The SSFR measurements and environment 
-    shown the color-color 
-    space. Each point in the plot is shown at the mean colors in each of 
-    the bins we use. The grey value or color of the points in each
-    panel show the mean value in each bin for the quantity described 
-    by the corresponding  color bar.]
-    {The SSFR measurements and environment 
-    shown the color-color 
-    space. Each point in the plot is shown at the mean colors in each of 
-    the bins we use. The grey value or color of the points in each
-    panel show the mean value in each bin for the quantity described 
-    by the corresponding  color bar.
-    \emph{Top left:} Logarithmic number density in each of the 
-    bins; all bins with less than $5$ galaxies were discarded in this 
-    and the other panels. \emph{Top right:} Environment; in each bin, 
-    the average number of nearest neighbors is calculated in a 
-    projected cylinder ($r_{t} = 0.5 Mpc$ and $v_{los} = \pm 1000 km/s$). 
-    \emph{Bottom left:} the Specific Star Formation Rates obtained from 
-    MAGPHYS. \emph{Bottom right:} UV Specific Star Formation Rates 
-    estimated by using the method described in \citet{salim_uv_2007}.
-\label{fig:panel_plot}}
-\end{figure}
 
 \subsection{Measures of Environment}
 
@@ -203,10 +205,16 @@ Voronoi volumes, etc \citep{cooper_measuring_2005}. Here we use counts
 in a projected fixed aperture of radius $0.5$ Mpc as our environment 
 measure. Around every galaxy we construct a projected cylinder with a 
 radius (in the transverse direction) of $r_{t} = 0.5$ Mpc and a line 
-of sight velocity window of $v_{los} = \pm 1000 km/s$. For each
+of sight velocity window of $v_{los} = \pm 1000 {\rm km}/{\rm s}$. For each
 galaxy for which we have star formation measurements, we count its 
-number of neighbors ($n_{\rm env}$) in this cylinder(Fig. $1.2$) in
+number of neighbors ($n_{\rm env}$) in this cylinder (Fig. \ref{fig:panel_plot}) in
 the Environment Defining Population.\\
+
+\begin{figure}
+\includegraphics[width=\textwidth]{figures/2_env_plot.pdf}
+\caption[The Ultraviolet and MAGPHYS SSFR's plotted against each other as a function of the environment; We notice two distinct set of outliers that seem to have lower UV SSFR's but similar environments to the galaxy bins with the same MAGPHYS SSFR's]{The two star formation rate estimates (from Fig. \ref{fig:panel_plot}) plotted against each other as a function of the environment; We notice two distinct set of outliers that seem to have lower UV SSFR's but similar environments to the galaxy bins with the same MAGPHYS SSFR's.
+\label{fig:env_uv_magphys}}
+\end{figure}
 
 \subsection{Edge Effects}\label{edge}
 
@@ -216,7 +224,7 @@ lie outside the survey coverage. It is important to identify these
 galaxies and either discard them or assign an appropriate weight to 
 $n_{\rm env}$ in order to account for the missing area. 
 
-To identify the edges, we use (Swanson et. al.'s) \texttt{Mangle}, 
+To identify the edges, we use \texttt{Mangle} \citep{swanson_mangle}, 
 a suite of free open-source software designed to deal with complex 
 angular masks in an efficient and accurate manner. First, the 
 NYU-VAGC \texttt{Mangle}-format mask was used to obtain the angular 
@@ -233,8 +241,8 @@ $A_{\mathrm{EDP}}$ is the total area of the mask and $f_{\mathrm{thresh}}$ is th
 
 \subsection{Environments in Color-Color Space}
 
-The mean environment, quantified by $(\langle n_{\rm env}\rangle + 1)$
-in each bin are shown in the upper right panel of Fig. $1.2$ 
+The mean environments, quantified by $(\langle n_{\rm env}\rangle + 1)$
+in each bin are shown in the upper right panel of Fig. \ref{fig:panel_plot} 
 as a function of optical and infrared colors. As we expect from 
 many previous studies (\citealt{blanton_physical_2009}) 
 the star-forming bluer galaxies tend  to exist in less dense 
@@ -247,36 +255,36 @@ be interpreted, because the mean stellar mass in each bin is
 different, so some of the variation is driven by the dependence 
 of environment on stellar mass.
 
-\begin{figure}
-\includegraphics[width=\textwidth]{figures/2_env_plot.pdf}
-\caption[The Ultraviolet and MAGPHYS SSFR's plotted against each other as a function of the environment; We notice two distinct set of outliers that seem to have lower UV SSFR's but similar environments to the galaxy bins with the same MAGPHYS SSFR's]{The two star formation rate estimates (from Fig.$1.2$) plotted against each other as a function of the environment; We notice two distinct set of outliers that seem to have lower UV SSFR's but similar environments to the galaxy bins with the same MAGPHYS SSFR's.
-\label{fig:env_uv_magphys}}
-\end{figure}
+
 
 \section{The Environments of the Outliers}
 \label{ch1_results}
-Fig. $1.3$ shows the relationship between the two SSFR measurements,
+Fig. \ref{fig:env_uv_magphys} shows the relationship between the two SSFR measurements,
 with points colored according to the mean environment, for each bin 
-in color-color space from Fig. $1.2$. There is a set of bins in 
+in color-color space from Fig. \ref{fig:panel_plot}. There is a set of bins in 
 the range $-10.5 < \mathrm{SSFR\textsubscript{MAGPHYS}}< -9.5$ that 
 have lower SSFR\textsubscript{UV} values than the general trend, 
 and have environments similar to the other galaxy bins in the same 
 MAGPHYS range. Hereafter we shall refer to this population as the 
 ``Outliers," to distinguish them from the general trend line in 
-Fig. $1.3$. 
+Fig. \ref{fig:env_uv_magphys}. 
 
-We identify these outliers more specifically in Fig. $1.4(a)$, as 
+We identify these outliers more specifically in Fig. \ref{fig:outliers}:\emph{(a)}, as 
 being in the lower right square. The galaxy bins with the same 
 SSFR\textsubscript{MAGPHYS} values (above the square) are identified 
 as the ``MAGPHYS Box" and the bins with the same SSFR\textsubscript{UV} 
-values (left of the square) are identified as ``UV BOX" in Fig. 
-$1.4(a)$. \\
+values (left of the square) are identified as ``UV BOX" in Fig. \ref{fig:outliers}:\emph{(a)}. \\
 
-
+\begin{figure}
+\includegraphics[width=\textwidth]{figures/3_outliers.pdf}
+\caption[The outliers shown as a function of the Star Formation Rates as well as Optical and IR colors.]
+{The outliers shown as a function of the Star Formation Rates as well as Optical and IR colors
+\label{fig:outliers}}
+\end{figure}
   
 \subsection{Green-valley interlopers}
 
-When we return to the color-color space (Fig. $1.4(b)$) and 
+When we return to the color-color space (Fig. \ref{fig:outliers}:\emph{(b)}) and 
 show where the bins in each box lie, we see the trends we would expect. 
 The Outliers lie in a similar UV-optical color range as the UV box but 
 have higher IR color. The MAGPHYS Box occupies the bluer side 
@@ -288,25 +296,18 @@ UV-optical ``green valley" that are there due to dust reddening.
 
 To verify this, we unwrap the bins and look at the Probability 
 Density Function of the Environments of the galaxies in these three regions 
-in the mass range  $ 9.5 < M_{*} < 10.7$ and examine the distribution 
-of environments in these three regions, the result of which is plotted in Fig. $1.5$.
-
-\begin{figure}
-\includegraphics[width=\textwidth]{figures/3_outliers.pdf}
-\caption[The outliers shown as a function of the Star Formation Rates as well as Optical and IR colors.]
-{The outliers shown as a function of the Star Formation Rates as well as Optical and IR colors
-\label{fig:outliers}}
-\end{figure}
+in the mass range  $9.5 < M_{*} < 10.7$ and examine the distribution 
+of environments in these three regions, the result of which is plotted in Fig. \ref{fig:munny_plot}.
  
  \subsection{Jackknife Errors}
  To calculate uncertainty in the estimated probability density functions of the environments, $P_{i,\mathrm{bin}}$'s : $i = 1,2,3$ for each of the populations, we use the standard jackknife technique. Jackknife re-sampling gives us an internal error estimate that tests how representative a measurement/trend is of the data it is estimated with. We divide our entire sample into $20$ subsamples with nearly equal co-moving volumes and estimate the same probability density functions($P^{j}_{i}$'s) for the whole sample while leaving out one subsample each time. We can then estimate our uncertainty for each bin in the PDF's thus:\\
  $$ \sigma_{i, \mathrm{bin}} = \sqrt{\frac{N}{N-1} \sum_{j = 1}^{j = N} (P^{j}_{i} - P_{i,bin})^{2}} $$
- The errors estimated in this manner account for Poisson shot noise and also the sample variance, the extra error associated with the fact that the density field varies across the survey. Although precision studies of large scale structure have found that latter effect is not perfectly accounted for with standard jackknife techniques, they are precise enough for our purposes here. The jackknife errors are shown in Fig. $4$ and confirm our hypothesis: that the Outliers are a little different than the MAGPHYS Box but still, very different from the UV Box.\\
+ The errors estimated in this manner account for Poisson shot noise and also the sample variance, the extra error associated with the fact that the density field varies across the survey. Although precision studies of large scale structure have found that latter effect is not perfectly accounted for with standard jackknife techniques, they are precise enough for our purposes here. The jackknife errors are shown in Fig. \ref{fig:munny_plot} and confirm our hypothesis: that the Outliers are a little different than the MAGPHYS Box but still, very different from the UV Box.\\
 
 \begin{figure}
 \includegraphics[width=\textwidth]{figures/4_jk_plot.pdf}
 \caption[Environments of the outliers compared to the other populations]
-{Probability density functions of the Environments of the three populations described in Fig. $2$
+{Probability density functions of the Environments of the three populations described in Fig \ref{fig:outliers}
 \label{fig:munny_plot}}
 \end{figure}
 
@@ -314,9 +315,9 @@ of environments in these three regions, the result of which is plotted in Fig. $
 
 From the analysis presented above, we can conclude the following:
  \begin{itemize}
- \item{From Fig $1$, we see that SSFR\textsubscript{MAGPHYS} identifies a region in the color-color space as dust-obscured star forming galaxies and correlates better with the environments of the galaxies.}
+ \item{From Fig \ref{fig:panel_plot}, we see that SSFR\textsubscript{MAGPHYS} identifies a region in the color-color space as dust-obscured star forming galaxies and correlates better with the environments of the galaxies.}
  \item{At the higher star formation end, we find that the dust-obscured star-formers as identified by MAGPHYS have environments comparable to the blue star-forming galaxies, confirming that this is indeed a physical effect we're seeing.}
- \item{Comparing the environment distribution of the Outliers relative to the galaxies with (a) the same SSFR\textsubscript{MAGPHYS}'s as the Outliers and (b) the same SSFR\textsubscript{UV}'s as the Outliers (Fig. $1.5$), we find that the Outliers indeed have a similar environment distribution to the galaxies that have the same SSFR\textsubscript{MAGPHYS}'s, i.e., they seem to favor lower environment densities mimicking the behavior of star-formers.}
+ \item{Comparing the environment distribution of the Outliers relative to the galaxies with (a) the same SSFR\textsubscript{MAGPHYS}'s as the Outliers and (b) the same SSFR\textsubscript{UV}'s as the Outliers (Fig. \ref{fig:munny_plot}), we find that the Outliers indeed have a similar environment distribution to the galaxies that have the same SSFR\textsubscript{MAGPHYS}'s, i.e., they seem to favor lower environment densities mimicking the behavior of star-formers.}
  \end{itemize}
  
 The above results are consistent with the following
@@ -324,19 +325,19 @@ scenario, which we consider most likely.
 First, as others have concluded, UV star formation 
 rates, because of dust extinction, can underestimate the 
 star formation, whereas star formation rates that account 
-for IR reemission by dust account for star formation
+for IR re-emission by dust account for star formation
 more completely. Second, the fact that the outlier galaxies
 (with relatively high MAGPHYS star formation
 but low UV star formation)
 have environments similar to the population with high 
 UV and MAGPHYS star formation
-reflects the fact that that the MAGPHYS estimates are 
+reflects the fact that the MAGPHYS estimates are 
 more accurate and that environment traces the total
 star formation rate. Thus, our result provides a new 
 piece of evidence, independent of how well the galaxy 
 SED is explained by the inferred star formation rate
 and the SSP model, that accounting for IR emission 
-can yield a more reliable star formation estimate.
+can yield a more reliable star formation estimate.\\
  
 An alternative scenario exists, which is that MAGPHYS
 does not accurately estimate the star formation rates of

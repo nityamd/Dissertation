@@ -794,6 +794,11 @@ Madau, P. \& Dickinson, M. (2014).
 \newblock {The Galaxy Evolution Explorer: A Space Ultraviolet Survey Mission}.
 \newblock {\em \apj}, 619(1), L1--L6.
 
+\bibitem[{Martins} et~al., 2005]{martins05a}
+{Martins}, F., {Schaerer}, D., \& {Hillier}, D.~J. (2005).
+\newblock {A new calibration of stellar parameters of Galactic O stars}.
+\newblock {\em \aap}, 436, 1049--1065.
+
 \bibitem[Moustakas et~al., 2013a]{moustakas_primus:_2013}
 Moustakas, J., Coil, A.~L., Aird, J., Blanton, M.~R., Cool, R.~J., Eisenstein,
   D.~J., Mendez, A.~J., Wong, K.~C., Zhu, G., \& Arnouts, S. (2013a).
@@ -1082,7 +1087,7 @@ Smee, S.~A., Gunn, J.~E., Uomoto, A., Roe, N., Schlegel, D., Rockosi, C.~M.,
   Imaging Data}.
 \newblock {\em \aj}, 122, 1861--1874.
 
-\bibitem[{Strauss} et~al., 2002]{2002AJ....124.1810S}
+\bibitem[{Strauss} et~al., 2002a]{2002AJ....124.1810S}
 {Strauss}, M.~A., {Weinberg}, D.~H., {Lupton}, R.~H., {Narayanan}, V.~K.,
   {Annis}, J., {Bernardi}, M., {Blanton}, M., {Burles}, S., {Connolly}, A.~J.,
   {Dalcanton}, J., {Doi}, M., {Eisenstein}, D., {Frieman}, J.~A., {Fukugita},
@@ -1091,10 +1096,31 @@ Smee, S.~A., Gunn, J.~E., Uomoto, A., Roe, N., Schlegel, D., Rockosi, C.~M.,
   R.~C., {Okamura}, S., {Quinn}, T.~R., {Richmond}, M.~W., {Schlegel}, D.~J.,
   {Shimasaku}, K., {SubbaRao}, M., {Szalay}, A.~S., {Vanden Berk}, D.,
   {Vogeley}, M.~S., {Yanny}, B., {Yasuda}, N., {York}, D.~G., \& {Zehavi}, I.
-  (2002).
+  (2002a).
 \newblock {Spectroscopic Target Selection in the Sloan Digital Sky Survey: The
   Main Galaxy Sample}.
 \newblock {\em \aj}, 124, 1810--1824.
+
+\bibitem[{Strauss} et~al., 2002b]{strauss02b}
+{Strauss}, M.~A., {Weinberg}, D.~H., {Lupton}, R.~H., {Narayanan}, V.~K.,
+  {Annis}, J., {Bernardi}, M., {Blanton}, M., {Burles}, S., {Connolly}, A.~J.,
+  {Dalcanton}, J., {Doi}, M., {Eisenstein}, D., {Frieman}, J.~A., {Fukugita},
+  M., {Gunn}, J.~E., {Ivezi{\'c}}, {\v{Z}}., {Kent}, S., {Kim}, R. S.~J.,
+  {Knapp}, G.~R., {Kron}, R.~G., {Munn}, J.~A., {Newberg}, H.~J., {Nichol},
+  R.~C., {Okamura}, S., {Quinn}, T.~R., {Richmond}, M.~W., {Schlegel}, D.~J.,
+  {Shimasaku}, K., {SubbaRao}, M., {Szalay}, A.~S., {Vanden Berk}, D.,
+  {Vogeley}, M.~S., {Yanny}, B., {Yasuda}, N., {York}, D.~G., \& {Zehavi}, I.
+  (2002b).
+\newblock {Spectroscopic Target Selection in the Sloan Digital Sky Survey: The
+  Main Galaxy Sample}.
+\newblock {\em \aj}, 124(3), 1810--1824.
+
+\bibitem[{Swanson} et~al., 2008]{swanson_mangle}
+{Swanson}, M.~E.~C., {Tegmark}, M., {Hamilton}, A. J.~S., \& {Hill}, J.~C.
+  (2008).
+\newblock {Methods for rapidly processing angular masks of next-generation
+  galaxy surveys}.
+\newblock {\em \mnras}, 387(4), 1391--1402.
 
 \bibitem[{Tinker} et~al., 2017]{tinker17a}
 {Tinker}, J.~L., {Brownstein}, J.~R., {Guo}, H., {Leauthaud}, A., {Maraston},
